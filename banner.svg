@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1280 340" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0E16"/>
+      <stop offset="0.55" stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#070B12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.18" cy="0.0" r="0.9">
+      <stop offset="0" stop-color="#38E1F0" stop-opacity="0.20"/>
+      <stop offset="0.4" stop-color="#3A6FE0" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#38E1F0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wordmark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CF3FF"/>
+      <stop offset="0.6" stop-color="#38E1F0"/>
+      <stop offset="1" stop-color="#5A8CFF"/>
+    </linearGradient>
+    <filter id="softglow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="sparkglow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+  <!-- grid -->
+  <g stroke="#5A8CFF" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 40 H1280 M0 80 H1280 M0 120 H1280 M0 160 H1280 M0 200 H1280 M0 240 H1280 M0 280 H1280 M0 320 H1280"/>
+    <path d="M40 0 V340 M80 0 V340 M120 0 V340 M160 0 V340 M200 0 V340 M240 0 V340 M280 0 V340 M320 0 V340 M360 0 V340 M400 0 V340 M440 0 V340 M480 0 V340 M520 0 V340 M560 0 V340 M600 0 V340 M640 0 V340 M680 0 V340 M720 0 V340 M760 0 V340 M800 0 V340 M840 0 V340 M880 0 V340 M920 0 V340 M960 0 V340 M1000 0 V340 M1040 0 V340 M1080 0 V340 M1120 0 V340 M1160 0 V340 M1200 0 V340 M1240 0 V340"/>
+  </g>
+  <rect width="1280" height="340" fill="url(#glow)"/>
+
+  <!-- matrix ticks, right -->
+  <g fill="#38E1F0" fill-opacity="0.10" font-size="13">
+    <text x="1050" y="60">10110</text><text x="1120" y="95">01001</text><text x="1180" y="52">1101</text>
+    <text x="1075" y="150">00110</text><text x="1150" y="130">1010</text><text x="1200" y="185">011</text>
+    <text x="1095" y="235">10011</text><text x="1165" y="270">0110</text><text x="1210" y="300">101</text>
+  </g>
+
+  <!-- comet: ember through the void -->
+  <g filter="url(#sparkglow)">
+    <line x1="905" y1="70" x2="1015" y2="18" stroke="#7CF3FF" stroke-opacity="0.5" stroke-width="2"/>
+  </g>
+  <line x1="905" y1="70" x2="1015" y2="18" stroke="#BFF6FF" stroke-width="1.4"/>
+  <circle cx="905" cy="70" r="5" fill="#EAFEFF"/>
+  <circle cx="905" cy="70" r="11" fill="#38E1F0" fill-opacity="0.35" filter="url(#sparkglow)"/>
+
+  <!-- wordmark -->
+  <text x="78" y="150" font-size="88" font-weight="700" letter-spacing="6" fill="url(#wordmark)" filter="url(#softglow)">VOID EMBER</text>
+  <text x="82" y="192" font-size="21" letter-spacing="7" fill="#8DA0BC">AI · AGENTS · A SELF-RUNNING LIFE</text>
+
+  <!-- couplet (english) -->
+  <text x="82" y="262" font-size="17" fill="#5F86C4" font-style="italic">The lamp of wisdom spent to a void ember —</text>
+  <text x="82" y="286" font-size="17" fill="#5F86C4" font-style="italic">still, of itself, it lights the ten directions.</text>
+
+  <!-- corner tag -->
+  <text x="1198" y="322" font-size="14" text-anchor="end" fill="#38E1F0" fill-opacity="0.8" letter-spacing="2">widechaos.cn</text>
+  <rect x="78" y="212" width="34" height="2" fill="#38E1F0"/>
+</svg>
