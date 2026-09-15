@@ -14,6 +14,10 @@
   邬仁超 · 十方空烬 · Void Ember
   AI engineer & builder — I follow interesting problems wherever they lead.
 
+> cat ./manifesto
+  短期促进经济，长期促进革命。
+  Short-term, fueling the economy. Long-term, fueling the revolution.
+
 > ls ./domains
   ai-applications   agents   cloud-native   dev-tools   automation   writing
 
