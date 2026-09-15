@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Void Ember · widechaos.cn">
+  <img src="./banner.svg" width="100%" alt="十方空烬 · Ember">
 </p>
 
 <p align="center">
@@ -30,9 +30,7 @@
 - **[Heartiger](https://github.com/widechaos/Heartiger)** — an agent-driven personal life OS; a journal that becomes a *second brain* and evolves with you.
 - **[deepseek-chat-navigator](https://github.com/widechaos/deepseek-chat-navigator)** — a smart sidebar that reads an AI chat and jumps you to any question or answer.
 - **[DangmuNews](https://github.com/widechaos/DangmuNews)** — desktop danmaku news, headlines streamed across your screen.
-- **[littletools](https://github.com/widechaos/littletools)** — a drawer of small tools, scripts and toys.
-- **[lingzhi-vision](https://github.com/widechaos/lingzhi-vision)** — a concept piece; an idea rendered as a page.
-- **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open.
+- **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open → [widechaos.cn](https://widechaos.cn).
 
 ### // built with
 
