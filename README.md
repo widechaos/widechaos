@@ -11,7 +11,7 @@
 
 ```console
 > whoami
-  邬仁超 · 十方空烬 · Void Ember
+  邬仁超 · 十方空烬 · Ember
   AI engineer & builder — I follow interesting problems wherever they lead.
 
 > cat ./manifesto

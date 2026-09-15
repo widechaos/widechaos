@@ -51,9 +51,8 @@
   <text x="78" y="150" font-size="88" font-weight="700" letter-spacing="6" fill="url(#wordmark)" filter="url(#softglow)">VOID EMBER</text>
   <text x="82" y="192" font-size="21" letter-spacing="7" fill="#8DA0BC">AI · AGENTS · A SELF-RUNNING LIFE</text>
 
-  <!-- couplet (english) -->
-  <text x="82" y="262" font-size="17" fill="#5F86C4" font-style="italic">The lamp of wisdom spent to a void ember —</text>
-  <text x="82" y="286" font-size="17" fill="#5F86C4" font-style="italic">still, of itself, it lights the ten directions.</text>
+  <!-- motto -->
+  <text x="82" y="276" font-size="21" fill="#6E90CE" font-style="italic" letter-spacing="1.5">Per aspera ad astra.</text>
 
   <!-- corner tag -->
   <text x="1198" y="322" font-size="14" text-anchor="end" fill="#38E1F0" fill-opacity="0.8" letter-spacing="2">widechaos.cn</text>
