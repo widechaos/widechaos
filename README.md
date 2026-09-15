@@ -12,37 +12,40 @@
 ```console
 > whoami
   邬仁超 · 十方空烬 · Void Ember
-  AI application engineer — storage → cloud-native → LLM.
+  AI engineer & builder — I follow interesting problems wherever they lead.
 
-> cat ./mission
-  I build agents that run my life, so I can build more agents.
-  作者即用户 —— 给自己造了一套 Agent 驱动的人生操作系统。
+> ls ./domains
+  ai-applications   agents   cloud-native   dev-tools   automation   writing
 
-> ./life-os --status
-  ● online    agents · tools · a life that runs itself
+> ./now
+  ● building at widechaos.cn — and whatever's next
 ```
 
 ### // building
 
-- **Heartiger** — an agent-driven personal life OS. Your journal stops being static text and becomes a *second brain* that evolves with you.
-- **littletools · DangmuNews** — small tools, scripts, experiments that scratch an itch.
-- **[widechaos.cn](https://widechaos.cn)** — the hub: résumé, tools, and whatever's next.
+- **[Heartiger](https://github.com/widechaos/Heartiger)** — an agent-driven personal life OS; a journal that becomes a *second brain* and evolves with you.
+- **[deepseek-chat-navigator](https://github.com/widechaos/deepseek-chat-navigator)** — a smart sidebar that reads an AI chat and jumps you to any question or answer.
+- **[DangmuNews](https://github.com/widechaos/DangmuNews)** — desktop danmaku news, headlines streamed across your screen.
+- **[littletools](https://github.com/widechaos/littletools)** — a drawer of small tools, scripts and toys.
+- **[lingzhi-vision](https://github.com/widechaos/lingzhi-vision)** — a concept piece; an idea rendered as a page.
+- **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open.
 
 ### // built with
 
 ![Python](https://img.shields.io/badge/Python-0A0E16?style=flat-square&logo=python&logoColor=7CF3FF)
 ![Go](https://img.shields.io/badge/Go-0A0E16?style=flat-square&logo=go&logoColor=7CF3FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-0A0E16?style=flat-square&logo=typescript&logoColor=7CF3FF)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0A0E16?style=flat-square&logo=fastapi&logoColor=7CF3FF)
 ![LangChain](https://img.shields.io/badge/LangChain-0A0E16?style=flat-square&logo=langchain&logoColor=7CF3FF)
+![Astro](https://img.shields.io/badge/Astro-0A0E16?style=flat-square&logo=astro&logoColor=7CF3FF)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0A0E16?style=flat-square&logo=kubernetes&logoColor=7CF3FF)
 ![Docker](https://img.shields.io/badge/Docker-0A0E16?style=flat-square&logo=docker&logoColor=7CF3FF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0E16?style=flat-square&logo=postgresql&logoColor=7CF3FF)
-![Redis](https://img.shields.io/badge/Redis-0A0E16?style=flat-square&logo=redis&logoColor=7CF3FF)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-0A0E16?style=flat-square&logo=elasticsearch&logoColor=7CF3FF)
 ![Linux](https://img.shields.io/badge/Linux-0A0E16?style=flat-square&logo=linux&logoColor=7CF3FF)
 
 ### // find me
 
-&nbsp;&nbsp;🌐 &nbsp;[widechaos.cn](https://widechaos.cn) &nbsp;·&nbsp; ✉️ &nbsp;ai@widechaos.cn
+<p>
+  🌐&nbsp; <a href="https://widechaos.cn">widechaos.cn</a> &nbsp;·&nbsp; ✉️&nbsp; ai@widechaos.cn
+</p>
 
-<sub><i>A true master always has the heart of a student.</i></sub>
+<sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
