@@ -4,7 +4,7 @@
 
 <p align="center">
   <b>智灯已灭余空烬，犹自光明照十方</b><br>
-  <sub><i>The lamp of wisdom, spent to a void ember — still, of itself, it lights the ten directions.</i></sub>
+  <sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
 </p>
 
 ---
@@ -52,4 +52,4 @@
   🌐&nbsp; <a href="https://widechaos.cn">widechaos.cn</a> &nbsp;·&nbsp; ✉️&nbsp; ai@widechaos.cn
 </p>
 
-<sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
+<sub><i>Per aspera ad astra.</i></sub>
