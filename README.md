@@ -48,65 +48,48 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 <p>
   <b>AI &amp; Agents</b><br>
-  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph"> <img src="https://img.shields.io/badge/LangChain-166534?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain"> <img src="https://img.shields.io/badge/Hugging_Face-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face"><br>
-  RAG · MCP · Transformers · Ollama
+  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" height="20"> <img src="https://img.shields.io/badge/LangChain-166534?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" height="20"> <img src="https://img.shields.io/badge/Hugging_Face-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face" height="20"> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" alt="RAG" height="20"> <img src="https://img.shields.io/badge/MCP-4F46E5?style=flat-square" alt="MCP" height="20"> <img src="https://img.shields.io/badge/Transformers-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Transformers" height="20"> <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="20">
 </p>
-
 
 <p>
   <b>Machine Learning &amp; Data</b><br>
-  <img src="https://img.shields.io/badge/PyTorch-C9482B?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/TensorFlow-C45500?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow"> <img src="https://img.shields.io/badge/Pandas-4338CA?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas"><br>
-  scikit-learn · NumPy · Matplotlib
+  <img src="https://img.shields.io/badge/PyTorch-C9482B?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="20"> <img src="https://img.shields.io/badge/TensorFlow-C45500?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" height="20"> <img src="https://img.shields.io/badge/scikit--learn-B85E00?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" height="20"> <img src="https://img.shields.io/badge/Pandas-4338CA?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" height="20"> <img src="https://img.shields.io/badge/NumPy-166C8B?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="20"> <img src="https://img.shields.io/badge/Matplotlib-2563A6?style=flat-square" alt="Matplotlib" height="20">
 </p>
-
 
 <p>
   <b>Voice &amp; Realtime</b><br>
-  <img src="https://img.shields.io/badge/LiveKit-0369A1?style=flat-square&amp;logo=livekit&amp;logoColor=white" alt="LiveKit"> <img src="https://img.shields.io/badge/FunASR-087F8C?style=flat-square" alt="FunASR"> <img src="https://img.shields.io/badge/faster--whisper-5261B5?style=flat-square" alt="faster-whisper"><br>
-  Azure Speech · WebRTC · SIP · FreeSWITCH
+  <img src="https://img.shields.io/badge/LiveKit-0369A1?style=flat-square&amp;logo=livekit&amp;logoColor=white" alt="LiveKit" height="20"> <img src="https://img.shields.io/badge/FunASR-087F8C?style=flat-square" alt="FunASR" height="20"> <img src="https://img.shields.io/badge/faster--whisper-5261B5?style=flat-square" alt="faster-whisper" height="20"> <img src="https://img.shields.io/badge/Azure_Speech-0078D4?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iI0ZGRkZGRiI%2BPHJlY3QgeD0iMSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNS41IiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIyMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE1LjkiIHk9IjYiIHdpZHRoPSIyLjYiIGhlaWdodD0iMTIiIHJ4PSIxLjMiLz48cmVjdCB4PSIyMC40IiB5PSI5LjUiIHdpZHRoPSIyLjYiIGhlaWdodD0iNSIgcng9IjEuMyIvPjwvZz48L3N2Zz4%3D" alt="Azure Speech" height="20"> <img src="https://img.shields.io/badge/WebRTC-9D174D?style=flat-square&amp;logo=webrtc&amp;logoColor=white" alt="WebRTC" height="20"> <img src="https://img.shields.io/badge/SIP_%C2%B7_FreeSWITCH-087F8C?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNjIgMTAuNzlhMTUuMDUgMTUuMDUgMCAwIDAgNi41OSA2LjU5bDIuMi0yLjJhMSAxIDAgMCAxIDEuMDItLjI0YzEuMTIuMzcgMi4zMy41NyAzLjU3LjU3YTEgMSAwIDAgMSAxIDFWMjBhMSAxIDAgMCAxLTEgMUExNyAxNyAwIDAgMSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg%3D%3D" alt="SIP · FreeSWITCH" height="20">
 </p>
-
 
 <p>
   <b>Backend</b><br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Django-0C6B3D?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django"> <img src="https://img.shields.io/badge/FastAPI-007D72?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI"><br>
-  Flask · Go · Pydantic
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20"> <img src="https://img.shields.io/badge/Django-0C6B3D?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" height="20"> <img src="https://img.shields.io/badge/FastAPI-007D72?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"> <img src="https://img.shields.io/badge/Flask-475569?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask" height="20"> <img src="https://img.shields.io/badge/Go-007D9C?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go" height="20"> <img src="https://img.shields.io/badge/Pydantic-B71952?style=flat-square&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" height="20">
 </p>
-
 
 <p>
   <b>Databases &amp; Retrieval</b><br>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MySQL-00618A?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/Redis-B52328?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis"><br>
-  SQLite · SQLAlchemy · Vector Search
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" height="20"> <img src="https://img.shields.io/badge/MySQL-00618A?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="20"> <img src="https://img.shields.io/badge/SQLite-075985?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" height="20"> <img src="https://img.shields.io/badge/Redis-B52328?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis" height="20"> <img src="https://img.shields.io/badge/SQLAlchemy-9F2438?style=flat-square&amp;logo=sqlalchemy&amp;logoColor=white" alt="SQLAlchemy" height="20"> <img src="https://img.shields.io/badge/Vector_Search-7C3AED?style=flat-square" alt="Vector Search" height="20">
 </p>
-
 
 <p>
   <b>Web Crawling &amp; Automation</b><br>
-  <img src="https://img.shields.io/badge/Scrapy-278348?style=flat-square&amp;logo=scrapy&amp;logoColor=white" alt="Scrapy"> <img src="https://img.shields.io/badge/Playwright-24823B?style=flat-square" alt="Playwright"><br>
-  Beautiful Soup · Selenium
+  <img src="https://img.shields.io/badge/Scrapy-278348?style=flat-square&amp;logo=scrapy&amp;logoColor=white" alt="Scrapy" height="20"> <img src="https://img.shields.io/badge/Beautiful_Soup-8C653A?style=flat-square" alt="Beautiful Soup" height="20"> <img src="https://img.shields.io/badge/Playwright-24823B?style=flat-square" alt="Playwright" height="20"> <img src="https://img.shields.io/badge/Selenium-2A7D25?style=flat-square&amp;logo=selenium&amp;logoColor=white" alt="Selenium" height="20">
 </p>
-
 
 <p>
   <b>Cloud &amp; Storage</b><br>
-  <img src="https://img.shields.io/badge/Docker-1769D2?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes"> <img src="https://img.shields.io/badge/OpenStack-C61D2D?style=flat-square&amp;logo=openstack&amp;logoColor=white" alt="OpenStack"> <img src="https://img.shields.io/badge/Ceph-A51D2D?style=flat-square&amp;logo=ceph&amp;logoColor=white" alt="Ceph"><br>
-  Linux · Nginx · Bash
+  <img src="https://img.shields.io/badge/Docker-1769D2?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" height="20"> <img src="https://img.shields.io/badge/Linux-9C6600?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="20"> <img src="https://img.shields.io/badge/Nginx-008638?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx" height="20"> <img src="https://img.shields.io/badge/OpenStack-C61D2D?style=flat-square&amp;logo=openstack&amp;logoColor=white" alt="OpenStack" height="20"> <img src="https://img.shields.io/badge/Ceph-A51D2D?style=flat-square&amp;logo=ceph&amp;logoColor=white" alt="Ceph" height="20"> <img src="https://img.shields.io/badge/Bash-427E2A?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash" height="20">
 </p>
-
 
 <p>
   <b>Frontend</b><br>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/Vite-7954CB?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/Astro-C54112?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro"><br>
-  JavaScript · HTML5 · CSS
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"> <img src="https://img.shields.io/badge/JavaScript-966F00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="20"> <img src="https://img.shields.io/badge/Vite-7954CB?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20"> <img src="https://img.shields.io/badge/Astro-C54112?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro" height="20"> <img src="https://img.shields.io/badge/HTML5-C74726?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" height="20"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&amp;logo=css&amp;logoColor=white" alt="CSS" height="20">
 </p>
-
 
 <p>
   <b>Testing &amp; Delivery</b><br>
-  <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" height="20"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20">
 </p>
-
 
 ## // connect
 
