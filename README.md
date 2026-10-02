@@ -91,6 +91,15 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
   <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" height="20"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20">
 </p>
 
+## // community badges
+
+<p>
+  <a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder" title="Kaggle · Benchmark Task local builder"></a> &nbsp;
+  <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a>
+</p>
+
+<sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a></sub>
+
 ## // connect
 
 <p>
