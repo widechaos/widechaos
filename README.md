@@ -93,12 +93,15 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 ## // community badges
 
+<!-- COMMUNITY-BADGES:START -->
 <p>
   <a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder" title="Kaggle · Benchmark Task local builder"></a> &nbsp;
-  <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a>
+  <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a> &nbsp;
+  <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut" title="DEV · Writing Debut"></a>
 </p>
 
-<sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a></sub>
+<sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a> · DEV: <a href="https://dev.to/widechaos">Writing Debut</a></sub>
+<!-- COMMUNITY-BADGES:END -->
 
 ## // connect
 

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-02",
+  "profiles": {
+    "kaggle": "https://www.kaggle.com/xover2022",
+    "dev": "https://dev.to/widechaos"
+  },
+  "known_badges": [
+    {
+      "platform": "Kaggle",
+      "name": "1 Year on Kaggle",
+      "displayed": false
+    },
+    {
+      "platform": "Kaggle",
+      "name": "2 Years on Kaggle",
+      "displayed": false
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Python Coder",
+      "displayed": true
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Code Tagger",
+      "displayed": false
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Benchmark Task local builder",
+      "displayed": true
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Kaggle Community Member",
+      "displayed": false
+    },
+    {
+      "platform": "DEV",
+      "name": "Writing Debut",
+      "displayed": true
+    }
+  ],
+  "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
+}
