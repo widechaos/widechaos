@@ -166,6 +166,23 @@
         "Introducing AI"
       ],
       "completion_basis": "Platform completion checks; not a knowledge examination or hands-on project"
+    },
+    {
+      "platform": "Cognitive Class / IBM Developer Skills Network",
+      "name": "Machine Learning with Python",
+      "kind": "course completion certificate",
+      "displayed": true,
+      "owner": "Renchao Wu",
+      "course_code": "ML0101EN",
+      "issued_on": "2026-10-03",
+      "verified_on": "2026-10-03",
+      "credential_url": "https://courses.cognitiveclass.ai/certificates/807e7b774e0c4761a182d824ac569b55",
+      "image_url": "assets/certificates/cognitive-class-machine-learning.png",
+      "display_url": "assets/certificates/cognitive-class-machine-learning.png",
+      "display_mode": "official certificate screenshot",
+      "score_percent": 100,
+      "review_score": "15/15",
+      "exam_score": "20/20"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
