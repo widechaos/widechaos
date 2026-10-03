@@ -1,0 +1,70 @@
+{
+  "platform": "WeRead",
+  "checked_on": "2026-10-03",
+  "scope": "Curated earned milestones; official gateway returns a subset, not the full medal wall",
+  "wall_count_from_owner_screenshot": 94,
+  "returned_count": 35,
+  "image_source": "Official WeRead Android medal module, medalsV4 CDN",
+  "selected": [
+    {
+      "id": "M2-0-2000",
+      "type": 2,
+      "subtype": 0,
+      "level": 2000,
+      "name": "阅读时长",
+      "title": "阅读时长",
+      "displayText": "阅读 2000 小时",
+      "atime": 1729575541,
+      "ctime": 1728796816,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png"
+    },
+    {
+      "id": "M3-0-2000",
+      "type": 3,
+      "subtype": 0,
+      "level": 2000,
+      "name": "阅读天数",
+      "title": "阅读天数",
+      "displayText": "阅读 2000 天",
+      "atime": 1772119601,
+      "ctime": 1772089460,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png"
+    },
+    {
+      "id": "M4-0-500",
+      "type": 4,
+      "subtype": 0,
+      "level": 500,
+      "name": "阅读书籍",
+      "title": "阅读书籍",
+      "displayText": "阅读 500 本书籍",
+      "atime": 1763345231,
+      "ctime": 1763038037,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png"
+    },
+    {
+      "id": "M5-0-100",
+      "type": 5,
+      "subtype": 0,
+      "level": 100,
+      "name": "读完书籍",
+      "title": "读完书籍",
+      "displayText": "读完 100 本书籍",
+      "atime": 1721960600,
+      "ctime": 1721816654,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png"
+    },
+    {
+      "id": "M9-0-50",
+      "type": 9,
+      "subtype": 0,
+      "level": 50,
+      "name": "阅读神作",
+      "title": "神作收藏家",
+      "displayText": "阅读 50 本神作",
+      "atime": 1771807557,
+      "ctime": 1771757090,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png"
+    }
+  ]
+}

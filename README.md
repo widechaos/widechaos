@@ -101,6 +101,16 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 </p>
 
 <sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a> · DEV: <a href="https://dev.to/widechaos">Writing Debut</a></sub>
+
+
+<p>
+  <a href="https://weread.qq.com"><img src="https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png" height="48" alt="微信读书: 阅读 2000 小时" title="微信读书 · 阅读 2000 小时"></a> &nbsp;
+  <a href="https://weread.qq.com"><img src="https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png" height="48" alt="微信读书: 阅读 2000 天" title="微信读书 · 阅读 2000 天"></a> &nbsp;
+  <a href="https://weread.qq.com"><img src="https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png" height="48" alt="微信读书: 阅读 500 本书籍" title="微信读书 · 阅读 500 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com"><img src="https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png" height="48" alt="微信读书: 读完 100 本书籍" title="微信读书 · 读完 100 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com"><img src="https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png" height="48" alt="微信读书: 阅读 50 本神作" title="微信读书 · 阅读 50 本神作"></a> &nbsp;
+</p>
+<sub>微信读书 · 阅读 2000 小时 · 阅读 2000 天 · 阅读 500 本书籍 · 读完 100 本书籍 · 阅读 50 本神作</sub>
 <!-- COMMUNITY-BADGES:END -->
 
 ## // connect
