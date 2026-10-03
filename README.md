@@ -110,10 +110,12 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <p>
   <a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder" title="Kaggle · Benchmark Task local builder"></a> &nbsp;
   <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a> &nbsp;
+  <a href="https://www.kaggle.com/certification/badges/xover2022/37"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&amp;alt=media" height="48" alt="Kaggle · Code Tagger" title="Kaggle · Code Tagger"></a> &nbsp;
+  <a href="https://www.kaggle.com/certification/badges/xover2022/50"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F17276c55ce13e85b658e1f49c608eba6%2FBadge-47.svg?generation=1727468428193735&amp;alt=media" height="48" alt="Kaggle · 2 Years on Kaggle" title="Kaggle · 2 Years on Kaggle"></a> &nbsp;
   <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut" title="DEV · Writing Debut"></a>
 </p>
 
-<sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a> · DEV: <a href="https://dev.to/widechaos">Writing Debut</a></sub>
+<sub><a href="https://www.kaggle.com/xover2022">Kaggle</a> · <a href="https://dev.to/widechaos">DEV</a></sub>
 
 <p>
   <a href="https://weread.qq.com" title="WeRead · 2,000 reading hours"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="WeRead · 2,000 reading hours" title="WeRead · 2,000 reading hours"></a> &nbsp;

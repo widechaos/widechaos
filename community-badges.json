@@ -16,7 +16,10 @@
     {
       "platform": "Kaggle",
       "name": "2 Years on Kaggle",
-      "displayed": false
+      "displayed": true,
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/50",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F17276c55ce13e85b658e1f49c608eba6%2FBadge-47.svg?generation=1727468428193735&alt=media",
+      "verified_on": "2026-10-03"
     },
     {
       "platform": "Kaggle",
@@ -26,7 +29,10 @@
     {
       "platform": "Kaggle",
       "name": "Code Tagger",
-      "displayed": false
+      "displayed": true,
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/37",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&alt=media",
+      "verified_on": "2026-10-03"
     },
     {
       "platform": "Kaggle",
@@ -162,5 +168,25 @@
       "completion_basis": "Platform completion checks; not a knowledge examination or hands-on project"
     }
   ],
-  "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
+  "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
+  "pending_actions": [
+    {
+      "platform": "Kaggle",
+      "checked_on": "2026-10-03",
+      "awarded": false,
+      "actions": [
+        "Created AI Evaluation & Reproducible Benchmarks collection",
+        "Bookmarked own benchmark notebook and added it to collection",
+        "Opened own notebook in Colab"
+      ],
+      "candidate_badges": [
+        "Collector",
+        "Bookmarker",
+        "Colab Coder"
+      ],
+      "collection_url": "https://www.kaggle.com/work/collections/19265664",
+      "notebook_url": "https://www.kaggle.com/code/xover2022/new-benchmark-task-0a5f1",
+      "note": "Official achieved dashboard still shows six badges; confirm award before display."
+    }
+  ]
 }
