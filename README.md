@@ -102,15 +102,65 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 <sub>Earned on Kaggle · <a href="https://www.kaggle.com/certification/badges/xover2022/107">Benchmark Task local builder</a> · <a href="https://www.kaggle.com/certification/badges/xover2022/30">Python Coder</a> · DEV: <a href="https://dev.to/widechaos">Writing Debut</a></sub>
 
+**微信读书 · 阅读勋章**
 
 <p>
-  <a href="https://weread.qq.com"><img src="assets/weread/M2-0-2000.png" height="48" alt="微信读书: 阅读 2000 小时" title="微信读书 · 阅读 2000 小时"></a> &nbsp;
-  <a href="https://weread.qq.com"><img src="assets/weread/M3-0-2000.png" height="48" alt="微信读书: 阅读 2000 天" title="微信读书 · 阅读 2000 天"></a> &nbsp;
-  <a href="https://weread.qq.com"><img src="assets/weread/M4-0-500.png" height="48" alt="微信读书: 阅读 500 本书籍" title="微信读书 · 阅读 500 本书籍"></a> &nbsp;
-  <a href="https://weread.qq.com"><img src="assets/weread/M5-0-100.png" height="48" alt="微信读书: 读完 100 本书籍" title="微信读书 · 读完 100 本书籍"></a> &nbsp;
-  <a href="https://weread.qq.com"><img src="assets/weread/M9-0-50.png" height="48" alt="微信读书: 阅读 50 本神作" title="微信读书 · 阅读 50 本神作"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 2000 小时"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="微信读书 · 阅读 2000 小时" title="微信读书 · 阅读 2000 小时"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 2000 天"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="微信读书 · 阅读 2000 天" title="微信读书 · 阅读 2000 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 500 本书籍"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="微信读书 · 阅读 500 本书籍" title="微信读书 · 阅读 500 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 读完 100 本书籍"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="微信读书 · 读完 100 本书籍" title="微信读书 · 读完 100 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 50 本神作"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="微信读书 · 阅读 50 本神作" title="微信读书 · 阅读 50 本神作"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 连续阅读 30 天"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="微信读书 · 连续阅读 30 天" title="微信读书 · 连续阅读 30 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 3000 个点赞"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="微信读书 · 收到 3000 个点赞" title="微信读书 · 收到 3000 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 想法发布 200 条"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="微信读书 · 想法发布 200 条" title="微信读书 · 想法发布 200 条"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 发布 10 个点评"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="微信读书 · 发布 10 个点评" title="微信读书 · 发布 10 个点评"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 帮助 10 位书友找到心仪书籍"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="微信读书 · 帮助 10 位书友找到心仪书籍" title="微信读书 · 帮助 10 位书友找到心仪书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 21天阅读挑战"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="微信读书 · 21天阅读挑战" title="微信读书 · 21天阅读挑战"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 山水行吟客"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="微信读书 · 山水行吟客" title="微信读书 · 山水行吟客"></a>
 </p>
-<sub>微信读书 · 阅读 2000 小时 · 阅读 2000 天 · 阅读 500 本书籍 · 读完 100 本书籍 · 阅读 50 本神作</sub>
+
+<details>
+<summary>展开勋章墙（已核实 35 枚）</summary>
+
+<p>
+  <a href="https://weread.qq.com" title="微信读书 · 山水行吟客"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="微信读书 · 山水行吟客" title="微信读书 · 山水行吟客"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 21天阅读挑战"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="微信读书 · 21天阅读挑战" title="微信读书 · 21天阅读挑战"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 2000 天"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="微信读书 · 阅读 2000 天" title="微信读书 · 阅读 2000 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 50 本神作"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="微信读书 · 阅读 50 本神作" title="微信读书 · 阅读 50 本神作"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 500 本书籍"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="微信读书 · 阅读 500 本书籍" title="微信读书 · 阅读 500 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 2000 小时"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="微信读书 · 阅读 2000 小时" title="微信读书 · 阅读 2000 小时"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 读完 100 本书籍"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="微信读书 · 读完 100 本书籍" title="微信读书 · 读完 100 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 帮助 10 位书友找到心仪书籍"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="微信读书 · 帮助 10 位书友找到心仪书籍" title="微信读书 · 帮助 10 位书友找到心仪书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 读完 50 本书籍"><img src="assets/weread/M5-0-50.png" width="48" height="48" alt="微信读书 · 读完 50 本书籍" title="微信读书 · 读完 50 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 发布 10 个点评"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="微信读书 · 发布 10 个点评" title="微信读书 · 发布 10 个点评"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 发布 5 个点评"><img src="assets/weread/M11-0-5.png" width="48" height="48" alt="微信读书 · 发布 5 个点评" title="微信读书 · 发布 5 个点评"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 10 本神作"><img src="assets/weread/M9-0-10.png" width="48" height="48" alt="微信读书 · 阅读 10 本神作" title="微信读书 · 阅读 10 本神作"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 5 本神作"><img src="assets/weread/M9-0-5.png" width="48" height="48" alt="微信读书 · 阅读 5 本神作" title="微信读书 · 阅读 5 本神作"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 3000 个点赞"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="微信读书 · 收到 3000 个点赞" title="微信读书 · 收到 3000 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 1000 天"><img src="assets/weread/M3-0-1000.png" width="48" height="48" alt="微信读书 · 阅读 1000 天" title="微信读书 · 阅读 1000 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 想法发布 200 条"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="微信读书 · 想法发布 200 条" title="微信读书 · 想法发布 200 条"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 想法发布 100 条"><img src="assets/weread/M7-0-100.png" width="48" height="48" alt="微信读书 · 想法发布 100 条" title="微信读书 · 想法发布 100 条"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 想法发布 50 条"><img src="assets/weread/M7-0-50.png" width="48" height="48" alt="微信读书 · 想法发布 50 条" title="微信读书 · 想法发布 50 条"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 想法发布 10 条"><img src="assets/weread/M7-0-10.png" width="48" height="48" alt="微信读书 · 想法发布 10 条" title="微信读书 · 想法发布 10 条"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 2000 个点赞"><img src="assets/weread/M6-0-2000.png" width="48" height="48" alt="微信读书 · 收到 2000 个点赞" title="微信读书 · 收到 2000 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 1000 个点赞"><img src="assets/weread/M6-0-1000.png" width="48" height="48" alt="微信读书 · 收到 1000 个点赞" title="微信读书 · 收到 1000 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 500 个点赞"><img src="assets/weread/M6-0-500.png" width="48" height="48" alt="微信读书 · 收到 500 个点赞" title="微信读书 · 收到 500 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 100 个点赞"><img src="assets/weread/M6-0-100.png" width="48" height="48" alt="微信读书 · 收到 100 个点赞" title="微信读书 · 收到 100 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 收到 50 个点赞"><img src="assets/weread/M6-0-50.png" width="48" height="48" alt="微信读书 · 收到 50 个点赞" title="微信读书 · 收到 50 个点赞"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 读完 10 本书籍"><img src="assets/weread/M5-0-10.png" width="48" height="48" alt="微信读书 · 读完 10 本书籍" title="微信读书 · 读完 10 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 100 本书籍"><img src="assets/weread/M4-0-100.png" width="48" height="48" alt="微信读书 · 阅读 100 本书籍" title="微信读书 · 阅读 100 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 50 本书籍"><img src="assets/weread/M4-0-50.png" width="48" height="48" alt="微信读书 · 阅读 50 本书籍" title="微信读书 · 阅读 50 本书籍"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 500 天"><img src="assets/weread/M3-0-500.png" width="48" height="48" alt="微信读书 · 阅读 500 天" title="微信读书 · 阅读 500 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 365 天"><img src="assets/weread/M3-0-365.png" width="48" height="48" alt="微信读书 · 阅读 365 天" title="微信读书 · 阅读 365 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 200 天"><img src="assets/weread/M3-0-200.png" width="48" height="48" alt="微信读书 · 阅读 200 天" title="微信读书 · 阅读 200 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 100 天"><img src="assets/weread/M3-0-100.png" width="48" height="48" alt="微信读书 · 阅读 100 天" title="微信读书 · 阅读 100 天"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 1000 小时"><img src="assets/weread/M2-0-1000.png" width="48" height="48" alt="微信读书 · 阅读 1000 小时" title="微信读书 · 阅读 1000 小时"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 500 小时"><img src="assets/weread/M2-0-500.png" width="48" height="48" alt="微信读书 · 阅读 500 小时" title="微信读书 · 阅读 500 小时"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 阅读 100 小时"><img src="assets/weread/M2-0-100.png" width="48" height="48" alt="微信读书 · 阅读 100 小时" title="微信读书 · 阅读 100 小时"></a> &nbsp;
+  <a href="https://weread.qq.com" title="微信读书 · 连续阅读 30 天"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="微信读书 · 连续阅读 30 天" title="微信读书 · 连续阅读 30 天"></a>
+</p>
+
+</details>
 <!-- COMMUNITY-BADGES:END -->
 
 ## // connect
