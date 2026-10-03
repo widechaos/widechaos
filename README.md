@@ -95,6 +95,15 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 <!-- COMMUNITY-BADGES:START -->
 <p>
+  <a href="https://credentials.databricks.com/df0c7dc3-88d9-4de0-99d4-781e917aae76"><img src="https://api.accredible.com/v1/credentials/153yndfb/artifact/badge" height="48" alt="Databricks Academy · Generative AI Fundamentals" title="Databricks Academy · Generative AI Fundamentals · Learning accreditation"></a> &nbsp;
+  <a href="https://credentials.databricks.com/d56e8b1d-3c06-43cb-8b4f-6f4d6778a9fc"><img src="https://api.accredible.com/v1/credentials/xtmi6hcu/artifact/badge" height="48" alt="Databricks Academy · AI Agent Fundamentals" title="Databricks Academy · AI Agent Fundamentals · Learning accreditation"></a> &nbsp;
+  <a href="https://credentials.databricks.com/7c66e79f-43fd-4b94-8f2a-12a2c8f16739"><img src="https://api.accredible.com/v1/credentials/wwr76w1c/artifact/badge" height="48" alt="Databricks Academy · AI Security Fundamentals" title="Databricks Academy · AI Security Fundamentals · Learning accreditation"></a> &nbsp;
+  <a href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png"><img src="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png" height="48" alt="Hugging Face · Fundamentals of Agents · Unit 1 certificate" title="Hugging Face · Fundamentals of Agents · Unit 1 certificate"></a>
+</p>
+
+<sub>AI learning · <a href="https://credentials.databricks.com/df0c7dc3-88d9-4de0-99d4-781e917aae76">Generative AI Fundamentals</a> · <a href="https://credentials.databricks.com/d56e8b1d-3c06-43cb-8b4f-6f4d6778a9fc">AI Agent Fundamentals</a> · <a href="https://credentials.databricks.com/7c66e79f-43fd-4b94-8f2a-12a2c8f16739">AI Security Fundamentals</a> · <a href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png">Hugging Face Agents · Unit 1</a></sub>
+
+<p>
   <a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder" title="Kaggle · Benchmark Task local builder"></a> &nbsp;
   <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a> &nbsp;
   <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut" title="DEV · Writing Debut"></a>
