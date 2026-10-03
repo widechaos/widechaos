@@ -183,6 +183,24 @@
       "score_percent": 100,
       "review_score": "15/15",
       "exam_score": "20/20"
+    },
+    {
+      "platform": "Hugging Face",
+      "name": "Hugging Face Agents Course — Certificate of Excellence",
+      "displayed": true,
+      "kind": "course completion certificate",
+      "issued_on": "2026-10-03",
+      "verified_on": "2026-10-03",
+      "owner": "Renchao Wu",
+      "credential_url": "https://huggingface.co/datasets/agents-course/final-certificates/resolve/main/certificates/WideChaos/2026-10-03.png",
+      "image_url": "assets/certificates/huggingface-agents-course.png",
+      "display_url": "assets/certificates/huggingface-agents-course.png",
+      "score_percent": 45,
+      "correct_count": 9,
+      "total_attempted": 20,
+      "agent_code": "https://huggingface.co/spaces/WideChaos/evidence-agent/tree/main",
+      "evaluation_model": "mlx-community/Qwen3-14B-4bit",
+      "completion_basis": "Official final-project model evaluation; certificate issued under WideChaos. Does not imply complete video viewing or independent manual test taking."
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
