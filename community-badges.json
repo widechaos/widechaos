@@ -95,6 +95,19 @@
       "credential_url": "https://github.com/widechaos/widechaos/blob/main/assets/certificates/alibaba-cloud-generative-ai.png",
       "image_url": "assets/certificates/alibaba-cloud-generative-ai.png",
       "official_result_url": "https://edu.alibabacloud.com/clouder/exam/result/538018"
+    },
+    {
+      "platform": "Cognitive Class / IBM Skills Network",
+      "name": "Prompt Engineering for Everyone",
+      "kind": "course completion certificate",
+      "displayed": true,
+      "owner": "Renchao Wu",
+      "issued_on": "2026-10-03",
+      "verified_on": "2026-10-03",
+      "credential_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160",
+      "display_mode": "text link",
+      "course_code": "AI0117EN",
+      "score_percent": 100
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
