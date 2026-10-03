@@ -81,7 +81,8 @@
       "issued_on": "2026-10-03",
       "owner": "Renchao Wu",
       "credential_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png",
-      "image_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png"
+      "image_url": "assets/certificates/huggingface-agents-unit1.png",
+      "display_url": "assets/certificates/huggingface-agents-unit1.png"
     },
     {
       "platform": "Alibaba Cloud Academy",
@@ -109,7 +110,8 @@
       "course_code": "AI0117EN",
       "score_percent": 100,
       "image_url": "assets/certificates/cognitive-class-prompt-engineering.png",
-      "source_image_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160"
+      "source_image_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160",
+      "display_url": "assets/certificates/cognitive-class-prompt-engineering.png"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
