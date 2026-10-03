@@ -17,7 +17,8 @@
       "atime": 1729575541,
       "ctime": 1728796816,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png",
-      "asset_path": "assets/weread/M2-0-2000.png"
+      "asset_path": "assets/weread/M2-0-2000.png",
+      "display_name_en": "2,000 reading hours"
     },
     {
       "id": "M3-0-2000",
@@ -30,7 +31,8 @@
       "atime": 1772119601,
       "ctime": 1772089460,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png",
-      "asset_path": "assets/weread/M3-0-2000.png"
+      "asset_path": "assets/weread/M3-0-2000.png",
+      "display_name_en": "2,000 reading days"
     },
     {
       "id": "M4-0-500",
@@ -43,7 +45,8 @@
       "atime": 1763345231,
       "ctime": 1763038037,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png",
-      "asset_path": "assets/weread/M4-0-500.png"
+      "asset_path": "assets/weread/M4-0-500.png",
+      "display_name_en": "500 books read"
     },
     {
       "id": "M5-0-100",
@@ -56,7 +59,8 @@
       "atime": 1721960600,
       "ctime": 1721816654,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png",
-      "asset_path": "assets/weread/M5-0-100.png"
+      "asset_path": "assets/weread/M5-0-100.png",
+      "display_name_en": "100 books finished"
     },
     {
       "id": "M9-0-50",
@@ -69,7 +73,8 @@
       "atime": 1771807557,
       "ctime": 1771757090,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png",
-      "asset_path": "assets/weread/M9-0-50.png"
+      "asset_path": "assets/weread/M9-0-50.png",
+      "display_name_en": "50 highly rated books read"
     },
     {
       "id": "M1-0-30",
@@ -82,7 +87,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M1-0-30.png",
-      "asset_path": "assets/weread/M1-0-30.png"
+      "asset_path": "assets/weread/M1-0-30.png",
+      "display_name_en": "30 consecutive reading days"
     },
     {
       "id": "M6-0-3000",
@@ -95,7 +101,8 @@
       "atime": 1649330600,
       "ctime": 1644373477,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-3000.png",
-      "asset_path": "assets/weread/M6-0-3000.png"
+      "asset_path": "assets/weread/M6-0-3000.png",
+      "display_name_en": "3,000 likes received"
     },
     {
       "id": "M7-0-200",
@@ -108,7 +115,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-200.png",
-      "asset_path": "assets/weread/M7-0-200.png"
+      "asset_path": "assets/weread/M7-0-200.png",
+      "display_name_en": "200 thoughts shared"
     },
     {
       "id": "M11-0-10",
@@ -121,7 +129,8 @@
       "atime": 1680851314,
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-10.png",
-      "asset_path": "assets/weread/M11-0-10.png"
+      "asset_path": "assets/weread/M11-0-10.png",
+      "display_name_en": "10 book reviews"
     },
     {
       "id": "M14-0-10",
@@ -134,7 +143,8 @@
       "atime": 1704627258,
       "ctime": 1704499742,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M14-0-10.png",
-      "asset_path": "assets/weread/M14-0-10.png"
+      "asset_path": "assets/weread/M14-0-10.png",
+      "display_name_en": "Book recommendations for 10 readers"
     },
     {
       "id": "M15-1-0",
@@ -147,7 +157,8 @@
       "atime": 1775905307,
       "ctime": 1775905307,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-1-0.png",
-      "asset_path": "assets/weread/M15-1-0.png"
+      "asset_path": "assets/weread/M15-1-0.png",
+      "display_name_en": "21-day Reading Challenge"
     },
     {
       "id": "M12-2-3-I-0-0-0",
@@ -162,7 +173,8 @@
       "atime": 1777004030,
       "ctime": 1777004030,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M12-2-3-I-0-0-0.png",
-      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png"
+      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png",
+      "display_name_en": "World Book Day · Mountain and River Poet"
     }
   ],
   "known_badges": [
@@ -179,7 +191,8 @@
       "atime": 1777004030,
       "ctime": 1777004030,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M12-2-3-I-0-0-0.png",
-      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png"
+      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png",
+      "display_name_en": "World Book Day · Mountain and River Poet"
     },
     {
       "id": "M15-1-0",
@@ -192,7 +205,8 @@
       "atime": 1775905307,
       "ctime": 1775905307,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-1-0.png",
-      "asset_path": "assets/weread/M15-1-0.png"
+      "asset_path": "assets/weread/M15-1-0.png",
+      "display_name_en": "21-day Reading Challenge"
     },
     {
       "id": "M3-0-2000",
@@ -205,7 +219,8 @@
       "atime": 1772119601,
       "ctime": 1772089460,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png",
-      "asset_path": "assets/weread/M3-0-2000.png"
+      "asset_path": "assets/weread/M3-0-2000.png",
+      "display_name_en": "2,000 reading days"
     },
     {
       "id": "M9-0-50",
@@ -218,7 +233,8 @@
       "atime": 1771807557,
       "ctime": 1771757090,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png",
-      "asset_path": "assets/weread/M9-0-50.png"
+      "asset_path": "assets/weread/M9-0-50.png",
+      "display_name_en": "50 highly rated books read"
     },
     {
       "id": "M4-0-500",
@@ -231,7 +247,8 @@
       "atime": 1763345231,
       "ctime": 1763038037,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png",
-      "asset_path": "assets/weread/M4-0-500.png"
+      "asset_path": "assets/weread/M4-0-500.png",
+      "display_name_en": "500 books read"
     },
     {
       "id": "M2-0-2000",
@@ -244,7 +261,8 @@
       "atime": 1729575541,
       "ctime": 1728796816,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png",
-      "asset_path": "assets/weread/M2-0-2000.png"
+      "asset_path": "assets/weread/M2-0-2000.png",
+      "display_name_en": "2,000 reading hours"
     },
     {
       "id": "M5-0-100",
@@ -257,7 +275,8 @@
       "atime": 1721960600,
       "ctime": 1721816654,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png",
-      "asset_path": "assets/weread/M5-0-100.png"
+      "asset_path": "assets/weread/M5-0-100.png",
+      "display_name_en": "100 books finished"
     },
     {
       "id": "M14-0-10",
@@ -270,7 +289,8 @@
       "atime": 1704627258,
       "ctime": 1704499742,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M14-0-10.png",
-      "asset_path": "assets/weread/M14-0-10.png"
+      "asset_path": "assets/weread/M14-0-10.png",
+      "display_name_en": "Book recommendations for 10 readers"
     },
     {
       "id": "M5-0-50",
@@ -283,7 +303,8 @@
       "atime": 1690041985,
       "ctime": 1690005606,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-50.png",
-      "asset_path": "assets/weread/M5-0-50.png"
+      "asset_path": "assets/weread/M5-0-50.png",
+      "display_name_en": "50 books finished"
     },
     {
       "id": "M11-0-10",
@@ -296,7 +317,8 @@
       "atime": 1680851314,
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-10.png",
-      "asset_path": "assets/weread/M11-0-10.png"
+      "asset_path": "assets/weread/M11-0-10.png",
+      "display_name_en": "10 book reviews"
     },
     {
       "id": "M11-0-5",
@@ -309,7 +331,8 @@
       "atime": 1680851314,
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-5.png",
-      "asset_path": "assets/weread/M11-0-5.png"
+      "asset_path": "assets/weread/M11-0-5.png",
+      "display_name_en": "5 book reviews"
     },
     {
       "id": "M9-0-10",
@@ -322,7 +345,8 @@
       "atime": 1680851314,
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-10.png",
-      "asset_path": "assets/weread/M9-0-10.png"
+      "asset_path": "assets/weread/M9-0-10.png",
+      "display_name_en": "10 highly rated books read"
     },
     {
       "id": "M9-0-5",
@@ -335,7 +359,8 @@
       "atime": 1680851314,
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-5.png",
-      "asset_path": "assets/weread/M9-0-5.png"
+      "asset_path": "assets/weread/M9-0-5.png",
+      "display_name_en": "5 highly rated books read"
     },
     {
       "id": "M6-0-3000",
@@ -348,7 +373,8 @@
       "atime": 1649330600,
       "ctime": 1644373477,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-3000.png",
-      "asset_path": "assets/weread/M6-0-3000.png"
+      "asset_path": "assets/weread/M6-0-3000.png",
+      "display_name_en": "3,000 likes received"
     },
     {
       "id": "M3-0-1000",
@@ -361,7 +387,8 @@
       "atime": 1643702479,
       "ctime": 1643415427,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-1000.png",
-      "asset_path": "assets/weread/M3-0-1000.png"
+      "asset_path": "assets/weread/M3-0-1000.png",
+      "display_name_en": "1,000 reading days"
     },
     {
       "id": "M7-0-200",
@@ -374,7 +401,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-200.png",
-      "asset_path": "assets/weread/M7-0-200.png"
+      "asset_path": "assets/weread/M7-0-200.png",
+      "display_name_en": "200 thoughts shared"
     },
     {
       "id": "M7-0-100",
@@ -387,7 +415,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-100.png",
-      "asset_path": "assets/weread/M7-0-100.png"
+      "asset_path": "assets/weread/M7-0-100.png",
+      "display_name_en": "100 thoughts shared"
     },
     {
       "id": "M7-0-50",
@@ -400,7 +429,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-50.png",
-      "asset_path": "assets/weread/M7-0-50.png"
+      "asset_path": "assets/weread/M7-0-50.png",
+      "display_name_en": "50 thoughts shared"
     },
     {
       "id": "M7-0-10",
@@ -413,7 +443,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-10.png",
-      "asset_path": "assets/weread/M7-0-10.png"
+      "asset_path": "assets/weread/M7-0-10.png",
+      "display_name_en": "10 thoughts shared"
     },
     {
       "id": "M6-0-2000",
@@ -426,7 +457,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-2000.png",
-      "asset_path": "assets/weread/M6-0-2000.png"
+      "asset_path": "assets/weread/M6-0-2000.png",
+      "display_name_en": "2,000 likes received"
     },
     {
       "id": "M6-0-1000",
@@ -439,7 +471,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-1000.png",
-      "asset_path": "assets/weread/M6-0-1000.png"
+      "asset_path": "assets/weread/M6-0-1000.png",
+      "display_name_en": "1,000 likes received"
     },
     {
       "id": "M6-0-500",
@@ -452,7 +485,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-500.png",
-      "asset_path": "assets/weread/M6-0-500.png"
+      "asset_path": "assets/weread/M6-0-500.png",
+      "display_name_en": "500 likes received"
     },
     {
       "id": "M6-0-100",
@@ -465,7 +499,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-100.png",
-      "asset_path": "assets/weread/M6-0-100.png"
+      "asset_path": "assets/weread/M6-0-100.png",
+      "display_name_en": "100 likes received"
     },
     {
       "id": "M6-0-50",
@@ -478,7 +513,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-50.png",
-      "asset_path": "assets/weread/M6-0-50.png"
+      "asset_path": "assets/weread/M6-0-50.png",
+      "display_name_en": "50 likes received"
     },
     {
       "id": "M5-0-10",
@@ -491,7 +527,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-10.png",
-      "asset_path": "assets/weread/M5-0-10.png"
+      "asset_path": "assets/weread/M5-0-10.png",
+      "display_name_en": "10 books finished"
     },
     {
       "id": "M4-0-100",
@@ -504,7 +541,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-100.png",
-      "asset_path": "assets/weread/M4-0-100.png"
+      "asset_path": "assets/weread/M4-0-100.png",
+      "display_name_en": "100 books read"
     },
     {
       "id": "M4-0-50",
@@ -517,7 +555,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-50.png",
-      "asset_path": "assets/weread/M4-0-50.png"
+      "asset_path": "assets/weread/M4-0-50.png",
+      "display_name_en": "50 books read"
     },
     {
       "id": "M3-0-500",
@@ -530,7 +569,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-500.png",
-      "asset_path": "assets/weread/M3-0-500.png"
+      "asset_path": "assets/weread/M3-0-500.png",
+      "display_name_en": "500 reading days"
     },
     {
       "id": "M3-0-365",
@@ -543,7 +583,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-365.png",
-      "asset_path": "assets/weread/M3-0-365.png"
+      "asset_path": "assets/weread/M3-0-365.png",
+      "display_name_en": "365 reading days"
     },
     {
       "id": "M3-0-200",
@@ -556,7 +597,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-200.png",
-      "asset_path": "assets/weread/M3-0-200.png"
+      "asset_path": "assets/weread/M3-0-200.png",
+      "display_name_en": "200 reading days"
     },
     {
       "id": "M3-0-100",
@@ -569,7 +611,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-100.png",
-      "asset_path": "assets/weread/M3-0-100.png"
+      "asset_path": "assets/weread/M3-0-100.png",
+      "display_name_en": "100 reading days"
     },
     {
       "id": "M2-0-1000",
@@ -582,7 +625,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-1000.png",
-      "asset_path": "assets/weread/M2-0-1000.png"
+      "asset_path": "assets/weread/M2-0-1000.png",
+      "display_name_en": "1,000 reading hours"
     },
     {
       "id": "M2-0-500",
@@ -595,7 +639,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-500.png",
-      "asset_path": "assets/weread/M2-0-500.png"
+      "asset_path": "assets/weread/M2-0-500.png",
+      "display_name_en": "500 reading hours"
     },
     {
       "id": "M2-0-100",
@@ -608,7 +653,8 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-100.png",
-      "asset_path": "assets/weread/M2-0-100.png"
+      "asset_path": "assets/weread/M2-0-100.png",
+      "display_name_en": "100 reading hours"
     },
     {
       "id": "M1-0-30",
@@ -621,13 +667,18 @@
       "atime": 1634436237,
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M1-0-30.png",
-      "asset_path": "assets/weread/M1-0-30.png"
+      "asset_path": "assets/weread/M1-0-30.png",
+      "display_name_en": "30 consecutive reading days"
     }
   ],
   "display": {
     "icon_size": 48,
     "inline_descriptions": false,
     "names": "accessible alt text and native title tooltip",
-    "wall": "collapsed by default; all verified medals"
+    "wall": "collapsed by default; all verified medals",
+    "language": "English labels and tooltips; original official badge artwork unchanged",
+    "platform_label": "WeRead · Reading milestones",
+    "wall_label": "More reading badges",
+    "public_count": false
   }
 }
