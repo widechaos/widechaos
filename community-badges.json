@@ -105,11 +105,11 @@
       "issued_on": "2026-10-03",
       "verified_on": "2026-10-03",
       "credential_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160",
-      "display_mode": "official provider logo linked to course certificate",
+      "display_mode": "official certificate screenshot",
       "course_code": "AI0117EN",
       "score_percent": 100,
-      "image_url": "assets/certificates/cognitive-class.png",
-      "source_image_url": "https://sn-portals-cognitiveclass.s3.us-south.cloud-object-storage.appdomain.cloud/lly5s0ougucrljt9x1yy9wlhx5jo"
+      "image_url": "assets/certificates/cognitive-class-prompt-engineering.png",
+      "source_image_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
