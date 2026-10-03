@@ -82,6 +82,19 @@
       "owner": "Renchao Wu",
       "credential_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png",
       "image_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png"
+    },
+    {
+      "platform": "Alibaba Cloud Academy",
+      "name": "Apsara Clouder - Artificial Intelligence / Generative AI",
+      "kind": "Clouder certification",
+      "displayed": true,
+      "owner": "Renchao Wu",
+      "serial_number": "ACFW193261000245046",
+      "expires_on": "2028-10-02",
+      "verified_on": "2026-10-03",
+      "credential_url": "https://github.com/widechaos/widechaos/blob/main/assets/certificates/alibaba-cloud-generative-ai.png",
+      "image_url": "assets/certificates/alibaba-cloud-generative-ai.png",
+      "official_result_url": "https://edu.alibabacloud.com/clouder/exam/result/538018"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions."
