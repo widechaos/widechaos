@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-03",
+  "checked_on": "2026-10-04",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -201,13 +201,23 @@
       "agent_code": "https://huggingface.co/spaces/WideChaos/evidence-agent/tree/main",
       "evaluation_model": "mlx-community/Qwen3-14B-4bit",
       "completion_basis": "Official final-project model evaluation; certificate issued under WideChaos. Does not imply complete video viewing or independent manual test taking."
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Bookmarker",
+      "displayed": true,
+      "issued_on": "2026-10-03",
+      "verified_on": "2026-10-04",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
   "pending_actions": [
     {
       "platform": "Kaggle",
-      "checked_on": "2026-10-03",
+      "checked_on": "2026-10-04",
       "awarded": false,
       "actions": [
         "Created AI Evaluation & Reproducible Benchmarks collection",
@@ -216,12 +226,11 @@
       ],
       "candidate_badges": [
         "Collector",
-        "Bookmarker",
         "Colab Coder"
       ],
       "collection_url": "https://www.kaggle.com/work/collections/19265664",
       "notebook_url": "https://www.kaggle.com/code/xover2022/new-benchmark-task-0a5f1",
-      "note": "Official achieved dashboard still shows six badges; confirm award before display."
+      "note": "Bookmarker officially awarded and displayed; Collector and Colab Coder still absent from Achieved dashboard (seven earned badges)."
     }
   ]
 }
