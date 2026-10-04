@@ -5,7 +5,8 @@
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
     "databricks": "https://credentials.databricks.com/profile/renchaowu393135/wallet",
-    "huggingface": "https://huggingface.co/WideChaos"
+    "huggingface": "https://huggingface.co/WideChaos",
+    "credly": "https://www.credly.com/users/renchao-wu"
   },
   "known_badges": [
     {
@@ -211,6 +212,20 @@
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&alt=media",
       "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "IBM SkillsBuild",
+      "name": "Artificial Intelligence Fundamentals",
+      "kind": "learning credential",
+      "displayed": true,
+      "owner": "Renchao Wu",
+      "issued_on": "2026-10-03",
+      "verified_on": "2026-10-04",
+      "credential_url": "https://www.credly.com/badges/3a952e96-b388-4424-8e54-33d3f631fe6c/public_url",
+      "image_url": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png",
+      "display_url": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png",
+      "display_mode": "official certificate PDF rendered as image",
+      "certificate_file": "assets/certificates/ibm-skillsbuild-ai-fundamentals.pdf"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
