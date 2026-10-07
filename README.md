@@ -44,6 +44,12 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 - **[Heartiger](https://github.com/widechaos/Heartiger)** — designing an agent-driven personal life OS: lightweight journaling, intelligent organization, and a growing second brain.
 - **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open → [widechaos.cn](https://widechaos.cn).
 
+<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
+## // open-source contributions
+
+[Contribution notes and pull requests →](contributions/README.md)
+<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
+
 ## // toolbox
 
 <p>
