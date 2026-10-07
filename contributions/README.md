@@ -6,6 +6,8 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 
 ## Pull requests awaiting review
 
+- **LiveKit Agents** — close streamed text input after `say()` forwarding errors or cancellation. [PR #7658](https://github.com/livekit/agents/pull/7658)
+
 - **Tornado** — return a lock or semaphore permit when async context entry is cancelled after handoff. [PR #3770](https://github.com/tornadoweb/tornado/pull/3770)
 - **HTTPX** — raw-deflate decoding with a one-byte initial chunk. [Discussion #3799](https://github.com/encode/httpx/discussions/3799); a candidate patch is available, with an upstream PR awaiting maintainer agreement.
 - **python-dotenv** — preserve correct warning line numbers during CRLF parser recovery. [PR #722](https://github.com/theskumar/python-dotenv/pull/722)
