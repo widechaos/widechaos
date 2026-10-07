@@ -10,7 +10,7 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 - **HTTPX** — raw-deflate decoding with a one-byte initial chunk. [Discussion #3799](https://github.com/encode/httpx/discussions/3799); a candidate patch is available, with an upstream PR awaiting maintainer agreement.
 - **python-dotenv** — preserve correct warning line numbers during CRLF parser recovery. [PR #722](https://github.com/theskumar/python-dotenv/pull/722)
 - **dateutil** — reject unclosed weekday ordinals that silently change recurrence dates. [PR #1597](https://github.com/dateutil/dateutil/pull/1597)
-- **PeonPing** — relay playback with a symlinked packs directory, preserving path checks. [Draft PR #603](https://github.com/PeonPing/peon-ping/pull/603)
+- **PeonPing** — relay playback with a symlinked packs directory, preserving path checks. [PR #603](https://github.com/PeonPing/peon-ping/pull/603)
 
 ## Closed without merge
 
