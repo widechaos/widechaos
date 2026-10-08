@@ -6,6 +6,8 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 
 ## Pull requests awaiting review
 
+- **Logfire** — include metrics from sampled-out child spans in their recording parents, without exporting the children. [PR #2533](https://github.com/pydantic/logfire/pull/2533)
+
 - **Ralph** — remove the unused bootstrap generator that embedded outdated scripts. [PR #377](https://github.com/frankbria/ralph-claude-code/pull/377)
 
 - **LiveKit Agents** — close streamed text input after `say()` forwarding errors or cancellation. [PR #7658](https://github.com/livekit/agents/pull/7658)
