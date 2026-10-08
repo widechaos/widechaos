@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-04",
+  "checked_on": "2026-10-08",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -226,13 +226,23 @@
       "display_url": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png",
       "display_mode": "official certificate PDF rendered as image",
       "certificate_file": "assets/certificates/ibm-skillsbuild-ai-fundamentals.pdf"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Collector",
+      "displayed": true,
+      "issued_on": "2026-10-07",
+      "verified_on": "2026-10-08",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
   "pending_actions": [
     {
       "platform": "Kaggle",
-      "checked_on": "2026-10-04",
+      "checked_on": "2026-10-08",
       "awarded": false,
       "actions": [
         "Created AI Evaluation & Reproducible Benchmarks collection",
@@ -240,12 +250,11 @@
         "Opened own notebook in Colab"
       ],
       "candidate_badges": [
-        "Collector",
         "Colab Coder"
       ],
       "collection_url": "https://www.kaggle.com/work/collections/19265664",
       "notebook_url": "https://www.kaggle.com/code/xover2022/new-benchmark-task-0a5f1",
-      "note": "Bookmarker officially awarded and displayed; Collector and Colab Coder still absent from Achieved dashboard (seven earned badges)."
+      "note": "Bookmarker and Collector officially awarded and displayed. Colab Coder absent from Achieved dashboard (eight earned badges)."
     }
   ]
 }
