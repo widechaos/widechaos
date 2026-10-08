@@ -6,6 +6,8 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 
 ## Pull requests awaiting review
 
+- **Ralph** — remove the unused bootstrap generator that embedded outdated scripts. [PR #377](https://github.com/frankbria/ralph-claude-code/pull/377)
+
 - **LiveKit Agents** — close streamed text input after `say()` forwarding errors or cancellation. [PR #7658](https://github.com/livekit/agents/pull/7658)
 
 - **Tornado** — return a lock or semaphore permit when async context entry is cancelled after handoff. [PR #3770](https://github.com/tornadoweb/tornado/pull/3770)
