@@ -6,6 +6,8 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 
 ## Pull requests awaiting review
 
+- **Ekko Studio** — show inherited root OAuth providers in named-profile model pickers without copying or refreshing credentials. [PR #3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343)
+
 - **Logfire** — include metrics from sampled-out child spans in their recording parents, without exporting the children. [PR #2533](https://github.com/pydantic/logfire/pull/2533)
 
 - **Ralph** — remove the unused bootstrap generator that embedded outdated scripts. [PR #377](https://github.com/frankbria/ralph-claude-code/pull/377); make exit-detection, rate-limit, and session-reset tests exercise the production functions. [PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)
