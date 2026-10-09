@@ -1,5 +1,11 @@
 # Open-source contributions
 
+## Ralph
+
+**Merged:** I replaced copied implementations in exit-detection, rate-limit, and session-reset tests with the production functions, so implementation regressions are detected. [PR #380](https://github.com/frankbria/ralph-claude-code/pull/380) was merged on October 9, 2026. The maintainer independently confirmed that all seven tested production mutations were caught and added a safety-breaker regression.
+
+**Awaiting review:** remove the unused bootstrap generator that embedded outdated scripts. [PR #377](https://github.com/frankbria/ralph-claude-code/pull/377)
+
 ## more-itertools — bug report resolved
 
 I found and reported that `bucket` ignored a supplied validator when the callable was falsey, letting rejected keys return data. [Report #1308](https://github.com/more-itertools/more-itertools/issues/1308) was resolved by [merged PR #1309](https://github.com/more-itertools/more-itertools/pull/1309), submitted by DawnofGenX. My contribution was the defect discovery, reproduction, and report.
@@ -10,7 +16,6 @@ I found and reported that `bucket` ignored a supplied validator when the callabl
 
 - **Logfire** — include metrics from sampled-out child spans in their recording parents, without exporting the children. [PR #2533](https://github.com/pydantic/logfire/pull/2533)
 
-- **Ralph** — remove the unused bootstrap generator that embedded outdated scripts. [PR #377](https://github.com/frankbria/ralph-claude-code/pull/377); make exit-detection, rate-limit, and session-reset tests exercise the production functions. [PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)
 
 - **LiveKit Agents** — close streamed text input after `say()` forwarding errors or cancellation. [PR #7658](https://github.com/livekit/agents/pull/7658)
 

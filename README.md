@@ -47,6 +47,8 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 ## // open-source contributions
 
+- **Ralph** — made exit-detection, rate-limit, and session-reset tests exercise production functions, so implementation regressions fail the tests. [Merged PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)
+
 [Contribution notes and pull requests →](contributions/README.md)
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
