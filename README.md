@@ -13,6 +13,8 @@
 
 **AI, backend & cloud engineer.** I build agents and knowledge systems, data-driven applications, and the infrastructure that keeps them running.
 
+My focus spans the full AI engineering lifecycle: data, model training and fine-tuning, evaluation, inference, deployment, and full-stack products. I share completed work through code, demos, and reproducible experiments.
+
 ```console
 > whoami
   邬仁超 · 十方空烬 · Ember
@@ -200,6 +202,8 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 <p>
   <a href="https://widechaos.cn">Blog · widechaos.cn</a> &nbsp; / &nbsp; <a href="mailto:ai@widechaos.cn">Email · ai@widechaos.cn</a>
+  <br>
+  <a href="https://huggingface.co/WideChaos">Hugging Face</a> &nbsp; / &nbsp; <a href="https://www.kaggle.com/xover2022">Kaggle</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/renchao-wu-widechaos/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://x.com/amazingxover">X</a> &nbsp; / &nbsp; <a href="https://dev.to/widechaos">DEV</a>
 </p>
 
 <sub><i>Per aspera ad astra.</i></sub>
