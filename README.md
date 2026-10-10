@@ -126,6 +126,7 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
   <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&amp;alt=media" height="48" alt="Kaggle · Bookmarker" title="Kaggle · Bookmarker"></a> &nbsp;
   <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&amp;alt=media" height="48" alt="Kaggle · Collector" title="Kaggle · Collector"></a> &nbsp;
   <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut" title="DEV · Writing Debut"></a>
+  <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png" height="48" alt="DEV: Hacktoberfest 2026 Challenge Completion" title="DEV · Hacktoberfest 2026 Challenge Completion"></a>
 </p>
 
 <sub><a href="https://www.kaggle.com/xover2022">Kaggle</a> · <a href="https://dev.to/widechaos">DEV</a></sub>

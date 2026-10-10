@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-08",
+  "checked_on": "2026-10-10",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -236,6 +236,16 @@
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&alt=media",
       "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "DEV",
+      "name": "Hacktoberfest 2026 Challenge Completion",
+      "displayed": true,
+      "kind": "challenge completion badge",
+      "verified_on": "2026-10-10",
+      "credential_url": "https://dev.to/widechaos",
+      "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png",
+      "verification_source": "Official owner profile badge and badge modal; exact challenge and award date not exposed."
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
