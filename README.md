@@ -203,7 +203,7 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <p>
   <a href="https://widechaos.cn">Blog · widechaos.cn</a> &nbsp; / &nbsp; <a href="mailto:ai@widechaos.cn">Email · ai@widechaos.cn</a>
   <br>
-  <a href="https://huggingface.co/WideChaos">Hugging Face</a> &nbsp; / &nbsp; <a href="https://www.kaggle.com/xover2022">Kaggle</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/renchao-wu-widechaos/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://x.com/amazingxover">X</a> &nbsp; / &nbsp; <a href="https://dev.to/widechaos">DEV</a>
+  <a href="https://huggingface.co/WideChaos">Hugging Face</a> &nbsp; / &nbsp; <a href="https://www.kaggle.com/xover2022">Kaggle</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/renchao-wu-widechaos/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://x.com/thewidechaos">X</a> &nbsp; / &nbsp; <a href="https://dev.to/widechaos">DEV</a>
 </p>
 
 <sub><i>Per aspera ad astra.</i></sub>
