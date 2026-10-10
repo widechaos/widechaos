@@ -47,11 +47,10 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 ## // open-source contributions
 
-**[Ralph](https://github.com/frankbria/ralph-claude-code)** · [Merged PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>
-Reworked exit, rate-limit, and session-reset tests to catch regressions in production code.
-
-**[more-itertools](https://github.com/more-itertools/more-itertools)** · [Resolved bug report #1308](https://github.com/more-itertools/more-itertools/issues/1308)<br>
-Found and reproduced a validator bypass in `bucket`; the report led to a fix by another contributor.
+| Project | My contribution |
+| :--- | :--- |
+| **[Ralph](https://github.com/frankbria/ralph-claude-code)**<br>Autonomous Claude Code development loop<br>[![GitHub stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&label=stars&color=64748b)](https://github.com/frankbria/ralph-claude-code/stargazers) | **[Merged · PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)**<br>Made exit, rate-limit, and session-reset tests catch production regressions. |
+| **[more-itertools](https://github.com/more-itertools/more-itertools)**<br>Python iterable utilities beyond `itertools`<br>[![GitHub stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&label=stars&color=64748b)](https://github.com/more-itertools/more-itertools/stargazers) | **[Resolved · Bug report #1308](https://github.com/more-itertools/more-itertools/issues/1308)**<br>Reported a `bucket` validator bypass; fixed by another contributor. |
 
 [All contributions →](contributions/README.md) · Merged work, bug reports, and pull requests under review.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
