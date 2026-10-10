@@ -47,9 +47,13 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 ## // open-source contributions
 
-- **Ralph** — made exit-detection, rate-limit, and session-reset tests exercise production functions, so implementation regressions fail the tests. [Merged PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)
+**[Ralph](https://github.com/frankbria/ralph-claude-code)** · [Merged PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>
+Reworked exit, rate-limit, and session-reset tests to catch regressions in production code.
 
-[Contribution notes and pull requests →](contributions/README.md)
+**[more-itertools](https://github.com/more-itertools/more-itertools)** · [Resolved bug report #1308](https://github.com/more-itertools/more-itertools/issues/1308)<br>
+Found and reproduced a validator bypass in `bucket`; the report led to a fix by another contributor.
+
+[All contributions →](contributions/README.md) · Merged work, bug reports, and pull requests under review.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 ## // toolbox
