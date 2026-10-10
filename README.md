@@ -38,6 +38,7 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 ## // selected work
 
+- **[Evidence Agent](https://huggingface.co/spaces/WideChaos/evidence-agent)** — public research tools with inspectable model traces. Documented local 14B evaluation: **9/20**. [Code & setup](https://huggingface.co/spaces/WideChaos/evidence-agent/tree/main) · [Evidence & limits](https://huggingface.co/spaces/WideChaos/evidence-agent/blob/main/EVALUATION.md)
 - **[deepseek-chat-navigator](https://github.com/widechaos/deepseek-chat-navigator)** — a browser userscript that turns long DeepSeek conversations into a question-and-answer outline with one-click navigation. [Install ↗](https://greasyfork.org/zh-CN/scripts/560039-deepseek-chat-navigator)
 - **[Bulletin](https://github.com/widechaos/Bulletin)** — a Python + Qt desktop news overlay: live headlines, a transparent window, and click-through interaction.
 - **[obsidian-cinematic-ui](https://github.com/widechaos/obsidian-cinematic-ui)** — a cinematic CSS motion layer for Obsidian: glass callouts, breathing alerts, image reveals.
