@@ -1,0 +1,13 @@
+{
+  "dateutil/dateutil": 2638,
+  "EKKOLearnAI/ekko-studio": 11356,
+  "SYSTRAN/faster-whisper": 25807,
+  "encode/httpx": 15617,
+  "livekit/agents": 14689,
+  "pydantic/logfire": 4512,
+  "more-itertools/more-itertools": 4101,
+  "PeonPing/peon-ping": 5070,
+  "theskumar/python-dotenv": 8897,
+  "frankbria/ralph-claude-code": 9677,
+  "tornadoweb/tornado": 22164
+}
