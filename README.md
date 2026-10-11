@@ -1,6 +1,6 @@
 <sub>RENCHAO WU / WIDECHAOS</sub>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-wide.svg"><source media="(max-width: 520px)" srcset="assets/header-light-mobile.svg"><img src="assets/header-light-wide.svg" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile-signature.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-wide-signature.svg"><source media="(max-width: 520px)" srcset="assets/header-light-mobile-signature.svg"><img src="assets/header-light-wide-signature.svg" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
 
 <p align="center">
   <b>智灯已灭余空烬，犹自光明照十方</b><br>
