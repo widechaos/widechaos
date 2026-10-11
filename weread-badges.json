@@ -1,7 +1,7 @@
 {
   "platform": "WeRead",
-  "checked_on": "2026-10-03",
-  "scope": "Verified earned subset; 12 curated medals and expandable wall of all 35 returned medals. Owner wall has 94; full coverage is not established.",
+  "checked_on": "2026-10-11",
+  "scope": "94 medals visible in the owner-supplied historical wall: 35 API-confirmed official assets and 59 unchanged icon crops from that screenshot. Screenshot confirms historical ownership, not present-day completeness or future weekly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
   "returned_count": 35,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
@@ -18,7 +18,11 @@
       "ctime": 1728796816,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png",
       "asset_path": "assets/weread/M2-0-2000.png",
-      "display_name_en": "2,000 reading hours"
+      "display_name_en": "2,000 reading hours",
+      "owner_wall_position": {
+        "row": 11,
+        "column": 2
+      }
     },
     {
       "id": "M3-0-2000",
@@ -32,7 +36,11 @@
       "ctime": 1772089460,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png",
       "asset_path": "assets/weread/M3-0-2000.png",
-      "display_name_en": "2,000 reading days"
+      "display_name_en": "2,000 reading days",
+      "owner_wall_position": {
+        "row": 7,
+        "column": 1
+      }
     },
     {
       "id": "M4-0-500",
@@ -46,7 +54,11 @@
       "ctime": 1763038037,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png",
       "asset_path": "assets/weread/M4-0-500.png",
-      "display_name_en": "500 books read"
+      "display_name_en": "500 books read",
+      "owner_wall_position": {
+        "row": 8,
+        "column": 3
+      }
     },
     {
       "id": "M5-0-100",
@@ -60,7 +72,11 @@
       "ctime": 1721816654,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png",
       "asset_path": "assets/weread/M5-0-100.png",
-      "display_name_en": "100 books finished"
+      "display_name_en": "100 books finished",
+      "owner_wall_position": {
+        "row": 13,
+        "column": 3
+      }
     },
     {
       "id": "M9-0-50",
@@ -74,7 +90,11 @@
       "ctime": 1771757090,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png",
       "asset_path": "assets/weread/M9-0-50.png",
-      "display_name_en": "50 highly rated books read"
+      "display_name_en": "50 highly rated books read",
+      "owner_wall_position": {
+        "row": 7,
+        "column": 3
+      }
     },
     {
       "id": "M1-0-30",
@@ -88,7 +108,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M1-0-30.png",
       "asset_path": "assets/weread/M1-0-30.png",
-      "display_name_en": "30 consecutive reading days"
+      "display_name_en": "30 consecutive reading days",
+      "owner_wall_position": {
+        "row": 32,
+        "column": 1
+      }
     },
     {
       "id": "M6-0-3000",
@@ -102,7 +126,11 @@
       "ctime": 1644373477,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-3000.png",
       "asset_path": "assets/weread/M6-0-3000.png",
-      "display_name_en": "3,000 likes received"
+      "display_name_en": "3,000 likes received",
+      "owner_wall_position": {
+        "row": 25,
+        "column": 1
+      }
     },
     {
       "id": "M7-0-200",
@@ -116,7 +144,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-200.png",
       "asset_path": "assets/weread/M7-0-200.png",
-      "display_name_en": "200 thoughts shared"
+      "display_name_en": "200 thoughts shared",
+      "owner_wall_position": {
+        "row": 25,
+        "column": 3
+      }
     },
     {
       "id": "M11-0-10",
@@ -130,7 +162,11 @@
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-10.png",
       "asset_path": "assets/weread/M11-0-10.png",
-      "display_name_en": "10 book reviews"
+      "display_name_en": "10 book reviews",
+      "owner_wall_position": {
+        "row": 23,
+        "column": 3
+      }
     },
     {
       "id": "M14-0-10",
@@ -144,7 +180,11 @@
       "ctime": 1704499742,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M14-0-10.png",
       "asset_path": "assets/weread/M14-0-10.png",
-      "display_name_en": "Book recommendations for 10 readers"
+      "display_name_en": "Book recommendations for 10 readers",
+      "owner_wall_position": {
+        "row": 19,
+        "column": 2
+      }
     },
     {
       "id": "M15-1-0",
@@ -158,7 +198,11 @@
       "ctime": 1775905307,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-1-0.png",
       "asset_path": "assets/weread/M15-1-0.png",
-      "display_name_en": "21-day Reading Challenge"
+      "display_name_en": "21-day Reading Challenge",
+      "owner_wall_position": {
+        "row": 4,
+        "column": 2
+      }
     },
     {
       "id": "M12-2-3-I-0-0-0",
@@ -174,123 +218,11 @@
       "ctime": 1777004030,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M12-2-3-I-0-0-0.png",
       "asset_path": "assets/weread/M12-2-3-I-0-0-0.png",
-      "display_name_en": "World Book Day · Mountain and River Poet"
-    }
-  ],
-  "known_badges": [
-    {
-      "id": "M12-2-3-I-0-0-0",
-      "type": 12,
-      "subtype": 2,
-      "level": 0,
-      "name": "世界读书日",
-      "title": "世界读书日",
-      "displayText": "山水行吟客",
-      "styleTitle": "山水行吟客",
-      "styleDesc": "你与华夏的文字格外投缘",
-      "atime": 1777004030,
-      "ctime": 1777004030,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M12-2-3-I-0-0-0.png",
-      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png",
-      "display_name_en": "World Book Day · Mountain and River Poet"
-    },
-    {
-      "id": "M15-1-0",
-      "type": 15,
-      "subtype": 1,
-      "level": 0,
-      "name": "21天阅读挑战",
-      "title": "21天阅读挑战",
-      "displayText": "21天阅读挑战",
-      "atime": 1775905307,
-      "ctime": 1775905307,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-1-0.png",
-      "asset_path": "assets/weread/M15-1-0.png",
-      "display_name_en": "21-day Reading Challenge"
-    },
-    {
-      "id": "M3-0-2000",
-      "type": 3,
-      "subtype": 0,
-      "level": 2000,
-      "name": "阅读天数",
-      "title": "阅读天数",
-      "displayText": "阅读 2000 天",
-      "atime": 1772119601,
-      "ctime": 1772089460,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png",
-      "asset_path": "assets/weread/M3-0-2000.png",
-      "display_name_en": "2,000 reading days"
-    },
-    {
-      "id": "M9-0-50",
-      "type": 9,
-      "subtype": 0,
-      "level": 50,
-      "name": "阅读神作",
-      "title": "神作收藏家",
-      "displayText": "阅读 50 本神作",
-      "atime": 1771807557,
-      "ctime": 1771757090,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png",
-      "asset_path": "assets/weread/M9-0-50.png",
-      "display_name_en": "50 highly rated books read"
-    },
-    {
-      "id": "M4-0-500",
-      "type": 4,
-      "subtype": 0,
-      "level": 500,
-      "name": "阅读书籍",
-      "title": "阅读书籍",
-      "displayText": "阅读 500 本书籍",
-      "atime": 1763345231,
-      "ctime": 1763038037,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png",
-      "asset_path": "assets/weread/M4-0-500.png",
-      "display_name_en": "500 books read"
-    },
-    {
-      "id": "M2-0-2000",
-      "type": 2,
-      "subtype": 0,
-      "level": 2000,
-      "name": "阅读时长",
-      "title": "阅读时长",
-      "displayText": "阅读 2000 小时",
-      "atime": 1729575541,
-      "ctime": 1728796816,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png",
-      "asset_path": "assets/weread/M2-0-2000.png",
-      "display_name_en": "2,000 reading hours"
-    },
-    {
-      "id": "M5-0-100",
-      "type": 5,
-      "subtype": 0,
-      "level": 100,
-      "name": "读完书籍",
-      "title": "读完书籍",
-      "displayText": "读完 100 本书籍",
-      "atime": 1721960600,
-      "ctime": 1721816654,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png",
-      "asset_path": "assets/weread/M5-0-100.png",
-      "display_name_en": "100 books finished"
-    },
-    {
-      "id": "M14-0-10",
-      "type": 14,
-      "subtype": 0,
-      "level": 10,
-      "name": "拯救书荒",
-      "title": "好书分享家",
-      "displayText": "帮助 10 位书友找到心仪书籍",
-      "atime": 1704627258,
-      "ctime": 1704499742,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M14-0-10.png",
-      "asset_path": "assets/weread/M14-0-10.png",
-      "display_name_en": "Book recommendations for 10 readers"
+      "display_name_en": "World Book Day · Mountain and River Poet",
+      "owner_wall_position": {
+        "row": 3,
+        "column": 3
+      }
     },
     {
       "id": "M5-0-50",
@@ -304,35 +236,11 @@
       "ctime": 1690005606,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-50.png",
       "asset_path": "assets/weread/M5-0-50.png",
-      "display_name_en": "50 books finished"
-    },
-    {
-      "id": "M11-0-10",
-      "type": 11,
-      "subtype": 0,
-      "level": 10,
-      "name": "点评书籍",
-      "title": "点评书籍",
-      "displayText": "发布 10 个点评",
-      "atime": 1680851314,
-      "ctime": 1679654924,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-10.png",
-      "asset_path": "assets/weread/M11-0-10.png",
-      "display_name_en": "10 book reviews"
-    },
-    {
-      "id": "M11-0-5",
-      "type": 11,
-      "subtype": 0,
-      "level": 5,
-      "name": "点评书籍",
-      "title": "点评书籍",
-      "displayText": "发布 5 个点评",
-      "atime": 1680851314,
-      "ctime": 1679654924,
-      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-5.png",
-      "asset_path": "assets/weread/M11-0-5.png",
-      "display_name_en": "5 book reviews"
+      "display_name_en": "50 books finished",
+      "owner_wall_position": {
+        "row": 23,
+        "column": 1
+      }
     },
     {
       "id": "M9-0-10",
@@ -346,7 +254,1694 @@
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-10.png",
       "asset_path": "assets/weread/M9-0-10.png",
-      "display_name_en": "10 highly rated books read"
+      "display_name_en": "10 highly rated books read",
+      "owner_wall_position": {
+        "row": 24,
+        "column": 2
+      }
+    }
+  ],
+  "known_badges": [
+    {
+      "id": "screenshot-2026-perfect-month-1",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-month-1.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 1,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        388,
+        334,
+        640
+      ],
+      "year": 2026,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 1,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-37",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 37 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-37.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 1,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        388,
+        634,
+        640
+      ],
+      "year": 2026,
+      "week": 37,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 1,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-35",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 35 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-35.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 1,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        388,
+        934,
+        640
+      ],
+      "year": 2026,
+      "week": 35,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 1,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-25",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 25 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-25.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 2,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        772,
+        334,
+        1024
+      ],
+      "year": 2026,
+      "week": 25,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 2,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-21",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 21 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-21.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 2,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        772,
+        634,
+        1024
+      ],
+      "year": 2026,
+      "week": 21,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 2,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-month-2",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-month-2.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 2,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        772,
+        934,
+        1024
+      ],
+      "year": 2026,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 2,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-20",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 20 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-20.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 3,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        1156,
+        334,
+        1408
+      ],
+      "year": 2026,
+      "week": 20,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 3,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-16",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 16 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-16.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 3,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        1156,
+        634,
+        1408
+      ],
+      "year": 2026,
+      "week": 16,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 3,
+        "column": 2
+      }
+    },
+    {
+      "id": "M12-2-3-I-0-0-0",
+      "type": 12,
+      "subtype": 2,
+      "level": 0,
+      "name": "世界读书日",
+      "title": "世界读书日",
+      "displayText": "山水行吟客",
+      "styleTitle": "山水行吟客",
+      "styleDesc": "你与华夏的文字格外投缘",
+      "atime": 1777004030,
+      "ctime": 1777004030,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M12-2-3-I-0-0-0.png",
+      "asset_path": "assets/weread/M12-2-3-I-0-0-0.png",
+      "display_name_en": "World Book Day · Mountain and River Poet",
+      "owner_wall_position": {
+        "row": 3,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-14",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 14 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-14.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 4,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        1540,
+        334,
+        1792
+      ],
+      "year": 2026,
+      "week": 14,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 4,
+        "column": 1
+      }
+    },
+    {
+      "id": "M15-1-0",
+      "type": 15,
+      "subtype": 1,
+      "level": 0,
+      "name": "21天阅读挑战",
+      "title": "21天阅读挑战",
+      "displayText": "21天阅读挑战",
+      "atime": 1775905307,
+      "ctime": 1775905307,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-1-0.png",
+      "asset_path": "assets/weread/M15-1-0.png",
+      "display_name_en": "21-day Reading Challenge",
+      "owner_wall_position": {
+        "row": 4,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-month-3",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-month-3.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 4,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        1540,
+        934,
+        1792
+      ],
+      "year": 2026,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 4,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-12",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 12 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-12.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 5,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        1924,
+        334,
+        2176
+      ],
+      "year": 2026,
+      "week": 12,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 5,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-raging-week-11",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 11 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-raging-week-11.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 5,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        1924,
+        634,
+        2176
+      ],
+      "year": 2026,
+      "week": 11,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-10",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 10 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-10.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 5,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        1924,
+        934,
+        2176
+      ],
+      "year": 2026,
+      "week": 10,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 5,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-raging-week-09",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 9 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-raging-week-09.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 6,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        2308,
+        334,
+        2560
+      ],
+      "year": 2026,
+      "week": 9,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 6,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-08",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 8 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-08.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 6,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        2308,
+        634,
+        2560
+      ],
+      "year": 2026,
+      "week": 8,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 6,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-month-4",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-month-4.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 6,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        2308,
+        934,
+        2560
+      ],
+      "year": 2026,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 6,
+        "column": 3
+      }
+    },
+    {
+      "id": "M3-0-2000",
+      "type": 3,
+      "subtype": 0,
+      "level": 2000,
+      "name": "阅读天数",
+      "title": "阅读天数",
+      "displayText": "阅读 2000 天",
+      "atime": 1772119601,
+      "ctime": 1772089460,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-2000.png",
+      "asset_path": "assets/weread/M3-0-2000.png",
+      "display_name_en": "2,000 reading days",
+      "owner_wall_position": {
+        "row": 7,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-07",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 7 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-07.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 7,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        2692,
+        634,
+        2944
+      ],
+      "year": 2026,
+      "week": 7,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "id": "M9-0-50",
+      "type": 9,
+      "subtype": 0,
+      "level": 50,
+      "name": "阅读神作",
+      "title": "神作收藏家",
+      "displayText": "阅读 50 本神作",
+      "atime": 1771807557,
+      "ctime": 1771757090,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-50.png",
+      "asset_path": "assets/weread/M9-0-50.png",
+      "display_name_en": "50 highly rated books read",
+      "owner_wall_position": {
+        "row": 7,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-06",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 6 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-06.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 8,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        3076,
+        334,
+        3328
+      ],
+      "year": 2026,
+      "week": 6,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 8,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2026-perfect-week-05",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 5 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-05.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 8,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        3076,
+        634,
+        3328
+      ],
+      "year": 2026,
+      "week": 5,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 8,
+        "column": 2
+      }
+    },
+    {
+      "id": "M4-0-500",
+      "type": 4,
+      "subtype": 0,
+      "level": 500,
+      "name": "阅读书籍",
+      "title": "阅读书籍",
+      "displayText": "阅读 500 本书籍",
+      "atime": 1763345231,
+      "ctime": 1763038037,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-500.png",
+      "asset_path": "assets/weread/M4-0-500.png",
+      "display_name_en": "500 books read",
+      "owner_wall_position": {
+        "row": 8,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-31",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 31 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-31.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 9,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        3460,
+        334,
+        3712
+      ],
+      "year": 2025,
+      "week": 31,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-28",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 28 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-28.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 9,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        3460,
+        634,
+        3712
+      ],
+      "year": 2025,
+      "week": 28,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 9,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-27",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 27 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-27.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 9,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        3460,
+        934,
+        3712
+      ],
+      "year": 2025,
+      "week": 27,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 9,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-19",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 19 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-19.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 10,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        3844,
+        334,
+        4096
+      ],
+      "year": 2025,
+      "week": 19,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-15",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 15 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-15.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 10,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        3844,
+        634,
+        4096
+      ],
+      "year": 2025,
+      "week": 15,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 10,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2025-perfect-week-14",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 14 · 2025",
+      "asset_path": "assets/weread/screenshot-2025-perfect-week-14.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 10,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        3844,
+        934,
+        4096
+      ],
+      "year": 2025,
+      "week": 14,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 10,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-raging-week-41",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 41 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-raging-week-41.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 11,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        4228,
+        334,
+        4480
+      ],
+      "year": 2024,
+      "week": 41,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "id": "M2-0-2000",
+      "type": 2,
+      "subtype": 0,
+      "level": 2000,
+      "name": "阅读时长",
+      "title": "阅读时长",
+      "displayText": "阅读 2000 小时",
+      "atime": 1729575541,
+      "ctime": 1728796816,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-2000.png",
+      "asset_path": "assets/weread/M2-0-2000.png",
+      "display_name_en": "2,000 reading hours",
+      "owner_wall_position": {
+        "row": 11,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-1",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-1.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 11,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        4228,
+        934,
+        4480
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 11,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-34",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 34 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-34.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 12,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        4612,
+        334,
+        4864
+      ],
+      "year": 2024,
+      "week": 34,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-33",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 33 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-33.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 12,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        4612,
+        634,
+        4864
+      ],
+      "year": 2024,
+      "week": 33,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 12,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-32",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 32 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-32.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 12,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        4612,
+        934,
+        4864
+      ],
+      "year": 2024,
+      "week": 32,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 12,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-31",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 31 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-31.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 13,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        4996,
+        334,
+        5248
+      ],
+      "year": 2024,
+      "week": 31,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-raging-week-30",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 30 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-raging-week-30.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 13,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        4996,
+        634,
+        5248
+      ],
+      "year": 2024,
+      "week": 30,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 13,
+        "column": 2
+      }
+    },
+    {
+      "id": "M5-0-100",
+      "type": 5,
+      "subtype": 0,
+      "level": 100,
+      "name": "读完书籍",
+      "title": "读完书籍",
+      "displayText": "读完 100 本书籍",
+      "atime": 1721960600,
+      "ctime": 1721816654,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-100.png",
+      "asset_path": "assets/weread/M5-0-100.png",
+      "display_name_en": "100 books finished",
+      "owner_wall_position": {
+        "row": 13,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-19",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 19 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-19.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 14,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        5380,
+        334,
+        5632
+      ],
+      "year": 2024,
+      "week": 19,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-2",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-2.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 14,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        5380,
+        634,
+        5632
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-15",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 15 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-15.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 14,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        5380,
+        934,
+        5632
+      ],
+      "year": 2024,
+      "week": 15,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 14,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-3",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-3.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 15,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        5764,
+        334,
+        6016
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-raging-week-13",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 13 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-raging-week-13.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 15,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        5764,
+        634,
+        6016
+      ],
+      "year": 2024,
+      "week": 13,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-12",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 12 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-12.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 15,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        5764,
+        934,
+        6016
+      ],
+      "year": 2024,
+      "week": 12,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 15,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-11",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 11 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-11.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 16,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        6148,
+        334,
+        6400
+      ],
+      "year": 2024,
+      "week": 11,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-10",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 10 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-10.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 16,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        6148,
+        634,
+        6400
+      ],
+      "year": 2024,
+      "week": 10,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 16,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-4",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-4.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 16,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        6148,
+        934,
+        6400
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 16,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-09",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 9 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-09.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 17,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        6532,
+        334,
+        6784
+      ],
+      "year": 2024,
+      "week": 9,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-08",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 8 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-08.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 17,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        6532,
+        634,
+        6784
+      ],
+      "year": 2024,
+      "week": 8,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-5",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-5.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 17,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        6532,
+        934,
+        6784
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 17,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-month-6",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-month-6.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 18,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        6916,
+        334,
+        7168
+      ],
+      "year": 2024,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2024-raging-week-04",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 4 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-raging-week-04.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 18,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        6916,
+        634,
+        7168
+      ],
+      "year": 2024,
+      "week": 4,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2024-raging-week-03",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 3 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-raging-week-03.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 18,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        6916,
+        934,
+        7168
+      ],
+      "year": 2024,
+      "week": 3,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 18,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2024-perfect-week-02",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 2 · 2024",
+      "asset_path": "assets/weread/screenshot-2024-perfect-week-02.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 19,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        7300,
+        334,
+        7552
+      ],
+      "year": 2024,
+      "week": 2,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "id": "M14-0-10",
+      "type": 14,
+      "subtype": 0,
+      "level": 10,
+      "name": "拯救书荒",
+      "title": "好书分享家",
+      "displayText": "帮助 10 位书友找到心仪书籍",
+      "atime": 1704627258,
+      "ctime": 1704499742,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M14-0-10.png",
+      "asset_path": "assets/weread/M14-0-10.png",
+      "display_name_en": "Book recommendations for 10 readers",
+      "owner_wall_position": {
+        "row": 19,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-month-1",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-month-1.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 19,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        7300,
+        934,
+        7552
+      ],
+      "year": 2023,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 19,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-52",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 52 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-52.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 20,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        7684,
+        334,
+        7936
+      ],
+      "year": 2023,
+      "week": 52,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-51",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 51 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-51.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 20,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        7684,
+        634,
+        7936
+      ],
+      "year": 2023,
+      "week": 51,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 20,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-50",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 50 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-50.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 20,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        7684,
+        934,
+        7936
+      ],
+      "year": 2023,
+      "week": 50,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 20,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-49",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 49 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-49.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 21,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        8068,
+        334,
+        8320
+      ],
+      "year": 2023,
+      "week": 49,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-45",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 45 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-45.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 21,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        8068,
+        634,
+        8320
+      ],
+      "year": 2023,
+      "week": 45,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 21,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-month-2",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-month-2.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 21,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        8068,
+        934,
+        8320
+      ],
+      "year": 2023,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 21,
+        "column": 3
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-42",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 42 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-42.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 22,
+      "screenshot_column": 1,
+      "crop_box": [
+        82,
+        8452,
+        334,
+        8704
+      ],
+      "year": 2023,
+      "week": 42,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-41",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 41 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-41.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 22,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        8452,
+        634,
+        8704
+      ],
+      "year": 2023,
+      "week": 41,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 22,
+        "column": 2
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-39",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 39 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-39.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 22,
+      "screenshot_column": 3,
+      "crop_box": [
+        682,
+        8452,
+        934,
+        8704
+      ],
+      "year": 2023,
+      "week": 39,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 22,
+        "column": 3
+      }
+    },
+    {
+      "id": "M5-0-50",
+      "type": 5,
+      "subtype": 0,
+      "level": 50,
+      "name": "读完书籍",
+      "title": "读完书籍",
+      "displayText": "读完 50 本书籍",
+      "atime": 1690041985,
+      "ctime": 1690005606,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-50.png",
+      "asset_path": "assets/weread/M5-0-50.png",
+      "display_name_en": "50 books finished",
+      "owner_wall_position": {
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "id": "screenshot-2023-perfect-week-27",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 27 · 2023",
+      "asset_path": "assets/weread/screenshot-2023-perfect-week-27.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal wall screenshot",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+      "screenshot_row": 23,
+      "screenshot_column": 2,
+      "crop_box": [
+        382,
+        8836,
+        634,
+        9088
+      ],
+      "year": 2023,
+      "week": 27,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "owner_wall_position": {
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "id": "M11-0-10",
+      "type": 11,
+      "subtype": 0,
+      "level": 10,
+      "name": "点评书籍",
+      "title": "点评书籍",
+      "displayText": "发布 10 个点评",
+      "atime": 1680851314,
+      "ctime": 1679654924,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-10.png",
+      "asset_path": "assets/weread/M11-0-10.png",
+      "display_name_en": "10 book reviews",
+      "owner_wall_position": {
+        "row": 23,
+        "column": 3
+      }
+    },
+    {
+      "id": "M11-0-5",
+      "type": 11,
+      "subtype": 0,
+      "level": 5,
+      "name": "点评书籍",
+      "title": "点评书籍",
+      "displayText": "发布 5 个点评",
+      "atime": 1680851314,
+      "ctime": 1679654924,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M11-0-5.png",
+      "asset_path": "assets/weread/M11-0-5.png",
+      "display_name_en": "5 book reviews",
+      "owner_wall_position": {
+        "row": 24,
+        "column": 1
+      }
+    },
+    {
+      "id": "M9-0-10",
+      "type": 9,
+      "subtype": 0,
+      "level": 10,
+      "name": "阅读神作",
+      "title": "神作爱好者",
+      "displayText": "阅读 10 本神作",
+      "atime": 1680851314,
+      "ctime": 1679654924,
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-10.png",
+      "asset_path": "assets/weread/M9-0-10.png",
+      "display_name_en": "10 highly rated books read",
+      "owner_wall_position": {
+        "row": 24,
+        "column": 2
+      }
     },
     {
       "id": "M9-0-5",
@@ -360,7 +1955,11 @@
       "ctime": 1679654924,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M9-0-5.png",
       "asset_path": "assets/weread/M9-0-5.png",
-      "display_name_en": "5 highly rated books read"
+      "display_name_en": "5 highly rated books read",
+      "owner_wall_position": {
+        "row": 24,
+        "column": 3
+      }
     },
     {
       "id": "M6-0-3000",
@@ -374,7 +1973,11 @@
       "ctime": 1644373477,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-3000.png",
       "asset_path": "assets/weread/M6-0-3000.png",
-      "display_name_en": "3,000 likes received"
+      "display_name_en": "3,000 likes received",
+      "owner_wall_position": {
+        "row": 25,
+        "column": 1
+      }
     },
     {
       "id": "M3-0-1000",
@@ -388,7 +1991,11 @@
       "ctime": 1643415427,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-1000.png",
       "asset_path": "assets/weread/M3-0-1000.png",
-      "display_name_en": "1,000 reading days"
+      "display_name_en": "1,000 reading days",
+      "owner_wall_position": {
+        "row": 25,
+        "column": 2
+      }
     },
     {
       "id": "M7-0-200",
@@ -402,7 +2009,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-200.png",
       "asset_path": "assets/weread/M7-0-200.png",
-      "display_name_en": "200 thoughts shared"
+      "display_name_en": "200 thoughts shared",
+      "owner_wall_position": {
+        "row": 25,
+        "column": 3
+      }
     },
     {
       "id": "M7-0-100",
@@ -416,7 +2027,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-100.png",
       "asset_path": "assets/weread/M7-0-100.png",
-      "display_name_en": "100 thoughts shared"
+      "display_name_en": "100 thoughts shared",
+      "owner_wall_position": {
+        "row": 26,
+        "column": 1
+      }
     },
     {
       "id": "M7-0-50",
@@ -430,7 +2045,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-50.png",
       "asset_path": "assets/weread/M7-0-50.png",
-      "display_name_en": "50 thoughts shared"
+      "display_name_en": "50 thoughts shared",
+      "owner_wall_position": {
+        "row": 26,
+        "column": 2
+      }
     },
     {
       "id": "M7-0-10",
@@ -444,7 +2063,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M7-0-10.png",
       "asset_path": "assets/weread/M7-0-10.png",
-      "display_name_en": "10 thoughts shared"
+      "display_name_en": "10 thoughts shared",
+      "owner_wall_position": {
+        "row": 26,
+        "column": 3
+      }
     },
     {
       "id": "M6-0-2000",
@@ -458,7 +2081,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-2000.png",
       "asset_path": "assets/weread/M6-0-2000.png",
-      "display_name_en": "2,000 likes received"
+      "display_name_en": "2,000 likes received",
+      "owner_wall_position": {
+        "row": 27,
+        "column": 1
+      }
     },
     {
       "id": "M6-0-1000",
@@ -472,7 +2099,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-1000.png",
       "asset_path": "assets/weread/M6-0-1000.png",
-      "display_name_en": "1,000 likes received"
+      "display_name_en": "1,000 likes received",
+      "owner_wall_position": {
+        "row": 27,
+        "column": 2
+      }
     },
     {
       "id": "M6-0-500",
@@ -486,7 +2117,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-500.png",
       "asset_path": "assets/weread/M6-0-500.png",
-      "display_name_en": "500 likes received"
+      "display_name_en": "500 likes received",
+      "owner_wall_position": {
+        "row": 27,
+        "column": 3
+      }
     },
     {
       "id": "M6-0-100",
@@ -500,7 +2135,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-100.png",
       "asset_path": "assets/weread/M6-0-100.png",
-      "display_name_en": "100 likes received"
+      "display_name_en": "100 likes received",
+      "owner_wall_position": {
+        "row": 28,
+        "column": 1
+      }
     },
     {
       "id": "M6-0-50",
@@ -514,7 +2153,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M6-0-50.png",
       "asset_path": "assets/weread/M6-0-50.png",
-      "display_name_en": "50 likes received"
+      "display_name_en": "50 likes received",
+      "owner_wall_position": {
+        "row": 28,
+        "column": 2
+      }
     },
     {
       "id": "M5-0-10",
@@ -528,7 +2171,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M5-0-10.png",
       "asset_path": "assets/weread/M5-0-10.png",
-      "display_name_en": "10 books finished"
+      "display_name_en": "10 books finished",
+      "owner_wall_position": {
+        "row": 28,
+        "column": 3
+      }
     },
     {
       "id": "M4-0-100",
@@ -542,7 +2189,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-100.png",
       "asset_path": "assets/weread/M4-0-100.png",
-      "display_name_en": "100 books read"
+      "display_name_en": "100 books read",
+      "owner_wall_position": {
+        "row": 29,
+        "column": 1
+      }
     },
     {
       "id": "M4-0-50",
@@ -556,7 +2207,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M4-0-50.png",
       "asset_path": "assets/weread/M4-0-50.png",
-      "display_name_en": "50 books read"
+      "display_name_en": "50 books read",
+      "owner_wall_position": {
+        "row": 29,
+        "column": 2
+      }
     },
     {
       "id": "M3-0-500",
@@ -570,7 +2225,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-500.png",
       "asset_path": "assets/weread/M3-0-500.png",
-      "display_name_en": "500 reading days"
+      "display_name_en": "500 reading days",
+      "owner_wall_position": {
+        "row": 29,
+        "column": 3
+      }
     },
     {
       "id": "M3-0-365",
@@ -584,7 +2243,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-365.png",
       "asset_path": "assets/weread/M3-0-365.png",
-      "display_name_en": "365 reading days"
+      "display_name_en": "365 reading days",
+      "owner_wall_position": {
+        "row": 30,
+        "column": 1
+      }
     },
     {
       "id": "M3-0-200",
@@ -598,7 +2261,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-200.png",
       "asset_path": "assets/weread/M3-0-200.png",
-      "display_name_en": "200 reading days"
+      "display_name_en": "200 reading days",
+      "owner_wall_position": {
+        "row": 30,
+        "column": 2
+      }
     },
     {
       "id": "M3-0-100",
@@ -612,7 +2279,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M3-0-100.png",
       "asset_path": "assets/weread/M3-0-100.png",
-      "display_name_en": "100 reading days"
+      "display_name_en": "100 reading days",
+      "owner_wall_position": {
+        "row": 30,
+        "column": 3
+      }
     },
     {
       "id": "M2-0-1000",
@@ -626,7 +2297,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-1000.png",
       "asset_path": "assets/weread/M2-0-1000.png",
-      "display_name_en": "1,000 reading hours"
+      "display_name_en": "1,000 reading hours",
+      "owner_wall_position": {
+        "row": 31,
+        "column": 1
+      }
     },
     {
       "id": "M2-0-500",
@@ -640,7 +2315,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-500.png",
       "asset_path": "assets/weread/M2-0-500.png",
-      "display_name_en": "500 reading hours"
+      "display_name_en": "500 reading hours",
+      "owner_wall_position": {
+        "row": 31,
+        "column": 2
+      }
     },
     {
       "id": "M2-0-100",
@@ -654,7 +2333,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M2-0-100.png",
       "asset_path": "assets/weread/M2-0-100.png",
-      "display_name_en": "100 reading hours"
+      "display_name_en": "100 reading hours",
+      "owner_wall_position": {
+        "row": 31,
+        "column": 3
+      }
     },
     {
       "id": "M1-0-30",
@@ -668,7 +2351,11 @@
       "ctime": 1632847194,
       "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV4/0_480_M1-0-30.png",
       "asset_path": "assets/weread/M1-0-30.png",
-      "display_name_en": "30 consecutive reading days"
+      "display_name_en": "30 consecutive reading days",
+      "owner_wall_position": {
+        "row": 32,
+        "column": 1
+      }
     }
   ],
   "display": {
@@ -680,5 +2367,15 @@
     "platform_label": "WeRead · Reading milestones",
     "wall_label": "More reading badges",
     "public_count": false
-  }
+  },
+  "known_count": 94,
+  "selected_count": 14,
+  "screenshot_evidence": {
+    "sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
+    "visible_count": 94,
+    "crop_count": 59,
+    "privacy": "Only individual medal icons extracted; no avatar, username or original wall uploaded.",
+    "month_identity": "Month labels preserve year; screenshot ordinals are not calendar month numbers."
+  },
+  "display_icon_size": 44
 }
