@@ -7,7 +7,7 @@
   <sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
 </p>
 
-<p><img src="https://komarev.com/ghpvc/?username=widechaos&amp;color=7541c8&amp;style=flat-square&amp;label=Profile+views" alt="Profile views"></p>
+<p><img src="https://komarev.com/ghpvc/?username=widechaos&amp;color=7541c8&amp;style=flat-square&amp;label=Profile%20views" alt="Profile views"></p>
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark.svg"><source media="(max-width:520px)" srcset="assets/section-1-mobile.svg"><img src="assets/section-1.svg" width="620" alt="About"></picture></h2>
 
@@ -114,6 +114,8 @@ Ember / 邬仁超
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-7-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-7-dark.svg"><source media="(max-width:520px)" srcset="assets/section-7-mobile.svg"><img src="assets/section-7.svg" width="620" alt="Open-source contributions"></picture></h2>
 
+<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
+
 <p>
 <a href="contributions/projects/ralph.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/ralph-dark.svg"><img src="assets/profile/contributions/ralph-light.svg" width="205" alt="Ralph — Regression tests and script cleanup"></picture></a>
 <a href="contributions/projects/more-itertools.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/more-itertools-dark.svg"><img src="assets/profile/contributions/more-itertools-light.svg" width="205" alt="more-itertools — Validator bypass report"></picture></a>
@@ -132,5 +134,7 @@ Ember / 邬仁超
 </p>
 
 [Contribution details →](contributions/README.md)
+
+<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 <sub><i>Per aspera ad astra.</i></sub>
