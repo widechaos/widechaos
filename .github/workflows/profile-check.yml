@@ -1,0 +1,25 @@
+name: Check profile assets
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'assets/**'
+      - 'contributions/**'
+      - 'scripts/check-profile-assets.py'
+      - '.github/workflows/profile-check.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'assets/**'
+      - 'contributions/**'
+      - 'scripts/check-profile-assets.py'
+      - '.github/workflows/profile-check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: python3 scripts/check-profile-assets.py
