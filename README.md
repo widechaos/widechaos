@@ -1,44 +1,81 @@
-<p align="center">
-  <img src="./banner.svg" width="100%" alt="十方空烬 · Ember">
-</p>
+<sub>RENCHAO WU / WIDECHAOS</sub>
+
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><source media="(max-width: 520px)" srcset="assets/header-light-mobile.svg"><img src="assets/header-light.svg" width="620" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
 
 <p align="center">
   <b>智灯已灭余空烬，犹自光明照十方</b><br>
   <sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
 </p>
 
----
+<p><img src="https://komarev.com/ghpvc/?username=widechaos&amp;color=7541c8&amp;style=flat-square&amp;label=Profile+views" alt="Profile views"></p>
 
-## // about
-
-**AI, backend & cloud engineer.** I build agents and knowledge systems, data-driven applications, and the infrastructure that keeps them running.
-
-My focus spans the full AI engineering lifecycle: data, model training and fine-tuning, evaluation, inference, deployment, and full-stack products. I share completed work through code, demos, and reproducible experiments.
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark.svg"><source media="(max-width:520px)" srcset="assets/section-1-mobile.svg"><img src="assets/section-1.svg" width="620" alt="About"></picture></h2>
 
 ```console
-> whoami
-  邬仁超 · 十方空烬 · Ember
-
-> ls ./domains
-  AI & agents        machine learning & data
-  backend & APIs     web crawling & automation
-  cloud & storage    voice & realtime systems
-
-> ./now
-  Voice agents for real phone calls.
-  ASR → LLM → TTS.
-  Notes and experiments at widechaos.cn.
+Ember / 邬仁超
+> Build intelligence. Test everything.
+> AI engineering → AI research
 ```
+
+<sub>NOW / Voice agents & realtime systems</sub>
 
 <details>
 <summary><b>./manifesto</b></summary>
 
-短期促进经济，长期促进革命。<br>
-Short-term, fueling the economy. Long-term, fueling the revolution.
+<picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/manifesto-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/manifesto-dark.svg"><source media="(max-width:520px)" srcset="assets/manifesto-light-mobile.svg"><img src="assets/manifesto-light.svg" width="620" alt="短期促进经济，长期促进革命。 Short-term, fueling the economy. Long-term, fueling the revolution."></picture>
 
 </details>
 
-## // selected work
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-2-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-2-dark.svg"><source media="(max-width:520px)" srcset="assets/section-2-mobile.svg"><img src="assets/section-2.svg" width="620" alt="GitHub activity"></picture></h2>
+
+[![Public GitHub activity; commits in 2026](https://github-stats-extended.vercel.app/api?username=widechaos&show_icons=true&hide_border=true&title_color=7541c8&icon_color=087e8b&text_color=1f2328&bg_color=ffffff&disable_animations=true&hide_rank=true&commits_year=2026&custom_title=Public%20GitHub%20activity)](https://github.com/stats-organization/github-stats-extended)
+
+
+<details>
+<summary>Repository languages</summary>
+
+[![Languages in my own public repositories](https://github-stats-extended.vercel.app/api/top-langs/?username=widechaos&layout=compact&langs_count=6&hide_border=true&title_color=7541c8&text_color=1f2328&bg_color=ffffff&disable_animations=true)](https://github.com/stats-organization/github-stats-extended)
+
+</details>
+
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-3-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-3-dark.svg"><source media="(max-width:520px)" srcset="assets/section-3-mobile.svg"><img src="assets/section-3.svg" width="620" alt="Collection"></picture></h2>
+
+<!-- COMMUNITY-BADGES:START -->
+
+<p>
+<kbd><a href="assets/certificates/databricks-generative-ai.png"><img src="assets/certificates/databricks-generative-ai.png" height="48" alt="Databricks Academy · Generative AI Fundamentals"></a></kbd> <kbd><a href="assets/certificates/databricks-ai-agent.png"><img src="assets/certificates/databricks-ai-agent.png" height="48" alt="Databricks Academy · AI Agent Fundamentals"></a></kbd> <kbd><a href="assets/certificates/databricks-ai-security.png"><img src="assets/certificates/databricks-ai-security.png" height="48" alt="Databricks Academy · AI Security Fundamentals"></a></kbd> <kbd><a href="assets/certificates/huggingface-agents-unit1.png"><img src="assets/certificates/huggingface-agents-unit1.png" height="48" alt="Hugging Face · Fundamentals of Agents · Unit 1 certificate"></a></kbd> <kbd><a href="assets/certificates/huggingface-agents-course.png"><img src="assets/certificates/huggingface-agents-course.png" height="48" alt="Hugging Face · Agents Course certificate"></a></kbd> <kbd><a href="assets/certificates/alibaba-cloud-generative-ai.png"><img src="assets/certificates/alibaba-cloud-generative-ai.png" height="48" alt="Alibaba Cloud · Apsara Clouder · Generative AI"></a></kbd> <kbd><a href="assets/certificates/cognitive-class-prompt-engineering.png"><img src="assets/certificates/cognitive-class-prompt-engineering.png" height="48" alt="Cognitive Class · Prompt Engineering for Everyone certificate"></a></kbd> <kbd><a href="assets/certificates/cognitive-class-chatbot.png"><img src="assets/certificates/cognitive-class-chatbot.png" height="48" alt="Cognitive Class · Build Your Own Chatbot certificate"></a></kbd> <kbd><a href="assets/certificates/cognitive-class-fundamentals-ai.png"><img src="assets/certificates/cognitive-class-fundamentals-ai.png" height="48" alt="Cognitive Class · Fundamentals of AI certificate"></a></kbd> <kbd><a href="assets/certificates/cognitive-class-machine-learning.png"><img src="assets/certificates/cognitive-class-machine-learning.png" height="48" alt="Cognitive Class · Machine Learning with Python certificate"></a></kbd> <kbd><a href="assets/certificates/ibm-skillsbuild-ai-fundamentals.png"><img src="assets/certificates/ibm-skillsbuild-ai-fundamentals.png" height="48" alt="IBM SkillsBuild · Artificial Intelligence Fundamentals certificate"></a></kbd>
+</p>
+<sub>AI learning · <a href="https://credentials.databricks.com/df0c7dc3-88d9-4de0-99d4-781e917aae76">Generative AI Fundamentals</a> · <a href="https://credentials.databricks.com/d56e8b1d-3c06-43cb-8b4f-6f4d6778a9fc">AI Agent Fundamentals</a> · <a href="https://credentials.databricks.com/7c66e79f-43fd-4b94-8f2a-12a2c8f16739">AI Security Fundamentals</a> · <a href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png">Hugging Face Agents · Unit 1</a> · <a href="https://huggingface.co/datasets/agents-course/final-certificates/resolve/main/certificates/WideChaos/2026-10-03.png">Hugging Face Agents · Full course</a> · <a href="assets/certificates/alibaba-cloud-generative-ai.png">Alibaba Cloud · Generative AI</a> · <a href="https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160">IBM Skills Network · Prompt Engineering</a> · <a href="https://courses.cognitiveclass.ai/certificates/e8e77941abd24f7abaa34b7cc73f20e8">IBM · Build Your Own Chatbot</a> · <a href="https://cognitiveclass.ai/certificates/0254c79f-80f4-4ebb-afd1-71ae598bd586">IBM Skills Network · Fundamentals of AI</a> · <a href="https://courses.cognitiveclass.ai/certificates/807e7b774e0c4761a182d824ac569b55">IBM · Machine Learning with Python</a> · <a href="https://www.credly.com/badges/3a952e96-b388-4424-8e54-33d3f631fe6c/public_url">IBM SkillsBuild · Artificial Intelligence Fundamentals</a></sub>
+
+<p>
+<kbd><a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder"></a></kbd> <kbd><a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder"></a></kbd> <kbd><a href="https://www.kaggle.com/certification/badges/xover2022/37"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&amp;alt=media" height="48" alt="Kaggle · Code Tagger"></a></kbd> <kbd><a href="https://www.kaggle.com/certification/badges/xover2022/50"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F17276c55ce13e85b658e1f49c608eba6%2FBadge-47.svg?generation=1727468428193735&amp;alt=media" height="48" alt="Kaggle · 2 Years on Kaggle"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&amp;alt=media" height="48" alt="Kaggle · Bookmarker"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&amp;alt=media" height="48" alt="Kaggle · Collector"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4320b13590f043b8c58421eb25f04235%2FBadge-33.svg?generation=1727468143701354&amp;alt=media" height="48" alt="Kaggle · API Notebook Creator"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F42167cf9c1c0a74d4e1c7503c010c82d%2FBadge-31.svg?generation=1727468175250681&amp;alt=media" height="48" alt="Kaggle · Colab Coder"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&amp;alt=media" height="48" alt="Kaggle · Dataset Creator"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4bcf6474cdf3503864419523d22b6019%2FBadge-15.svg?generation=1727463114221819&amp;alt=media" height="48" alt="Kaggle · API Dataset Creator"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fa54e9a00d911cc8e70a0d238f00987b0%2FBadge-16.svg?generation=1727463126992533&amp;alt=media" height="48" alt="Kaggle · Dataset Documenter"></a></kbd> <kbd><a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F5d31f6794c65cc3ed7e29768cd541a53%2FBadge-17.svg?generation=1727463142252997&amp;alt=media" height="48" alt="Kaggle · Dataset Tagger"></a></kbd> <kbd><a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut"></a></kbd> <kbd><a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png" height="48" alt="DEV: Hacktoberfest 2026 Challenge Completion"></a></kbd>
+</p>
+<sub>Kaggle · DEV</sub>
+
+<p><kbd><a href="https://weread.qq.com/"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="2,000 reading hours"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="2,000 reading days"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="500 books read"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="100 books finished"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="50 highly rated books read"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="30 consecutive reading days"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="3,000 likes received"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="200 thoughts shared"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="10 book reviews"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="Book recommendations for 10 readers"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="21-day Reading Challenge"></a></kbd> <kbd><a href="https://weread.qq.com/"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="World Book Day · Mountain and River Poet"></a></kbd></p>
+<sub>WeRead · Reading milestones</sub>
+
+<details><summary>More reading badges</summary>
+
+<p><a href="https://weread.qq.com/"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="World Book Day · Mountain and River Poet"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="21-day Reading Challenge"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="2,000 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="50 highly rated books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="500 books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="2,000 reading hours"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="100 books finished"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="Book recommendations for 10 readers"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M5-0-50.png" width="48" height="48" alt="50 books finished"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="10 book reviews"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M11-0-5.png" width="48" height="48" alt="5 book reviews"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M9-0-10.png" width="48" height="48" alt="10 highly rated books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M9-0-5.png" width="48" height="48" alt="5 highly rated books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="3,000 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-1000.png" width="48" height="48" alt="1,000 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="200 thoughts shared"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M7-0-100.png" width="48" height="48" alt="100 thoughts shared"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M7-0-50.png" width="48" height="48" alt="50 thoughts shared"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M7-0-10.png" width="48" height="48" alt="10 thoughts shared"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-2000.png" width="48" height="48" alt="2,000 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-1000.png" width="48" height="48" alt="1,000 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-500.png" width="48" height="48" alt="500 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-100.png" width="48" height="48" alt="100 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M6-0-50.png" width="48" height="48" alt="50 likes received"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M5-0-10.png" width="48" height="48" alt="10 books finished"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M4-0-100.png" width="48" height="48" alt="100 books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M4-0-50.png" width="48" height="48" alt="50 books read"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-500.png" width="48" height="48" alt="500 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-365.png" width="48" height="48" alt="365 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-200.png" width="48" height="48" alt="200 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M3-0-100.png" width="48" height="48" alt="100 reading days"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M2-0-1000.png" width="48" height="48" alt="1,000 reading hours"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M2-0-500.png" width="48" height="48" alt="500 reading hours"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M2-0-100.png" width="48" height="48" alt="100 reading hours"></a> <a href="https://weread.qq.com/"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="30 consecutive reading days"></a></p>
+</details>
+
+<!-- COMMUNITY-BADGES:END -->
+
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-4-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg"><source media="(max-width:520px)" srcset="assets/section-4-mobile.svg"><img src="assets/section-4.svg" width="620" alt="Selected work"></picture></h2>
+
+<p>
+<a href="https://huggingface.co/spaces/WideChaos/evidence-agent"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-0-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-0-dark.svg"><source media="(max-width:520px)" srcset="assets/work-0-light-mobile.svg"><img src="assets/work-0-light.svg" width="300" alt="Evidence Agent: Local 14B evaluation: 9/20"></picture></a>
+<a href="https://github.com/widechaos/deepseek-chat-navigator"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-1-dark.svg"><source media="(max-width:520px)" srcset="assets/work-1-light-mobile.svg"><img src="assets/work-1-light.svg" width="300" alt="DeepSeek Navigator: Userscript · Install available"></picture></a><br>
+<a href="https://github.com/widechaos/Bulletin"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-2-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-2-dark.svg"><source media="(max-width:520px)" srcset="assets/work-2-light-mobile.svg"><img src="assets/work-2-light.svg" width="300" alt="Bulletin: Desktop utility"></picture></a>
+<a href="https://github.com/widechaos/obsidian-cinematic-ui"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-3-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-3-dark.svg"><source media="(max-width:520px)" srcset="assets/work-3-light-mobile.svg"><img src="assets/work-3-light.svg" width="300" alt="Obsidian Cinematic: Obsidian interface layer"></picture></a><br>
+<a href="https://github.com/widechaos/Heartiger"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-4-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-4-dark.svg"><source media="(max-width:520px)" srcset="assets/work-4-light-mobile.svg"><img src="assets/work-4-light.svg" width="300" alt="Heartiger: Design in progress"></picture></a>
+<a href="https://github.com/widechaos/widechaos-blog"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-5-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-5-dark.svg"><source media="(max-width:520px)" srcset="assets/work-5-light-mobile.svg"><img src="assets/work-5-light.svg" width="300" alt="widechaos.cn: Writing &amp; experiments"></picture></a><br>
+</p>
+
+<details>
+<summary>Project notes &amp; evidence</summary>
+
 
 - **[Evidence Agent](https://huggingface.co/spaces/WideChaos/evidence-agent)** — public research tools with inspectable model traces. Documented local 14B evaluation: **9/20**. [Code & setup](https://huggingface.co/spaces/WideChaos/evidence-agent/tree/main) · [Evidence & limits](https://huggingface.co/spaces/WideChaos/evidence-agent/blob/main/EVALUATION.md)
 - **[deepseek-chat-navigator](https://github.com/widechaos/deepseek-chat-navigator)** — a browser userscript that turns long DeepSeek conversations into a question-and-answer outline with one-click navigation. [Install ↗](https://greasyfork.org/zh-CN/scripts/560039-deepseek-chat-navigator)
@@ -48,245 +85,52 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 - **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open → [widechaos.cn](https://widechaos.cn).
 
 
-## // community badges
-
-<!-- COMMUNITY-BADGES:START -->
-<p>
-  <a href="assets/certificates/databricks-generative-ai.png"><img src="assets/certificates/databricks-generative-ai.png" height="48" alt="Databricks Academy · Generative AI Fundamentals" title="Databricks Academy · Generative AI Fundamentals · Learning accreditation"></a> &nbsp;
-  <a href="assets/certificates/databricks-ai-agent.png"><img src="assets/certificates/databricks-ai-agent.png" height="48" alt="Databricks Academy · AI Agent Fundamentals" title="Databricks Academy · AI Agent Fundamentals · Learning accreditation"></a> &nbsp;
-  <a href="assets/certificates/databricks-ai-security.png"><img src="assets/certificates/databricks-ai-security.png" height="48" alt="Databricks Academy · AI Security Fundamentals" title="Databricks Academy · AI Security Fundamentals · Learning accreditation"></a> &nbsp;
-  <a href="assets/certificates/huggingface-agents-unit1.png"><img src="assets/certificates/huggingface-agents-unit1.png" height="48" alt="Hugging Face · Fundamentals of Agents · Unit 1 certificate" title="Hugging Face · Fundamentals of Agents · Unit 1 certificate"></a> &nbsp;
-  <a href="assets/certificates/huggingface-agents-course.png"><img src="assets/certificates/huggingface-agents-course.png" height="48" alt="Hugging Face · Agents Course certificate" title="Hugging Face · Agents Course · Certificate of Excellence"></a> &nbsp;
-  <a href="assets/certificates/alibaba-cloud-generative-ai.png"><img src="assets/certificates/alibaba-cloud-generative-ai.png" height="48" alt="Alibaba Cloud · Apsara Clouder · Generative AI" title="Alibaba Cloud · Apsara Clouder · Generative AI · Valid until October 2, 2028"></a> &nbsp;
-  <a href="assets/certificates/cognitive-class-prompt-engineering.png"><img src="assets/certificates/cognitive-class-prompt-engineering.png" height="48" alt="Cognitive Class · Prompt Engineering for Everyone certificate" title="Cognitive Class / IBM Skills Network · Prompt Engineering for Everyone · Course certificate"></a> &nbsp;
-  <a href="assets/certificates/cognitive-class-chatbot.png"><img src="assets/certificates/cognitive-class-chatbot.png" height="48" alt="Cognitive Class · Build Your Own Chatbot certificate" title="Cognitive Class / IBM Developer Skills Network · Build Your Own Chatbot · Course certificate"></a> &nbsp;
-  <a href="assets/certificates/cognitive-class-fundamentals-ai.png"><img src="assets/certificates/cognitive-class-fundamentals-ai.png" height="48" alt="Cognitive Class · Fundamentals of AI certificate" title="Cognitive Class / IBM Skills Network · Fundamentals of AI · Learning path certificate"></a> &nbsp;
-  <a href="assets/certificates/cognitive-class-machine-learning.png"><img src="assets/certificates/cognitive-class-machine-learning.png" height="48" alt="Cognitive Class · Machine Learning with Python certificate" title="Cognitive Class / IBM Developer Skills Network · Machine Learning with Python · Course certificate"></a> &nbsp;
-  <a href="assets/certificates/ibm-skillsbuild-ai-fundamentals.png"><img src="assets/certificates/ibm-skillsbuild-ai-fundamentals.png" height="48" alt="IBM SkillsBuild · Artificial Intelligence Fundamentals certificate" title="IBM SkillsBuild · Artificial Intelligence Fundamentals · Learning credential"></a>
-</p>
-
-<sub>AI learning · <a href="https://credentials.databricks.com/df0c7dc3-88d9-4de0-99d4-781e917aae76">Generative AI Fundamentals</a> · <a href="https://credentials.databricks.com/d56e8b1d-3c06-43cb-8b4f-6f4d6778a9fc">AI Agent Fundamentals</a> · <a href="https://credentials.databricks.com/7c66e79f-43fd-4b94-8f2a-12a2c8f16739">AI Security Fundamentals</a> · <a href="https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png">Hugging Face Agents · Unit 1</a> · <a href="https://huggingface.co/datasets/agents-course/final-certificates/resolve/main/certificates/WideChaos/2026-10-03.png">Hugging Face Agents · Full course</a> · <a href="assets/certificates/alibaba-cloud-generative-ai.png">Alibaba Cloud · Generative AI</a> · <a href="https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160">IBM Skills Network · Prompt Engineering</a> · <a href="https://courses.cognitiveclass.ai/certificates/e8e77941abd24f7abaa34b7cc73f20e8">IBM · Build Your Own Chatbot</a> · <a href="https://cognitiveclass.ai/certificates/0254c79f-80f4-4ebb-afd1-71ae598bd586">IBM Skills Network · Fundamentals of AI</a> · <a href="https://courses.cognitiveclass.ai/certificates/807e7b774e0c4761a182d824ac569b55">IBM · Machine Learning with Python</a> · <a href="https://www.credly.com/badges/3a952e96-b388-4424-8e54-33d3f631fe6c/public_url">IBM SkillsBuild · Artificial Intelligence Fundamentals</a></sub>
-
-<p>
-  <a href="https://www.kaggle.com/certification/badges/xover2022/107"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&amp;alt=media" height="48" alt="Kaggle: Benchmark Task local builder" title="Kaggle · Benchmark Task local builder"></a> &nbsp;
-  <a href="https://www.kaggle.com/certification/badges/xover2022/30"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&amp;alt=media" height="48" alt="Kaggle: Python Coder" title="Kaggle · Python Coder"></a> &nbsp;
-  <a href="https://www.kaggle.com/certification/badges/xover2022/37"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&amp;alt=media" height="48" alt="Kaggle · Code Tagger" title="Kaggle · Code Tagger"></a> &nbsp;
-  <a href="https://www.kaggle.com/certification/badges/xover2022/50"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F17276c55ce13e85b658e1f49c608eba6%2FBadge-47.svg?generation=1727468428193735&amp;alt=media" height="48" alt="Kaggle · 2 Years on Kaggle" title="Kaggle · 2 Years on Kaggle"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&amp;alt=media" height="48" alt="Kaggle · Bookmarker" title="Kaggle · Bookmarker"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&amp;alt=media" height="48" alt="Kaggle · Collector" title="Kaggle · Collector"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4320b13590f043b8c58421eb25f04235%2FBadge-33.svg?generation=1727468143701354&amp;alt=media" height="48" alt="Kaggle · API Notebook Creator" title="Kaggle · API Notebook Creator"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F42167cf9c1c0a74d4e1c7503c010c82d%2FBadge-31.svg?generation=1727468175250681&amp;alt=media" height="48" alt="Kaggle · Colab Coder" title="Kaggle · Colab Coder"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&amp;alt=media" height="48" alt="Kaggle · Dataset Creator" title="Kaggle · Dataset Creator"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4bcf6474cdf3503864419523d22b6019%2FBadge-15.svg?generation=1727463114221819&amp;alt=media" height="48" alt="Kaggle · API Dataset Creator" title="Kaggle · API Dataset Creator"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fa54e9a00d911cc8e70a0d238f00987b0%2FBadge-16.svg?generation=1727463126992533&amp;alt=media" height="48" alt="Kaggle · Dataset Documenter" title="Kaggle · Dataset Documenter"></a> &nbsp;
-  <a href="https://www.kaggle.com/xover2022"><img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F5d31f6794c65cc3ed7e29768cd541a53%2FBadge-17.svg?generation=1727463142252997&amp;alt=media" height="48" alt="Kaggle · Dataset Tagger" title="Kaggle · Dataset Tagger"></a> &nbsp;
-  <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png" height="48" alt="DEV: Writing Debut" title="DEV · Writing Debut"></a>
-  <a href="https://dev.to/widechaos"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png" height="48" alt="DEV: Hacktoberfest 2026 Challenge Completion" title="DEV · Hacktoberfest 2026 Challenge Completion"></a>
-</p>
-
-<sub><a href="https://www.kaggle.com/xover2022">Kaggle</a> · <a href="https://dev.to/widechaos">DEV</a></sub>
-
-<p>
-  <a href="https://weread.qq.com" title="WeRead · 2,000 reading hours"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="WeRead · 2,000 reading hours" title="WeRead · 2,000 reading hours"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 2,000 reading days"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="WeRead · 2,000 reading days" title="WeRead · 2,000 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 500 books read"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="WeRead · 500 books read" title="WeRead · 500 books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 books finished"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="WeRead · 100 books finished" title="WeRead · 100 books finished"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 highly rated books read"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="WeRead · 50 highly rated books read" title="WeRead · 50 highly rated books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 30 consecutive reading days"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="WeRead · 30 consecutive reading days" title="WeRead · 30 consecutive reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 3,000 likes received"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="WeRead · 3,000 likes received" title="WeRead · 3,000 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 200 thoughts shared"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="WeRead · 200 thoughts shared" title="WeRead · 200 thoughts shared"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 10 book reviews"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="WeRead · 10 book reviews" title="WeRead · 10 book reviews"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · Book recommendations for 10 readers"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="WeRead · Book recommendations for 10 readers" title="WeRead · Book recommendations for 10 readers"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 21-day Reading Challenge"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="WeRead · 21-day Reading Challenge" title="WeRead · 21-day Reading Challenge"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · World Book Day · Mountain and River Poet"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="WeRead · World Book Day · Mountain and River Poet" title="WeRead · World Book Day · Mountain and River Poet"></a>
-</p>
-
-<sub>WeRead · Reading milestones</sub>
-
-<details>
-<summary>More reading badges</summary>
-
-<p>
-  <a href="https://weread.qq.com" title="WeRead · World Book Day · Mountain and River Poet"><img src="assets/weread/M12-2-3-I-0-0-0.png" width="48" height="48" alt="WeRead · World Book Day · Mountain and River Poet" title="WeRead · World Book Day · Mountain and River Poet"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 21-day Reading Challenge"><img src="assets/weread/M15-1-0.png" width="48" height="48" alt="WeRead · 21-day Reading Challenge" title="WeRead · 21-day Reading Challenge"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 2,000 reading days"><img src="assets/weread/M3-0-2000.png" width="48" height="48" alt="WeRead · 2,000 reading days" title="WeRead · 2,000 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 highly rated books read"><img src="assets/weread/M9-0-50.png" width="48" height="48" alt="WeRead · 50 highly rated books read" title="WeRead · 50 highly rated books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 500 books read"><img src="assets/weread/M4-0-500.png" width="48" height="48" alt="WeRead · 500 books read" title="WeRead · 500 books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 2,000 reading hours"><img src="assets/weread/M2-0-2000.png" width="48" height="48" alt="WeRead · 2,000 reading hours" title="WeRead · 2,000 reading hours"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 books finished"><img src="assets/weread/M5-0-100.png" width="48" height="48" alt="WeRead · 100 books finished" title="WeRead · 100 books finished"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · Book recommendations for 10 readers"><img src="assets/weread/M14-0-10.png" width="48" height="48" alt="WeRead · Book recommendations for 10 readers" title="WeRead · Book recommendations for 10 readers"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 books finished"><img src="assets/weread/M5-0-50.png" width="48" height="48" alt="WeRead · 50 books finished" title="WeRead · 50 books finished"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 10 book reviews"><img src="assets/weread/M11-0-10.png" width="48" height="48" alt="WeRead · 10 book reviews" title="WeRead · 10 book reviews"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 5 book reviews"><img src="assets/weread/M11-0-5.png" width="48" height="48" alt="WeRead · 5 book reviews" title="WeRead · 5 book reviews"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 10 highly rated books read"><img src="assets/weread/M9-0-10.png" width="48" height="48" alt="WeRead · 10 highly rated books read" title="WeRead · 10 highly rated books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 5 highly rated books read"><img src="assets/weread/M9-0-5.png" width="48" height="48" alt="WeRead · 5 highly rated books read" title="WeRead · 5 highly rated books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 3,000 likes received"><img src="assets/weread/M6-0-3000.png" width="48" height="48" alt="WeRead · 3,000 likes received" title="WeRead · 3,000 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 1,000 reading days"><img src="assets/weread/M3-0-1000.png" width="48" height="48" alt="WeRead · 1,000 reading days" title="WeRead · 1,000 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 200 thoughts shared"><img src="assets/weread/M7-0-200.png" width="48" height="48" alt="WeRead · 200 thoughts shared" title="WeRead · 200 thoughts shared"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 thoughts shared"><img src="assets/weread/M7-0-100.png" width="48" height="48" alt="WeRead · 100 thoughts shared" title="WeRead · 100 thoughts shared"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 thoughts shared"><img src="assets/weread/M7-0-50.png" width="48" height="48" alt="WeRead · 50 thoughts shared" title="WeRead · 50 thoughts shared"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 10 thoughts shared"><img src="assets/weread/M7-0-10.png" width="48" height="48" alt="WeRead · 10 thoughts shared" title="WeRead · 10 thoughts shared"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 2,000 likes received"><img src="assets/weread/M6-0-2000.png" width="48" height="48" alt="WeRead · 2,000 likes received" title="WeRead · 2,000 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 1,000 likes received"><img src="assets/weread/M6-0-1000.png" width="48" height="48" alt="WeRead · 1,000 likes received" title="WeRead · 1,000 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 500 likes received"><img src="assets/weread/M6-0-500.png" width="48" height="48" alt="WeRead · 500 likes received" title="WeRead · 500 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 likes received"><img src="assets/weread/M6-0-100.png" width="48" height="48" alt="WeRead · 100 likes received" title="WeRead · 100 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 likes received"><img src="assets/weread/M6-0-50.png" width="48" height="48" alt="WeRead · 50 likes received" title="WeRead · 50 likes received"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 10 books finished"><img src="assets/weread/M5-0-10.png" width="48" height="48" alt="WeRead · 10 books finished" title="WeRead · 10 books finished"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 books read"><img src="assets/weread/M4-0-100.png" width="48" height="48" alt="WeRead · 100 books read" title="WeRead · 100 books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 50 books read"><img src="assets/weread/M4-0-50.png" width="48" height="48" alt="WeRead · 50 books read" title="WeRead · 50 books read"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 500 reading days"><img src="assets/weread/M3-0-500.png" width="48" height="48" alt="WeRead · 500 reading days" title="WeRead · 500 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 365 reading days"><img src="assets/weread/M3-0-365.png" width="48" height="48" alt="WeRead · 365 reading days" title="WeRead · 365 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 200 reading days"><img src="assets/weread/M3-0-200.png" width="48" height="48" alt="WeRead · 200 reading days" title="WeRead · 200 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 reading days"><img src="assets/weread/M3-0-100.png" width="48" height="48" alt="WeRead · 100 reading days" title="WeRead · 100 reading days"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 1,000 reading hours"><img src="assets/weread/M2-0-1000.png" width="48" height="48" alt="WeRead · 1,000 reading hours" title="WeRead · 1,000 reading hours"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 500 reading hours"><img src="assets/weread/M2-0-500.png" width="48" height="48" alt="WeRead · 500 reading hours" title="WeRead · 500 reading hours"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 100 reading hours"><img src="assets/weread/M2-0-100.png" width="48" height="48" alt="WeRead · 100 reading hours" title="WeRead · 100 reading hours"></a> &nbsp;
-  <a href="https://weread.qq.com" title="WeRead · 30 consecutive reading days"><img src="assets/weread/M1-0-30.png" width="48" height="48" alt="WeRead · 30 consecutive reading days" title="WeRead · 30 consecutive reading days"></a>
-</p>
-
 </details>
-<!-- COMMUNITY-BADGES:END -->
 
-## // toolbox
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-5-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-5-dark.svg"><source media="(max-width:520px)" srcset="assets/section-5-mobile.svg"><img src="assets/section-5.svg" width="620" alt="Toolbox"></picture></h2>
 
-<p>
-  <b>AI &amp; Agents</b><br>
-  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" height="20"> <img src="https://img.shields.io/badge/LangChain-166534?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" height="20"> <img src="https://img.shields.io/badge/Hugging_Face-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face" height="20"> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" alt="RAG" height="20"> <img src="https://img.shields.io/badge/MCP-4F46E5?style=flat-square" alt="MCP" height="20"> <img src="https://img.shields.io/badge/Transformers-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Transformers" height="20"> <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="20">
-</p>
+<p><b>AI &amp; Agents</b><br><img src="assets/toolbox/langgraph.svg" width="16" height="16" alt=""> LangGraph · <img src="assets/toolbox/langchain.svg" width="16" height="16" alt=""> LangChain · <img src="assets/toolbox/hugging-face.svg" width="16" height="16" alt=""> Hugging Face · <img src="assets/toolbox/transformers.svg" width="16" height="16" alt=""> Transformers · <img src="assets/toolbox/ollama.svg" width="16" height="16" alt=""> Ollama · <img src="assets/toolbox/rag.svg" width="16" height="16" alt=""> RAG · <img src="assets/toolbox/mcp.svg" width="16" height="16" alt=""> MCP</p>
+<p><b>Machine Learning &amp; Data</b><br><img src="assets/toolbox/pytorch.svg" width="16" height="16" alt=""> PyTorch · <img src="assets/toolbox/tensorflow.svg" width="16" height="16" alt=""> TensorFlow · <img src="assets/toolbox/scikit-learn.svg" width="16" height="16" alt=""> scikit-learn · <img src="assets/toolbox/pandas.svg" width="16" height="16" alt=""> Pandas · <img src="assets/toolbox/numpy.svg" width="16" height="16" alt=""> NumPy · <img src="assets/toolbox/matplotlib.svg" width="16" height="16" alt=""> Matplotlib</p>
+<p><b>Voice &amp; Realtime</b><br><img src="assets/toolbox/livekit.svg" width="16" height="16" alt=""> LiveKit · <img src="assets/toolbox/funasr.svg" width="16" height="16" alt=""> FunASR · <img src="assets/toolbox/faster-whisper.svg" width="16" height="16" alt=""> faster-whisper · <img src="assets/toolbox/azure-speech.svg" width="16" height="16" alt=""> Azure Speech · <img src="assets/toolbox/webrtc.svg" width="16" height="16" alt=""> WebRTC · <img src="assets/toolbox/sip-freeswitch.svg" width="16" height="16" alt=""> SIP / FreeSWITCH</p>
+<p><b>Backend</b><br><img src="assets/toolbox/python.svg" width="16" height="16" alt=""> Python · <img src="assets/toolbox/django.svg" width="16" height="16" alt=""> Django · <img src="assets/toolbox/fastapi.svg" width="16" height="16" alt=""> FastAPI · <img src="assets/toolbox/flask.svg" width="16" height="16" alt=""> Flask · <img src="assets/toolbox/go.svg" width="16" height="16" alt=""> Go · <img src="assets/toolbox/pydantic.svg" width="16" height="16" alt=""> Pydantic</p>
+<p><b>Databases &amp; Retrieval</b><br><img src="assets/toolbox/postgresql.svg" width="16" height="16" alt=""> PostgreSQL · <img src="assets/toolbox/mysql.svg" width="16" height="16" alt=""> MySQL · <img src="assets/toolbox/sqlite.svg" width="16" height="16" alt=""> SQLite · <img src="assets/toolbox/redis.svg" width="16" height="16" alt=""> Redis · <img src="assets/toolbox/sqlalchemy.svg" width="16" height="16" alt=""> SQLAlchemy · <img src="assets/toolbox/vector-search.svg" width="16" height="16" alt=""> Vector Search</p>
+<p><b>Web Crawling &amp; Automation</b><br><img src="assets/toolbox/scrapy.svg" width="16" height="16" alt=""> Scrapy · <img src="assets/toolbox/beautiful-soup.svg" width="16" height="16" alt=""> Beautiful Soup · <img src="assets/toolbox/playwright.svg" width="16" height="16" alt=""> Playwright · <img src="assets/toolbox/selenium.svg" width="16" height="16" alt=""> Selenium</p>
+<p><b>Cloud &amp; Storage</b><br><img src="assets/toolbox/docker.svg" width="16" height="16" alt=""> Docker · <img src="assets/toolbox/kubernetes.svg" width="16" height="16" alt=""> Kubernetes · <img src="assets/toolbox/linux.svg" width="16" height="16" alt=""> Linux · <img src="assets/toolbox/nginx.svg" width="16" height="16" alt=""> Nginx · <img src="assets/toolbox/openstack.svg" width="16" height="16" alt=""> OpenStack · <img src="assets/toolbox/ceph.svg" width="16" height="16" alt=""> Ceph · <img src="assets/toolbox/bash.svg" width="16" height="16" alt=""> Bash</p>
+<p><b>Frontend</b><br><img src="assets/toolbox/typescript.svg" width="16" height="16" alt=""> TypeScript · <img src="assets/toolbox/javascript.svg" width="16" height="16" alt=""> JavaScript · <img src="assets/toolbox/vite.svg" width="16" height="16" alt=""> Vite · <img src="assets/toolbox/astro.svg" width="16" height="16" alt=""> Astro · <img src="assets/toolbox/html5.svg" width="16" height="16" alt=""> HTML5 · <img src="assets/toolbox/css.svg" width="16" height="16" alt=""> CSS</p>
+<p><b>Testing &amp; Delivery</b><br><img src="assets/toolbox/pytest.svg" width="16" height="16" alt=""> pytest · <img src="assets/toolbox/git.svg" width="16" height="16" alt=""> Git · <img src="assets/toolbox/github-actions.svg" width="16" height="16" alt=""> GitHub Actions</p>
 
-<p>
-  <b>Machine Learning &amp; Data</b><br>
-  <img src="https://img.shields.io/badge/PyTorch-C9482B?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="20"> <img src="https://img.shields.io/badge/TensorFlow-C45500?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" height="20"> <img src="https://img.shields.io/badge/scikit--learn-B85E00?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" height="20"> <img src="https://img.shields.io/badge/Pandas-4338CA?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" height="20"> <img src="https://img.shields.io/badge/NumPy-166C8B?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="20"> <img src="https://img.shields.io/badge/Matplotlib-2563A6?style=flat-square" alt="Matplotlib" height="20">
-</p>
-
-<p>
-  <b>Voice &amp; Realtime</b><br>
-  <img src="https://img.shields.io/badge/LiveKit-0369A1?style=flat-square&amp;logo=livekit&amp;logoColor=white" alt="LiveKit" height="20"> <img src="https://img.shields.io/badge/FunASR-087F8C?style=flat-square" alt="FunASR" height="20"> <img src="https://img.shields.io/badge/faster--whisper-5261B5?style=flat-square" alt="faster-whisper" height="20"> <img src="https://img.shields.io/badge/Azure_Speech-0078D4?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iI0ZGRkZGRiI%2BPHJlY3QgeD0iMSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNS41IiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIyMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE1LjkiIHk9IjYiIHdpZHRoPSIyLjYiIGhlaWdodD0iMTIiIHJ4PSIxLjMiLz48cmVjdCB4PSIyMC40IiB5PSI5LjUiIHdpZHRoPSIyLjYiIGhlaWdodD0iNSIgcng9IjEuMyIvPjwvZz48L3N2Zz4%3D" alt="Azure Speech" height="20"> <img src="https://img.shields.io/badge/WebRTC-9D174D?style=flat-square&amp;logo=webrtc&amp;logoColor=white" alt="WebRTC" height="20"> <img src="https://img.shields.io/badge/SIP_%C2%B7_FreeSWITCH-087F8C?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNjIgMTAuNzlhMTUuMDUgMTUuMDUgMCAwIDAgNi41OSA2LjU5bDIuMi0yLjJhMSAxIDAgMCAxIDEuMDItLjI0YzEuMTIuMzcgMi4zMy41NyAzLjU3LjU3YTEgMSAwIDAgMSAxIDFWMjBhMSAxIDAgMCAxLTEgMUExNyAxNyAwIDAgMSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg%3D%3D" alt="SIP · FreeSWITCH" height="20">
-</p>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-6-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-6-dark.svg"><source media="(max-width:520px)" srcset="assets/section-6-mobile.svg"><img src="assets/section-6.svg" width="620" alt="Connect"></picture></h2>
 
 <p>
-  <b>Backend</b><br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20"> <img src="https://img.shields.io/badge/Django-0C6B3D?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" height="20"> <img src="https://img.shields.io/badge/FastAPI-007D72?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"> <img src="https://img.shields.io/badge/Flask-475569?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask" height="20"> <img src="https://img.shields.io/badge/Go-007D9C?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go" height="20"> <img src="https://img.shields.io/badge/Pydantic-B71952?style=flat-square&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" height="20">
+<a href="https://widechaos.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-0-dark.svg"><img src="assets/contact-0-light.svg" width="250" height="48" alt="Blog · widechaos.cn"></picture></a>
+<a href="mailto:ai@widechaos.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-1-dark.svg"><img src="assets/contact-1-light.svg" width="250" height="48" alt="Email · ai@widechaos.cn"></picture></a>
+<a href="https://huggingface.co/WideChaos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-2-dark.svg"><img src="assets/contact-2-light.svg" width="156" height="48" alt="Hugging Face"></picture></a>
+<a href="https://www.kaggle.com/xover2022"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-3-dark.svg"><img src="assets/contact-3-light.svg" width="156" height="48" alt="Kaggle"></picture></a>
+<a href="https://www.linkedin.com/in/renchao-wu-widechaos/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-4-dark.svg"><img src="assets/contact-4-light.svg" width="156" height="48" alt="LinkedIn"></picture></a>
+<a href="https://x.com/thewidechaos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-5-dark.svg"><img src="assets/contact-5-light.svg" width="156" height="48" alt="X"></picture></a>
+<a href="https://dev.to/widechaos"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-6-dark.svg"><img src="assets/contact-6-light.svg" width="156" height="48" alt="DEV"></picture></a>
+<a href="https://bsky.app/profile/widechaos.bsky.social"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-7-dark.svg"><img src="assets/contact-7-light.svg" width="156" height="48" alt="Bluesky"></picture></a>
 </p>
+
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-7-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-7-dark.svg"><source media="(max-width:520px)" srcset="assets/section-7-mobile.svg"><img src="assets/section-7.svg" width="620" alt="Open-source contributions"></picture></h2>
 
 <p>
-  <b>Databases &amp; Retrieval</b><br>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" height="20"> <img src="https://img.shields.io/badge/MySQL-00618A?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="20"> <img src="https://img.shields.io/badge/SQLite-075985?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" height="20"> <img src="https://img.shields.io/badge/Redis-B52328?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis" height="20"> <img src="https://img.shields.io/badge/SQLAlchemy-9F2438?style=flat-square&amp;logo=sqlalchemy&amp;logoColor=white" alt="SQLAlchemy" height="20"> <img src="https://img.shields.io/badge/Vector_Search-7C3AED?style=flat-square" alt="Vector Search" height="20">
+<a href="contributions/projects/ralph.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/ralph-dark.svg"><img src="assets/profile/contributions/ralph-light.svg" width="205" alt="Ralph — Regression tests and script cleanup"></picture></a>
+<a href="contributions/projects/more-itertools.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/more-itertools-dark.svg"><img src="assets/profile/contributions/more-itertools-light.svg" width="205" alt="more-itertools — Validator bypass report"></picture></a>
+<a href="contributions/projects/ekko-studio.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/ekko-studio-dark.svg"><img src="assets/profile/contributions/ekko-studio-light.svg" width="205" alt="Ekko Studio — OAuth provider selection and MCP credentials"></picture></a>
+<br>
+<a href="contributions/projects/logfire.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/logfire-dark.svg"><img src="assets/profile/contributions/logfire-light.svg" width="205" alt="Logfire — Metrics across sampled-out spans"></picture></a>
+<a href="contributions/projects/livekit-agents.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/livekit-agents-dark.svg"><img src="assets/profile/contributions/livekit-agents-light.svg" width="205" alt="LiveKit Agents — Stream cleanup on errors and cancellation"></picture></a>
+<a href="contributions/projects/tornado.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/tornado-dark.svg"><img src="assets/profile/contributions/tornado-light.svg" width="205" alt="Tornado — Cancellation-safe lock and semaphore handoff"></picture></a>
+<br>
+<a href="contributions/projects/httpx.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/httpx-dark.svg"><img src="assets/profile/contributions/httpx-light.svg" width="205" alt="HTTPX — Fragmented raw-deflate decoding"></picture></a>
+<a href="contributions/projects/python-dotenv.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/python-dotenv-dark.svg"><img src="assets/profile/contributions/python-dotenv-light.svg" width="205" alt="python-dotenv — CRLF parser warning line numbers"></picture></a>
+<a href="contributions/projects/dateutil.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/dateutil-dark.svg"><img src="assets/profile/contributions/dateutil-light.svg" width="205" alt="dateutil — Malformed weekday ordinal handling"></picture></a>
+<br>
+<a href="contributions/projects/peonping.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/peonping-dark.svg"><img src="assets/profile/contributions/peonping-light.svg" width="205" alt="PeonPing — Symlinked pack directory playback"></picture></a>
+<a href="contributions/projects/faster-whisper.md"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/contributions/faster-whisper-dark.svg"><img src="assets/profile/contributions/faster-whisper-light.svg" width="205" alt="faster-whisper — Offline and PCM usage guides"></picture></a>
 </p>
-
-<p>
-  <b>Web Crawling &amp; Automation</b><br>
-  <img src="https://img.shields.io/badge/Scrapy-278348?style=flat-square&amp;logo=scrapy&amp;logoColor=white" alt="Scrapy" height="20"> <img src="https://img.shields.io/badge/Beautiful_Soup-8C653A?style=flat-square" alt="Beautiful Soup" height="20"> <img src="https://img.shields.io/badge/Playwright-24823B?style=flat-square" alt="Playwright" height="20"> <img src="https://img.shields.io/badge/Selenium-2A7D25?style=flat-square&amp;logo=selenium&amp;logoColor=white" alt="Selenium" height="20">
-</p>
-
-<p>
-  <b>Cloud &amp; Storage</b><br>
-  <img src="https://img.shields.io/badge/Docker-1769D2?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" height="20"> <img src="https://img.shields.io/badge/Linux-9C6600?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="20"> <img src="https://img.shields.io/badge/Nginx-008638?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx" height="20"> <img src="https://img.shields.io/badge/OpenStack-C61D2D?style=flat-square&amp;logo=openstack&amp;logoColor=white" alt="OpenStack" height="20"> <img src="https://img.shields.io/badge/Ceph-A51D2D?style=flat-square&amp;logo=ceph&amp;logoColor=white" alt="Ceph" height="20"> <img src="https://img.shields.io/badge/Bash-427E2A?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash" height="20">
-</p>
-
-<p>
-  <b>Frontend</b><br>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"> <img src="https://img.shields.io/badge/JavaScript-966F00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="20"> <img src="https://img.shields.io/badge/Vite-7954CB?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20"> <img src="https://img.shields.io/badge/Astro-C54112?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro" height="20"> <img src="https://img.shields.io/badge/HTML5-C74726?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" height="20"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&amp;logo=css&amp;logoColor=white" alt="CSS" height="20">
-</p>
-
-<p>
-  <b>Testing &amp; Delivery</b><br>
-  <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" height="20"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20">
-</p>
-
-## // connect
-
-<p>
-  <a href="https://widechaos.cn">Blog · widechaos.cn</a> &nbsp; / &nbsp; <a href="mailto:ai@widechaos.cn">Email · ai@widechaos.cn</a>
-  <br>
-  <a href="https://huggingface.co/WideChaos">Hugging Face</a> &nbsp; / &nbsp; <a href="https://www.kaggle.com/xover2022">Kaggle</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/renchao-wu-widechaos/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://x.com/thewidechaos">X</a> &nbsp; / &nbsp; <a href="https://dev.to/widechaos">DEV</a>
-</p>
-
-<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
-## // open-source contributions
-
-<table>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/frankbria/ralph-claude-code"><strong>Ralph</strong></a><br>
-  <a href="https://github.com/frankbria/ralph-claude-code/stargazers"><img src="https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Ralph GitHub stars"></a>
-  <p>Regression tests and script cleanup</p>
-  <a href="https://github.com/frankbria/ralph-claude-code/pull/380"><img src="https://img.shields.io/badge/Merged%20%23380-238636?style=flat-square" height="18" alt="Merged #380"></a> <a href="https://github.com/frankbria/ralph-claude-code/pull/377"><img src="https://img.shields.io/badge/Under%20review%20%23377-9a6700?style=flat-square" height="18" alt="Under review #377"></a> <a href="contributions/projects/ralph.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Ralph contribution details"></a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/more-itertools/more-itertools"><strong>more-itertools</strong></a><br>
-  <a href="https://github.com/more-itertools/more-itertools/stargazers"><img src="https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="more-itertools GitHub stars"></a>
-  <p>Validator bypass report</p>
-  <a href="https://github.com/more-itertools/more-itertools/issues/1308"><img src="https://img.shields.io/badge/Resolved%20report%20%231308-0969da?style=flat-square" height="18" alt="Resolved report #1308"></a> <a href="contributions/projects/more-itertools.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="more-itertools contribution details"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/EKKOLearnAI/ekko-studio"><strong>Ekko Studio</strong></a><br>
-  <a href="https://github.com/EKKOLearnAI/ekko-studio/stargazers"><img src="https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Ekko Studio GitHub stars"></a>
-  <p>OAuth provider selection and MCP credentials</p>
-  <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3359"><img src="https://img.shields.io/badge/Merged%20%233359-238636?style=flat-square" height="18" alt="Merged #3359"></a> <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3343"><img src="https://img.shields.io/badge/Under%20review%20%233343-9a6700?style=flat-square" height="18" alt="Under review #3343"></a> <a href="contributions/projects/ekko-studio.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Ekko Studio contribution details"></a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/pydantic/logfire"><strong>Logfire</strong></a><br>
-  <a href="https://github.com/pydantic/logfire/stargazers"><img src="https://img.shields.io/github/stars/pydantic/logfire?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Logfire GitHub stars"></a>
-  <p>Metrics across sampled-out spans</p>
-  <a href="https://github.com/pydantic/logfire/pull/2533"><img src="https://img.shields.io/badge/Under%20review%20%232533-9a6700?style=flat-square" height="18" alt="Under review #2533"></a> <a href="contributions/projects/logfire.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Logfire contribution details"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/livekit/agents"><strong>LiveKit Agents</strong></a><br>
-  <a href="https://github.com/livekit/agents/stargazers"><img src="https://img.shields.io/github/stars/livekit/agents?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="LiveKit Agents GitHub stars"></a>
-  <p>Stream cleanup on errors and cancellation</p>
-  <a href="https://github.com/livekit/agents/pull/7658"><img src="https://img.shields.io/badge/Under%20review%20%237658-9a6700?style=flat-square" height="18" alt="Under review #7658"></a> <a href="contributions/projects/livekit-agents.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="LiveKit Agents contribution details"></a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/tornadoweb/tornado"><strong>Tornado</strong></a><br>
-  <a href="https://github.com/tornadoweb/tornado/stargazers"><img src="https://img.shields.io/github/stars/tornadoweb/tornado?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Tornado GitHub stars"></a>
-  <p>Cancellation-safe lock and semaphore handoff</p>
-  <a href="https://github.com/tornadoweb/tornado/pull/3770"><img src="https://img.shields.io/badge/Under%20review%20%233770-9a6700?style=flat-square" height="18" alt="Under review #3770"></a> <a href="contributions/projects/tornado.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Tornado contribution details"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/encode/httpx"><strong>HTTPX</strong></a><br>
-  <a href="https://github.com/encode/httpx/stargazers"><img src="https://img.shields.io/github/stars/encode/httpx?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="HTTPX GitHub stars"></a>
-  <p>Fragmented raw-deflate decoding</p>
-  <a href="https://github.com/encode/httpx/discussions/3799"><img src="https://img.shields.io/badge/Discussion%20%233799-8250df?style=flat-square" height="18" alt="Discussion #3799"></a> <a href="contributions/projects/httpx.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="HTTPX contribution details"></a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/theskumar/python-dotenv"><strong>python-dotenv</strong></a><br>
-  <a href="https://github.com/theskumar/python-dotenv/stargazers"><img src="https://img.shields.io/github/stars/theskumar/python-dotenv?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="python-dotenv GitHub stars"></a>
-  <p>CRLF parser warning line numbers</p>
-  <a href="https://github.com/theskumar/python-dotenv/pull/722"><img src="https://img.shields.io/badge/Under%20review%20%23722-9a6700?style=flat-square" height="18" alt="Under review #722"></a> <a href="contributions/projects/python-dotenv.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="python-dotenv contribution details"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <a href="https://github.com/dateutil/dateutil"><strong>dateutil</strong></a><br>
-  <a href="https://github.com/dateutil/dateutil/stargazers"><img src="https://img.shields.io/github/stars/dateutil/dateutil?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="dateutil GitHub stars"></a>
-  <p>Malformed weekday ordinal handling</p>
-  <a href="https://github.com/dateutil/dateutil/pull/1597"><img src="https://img.shields.io/badge/Under%20review%20%231597-9a6700?style=flat-square" height="18" alt="Under review #1597"></a> <a href="contributions/projects/dateutil.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="dateutil contribution details"></a>
-</td>
-<td width="50%" valign="top">
-  <a href="https://github.com/PeonPing/peon-ping"><strong>PeonPing</strong></a><br>
-  <a href="https://github.com/PeonPing/peon-ping/stargazers"><img src="https://img.shields.io/github/stars/PeonPing/peon-ping?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="PeonPing GitHub stars"></a>
-  <p>Symlinked pack directory playback</p>
-  <a href="https://github.com/PeonPing/peon-ping/pull/603"><img src="https://img.shields.io/badge/Under%20review%20%23603-9a6700?style=flat-square" height="18" alt="Under review #603"></a> <a href="contributions/projects/peonping.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="PeonPing contribution details"></a>
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-  <a href="https://github.com/SYSTRAN/faster-whisper"><strong>faster-whisper</strong></a><br>
-  <a href="https://github.com/SYSTRAN/faster-whisper/stargazers"><img src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="faster-whisper GitHub stars"></a>
-  <p>Offline and PCM usage guides</p>
-  <a href="https://github.com/SYSTRAN/faster-whisper/pull/1554"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231554-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1554"></a> <a href="https://github.com/SYSTRAN/faster-whisper/pull/1556"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231556-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1556"></a> <a href="contributions/projects/faster-whisper.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="faster-whisper contribution details"></a>
-</td>
-</tr>
-</table>
 
 [Contribution details →](contributions/README.md)
-<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 <sub><i>Per aspera ad astra.</i></sub>
