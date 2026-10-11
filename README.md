@@ -1,6 +1,6 @@
 <sub>RENCHAO WU / WIDECHAOS</sub>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile-signature.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-wide-signature.svg"><source media="(max-width: 520px)" srcset="assets/header-light-mobile-signature.svg"><img src="assets/header-light-wide-signature.svg" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
+<picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/motion/header-dark-mobile-still.svg"><source media="(prefers-reduced-motion: reduce) and (max-width:520px)" srcset="assets/motion/header-light-mobile-still.svg"><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/motion/header-dark-wide-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="assets/motion/header-light-wide-still.svg"><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/motion/header-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/motion/header-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/motion/header-light-mobile.svg"><img src="assets/motion/header-light-wide.svg" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
 
 <p align="center">
   <b>智灯已灭余空烬，犹自光明照十方</b><br>
@@ -11,11 +11,7 @@
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-1-mobile.svg"><img src="assets/section-1-wide.svg" width="100%" alt="About"></picture></h2>
 
-```console
-Ember / 邬仁超
-> Build intelligence. Test everything.
-> AI engineering → AI research
-```
+<picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/motion/identity-panel-dark-mobile-still.svg"><source media="(prefers-reduced-motion: reduce) and (max-width:520px)" srcset="assets/motion/identity-panel-light-mobile-still.svg"><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/motion/identity-panel-dark-wide-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="assets/motion/identity-panel-light-wide-still.svg"><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/motion/identity-panel-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/motion/identity-panel-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/motion/identity-panel-light-mobile.svg"><img src="assets/motion/identity-panel-light-wide.svg" width="100%" alt="Ember / 邬仁超 — Build intelligence. Test everything. — AI engineering → AI research."></picture>
 
 <sub>NOW / Voice agents & realtime systems</sub>
 
@@ -103,6 +99,8 @@ Ember / 邬仁超
 <p><b>Frontend</b><br><img src="assets/toolbox/typescript.svg" width="16" height="16" alt="">&nbsp;TypeScript · <img src="assets/toolbox/javascript.svg" width="16" height="16" alt="">&nbsp;JavaScript · <img src="assets/toolbox/vite.svg" width="16" height="16" alt="">&nbsp;Vite · <img src="assets/toolbox/astro.svg" width="16" height="16" alt="">&nbsp;Astro · <img src="assets/toolbox/html5.svg" width="16" height="16" alt="">&nbsp;HTML5 · <img src="assets/toolbox/css.svg" width="16" height="16" alt="">&nbsp;CSS</p>
 <p><b>Testing &amp; Delivery</b><br><img src="assets/toolbox/pytest.svg" width="16" height="16" alt="">&nbsp;pytest · <img src="assets/toolbox/git.svg" width="16" height="16" alt="">&nbsp;Git · <img src="assets/toolbox/github-actions.svg" width="16" height="16" alt="">&nbsp;GitHub&nbsp;Actions</p>
 
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/motion/recon-drone-dark-still.svg"><source media="(prefers-reduced-motion: reduce)" srcset="assets/motion/recon-drone-light-still.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/motion/recon-drone-dark.svg"><img src="assets/motion/recon-drone-light.svg" width="360" alt="A miniature recon drone hovering above a signal route"></picture></p>
+
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-6-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-6-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-6-mobile.svg"><img src="assets/section-6-wide.svg" width="100%" alt="Connect"></picture></h2>
 
 <p>
@@ -138,3 +136,5 @@ Ember / 邬仁超
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 <sub><i>Per aspera ad astra.</i></sub>
+
+<p align="center"><picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/motion/pixel-coder-dark-still.png"><source media="(prefers-reduced-motion: reduce)" srcset="assets/motion/pixel-coder-light-still.png"><source media="(prefers-color-scheme: dark)" srcset="assets/motion/pixel-coder-dark.gif"><img src="assets/motion/pixel-coder-light.gif" width="240" alt="A pixel coder at a terminal, with an occasional ember"></picture><br><sub>STILL BUILDING // WIDECHAOS</sub></p>
