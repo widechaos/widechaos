@@ -1,6 +1,6 @@
 <sub>RENCHAO WU / WIDECHAOS</sub>
 
-<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=2"><source media="(max-width: 520px)" srcset="assets/header-light-mobile.svg"><img src="assets/header-light.svg?v=2" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
+<picture><source media="(prefers-color-scheme: dark) and (max-width: 520px)" srcset="assets/header-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark-wide.svg"><source media="(max-width: 520px)" srcset="assets/header-light-mobile.svg"><img src="assets/header-light-wide.svg" width="100%" alt="Build. Break. Rebuild. — 科学家／文豪／艺术家／战术大师／侠／光"></picture>
 
 <p align="center">
   <b>智灯已灭余空烬，犹自光明照十方</b><br>
@@ -9,7 +9,7 @@
 
 <p><img src="https://hits.sh/github.com/widechaos.svg?style=flat-square&amp;label=Profile%20views&amp;color=7541c8" alt="Profile views"></p>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-1-mobile.svg"><img src="assets/section-1.svg?v=2" width="100%" alt="About"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-1-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-1-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-1-mobile.svg"><img src="assets/section-1-wide.svg" width="100%" alt="About"></picture></h2>
 
 ```console
 Ember / 邬仁超
@@ -26,7 +26,7 @@ Ember / 邬仁超
 
 </details>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-2-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-2-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-2-mobile.svg"><img src="assets/section-2.svg?v=2" width="100%" alt="GitHub activity"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-2-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-2-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-2-mobile.svg"><img src="assets/section-2-wide.svg" width="100%" alt="GitHub activity"></picture></h2>
 
 [![Public GitHub activity; commits in 2026](https://github-stats-extended.vercel.app/api?username=widechaos&show_icons=true&hide_border=true&title_color=7541c8&icon_color=087e8b&text_color=1f2328&bg_color=ffffff&disable_animations=true&hide_rank=true&commits_year=2026&custom_title=Public%20GitHub%20activity)](https://github.com/stats-organization/github-stats-extended)
 
@@ -38,7 +38,7 @@ Ember / 邬仁超
 
 </details>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-3-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-3-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-3-mobile.svg"><img src="assets/section-3.svg?v=2" width="100%" alt="Collection"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-3-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-3-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-3-mobile.svg"><img src="assets/section-3-wide.svg" width="100%" alt="Collection"></picture></h2>
 
 <!-- COMMUNITY-BADGES:START -->
 
@@ -66,7 +66,7 @@ Ember / 邬仁超
 
 <!-- COMMUNITY-BADGES:END -->
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-4-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-4-mobile.svg"><img src="assets/section-4.svg?v=2" width="100%" alt="Selected work"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-4-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-4-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-4-mobile.svg"><img src="assets/section-4-wide.svg" width="100%" alt="Selected work"></picture></h2>
 
 <p>
 <a href="https://huggingface.co/spaces/WideChaos/evidence-agent"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/work-0-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/work-0-dark.svg"><source media="(max-width:520px)" srcset="assets/work-0-light-mobile.svg"><img src="assets/work-0-light.svg" width="300" alt="Evidence Agent: Local 14B evaluation: 9/20"></picture></a>
@@ -91,7 +91,7 @@ Ember / 邬仁超
 
 </details>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-5-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-5-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-5-mobile.svg"><img src="assets/section-5.svg?v=2" width="100%" alt="Toolbox"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-5-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-5-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-5-mobile.svg"><img src="assets/section-5-wide.svg" width="100%" alt="Toolbox"></picture></h2>
 
 <p><b>AI &amp; Agents</b><br><img src="assets/toolbox/langgraph.svg" width="16" height="16" alt="">&nbsp;LangGraph · <img src="assets/toolbox/langchain.svg" width="16" height="16" alt="">&nbsp;LangChain · <img src="assets/toolbox/hugging-face.svg" width="16" height="16" alt="">&nbsp;Hugging&nbsp;Face · <img src="assets/toolbox/transformers.svg" width="16" height="16" alt="">&nbsp;Transformers · <img src="assets/toolbox/ollama.svg" width="16" height="16" alt="">&nbsp;Ollama · <img src="assets/toolbox/rag.svg" width="16" height="16" alt="">&nbsp;RAG · <img src="assets/toolbox/mcp.svg" width="16" height="16" alt="">&nbsp;MCP</p>
 <p><b>Machine Learning &amp; Data</b><br><img src="assets/toolbox/pytorch.svg" width="16" height="16" alt="">&nbsp;PyTorch · <img src="assets/toolbox/tensorflow.svg" width="16" height="16" alt="">&nbsp;TensorFlow · <img src="assets/toolbox/scikit-learn.svg" width="16" height="16" alt="">&nbsp;scikit-learn · <img src="assets/toolbox/pandas.svg" width="16" height="16" alt="">&nbsp;Pandas · <img src="assets/toolbox/numpy.svg" width="16" height="16" alt="">&nbsp;NumPy · <img src="assets/toolbox/matplotlib.svg" width="16" height="16" alt="">&nbsp;Matplotlib</p>
@@ -103,7 +103,7 @@ Ember / 邬仁超
 <p><b>Frontend</b><br><img src="assets/toolbox/typescript.svg" width="16" height="16" alt="">&nbsp;TypeScript · <img src="assets/toolbox/javascript.svg" width="16" height="16" alt="">&nbsp;JavaScript · <img src="assets/toolbox/vite.svg" width="16" height="16" alt="">&nbsp;Vite · <img src="assets/toolbox/astro.svg" width="16" height="16" alt="">&nbsp;Astro · <img src="assets/toolbox/html5.svg" width="16" height="16" alt="">&nbsp;HTML5 · <img src="assets/toolbox/css.svg" width="16" height="16" alt="">&nbsp;CSS</p>
 <p><b>Testing &amp; Delivery</b><br><img src="assets/toolbox/pytest.svg" width="16" height="16" alt="">&nbsp;pytest · <img src="assets/toolbox/git.svg" width="16" height="16" alt="">&nbsp;Git · <img src="assets/toolbox/github-actions.svg" width="16" height="16" alt="">&nbsp;GitHub&nbsp;Actions</p>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-6-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-6-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-6-mobile.svg"><img src="assets/section-6.svg?v=2" width="100%" alt="Connect"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-6-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-6-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-6-mobile.svg"><img src="assets/section-6-wide.svg" width="100%" alt="Connect"></picture></h2>
 
 <p>
 <a href="https://widechaos.cn"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/contact-0-dark.svg"><img src="assets/contact-0-light.svg" width="250" height="48" alt="Blog · widechaos.cn"></picture></a>
@@ -116,7 +116,7 @@ Ember / 邬仁超
 <a href="https://bsky.app/profile/widechaos.bsky.social"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/contact-7-dark-mobile.svg" width="136" height="48"><source media="(max-width:520px)" srcset="assets/contact-7-light-mobile.svg" width="136" height="48"><source media="(prefers-color-scheme: dark)" srcset="assets/contact-7-dark.svg"><img src="assets/contact-7-light.svg" width="156" height="48" alt="Bluesky"></picture></a>
 </p>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-7-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-7-dark.svg?v=2"><source media="(max-width:520px)" srcset="assets/section-7-mobile.svg"><img src="assets/section-7.svg?v=2" width="100%" alt="Open-source contributions"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/section-7-dark-mobile.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/section-7-dark-wide.svg"><source media="(max-width:520px)" srcset="assets/section-7-mobile.svg"><img src="assets/section-7-wide.svg" width="100%" alt="Open-source contributions"></picture></h2>
 
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 
