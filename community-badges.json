@@ -330,6 +330,7 @@
     "certificate_height": 48,
     "weread_icon_size": 44,
     "weread_featured_count": 14,
-    "caption_layout": "Within icon paragraph after a single br; preserve responsive wrapping."
+    "caption_layout": "Within icon paragraph after a single br; preserve responsive wrapping.",
+    "weread_wall_frame": "kbd; all medal images centered on a transparent canvas"
   }
 }

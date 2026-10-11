@@ -1,7 +1,7 @@
 {
   "platform": "WeRead",
   "checked_on": "2026-10-11",
-  "scope": "94 medals visible in the owner-supplied historical wall: 35 API-confirmed official assets and 59 unchanged icon crops from that screenshot. Screenshot confirms historical ownership, not present-day completeness or future weekly automatic coverage.",
+  "scope": "94 medals visible in the owner-supplied historical wall: 35 API-confirmed official assets and 59 screenshot-sourced medals. Original files are preserved; transparent, normalized display derivatives remove only screenshot exterior backgrounds. Historical ownership does not establish present-day completeness or future weekly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
   "returned_count": 35,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
@@ -22,7 +22,9 @@
       "owner_wall_position": {
         "row": 11,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M2-0-2000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-2000",
@@ -40,7 +42,9 @@
       "owner_wall_position": {
         "row": 7,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-2000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M4-0-500",
@@ -58,7 +62,9 @@
       "owner_wall_position": {
         "row": 8,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M4-0-500.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M5-0-100",
@@ -76,7 +82,9 @@
       "owner_wall_position": {
         "row": 13,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M5-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M9-0-50",
@@ -94,7 +102,9 @@
       "owner_wall_position": {
         "row": 7,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M9-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M1-0-30",
@@ -112,7 +122,9 @@
       "owner_wall_position": {
         "row": 32,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M1-0-30.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-3000",
@@ -130,7 +142,9 @@
       "owner_wall_position": {
         "row": 25,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-3000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M7-0-200",
@@ -148,7 +162,9 @@
       "owner_wall_position": {
         "row": 25,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M7-0-200.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M11-0-10",
@@ -166,7 +182,9 @@
       "owner_wall_position": {
         "row": 23,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M11-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M14-0-10",
@@ -184,7 +202,9 @@
       "owner_wall_position": {
         "row": 19,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M14-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M15-1-0",
@@ -202,7 +222,9 @@
       "owner_wall_position": {
         "row": 4,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M15-1-0.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M12-2-3-I-0-0-0",
@@ -222,7 +244,9 @@
       "owner_wall_position": {
         "row": 3,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M12-2-3-I-0-0-0.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M5-0-50",
@@ -240,7 +264,9 @@
       "owner_wall_position": {
         "row": 23,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M5-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M9-0-10",
@@ -258,7 +284,9 @@
       "owner_wall_position": {
         "row": 24,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M9-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     }
   ],
   "known_badges": [
@@ -284,7 +312,9 @@
       "owner_wall_position": {
         "row": 1,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-month-1.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-37",
@@ -309,7 +339,9 @@
       "owner_wall_position": {
         "row": 1,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-37.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-35",
@@ -334,7 +366,9 @@
       "owner_wall_position": {
         "row": 1,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-35.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-25",
@@ -359,7 +393,9 @@
       "owner_wall_position": {
         "row": 2,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-25.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-21",
@@ -384,7 +420,9 @@
       "owner_wall_position": {
         "row": 2,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-21.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-month-2",
@@ -408,7 +446,9 @@
       "owner_wall_position": {
         "row": 2,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-month-2.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-20",
@@ -433,7 +473,9 @@
       "owner_wall_position": {
         "row": 3,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-20.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-16",
@@ -458,7 +500,9 @@
       "owner_wall_position": {
         "row": 3,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-16.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M12-2-3-I-0-0-0",
@@ -478,7 +522,9 @@
       "owner_wall_position": {
         "row": 3,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M12-2-3-I-0-0-0.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-14",
@@ -503,7 +549,9 @@
       "owner_wall_position": {
         "row": 4,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-14.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M15-1-0",
@@ -521,7 +569,9 @@
       "owner_wall_position": {
         "row": 4,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M15-1-0.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-month-3",
@@ -545,7 +595,9 @@
       "owner_wall_position": {
         "row": 4,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-month-3.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-12",
@@ -570,7 +622,9 @@
       "owner_wall_position": {
         "row": 5,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-12.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-raging-week-11",
@@ -595,7 +649,9 @@
       "owner_wall_position": {
         "row": 5,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-raging-week-11.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-10",
@@ -620,7 +676,9 @@
       "owner_wall_position": {
         "row": 5,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-raging-week-09",
@@ -645,7 +703,9 @@
       "owner_wall_position": {
         "row": 6,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-raging-week-09.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-08",
@@ -670,7 +730,9 @@
       "owner_wall_position": {
         "row": 6,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-08.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-month-4",
@@ -694,7 +756,9 @@
       "owner_wall_position": {
         "row": 6,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-month-4.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-2000",
@@ -712,7 +776,9 @@
       "owner_wall_position": {
         "row": 7,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-2000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-07",
@@ -737,7 +803,9 @@
       "owner_wall_position": {
         "row": 7,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-07.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M9-0-50",
@@ -755,7 +823,9 @@
       "owner_wall_position": {
         "row": 7,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M9-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-06",
@@ -780,7 +850,9 @@
       "owner_wall_position": {
         "row": 8,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-06.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2026-perfect-week-05",
@@ -805,7 +877,9 @@
       "owner_wall_position": {
         "row": 8,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-05.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M4-0-500",
@@ -823,7 +897,9 @@
       "owner_wall_position": {
         "row": 8,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M4-0-500.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-31",
@@ -848,7 +924,9 @@
       "owner_wall_position": {
         "row": 9,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-31.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-28",
@@ -873,7 +951,9 @@
       "owner_wall_position": {
         "row": 9,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-28.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-27",
@@ -898,7 +978,9 @@
       "owner_wall_position": {
         "row": 9,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-27.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-19",
@@ -923,7 +1005,9 @@
       "owner_wall_position": {
         "row": 10,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-19.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-15",
@@ -948,7 +1032,9 @@
       "owner_wall_position": {
         "row": 10,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-15.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2025-perfect-week-14",
@@ -973,7 +1059,9 @@
       "owner_wall_position": {
         "row": 10,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2025-perfect-week-14.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-raging-week-41",
@@ -998,7 +1086,9 @@
       "owner_wall_position": {
         "row": 11,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-raging-week-41.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M2-0-2000",
@@ -1016,7 +1106,9 @@
       "owner_wall_position": {
         "row": 11,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M2-0-2000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-1",
@@ -1040,7 +1132,9 @@
       "owner_wall_position": {
         "row": 11,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-1.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-34",
@@ -1065,7 +1159,9 @@
       "owner_wall_position": {
         "row": 12,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-34.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-33",
@@ -1090,7 +1186,9 @@
       "owner_wall_position": {
         "row": 12,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-33.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-32",
@@ -1115,7 +1213,9 @@
       "owner_wall_position": {
         "row": 12,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-32.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-31",
@@ -1140,7 +1240,9 @@
       "owner_wall_position": {
         "row": 13,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-31.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-raging-week-30",
@@ -1165,7 +1267,9 @@
       "owner_wall_position": {
         "row": 13,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-raging-week-30.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M5-0-100",
@@ -1183,7 +1287,9 @@
       "owner_wall_position": {
         "row": 13,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M5-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-19",
@@ -1208,7 +1314,9 @@
       "owner_wall_position": {
         "row": 14,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-19.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-2",
@@ -1232,7 +1340,9 @@
       "owner_wall_position": {
         "row": 14,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-2.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-15",
@@ -1257,7 +1367,9 @@
       "owner_wall_position": {
         "row": 14,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-15.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-3",
@@ -1281,7 +1393,9 @@
       "owner_wall_position": {
         "row": 15,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-3.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-raging-week-13",
@@ -1306,7 +1420,9 @@
       "owner_wall_position": {
         "row": 15,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-raging-week-13.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-12",
@@ -1331,7 +1447,9 @@
       "owner_wall_position": {
         "row": 15,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-12.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-11",
@@ -1356,7 +1474,9 @@
       "owner_wall_position": {
         "row": 16,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-11.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-10",
@@ -1381,7 +1501,9 @@
       "owner_wall_position": {
         "row": 16,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-4",
@@ -1405,7 +1527,9 @@
       "owner_wall_position": {
         "row": 16,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-4.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-09",
@@ -1430,7 +1554,9 @@
       "owner_wall_position": {
         "row": 17,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-09.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-08",
@@ -1455,7 +1581,9 @@
       "owner_wall_position": {
         "row": 17,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-08.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-5",
@@ -1479,7 +1607,9 @@
       "owner_wall_position": {
         "row": 17,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-5.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-month-6",
@@ -1503,7 +1633,9 @@
       "owner_wall_position": {
         "row": 18,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-month-6.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-raging-week-04",
@@ -1528,7 +1660,9 @@
       "owner_wall_position": {
         "row": 18,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-raging-week-04.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-raging-week-03",
@@ -1553,7 +1687,9 @@
       "owner_wall_position": {
         "row": 18,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-raging-week-03.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2024-perfect-week-02",
@@ -1578,7 +1714,9 @@
       "owner_wall_position": {
         "row": 19,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2024-perfect-week-02.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M14-0-10",
@@ -1596,7 +1734,9 @@
       "owner_wall_position": {
         "row": 19,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M14-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-month-1",
@@ -1620,7 +1760,9 @@
       "owner_wall_position": {
         "row": 19,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-month-1.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-52",
@@ -1645,7 +1787,9 @@
       "owner_wall_position": {
         "row": 20,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-52.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-51",
@@ -1670,7 +1814,9 @@
       "owner_wall_position": {
         "row": 20,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-51.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-50",
@@ -1695,7 +1841,9 @@
       "owner_wall_position": {
         "row": 20,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-49",
@@ -1720,7 +1868,9 @@
       "owner_wall_position": {
         "row": 21,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-49.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-45",
@@ -1745,7 +1895,9 @@
       "owner_wall_position": {
         "row": 21,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-45.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-month-2",
@@ -1769,7 +1921,9 @@
       "owner_wall_position": {
         "row": 21,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-month-2.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-42",
@@ -1794,7 +1948,9 @@
       "owner_wall_position": {
         "row": 22,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-42.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-41",
@@ -1819,7 +1975,9 @@
       "owner_wall_position": {
         "row": 22,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-41.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-39",
@@ -1844,7 +2002,9 @@
       "owner_wall_position": {
         "row": 22,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-39.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M5-0-50",
@@ -1862,7 +2022,9 @@
       "owner_wall_position": {
         "row": 23,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M5-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "screenshot-2023-perfect-week-27",
@@ -1887,7 +2049,9 @@
       "owner_wall_position": {
         "row": 23,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/screenshot-2023-perfect-week-27.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M11-0-10",
@@ -1905,7 +2069,9 @@
       "owner_wall_position": {
         "row": 23,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M11-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M11-0-5",
@@ -1923,7 +2089,9 @@
       "owner_wall_position": {
         "row": 24,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M11-0-5.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M9-0-10",
@@ -1941,7 +2109,9 @@
       "owner_wall_position": {
         "row": 24,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M9-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M9-0-5",
@@ -1959,7 +2129,9 @@
       "owner_wall_position": {
         "row": 24,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M9-0-5.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-3000",
@@ -1977,7 +2149,9 @@
       "owner_wall_position": {
         "row": 25,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-3000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-1000",
@@ -1995,7 +2169,9 @@
       "owner_wall_position": {
         "row": 25,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-1000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M7-0-200",
@@ -2013,7 +2189,9 @@
       "owner_wall_position": {
         "row": 25,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M7-0-200.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M7-0-100",
@@ -2031,7 +2209,9 @@
       "owner_wall_position": {
         "row": 26,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M7-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M7-0-50",
@@ -2049,7 +2229,9 @@
       "owner_wall_position": {
         "row": 26,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M7-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M7-0-10",
@@ -2067,7 +2249,9 @@
       "owner_wall_position": {
         "row": 26,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M7-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-2000",
@@ -2085,7 +2269,9 @@
       "owner_wall_position": {
         "row": 27,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-2000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-1000",
@@ -2103,7 +2289,9 @@
       "owner_wall_position": {
         "row": 27,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-1000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-500",
@@ -2121,7 +2309,9 @@
       "owner_wall_position": {
         "row": 27,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-500.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-100",
@@ -2139,7 +2329,9 @@
       "owner_wall_position": {
         "row": 28,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M6-0-50",
@@ -2157,7 +2349,9 @@
       "owner_wall_position": {
         "row": 28,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M6-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M5-0-10",
@@ -2175,7 +2369,9 @@
       "owner_wall_position": {
         "row": 28,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M5-0-10.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M4-0-100",
@@ -2193,7 +2389,9 @@
       "owner_wall_position": {
         "row": 29,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M4-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M4-0-50",
@@ -2211,7 +2409,9 @@
       "owner_wall_position": {
         "row": 29,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M4-0-50.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-500",
@@ -2229,7 +2429,9 @@
       "owner_wall_position": {
         "row": 29,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-500.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-365",
@@ -2247,7 +2449,9 @@
       "owner_wall_position": {
         "row": 30,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-365.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-200",
@@ -2265,7 +2469,9 @@
       "owner_wall_position": {
         "row": 30,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-200.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M3-0-100",
@@ -2283,7 +2489,9 @@
       "owner_wall_position": {
         "row": 30,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M3-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M2-0-1000",
@@ -2301,7 +2509,9 @@
       "owner_wall_position": {
         "row": 31,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M2-0-1000.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M2-0-500",
@@ -2319,7 +2529,9 @@
       "owner_wall_position": {
         "row": 31,
         "column": 2
-      }
+      },
+      "display_asset_path": "assets/weread/display/M2-0-500.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M2-0-100",
@@ -2337,7 +2549,9 @@
       "owner_wall_position": {
         "row": 31,
         "column": 3
-      }
+      },
+      "display_asset_path": "assets/weread/display/M2-0-100.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     },
     {
       "id": "M1-0-30",
@@ -2355,7 +2569,9 @@
       "owner_wall_position": {
         "row": 32,
         "column": 1
-      }
+      },
+      "display_asset_path": "assets/weread/display/M1-0-30.png",
+      "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
     }
   ],
   "display": {
@@ -2377,5 +2593,12 @@
     "privacy": "Only individual medal icons extracted; no avatar, username or original wall uploaded.",
     "month_identity": "Month labels preserve year; screenshot ordinals are not calendar month numbers."
   },
-  "display_icon_size": 44
+  "display_icon_size": 44,
+  "display_policy": {
+    "size": 44,
+    "frame": "kbd",
+    "transparent_canvas": 320,
+    "medal_extent": 256,
+    "original_assets_preserved": true
+  }
 }
