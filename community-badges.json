@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-10",
+  "checked_on": "2026-10-11",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -246,25 +246,83 @@
       "credential_url": "https://dev.to/widechaos",
       "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png",
       "verification_source": "Official owner profile badge and badge modal; exact challenge and award date not exposed."
+    },
+    {
+      "platform": "Kaggle",
+      "name": "API Notebook Creator",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4320b13590f043b8c58421eb25f04235%2FBadge-33.svg?generation=1727468143701354&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Colab Coder",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F42167cf9c1c0a74d4e1c7503c010c82d%2FBadge-31.svg?generation=1727468175250681&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Dataset Creator",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "API Dataset Creator",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4bcf6474cdf3503864419523d22b6019%2FBadge-15.svg?generation=1727463114221819&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Dataset Documenter",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fa54e9a00d911cc8e70a0d238f00987b0%2FBadge-16.svg?generation=1727463126992533&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Dataset Tagger",
+      "displayed": true,
+      "issued_on": "2026-10-10",
+      "verified_on": "2026-10-11",
+      "credential_url": "https://www.kaggle.com/xover2022",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F5d31f6794c65cc3ed7e29768cd541a53%2FBadge-17.svg?generation=1727463142252997&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
   "pending_actions": [
     {
       "platform": "Kaggle",
-      "checked_on": "2026-10-08",
-      "awarded": false,
+      "checked_on": "2026-10-11",
+      "awarded": true,
       "actions": [
         "Created AI Evaluation & Reproducible Benchmarks collection",
         "Bookmarked own benchmark notebook and added it to collection",
         "Opened own notebook in Colab"
       ],
-      "candidate_badges": [
-        "Colab Coder"
-      ],
+      "candidate_badges": [],
       "collection_url": "https://www.kaggle.com/work/collections/19265664",
       "notebook_url": "https://www.kaggle.com/code/xover2022/new-benchmark-task-0a5f1",
-      "note": "Bookmarker and Collector officially awarded and displayed. Colab Coder absent from Achieved dashboard (eight earned badges)."
+      "note": "Bookmarker, Collector and Colab Coder are officially awarded and displayed. Achieved dashboard now shows fourteen badges; no pending candidate from these actions."
     }
   ]
 }
