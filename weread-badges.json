@@ -1,7 +1,7 @@
 {
   "platform": "WeRead",
   "checked_on": "2026-10-11",
-  "scope": "94 medals visible in the owner-supplied historical wall: 35 API-confirmed official assets and 59 screenshot-sourced medals. Original files are preserved; transparent, normalized display derivatives remove only screenshot exterior backgrounds. Historical ownership does not establish present-day completeness or future weekly automatic coverage.",
+  "scope": "95 screenshot/API-evidenced medals: historical owner wall of 94 plus a newly supplied earned share for Perfect reading week 40 · 2026. Includes 35 API-confirmed official assets and 60 screenshot-sourced medals. Original icon crops are preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish future weekly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
   "returned_count": 35,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
@@ -290,6 +290,28 @@
     }
   ],
   "known_badges": [
+    {
+      "id": "screenshot-2026-perfect-week-40",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 40 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-40.png",
+      "verified_on": "2026-10-11",
+      "verification_source": "Owner-supplied WeRead earned medal share screenshot; visible owner receipt, year 2026 and week 40",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "b604c284b35ed4cfef3fbf75088fed35df468de4e8fe64cfe6d480a361ba07b4",
+      "crop_box": [
+        248,
+        442,
+        772,
+        1015
+      ],
+      "year": 2026,
+      "week": 40,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-40.png",
+      "display_processing": "Exterior-connected navy background removed, with the convex rounded-hexagon contour restored to preserve the original dark rim. Original interior pixels retained; 0.5px exterior mask feather. Centered to 256px maximum extent on transparent 320px canvas; source crop preserved.",
+      "qualification_text": "一周阅读7天，时长达10小时可得"
+    },
     {
       "id": "screenshot-2026-perfect-month-1",
       "name": "完美阅读月",
@@ -2584,7 +2606,7 @@
     "wall_label": "More reading badges",
     "public_count": false
   },
-  "known_count": 94,
+  "known_count": 95,
   "selected_count": 14,
   "screenshot_evidence": {
     "sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
@@ -2600,5 +2622,13 @@
     "transparent_canvas": 320,
     "medal_extent": 256,
     "original_assets_preserved": true
-  }
+  },
+  "additional_screenshot_evidence": [
+    {
+      "sha256": "b604c284b35ed4cfef3fbf75088fed35df468de4e8fe64cfe6d480a361ba07b4",
+      "badge_id": "screenshot-2026-perfect-week-40",
+      "received_on": "2026-10-11",
+      "privacy": "Only the medal icon crop is published; original owner share and avatar remain local."
+    }
+  ]
 }
