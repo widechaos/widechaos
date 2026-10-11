@@ -47,64 +47,6 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 - **[Heartiger](https://github.com/widechaos/Heartiger)** — designing an agent-driven personal life OS: lightweight journaling, intelligent organization, and a growing second brain.
 - **[widechaos-blog](https://github.com/widechaos/widechaos-blog)** — thinking out loud, in the open → [widechaos.cn](https://widechaos.cn).
 
-<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
-## // open-source contributions
-
-| Project | My contribution |
-| :--- | :--- |
-| **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio)**<br>AI coding workspace<br>[![GitHub stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&label=stars&color=64748b)](https://github.com/EKKOLearnAI/ekko-studio/stargazers) | **[Merged · PR #3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)**<br>Prevented stale inherited bearer tokens from overriding current profile credentials in managed MCP processes. |
-| **[Ralph](https://github.com/frankbria/ralph-claude-code)**<br>Autonomous Claude Code development loop<br>[![GitHub stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&label=stars&color=64748b)](https://github.com/frankbria/ralph-claude-code/stargazers) | **[Merged · PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)**<br>Made exit, rate-limit, and session-reset tests catch production regressions. |
-| **[more-itertools](https://github.com/more-itertools/more-itertools)**<br>Python iterable utilities beyond `itertools`<br>[![GitHub stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&label=stars&color=64748b)](https://github.com/more-itertools/more-itertools/stargazers) | **[Resolved · Bug report #1308](https://github.com/more-itertools/more-itertools/issues/1308)**<br>Reported a `bucket` validator bypass; fixed by another contributor. |
-
-[All contributions →](contributions/README.md) · Merged work, bug reports, and pull requests under review.
-<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
-
-## // toolbox
-
-<p>
-  <b>AI &amp; Agents</b><br>
-  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" height="20"> <img src="https://img.shields.io/badge/LangChain-166534?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" height="20"> <img src="https://img.shields.io/badge/Hugging_Face-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face" height="20"> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" alt="RAG" height="20"> <img src="https://img.shields.io/badge/MCP-4F46E5?style=flat-square" alt="MCP" height="20"> <img src="https://img.shields.io/badge/Transformers-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Transformers" height="20"> <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="20">
-</p>
-
-<p>
-  <b>Machine Learning &amp; Data</b><br>
-  <img src="https://img.shields.io/badge/PyTorch-C9482B?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="20"> <img src="https://img.shields.io/badge/TensorFlow-C45500?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" height="20"> <img src="https://img.shields.io/badge/scikit--learn-B85E00?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" height="20"> <img src="https://img.shields.io/badge/Pandas-4338CA?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" height="20"> <img src="https://img.shields.io/badge/NumPy-166C8B?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="20"> <img src="https://img.shields.io/badge/Matplotlib-2563A6?style=flat-square" alt="Matplotlib" height="20">
-</p>
-
-<p>
-  <b>Voice &amp; Realtime</b><br>
-  <img src="https://img.shields.io/badge/LiveKit-0369A1?style=flat-square&amp;logo=livekit&amp;logoColor=white" alt="LiveKit" height="20"> <img src="https://img.shields.io/badge/FunASR-087F8C?style=flat-square" alt="FunASR" height="20"> <img src="https://img.shields.io/badge/faster--whisper-5261B5?style=flat-square" alt="faster-whisper" height="20"> <img src="https://img.shields.io/badge/Azure_Speech-0078D4?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iI0ZGRkZGRiI%2BPHJlY3QgeD0iMSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNS41IiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIyMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE1LjkiIHk9IjYiIHdpZHRoPSIyLjYiIGhlaWdodD0iMTIiIHJ4PSIxLjMiLz48cmVjdCB4PSIyMC40IiB5PSI5LjUiIHdpZHRoPSIyLjYiIGhlaWdodD0iNSIgcng9IjEuMyIvPjwvZz48L3N2Zz4%3D" alt="Azure Speech" height="20"> <img src="https://img.shields.io/badge/WebRTC-9D174D?style=flat-square&amp;logo=webrtc&amp;logoColor=white" alt="WebRTC" height="20"> <img src="https://img.shields.io/badge/SIP_%C2%B7_FreeSWITCH-087F8C?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNjIgMTAuNzlhMTUuMDUgMTUuMDUgMCAwIDAgNi41OSA2LjU5bDIuMi0yLjJhMSAxIDAgMCAxIDEuMDItLjI0YzEuMTIuMzcgMi4zMy41NyAzLjU3LjU3YTEgMSAwIDAgMSAxIDFWMjBhMSAxIDAgMCAxLTEgMUExNyAxNyAwIDAgMSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg%3D%3D" alt="SIP · FreeSWITCH" height="20">
-</p>
-
-<p>
-  <b>Backend</b><br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20"> <img src="https://img.shields.io/badge/Django-0C6B3D?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" height="20"> <img src="https://img.shields.io/badge/FastAPI-007D72?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"> <img src="https://img.shields.io/badge/Flask-475569?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask" height="20"> <img src="https://img.shields.io/badge/Go-007D9C?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go" height="20"> <img src="https://img.shields.io/badge/Pydantic-B71952?style=flat-square&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" height="20">
-</p>
-
-<p>
-  <b>Databases &amp; Retrieval</b><br>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" height="20"> <img src="https://img.shields.io/badge/MySQL-00618A?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="20"> <img src="https://img.shields.io/badge/SQLite-075985?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" height="20"> <img src="https://img.shields.io/badge/Redis-B52328?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis" height="20"> <img src="https://img.shields.io/badge/SQLAlchemy-9F2438?style=flat-square&amp;logo=sqlalchemy&amp;logoColor=white" alt="SQLAlchemy" height="20"> <img src="https://img.shields.io/badge/Vector_Search-7C3AED?style=flat-square" alt="Vector Search" height="20">
-</p>
-
-<p>
-  <b>Web Crawling &amp; Automation</b><br>
-  <img src="https://img.shields.io/badge/Scrapy-278348?style=flat-square&amp;logo=scrapy&amp;logoColor=white" alt="Scrapy" height="20"> <img src="https://img.shields.io/badge/Beautiful_Soup-8C653A?style=flat-square" alt="Beautiful Soup" height="20"> <img src="https://img.shields.io/badge/Playwright-24823B?style=flat-square" alt="Playwright" height="20"> <img src="https://img.shields.io/badge/Selenium-2A7D25?style=flat-square&amp;logo=selenium&amp;logoColor=white" alt="Selenium" height="20">
-</p>
-
-<p>
-  <b>Cloud &amp; Storage</b><br>
-  <img src="https://img.shields.io/badge/Docker-1769D2?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" height="20"> <img src="https://img.shields.io/badge/Linux-9C6600?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="20"> <img src="https://img.shields.io/badge/Nginx-008638?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx" height="20"> <img src="https://img.shields.io/badge/OpenStack-C61D2D?style=flat-square&amp;logo=openstack&amp;logoColor=white" alt="OpenStack" height="20"> <img src="https://img.shields.io/badge/Ceph-A51D2D?style=flat-square&amp;logo=ceph&amp;logoColor=white" alt="Ceph" height="20"> <img src="https://img.shields.io/badge/Bash-427E2A?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash" height="20">
-</p>
-
-<p>
-  <b>Frontend</b><br>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"> <img src="https://img.shields.io/badge/JavaScript-966F00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="20"> <img src="https://img.shields.io/badge/Vite-7954CB?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20"> <img src="https://img.shields.io/badge/Astro-C54112?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro" height="20"> <img src="https://img.shields.io/badge/HTML5-C74726?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" height="20"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&amp;logo=css&amp;logoColor=white" alt="CSS" height="20">
-</p>
-
-<p>
-  <b>Testing &amp; Delivery</b><br>
-  <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" height="20"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20">
-</p>
 
 ## // community badges
 
@@ -205,6 +147,53 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 </details>
 <!-- COMMUNITY-BADGES:END -->
 
+## // toolbox
+
+<p>
+  <b>AI &amp; Agents</b><br>
+  <img src="https://img.shields.io/badge/LangGraph-6D28D9?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph" height="20"> <img src="https://img.shields.io/badge/LangChain-166534?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain" height="20"> <img src="https://img.shields.io/badge/Hugging_Face-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Hugging Face" height="20"> <img src="https://img.shields.io/badge/RAG-7C3AED?style=flat-square" alt="RAG" height="20"> <img src="https://img.shields.io/badge/MCP-4F46E5?style=flat-square" alt="MCP" height="20"> <img src="https://img.shields.io/badge/Transformers-A16A00?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="Transformers" height="20"> <img src="https://img.shields.io/badge/Ollama-475569?style=flat-square&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="20">
+</p>
+
+<p>
+  <b>Machine Learning &amp; Data</b><br>
+  <img src="https://img.shields.io/badge/PyTorch-C9482B?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="20"> <img src="https://img.shields.io/badge/TensorFlow-C45500?style=flat-square&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" height="20"> <img src="https://img.shields.io/badge/scikit--learn-B85E00?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn" height="20"> <img src="https://img.shields.io/badge/Pandas-4338CA?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas" height="20"> <img src="https://img.shields.io/badge/NumPy-166C8B?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy" height="20"> <img src="https://img.shields.io/badge/Matplotlib-2563A6?style=flat-square" alt="Matplotlib" height="20">
+</p>
+
+<p>
+  <b>Voice &amp; Realtime</b><br>
+  <img src="https://img.shields.io/badge/LiveKit-0369A1?style=flat-square&amp;logo=livekit&amp;logoColor=white" alt="LiveKit" height="20"> <img src="https://img.shields.io/badge/FunASR-087F8C?style=flat-square" alt="FunASR" height="20"> <img src="https://img.shields.io/badge/faster--whisper-5261B5?style=flat-square" alt="faster-whisper" height="20"> <img src="https://img.shields.io/badge/Azure_Speech-0078D4?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPGcgZmlsbD0iI0ZGRkZGRiI%2BPHJlY3QgeD0iMSIgeT0iOSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSI2IiByeD0iMS4zIi8%2BPHJlY3QgeD0iNS41IiB5PSI1IiB3aWR0aD0iMi42IiBoZWlnaHQ9IjE0IiByeD0iMS4zIi8%2BPHJlY3QgeD0iMTAuNyIgeT0iMSIgd2lkdGg9IjIuNiIgaGVpZ2h0PSIyMiIgcng9IjEuMyIvPjxyZWN0IHg9IjE1LjkiIHk9IjYiIHdpZHRoPSIyLjYiIGhlaWdodD0iMTIiIHJ4PSIxLjMiLz48cmVjdCB4PSIyMC40IiB5PSI5LjUiIHdpZHRoPSIyLjYiIGhlaWdodD0iNSIgcng9IjEuMyIvPjwvZz48L3N2Zz4%3D" alt="Azure Speech" height="20"> <img src="https://img.shields.io/badge/WebRTC-9D174D?style=flat-square&amp;logo=webrtc&amp;logoColor=white" alt="WebRTC" height="20"> <img src="https://img.shields.io/badge/SIP_%C2%B7_FreeSWITCH-087F8C?style=flat-square&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTYuNjIgMTAuNzlhMTUuMDUgMTUuMDUgMCAwIDAgNi41OSA2LjU5bDIuMi0yLjJhMSAxIDAgMCAxIDEuMDItLjI0YzEuMTIuMzcgMi4zMy41NyAzLjU3LjU3YTEgMSAwIDAgMSAxIDFWMjBhMSAxIDAgMCAxLTEgMUExNyAxNyAwIDAgMSAzIDRhMSAxIDAgMCAxIDEtMWgzLjVhMSAxIDAgMCAxIDEgMWMwIDEuMjUuMiAyLjQ1LjU3IDMuNTdhMSAxIDAgMCAxLS4yNSAxLjAybC0yLjIgMi4yeiIvPjwvc3ZnPg%3D%3D" alt="SIP · FreeSWITCH" height="20">
+</p>
+
+<p>
+  <b>Backend</b><br>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="20"> <img src="https://img.shields.io/badge/Django-0C6B3D?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django" height="20"> <img src="https://img.shields.io/badge/FastAPI-007D72?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"> <img src="https://img.shields.io/badge/Flask-475569?style=flat-square&amp;logo=flask&amp;logoColor=white" alt="Flask" height="20"> <img src="https://img.shields.io/badge/Go-007D9C?style=flat-square&amp;logo=go&amp;logoColor=white" alt="Go" height="20"> <img src="https://img.shields.io/badge/Pydantic-B71952?style=flat-square&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" height="20">
+</p>
+
+<p>
+  <b>Databases &amp; Retrieval</b><br>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="PostgreSQL" height="20"> <img src="https://img.shields.io/badge/MySQL-00618A?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="MySQL" height="20"> <img src="https://img.shields.io/badge/SQLite-075985?style=flat-square&amp;logo=sqlite&amp;logoColor=white" alt="SQLite" height="20"> <img src="https://img.shields.io/badge/Redis-B52328?style=flat-square&amp;logo=redis&amp;logoColor=white" alt="Redis" height="20"> <img src="https://img.shields.io/badge/SQLAlchemy-9F2438?style=flat-square&amp;logo=sqlalchemy&amp;logoColor=white" alt="SQLAlchemy" height="20"> <img src="https://img.shields.io/badge/Vector_Search-7C3AED?style=flat-square" alt="Vector Search" height="20">
+</p>
+
+<p>
+  <b>Web Crawling &amp; Automation</b><br>
+  <img src="https://img.shields.io/badge/Scrapy-278348?style=flat-square&amp;logo=scrapy&amp;logoColor=white" alt="Scrapy" height="20"> <img src="https://img.shields.io/badge/Beautiful_Soup-8C653A?style=flat-square" alt="Beautiful Soup" height="20"> <img src="https://img.shields.io/badge/Playwright-24823B?style=flat-square" alt="Playwright" height="20"> <img src="https://img.shields.io/badge/Selenium-2A7D25?style=flat-square&amp;logo=selenium&amp;logoColor=white" alt="Selenium" height="20">
+</p>
+
+<p>
+  <b>Cloud &amp; Storage</b><br>
+  <img src="https://img.shields.io/badge/Docker-1769D2?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20"> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes" height="20"> <img src="https://img.shields.io/badge/Linux-9C6600?style=flat-square&amp;logo=linux&amp;logoColor=white" alt="Linux" height="20"> <img src="https://img.shields.io/badge/Nginx-008638?style=flat-square&amp;logo=nginx&amp;logoColor=white" alt="Nginx" height="20"> <img src="https://img.shields.io/badge/OpenStack-C61D2D?style=flat-square&amp;logo=openstack&amp;logoColor=white" alt="OpenStack" height="20"> <img src="https://img.shields.io/badge/Ceph-A51D2D?style=flat-square&amp;logo=ceph&amp;logoColor=white" alt="Ceph" height="20"> <img src="https://img.shields.io/badge/Bash-427E2A?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash" height="20">
+</p>
+
+<p>
+  <b>Frontend</b><br>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"> <img src="https://img.shields.io/badge/JavaScript-966F00?style=flat-square&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="20"> <img src="https://img.shields.io/badge/Vite-7954CB?style=flat-square&amp;logo=vite&amp;logoColor=white" alt="Vite" height="20"> <img src="https://img.shields.io/badge/Astro-C54112?style=flat-square&amp;logo=astro&amp;logoColor=white" alt="Astro" height="20"> <img src="https://img.shields.io/badge/HTML5-C74726?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" height="20"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&amp;logo=css&amp;logoColor=white" alt="CSS" height="20">
+</p>
+
+<p>
+  <b>Testing &amp; Delivery</b><br>
+  <img src="https://img.shields.io/badge/pytest-00799C?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest" height="20"> <img src="https://img.shields.io/badge/Git-C6402C?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" height="20"> <img src="https://img.shields.io/badge/GitHub_Actions-1E78C7?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" height="20">
+</p>
+
 ## // connect
 
 <p>
@@ -212,5 +201,25 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
   <br>
   <a href="https://huggingface.co/WideChaos">Hugging Face</a> &nbsp; / &nbsp; <a href="https://www.kaggle.com/xover2022">Kaggle</a> &nbsp; / &nbsp; <a href="https://www.linkedin.com/in/renchao-wu-widechaos/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://x.com/thewidechaos">X</a> &nbsp; / &nbsp; <a href="https://dev.to/widechaos">DEV</a>
 </p>
+
+<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
+## // open-source contributions
+
+| Project | My contribution |
+| :--- | :--- |
+| **[Ralph](https://github.com/frankbria/ralph-claude-code)**<br>Regression tests and script cleanup<br>[![GitHub stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&label=stars&color=64748b)](https://github.com/frankbria/ralph-claude-code/stargazers) | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377)<br>[Details](contributions/projects/ralph.md) |
+| **[more-itertools](https://github.com/more-itertools/more-itertools)**<br>Validator bypass report<br>[![GitHub stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&label=stars&color=64748b)](https://github.com/more-itertools/more-itertools/stargazers) | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308)<br>[Details](contributions/projects/more-itertools.md) |
+| **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio)**<br>Inherited OAuth provider selection and managed MCP credentials<br>[![GitHub stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&label=stars&color=64748b)](https://github.com/EKKOLearnAI/ekko-studio/stargazers) | **Merged** · [#3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)<br>**Under review** · [#3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343)<br>[Details](contributions/projects/ekko-studio.md) |
+| **[Logfire](https://github.com/pydantic/logfire)**<br>Metrics across sampled-out spans<br>[![GitHub stars](https://img.shields.io/github/stars/pydantic/logfire?style=flat-square&label=stars&color=64748b)](https://github.com/pydantic/logfire/stargazers) | **Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533)<br>[Details](contributions/projects/logfire.md) |
+| **[LiveKit Agents](https://github.com/livekit/agents)**<br>Stream cleanup on errors and cancellation<br>[![GitHub stars](https://img.shields.io/github/stars/livekit/agents?style=flat-square&label=stars&color=64748b)](https://github.com/livekit/agents/stargazers) | **Under review** · [#7658](https://github.com/livekit/agents/pull/7658)<br>[Details](contributions/projects/livekit-agents.md) |
+| **[Tornado](https://github.com/tornadoweb/tornado)**<br>Cancellation-safe lock and semaphore handoff<br>[![GitHub stars](https://img.shields.io/github/stars/tornadoweb/tornado?style=flat-square&label=stars&color=64748b)](https://github.com/tornadoweb/tornado/stargazers) | **Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770)<br>[Details](contributions/projects/tornado.md) |
+| **[HTTPX](https://github.com/encode/httpx)**<br>Fragmented raw-deflate decoding<br>[![GitHub stars](https://img.shields.io/github/stars/encode/httpx?style=flat-square&label=stars&color=64748b)](https://github.com/encode/httpx/stargazers) | **Discussion** · [#3799](https://github.com/encode/httpx/discussions/3799)<br>[Details](contributions/projects/httpx.md) |
+| **[python-dotenv](https://github.com/theskumar/python-dotenv)**<br>CRLF parser warning line numbers<br>[![GitHub stars](https://img.shields.io/github/stars/theskumar/python-dotenv?style=flat-square&label=stars&color=64748b)](https://github.com/theskumar/python-dotenv/stargazers) | **Under review** · [#722](https://github.com/theskumar/python-dotenv/pull/722)<br>[Details](contributions/projects/python-dotenv.md) |
+| **[dateutil](https://github.com/dateutil/dateutil)**<br>Malformed weekday ordinal handling<br>[![GitHub stars](https://img.shields.io/github/stars/dateutil/dateutil?style=flat-square&label=stars&color=64748b)](https://github.com/dateutil/dateutil/stargazers) | **Under review** · [#1597](https://github.com/dateutil/dateutil/pull/1597)<br>[Details](contributions/projects/dateutil.md) |
+| **[PeonPing](https://github.com/PeonPing/peon-ping)**<br>Symlinked pack directory playback<br>[![GitHub stars](https://img.shields.io/github/stars/PeonPing/peon-ping?style=flat-square&label=stars&color=64748b)](https://github.com/PeonPing/peon-ping/stargazers) | **Under review** · [#603](https://github.com/PeonPing/peon-ping/pull/603)<br>[Details](contributions/projects/peonping.md) |
+| **[faster-whisper](https://github.com/SYSTRAN/faster-whisper)**<br>Offline and PCM usage guides<br>[![GitHub stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square&label=stars&color=64748b)](https://github.com/SYSTRAN/faster-whisper/stargazers) | **Closed · unmerged** · [#1554](https://github.com/SYSTRAN/faster-whisper/pull/1554)<br>**Closed · unmerged** · [#1556](https://github.com/SYSTRAN/faster-whisper/pull/1556)<br>[Details](contributions/projects/faster-whisper.md) |
+
+[Contribution details →](contributions/README.md) · Merged, under review, resolved reports, discussions, and closed unmerged work.
+<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 <sub><i>Per aspera ad astra.</i></sub>
