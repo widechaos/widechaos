@@ -224,7 +224,7 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <td width="50%" valign="top">
   <a href="https://github.com/EKKOLearnAI/ekko-studio"><strong>Ekko Studio</strong></a><br>
   <a href="https://github.com/EKKOLearnAI/ekko-studio/stargazers"><img src="https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Ekko Studio GitHub stars"></a>
-  <p>Inherited OAuth provider selection and managed MCP credentials</p>
+  <p>OAuth provider selection and MCP credentials</p>
   <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3359"><img src="https://img.shields.io/badge/Merged%20%233359-238636?style=flat-square" height="18" alt="Merged #3359"></a> <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3343"><img src="https://img.shields.io/badge/Under%20review%20%233343-9a6700?style=flat-square" height="18" alt="Under review #3343"></a> <a href="contributions/projects/ekko-studio.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Ekko Studio contribution details"></a>
 </td>
 <td width="50%" valign="top">
@@ -277,13 +277,12 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
   <a href="https://github.com/SYSTRAN/faster-whisper"><strong>faster-whisper</strong></a><br>
   <a href="https://github.com/SYSTRAN/faster-whisper/stargazers"><img src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="faster-whisper GitHub stars"></a>
   <p>Offline and PCM usage guides</p>
   <a href="https://github.com/SYSTRAN/faster-whisper/pull/1554"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231554-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1554"></a> <a href="https://github.com/SYSTRAN/faster-whisper/pull/1556"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231556-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1556"></a> <a href="contributions/projects/faster-whisper.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="faster-whisper contribution details"></a>
 </td>
-<td width="50%" valign="top"></td>
 </tr>
 </table>
 
