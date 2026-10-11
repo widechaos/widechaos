@@ -52,6 +52,7 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 
 | Project | My contribution |
 | :--- | :--- |
+| **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio)**<br>AI coding workspace<br>[![GitHub stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&label=stars&color=64748b)](https://github.com/EKKOLearnAI/ekko-studio/stargazers) | **[Merged · PR #3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)**<br>Prevented stale inherited bearer tokens from overriding current profile credentials in managed MCP processes. |
 | **[Ralph](https://github.com/frankbria/ralph-claude-code)**<br>Autonomous Claude Code development loop<br>[![GitHub stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&label=stars&color=64748b)](https://github.com/frankbria/ralph-claude-code/stargazers) | **[Merged · PR #380](https://github.com/frankbria/ralph-claude-code/pull/380)**<br>Made exit, rate-limit, and session-reset tests catch production regressions. |
 | **[more-itertools](https://github.com/more-itertools/more-itertools)**<br>Python iterable utilities beyond `itertools`<br>[![GitHub stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&label=stars&color=64748b)](https://github.com/more-itertools/more-itertools/stargazers) | **[Resolved · Bug report #1308](https://github.com/more-itertools/more-itertools/issues/1308)**<br>Reported a `bucket` validator bypass; fixed by another contributor. |
 

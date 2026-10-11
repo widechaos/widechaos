@@ -11,7 +11,7 @@ One row per project. Open a project for its contribution details.
 | :--- | :--- |
 | **[Ralph](projects/ralph.md)**<br>Regression tests and script cleanup | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
-| **[Ekko Studio](projects/ekko-studio.md)**<br>Inherited OAuth provider selection and managed MCP credentials | **Under review** · [#3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343) · [#3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359) |
+| **[Ekko Studio](projects/ekko-studio.md)**<br>Inherited OAuth provider selection and managed MCP credentials | **Merged** · [#3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)<br>**Under review** · [#3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343) |
 | **[Logfire](projects/logfire.md)**<br>Metrics across sampled-out spans | **Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533) |
 | **[LiveKit Agents](projects/livekit-agents.md)**<br>Stream cleanup on errors and cancellation | **Under review** · [#7658](https://github.com/livekit/agents/pull/7658) |
 | **[Tornado](projects/tornado.md)**<br>Cancellation-safe lock and semaphore handoff | **Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770) |
