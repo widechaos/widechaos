@@ -205,21 +205,89 @@ Short-term, fueling the economy. Long-term, fueling the revolution.
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 ## // open-source contributions
 
-| Project | My contribution |
-| :--- | :--- |
-| **[Ralph](https://github.com/frankbria/ralph-claude-code)** [![GitHub stars](https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&label=stars&color=64748b)](https://github.com/frankbria/ralph-claude-code/stargazers) | [Regression tests and script cleanup](contributions/projects/ralph.md)<br>**Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380) · **Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
-| **[more-itertools](https://github.com/more-itertools/more-itertools)** [![GitHub stars](https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&label=stars&color=64748b)](https://github.com/more-itertools/more-itertools/stargazers) | [Validator bypass report](contributions/projects/more-itertools.md)<br>**Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
-| **[Ekko Studio](https://github.com/EKKOLearnAI/ekko-studio)** [![GitHub stars](https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&label=stars&color=64748b)](https://github.com/EKKOLearnAI/ekko-studio/stargazers) | [Inherited OAuth provider selection and managed MCP credentials](contributions/projects/ekko-studio.md)<br>**Merged** · [#3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359) · **Under review** · [#3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343) |
-| **[Logfire](https://github.com/pydantic/logfire)** [![GitHub stars](https://img.shields.io/github/stars/pydantic/logfire?style=flat-square&label=stars&color=64748b)](https://github.com/pydantic/logfire/stargazers) | [Metrics across sampled-out spans](contributions/projects/logfire.md)<br>**Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533) |
-| **[LiveKit Agents](https://github.com/livekit/agents)** [![GitHub stars](https://img.shields.io/github/stars/livekit/agents?style=flat-square&label=stars&color=64748b)](https://github.com/livekit/agents/stargazers) | [Stream cleanup on errors and cancellation](contributions/projects/livekit-agents.md)<br>**Under review** · [#7658](https://github.com/livekit/agents/pull/7658) |
-| **[Tornado](https://github.com/tornadoweb/tornado)** [![GitHub stars](https://img.shields.io/github/stars/tornadoweb/tornado?style=flat-square&label=stars&color=64748b)](https://github.com/tornadoweb/tornado/stargazers) | [Cancellation-safe lock and semaphore handoff](contributions/projects/tornado.md)<br>**Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770) |
-| **[HTTPX](https://github.com/encode/httpx)** [![GitHub stars](https://img.shields.io/github/stars/encode/httpx?style=flat-square&label=stars&color=64748b)](https://github.com/encode/httpx/stargazers) | [Fragmented raw-deflate decoding](contributions/projects/httpx.md)<br>**Discussion** · [#3799](https://github.com/encode/httpx/discussions/3799) |
-| **[python-dotenv](https://github.com/theskumar/python-dotenv)** [![GitHub stars](https://img.shields.io/github/stars/theskumar/python-dotenv?style=flat-square&label=stars&color=64748b)](https://github.com/theskumar/python-dotenv/stargazers) | [CRLF parser warning line numbers](contributions/projects/python-dotenv.md)<br>**Under review** · [#722](https://github.com/theskumar/python-dotenv/pull/722) |
-| **[dateutil](https://github.com/dateutil/dateutil)** [![GitHub stars](https://img.shields.io/github/stars/dateutil/dateutil?style=flat-square&label=stars&color=64748b)](https://github.com/dateutil/dateutil/stargazers) | [Malformed weekday ordinal handling](contributions/projects/dateutil.md)<br>**Under review** · [#1597](https://github.com/dateutil/dateutil/pull/1597) |
-| **[PeonPing](https://github.com/PeonPing/peon-ping)** [![GitHub stars](https://img.shields.io/github/stars/PeonPing/peon-ping?style=flat-square&label=stars&color=64748b)](https://github.com/PeonPing/peon-ping/stargazers) | [Symlinked pack directory playback](contributions/projects/peonping.md)<br>**Under review** · [#603](https://github.com/PeonPing/peon-ping/pull/603) |
-| **[faster-whisper](https://github.com/SYSTRAN/faster-whisper)** [![GitHub stars](https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square&label=stars&color=64748b)](https://github.com/SYSTRAN/faster-whisper/stargazers) | [Offline and PCM usage guides](contributions/projects/faster-whisper.md)<br>**Closed · unmerged** · [#1554](https://github.com/SYSTRAN/faster-whisper/pull/1554) · **Closed · unmerged** · [#1556](https://github.com/SYSTRAN/faster-whisper/pull/1556) |
+<table>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/frankbria/ralph-claude-code"><strong>Ralph</strong></a><br>
+  <a href="https://github.com/frankbria/ralph-claude-code/stargazers"><img src="https://img.shields.io/github/stars/frankbria/ralph-claude-code?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Ralph GitHub stars"></a>
+  <p>Regression tests and script cleanup</p>
+  <a href="https://github.com/frankbria/ralph-claude-code/pull/380"><img src="https://img.shields.io/badge/Merged%20%23380-238636?style=flat-square" height="18" alt="Merged #380"></a> <a href="https://github.com/frankbria/ralph-claude-code/pull/377"><img src="https://img.shields.io/badge/Under%20review%20%23377-9a6700?style=flat-square" height="18" alt="Under review #377"></a> <a href="contributions/projects/ralph.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Ralph contribution details"></a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/more-itertools/more-itertools"><strong>more-itertools</strong></a><br>
+  <a href="https://github.com/more-itertools/more-itertools/stargazers"><img src="https://img.shields.io/github/stars/more-itertools/more-itertools?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="more-itertools GitHub stars"></a>
+  <p>Validator bypass report</p>
+  <a href="https://github.com/more-itertools/more-itertools/issues/1308"><img src="https://img.shields.io/badge/Resolved%20report%20%231308-0969da?style=flat-square" height="18" alt="Resolved report #1308"></a> <a href="contributions/projects/more-itertools.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="more-itertools contribution details"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/EKKOLearnAI/ekko-studio"><strong>Ekko Studio</strong></a><br>
+  <a href="https://github.com/EKKOLearnAI/ekko-studio/stargazers"><img src="https://img.shields.io/github/stars/EKKOLearnAI/ekko-studio?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Ekko Studio GitHub stars"></a>
+  <p>Inherited OAuth provider selection and managed MCP credentials</p>
+  <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3359"><img src="https://img.shields.io/badge/Merged%20%233359-238636?style=flat-square" height="18" alt="Merged #3359"></a> <a href="https://github.com/EKKOLearnAI/ekko-studio/pull/3343"><img src="https://img.shields.io/badge/Under%20review%20%233343-9a6700?style=flat-square" height="18" alt="Under review #3343"></a> <a href="contributions/projects/ekko-studio.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Ekko Studio contribution details"></a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/pydantic/logfire"><strong>Logfire</strong></a><br>
+  <a href="https://github.com/pydantic/logfire/stargazers"><img src="https://img.shields.io/github/stars/pydantic/logfire?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Logfire GitHub stars"></a>
+  <p>Metrics across sampled-out spans</p>
+  <a href="https://github.com/pydantic/logfire/pull/2533"><img src="https://img.shields.io/badge/Under%20review%20%232533-9a6700?style=flat-square" height="18" alt="Under review #2533"></a> <a href="contributions/projects/logfire.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Logfire contribution details"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/livekit/agents"><strong>LiveKit Agents</strong></a><br>
+  <a href="https://github.com/livekit/agents/stargazers"><img src="https://img.shields.io/github/stars/livekit/agents?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="LiveKit Agents GitHub stars"></a>
+  <p>Stream cleanup on errors and cancellation</p>
+  <a href="https://github.com/livekit/agents/pull/7658"><img src="https://img.shields.io/badge/Under%20review%20%237658-9a6700?style=flat-square" height="18" alt="Under review #7658"></a> <a href="contributions/projects/livekit-agents.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="LiveKit Agents contribution details"></a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/tornadoweb/tornado"><strong>Tornado</strong></a><br>
+  <a href="https://github.com/tornadoweb/tornado/stargazers"><img src="https://img.shields.io/github/stars/tornadoweb/tornado?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="Tornado GitHub stars"></a>
+  <p>Cancellation-safe lock and semaphore handoff</p>
+  <a href="https://github.com/tornadoweb/tornado/pull/3770"><img src="https://img.shields.io/badge/Under%20review%20%233770-9a6700?style=flat-square" height="18" alt="Under review #3770"></a> <a href="contributions/projects/tornado.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="Tornado contribution details"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/encode/httpx"><strong>HTTPX</strong></a><br>
+  <a href="https://github.com/encode/httpx/stargazers"><img src="https://img.shields.io/github/stars/encode/httpx?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="HTTPX GitHub stars"></a>
+  <p>Fragmented raw-deflate decoding</p>
+  <a href="https://github.com/encode/httpx/discussions/3799"><img src="https://img.shields.io/badge/Discussion%20%233799-8250df?style=flat-square" height="18" alt="Discussion #3799"></a> <a href="contributions/projects/httpx.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="HTTPX contribution details"></a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/theskumar/python-dotenv"><strong>python-dotenv</strong></a><br>
+  <a href="https://github.com/theskumar/python-dotenv/stargazers"><img src="https://img.shields.io/github/stars/theskumar/python-dotenv?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="python-dotenv GitHub stars"></a>
+  <p>CRLF parser warning line numbers</p>
+  <a href="https://github.com/theskumar/python-dotenv/pull/722"><img src="https://img.shields.io/badge/Under%20review%20%23722-9a6700?style=flat-square" height="18" alt="Under review #722"></a> <a href="contributions/projects/python-dotenv.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="python-dotenv contribution details"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/dateutil/dateutil"><strong>dateutil</strong></a><br>
+  <a href="https://github.com/dateutil/dateutil/stargazers"><img src="https://img.shields.io/github/stars/dateutil/dateutil?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="dateutil GitHub stars"></a>
+  <p>Malformed weekday ordinal handling</p>
+  <a href="https://github.com/dateutil/dateutil/pull/1597"><img src="https://img.shields.io/badge/Under%20review%20%231597-9a6700?style=flat-square" height="18" alt="Under review #1597"></a> <a href="contributions/projects/dateutil.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="dateutil contribution details"></a>
+</td>
+<td width="50%" valign="top">
+  <a href="https://github.com/PeonPing/peon-ping"><strong>PeonPing</strong></a><br>
+  <a href="https://github.com/PeonPing/peon-ping/stargazers"><img src="https://img.shields.io/github/stars/PeonPing/peon-ping?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="PeonPing GitHub stars"></a>
+  <p>Symlinked pack directory playback</p>
+  <a href="https://github.com/PeonPing/peon-ping/pull/603"><img src="https://img.shields.io/badge/Under%20review%20%23603-9a6700?style=flat-square" height="18" alt="Under review #603"></a> <a href="contributions/projects/peonping.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="PeonPing contribution details"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <a href="https://github.com/SYSTRAN/faster-whisper"><strong>faster-whisper</strong></a><br>
+  <a href="https://github.com/SYSTRAN/faster-whisper/stargazers"><img src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square&amp;label=stars&amp;color=6e7781" height="18" alt="faster-whisper GitHub stars"></a>
+  <p>Offline and PCM usage guides</p>
+  <a href="https://github.com/SYSTRAN/faster-whisper/pull/1554"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231554-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1554"></a> <a href="https://github.com/SYSTRAN/faster-whisper/pull/1556"><img src="https://img.shields.io/badge/Closed%20%C2%B7%20unmerged%20%231556-6e7781?style=flat-square" height="18" alt="Closed · unmerged #1556"></a> <a href="contributions/projects/faster-whisper.md"><img src="https://img.shields.io/badge/Details-0969da?style=flat-square" height="18" alt="faster-whisper contribution details"></a>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
-[Contribution details →](contributions/README.md) · Merged, under review, resolved reports, discussions, and closed unmerged work.
+[Contribution details →](contributions/README.md)
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
 <sub><i>Per aspera ad astra.</i></sub>
