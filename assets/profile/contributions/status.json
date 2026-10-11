@@ -1,0 +1,106 @@
+{
+  "dateutil/dateutil": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/dateutil/dateutil/pull/1597",
+      "number": "1597",
+      "live_pr": true
+    }
+  ],
+  "EKKOLearnAI/ekko-studio": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3343",
+      "number": "3343",
+      "live_pr": true
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3359",
+      "number": "3359",
+      "live_pr": true
+    }
+  ],
+  "SYSTRAN/faster-whisper": [
+    {
+      "status": "Closed · unmerged",
+      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1554",
+      "number": "1554",
+      "live_pr": true
+    },
+    {
+      "status": "Closed · unmerged",
+      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1556",
+      "number": "1556",
+      "live_pr": true
+    }
+  ],
+  "encode/httpx": [
+    {
+      "status": "Discussion · no PR yet",
+      "url": "https://github.com/encode/httpx/discussions/3799",
+      "number": "3799"
+    }
+  ],
+  "livekit/agents": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/livekit/agents/pull/7658",
+      "number": "7658",
+      "live_pr": true
+    }
+  ],
+  "pydantic/logfire": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/pydantic/logfire/pull/2533",
+      "number": "2533",
+      "live_pr": true
+    }
+  ],
+  "more-itertools/more-itertools": [
+    {
+      "status": "Resolved report",
+      "url": "https://github.com/more-itertools/more-itertools/issues/1308",
+      "number": "1308"
+    }
+  ],
+  "PeonPing/peon-ping": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/PeonPing/peon-ping/pull/603",
+      "number": "603",
+      "live_pr": true
+    }
+  ],
+  "theskumar/python-dotenv": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/theskumar/python-dotenv/pull/722",
+      "number": "722",
+      "live_pr": true
+    }
+  ],
+  "frankbria/ralph-claude-code": [
+    {
+      "status": "Merged",
+      "url": "https://github.com/frankbria/ralph-claude-code/pull/380",
+      "number": "380",
+      "live_pr": true
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/frankbria/ralph-claude-code/pull/377",
+      "number": "377",
+      "live_pr": true
+    }
+  ],
+  "tornadoweb/tornado": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/tornadoweb/tornado/pull/3770",
+      "number": "3770",
+      "live_pr": true
+    }
+  ]
+}

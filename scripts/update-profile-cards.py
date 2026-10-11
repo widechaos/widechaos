@@ -1,4 +1,4 @@
-"""Render contribution cards from public project records and current GitHub stars."""
+"""Render contribution cards from public project records and current GitHub stars and PR states."""
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import html
@@ -21,20 +21,67 @@ def project(path, captions):
     if 'estidama' in repo.lower():
         raise ValueError('Employer repositories are excluded')
     states = []
+    evidence = []
     for state, url in re.findall(r'^\| \*\*([^*]+)\*\* \| .*?\]\((https://github.com/[^)]+)\)', text, re.M):
         number = re.search(r'/(?:pull|issues|discussions)/(\d+)', url)
+        evidence.append(dict(status=state, url=url, number=number.group(1) if number else None))
         states.append(state + (f' #{number.group(1)}' if number else ''))
     if not states:
         raise ValueError(f'No contribution evidence: {path.name}')
-    return dict(slug=path.stem, name=name, repo=repo, caption=captions.get(path.stem, 'Contribution details and upstream evidence'), statuses=states, details=f'contributions/projects/{path.name}')
+    return dict(slug=path.stem, name=name, repo=repo, caption=captions.get(path.stem, 'Contribution details and upstream evidence'), statuses=states, evidence=evidence, details=f'contributions/projects/{path.name}')
 
-def get_stars(p):
-    result = subprocess.run(['gh', 'api', f'repos/{p["repo"]}'], check=True, text=True, capture_output=True)
-    data = json.loads(result.stdout)
+def api(endpoint):
+    result = subprocess.run(['gh', 'api', endpoint], check=True, text=True,
+                            capture_output=True, timeout=45)
+    return json.loads(result.stdout)
+
+
+def pr_status(data):
+    if data.get('merged'):
+        return 'Merged'
+    if data['state'] == 'closed':
+        return 'Closed · unmerged'
+    if data['state'] == 'open':
+        return 'Draft' if data.get('draft') else 'Under review'
+    raise ValueError('Unrecognized PR state')
+
+
+def get_metadata(p):
+    data = api(f'repos/{p["repo"]}')
     if data['private']:
         raise ValueError('Only public repository metadata is allowed')
     p['stars'] = data['stargazers_count']
+    for item in p['evidence']:
+        match = re.fullmatch(r'https://github.com/([^/]+/[^/]+)/pull/(\d+)', item['url'])
+        if not match:
+            # Reports and discussions need human attribution; closure is not proof of a fix.
+            continue
+        repo, number = match.groups()
+        if repo.lower() != p['repo'].lower():
+            raise ValueError('PR evidence must belong to the recorded public repository')
+        data = api(f'repos/{repo}/pulls/{number}')
+        if data['user']['login'].lower() != 'widechaos':
+            raise ValueError('PR author does not match the profile owner')
+        item['status'] = pr_status(data)
+        item['live_pr'] = True
+    p['statuses'] = [item['status'] + (f" #{item['number']}" if item['number'] else '')
+                     for item in p['evidence']]
     return p
+
+
+def sync_status_text(text, projects):
+    # Replace only the label paired with the exact previously verified PR URL.
+    for p in projects:
+        for item in p['evidence']:
+            if not item.get('live_pr'):
+                continue
+            url = re.escape(item['url'])
+            row = re.compile(r'(^\| \*\*)[^*]+(\*\* \| .*?\]\(' + url + r'\))', re.M)
+            text = row.sub(lambda m: m[1] + item['status'] + m[2], text)
+            index = re.compile(r'\*\*[^*]+\*\*( · \[#\d+\]\(' + url + r'\))')
+            text = index.sub(lambda m: '**' + item['status'] + '**' + m[1], text)
+    return text
+
 
 def render(p, theme):
     bg, fg, muted, border, cyan, pink, purple = PALETTES[theme]
@@ -62,12 +109,22 @@ def main():
     # Complete fetching before replacing any last-known-good output.
     projects = [project(p, captions) for p in paths]
     with ThreadPoolExecutor(max_workers=4) as pool:
-        projects = list(pool.map(get_stars, projects))
+        projects = list(pool.map(get_metadata, projects))
+    updates = {}
+    for path in (ROOT / 'contributions').rglob('*.md'):
+        before = path.read_text()
+        after = sync_status_text(before, projects)
+        if after != before:
+            updates[path] = after
     OUT.mkdir(parents=True, exist_ok=True)
     for p in projects:
         for theme in PALETTES:
             (OUT / f'{p["slug"]}-{theme}.svg').write_text(render(p, theme))
     (OUT / 'stars.json').write_text(json.dumps({p['repo']: p['stars'] for p in projects}, indent=2) + '\n')
+    snapshot = {p['repo']: p['evidence'] for p in projects}
+    (OUT / 'status.json').write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + '\n')
+    for path, text in updates.items():
+        path.write_text(text)
     print(f'Rendered {len(projects)} public contribution cards in both themes')
 
 if __name__ == '__main__':

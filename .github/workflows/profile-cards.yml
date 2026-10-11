@@ -1,34 +1,41 @@
-name: Refresh contribution stars
+name: Refresh contribution cards
 on:
   schedule:
     - cron: '17 1 * * *'
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - 'contributions/projects/**'
       - 'profile-card-captions.json'
       - 'scripts/update-profile-cards.py'
       - '.github/workflows/profile-cards.yml'
+      - 'scripts/check-profile-assets.py'
+      - 'tests/test_profile_cards.py'
 concurrency:
   group: profile-contribution-cards
   cancel-in-progress: false
 jobs:
   render:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v6
+      - name: Test state handling
+        run: python3 -m unittest discover -s tests
       - name: Render cards from public metadata
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/update-profile-cards.py
+      - name: Validate generated profile assets
+        run: python3 scripts/check-profile-assets.py
       - name: Save changed cards
         run: |
           git config user.name 'Renchao Wu'
           git config user.email '42173584+widechaos@users.noreply.github.com'
-          git add assets/profile/contributions
+          git add assets/profile/contributions contributions
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh contribution star counts'
-          git pull --rebase
-          git push
+          git commit -m 'Refresh contribution stars and PR states'
+          git push origin HEAD:main

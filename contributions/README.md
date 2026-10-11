@@ -4,7 +4,7 @@
 
 One row per project. Open a project for its contribution details.
 
-**Merged** = accepted code or documentation · **Under review** = open, unmerged PR.<br>
+**Merged** = accepted code or documentation · **Under review** = open, unmerged PR · **Draft** = not ready for review.<br>
 **Resolved report** = a reported issue fixed by another contributor · **Discussion** = no upstream PR yet · **Closed · unmerged** = not accepted.
 
 | Project & focus | Contribution status |

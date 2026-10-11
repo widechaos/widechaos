@@ -6,6 +6,9 @@ on:
       - 'assets/**'
       - 'contributions/**'
       - 'scripts/check-profile-assets.py'
+      - 'scripts/update-profile-cards.py'
+      - 'tests/**'
+      - '.github/workflows/profile-cards.yml'
       - '.github/workflows/profile-check.yml'
   pull_request:
     paths:
@@ -13,6 +16,9 @@ on:
       - 'assets/**'
       - 'contributions/**'
       - 'scripts/check-profile-assets.py'
+      - 'scripts/update-profile-cards.py'
+      - 'tests/**'
+      - '.github/workflows/profile-cards.yml'
       - '.github/workflows/profile-check.yml'
   workflow_dispatch:
 permissions:
@@ -22,4 +28,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - run: python3 -m unittest discover -s tests
       - run: python3 scripts/check-profile-assets.py
