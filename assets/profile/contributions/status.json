@@ -19,6 +19,18 @@
       "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3359",
       "number": "3359",
       "live_pr": true
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3365",
+      "number": "3365",
+      "live_pr": true
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3374",
+      "number": "3374",
+      "live_pr": true
     }
   ],
   "SYSTRAN/faster-whisper": [

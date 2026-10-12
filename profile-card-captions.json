@@ -1,7 +1,7 @@
 {
   "ralph": "Regression tests and script cleanup",
   "more-itertools": "Validator bypass report",
-  "ekko-studio": "OAuth provider selection and MCP credentials",
+  "ekko-studio": "Chat controls and managed credentials",
   "logfire": "Metrics across sampled-out spans",
   "livekit-agents": "Stream cleanup on errors and cancellation",
   "tornado": "Cancellation-safe lock and semaphore handoff",
