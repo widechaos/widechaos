@@ -1,13 +1,13 @@
 {
-  "dateutil/dateutil": 2638,
-  "EKKOLearnAI/ekko-studio": 11356,
-  "SYSTRAN/faster-whisper": 25810,
-  "encode/httpx": 15617,
-  "livekit/agents": 14691,
-  "pydantic/logfire": 4511,
+  "dateutil/dateutil": 2640,
+  "EKKOLearnAI/ekko-studio": 11367,
+  "SYSTRAN/faster-whisper": 25814,
+  "encode/httpx": 15620,
+  "livekit/agents": 14705,
+  "pydantic/logfire": 4512,
   "more-itertools/more-itertools": 4101,
   "PeonPing/peon-ping": 5070,
-  "theskumar/python-dotenv": 8898,
+  "theskumar/python-dotenv": 8899,
   "frankbria/ralph-claude-code": 9677,
-  "tornadoweb/tornado": 22164
+  "tornadoweb/tornado": 22165
 }
