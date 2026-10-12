@@ -1,12 +1,12 @@
 {
   "dateutil/dateutil": 2640,
-  "EKKOLearnAI/ekko-studio": 11372,
-  "SYSTRAN/faster-whisper": 25817,
-  "encode/httpx": 15620,
-  "livekit/agents": 14707,
+  "EKKOLearnAI/ekko-studio": 11374,
+  "SYSTRAN/faster-whisper": 25821,
+  "encode/httpx": 15626,
+  "livekit/agents": 14709,
   "pydantic/logfire": 4512,
   "more-itertools/more-itertools": 4101,
-  "PeonPing/peon-ping": 5071,
+  "PeonPing/peon-ping": 5072,
   "theskumar/python-dotenv": 8899,
   "frankbria/ralph-claude-code": 9677,
   "tornadoweb/tornado": 22165
