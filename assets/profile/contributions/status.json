@@ -77,6 +77,14 @@
       "number": "1308"
     }
   ],
+  "OpenWhispr/openwhispr": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/2629",
+      "number": "2629",
+      "live_pr": true
+    }
+  ],
   "PeonPing/peon-ping": [
     {
       "status": "Under review",
