@@ -70,6 +70,14 @@
       "live_pr": true
     }
   ],
+  "Blaizzy/mlx-audio": [
+    {
+      "status": "Merged",
+      "url": "https://github.com/Blaizzy/mlx-audio/pull/1021",
+      "number": "1021",
+      "live_pr": true
+    }
+  ],
   "more-itertools/more-itertools": [
     {
       "status": "Resolved report",
@@ -121,13 +129,6 @@
       "url": "https://github.com/tornadoweb/tornado/pull/3770",
       "number": "3770",
       "live_pr": true
-    }
-  ],
-  "Blaizzy/mlx-audio": [
-    {
-      "status": "Merged",
-      "url": "https://github.com/Blaizzy/mlx-audio/pull/1021",
-      "number": "1021"
     }
   ]
 }
