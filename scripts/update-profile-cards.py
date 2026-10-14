@@ -2,6 +2,7 @@
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import html
+import hashlib
 import json
 import re
 import subprocess
@@ -83,25 +84,86 @@ def sync_status_text(text, projects):
     return text
 
 
+def status_visual(state, theme):
+    light = theme == 'light'
+    if state.startswith('Merged'):
+        return ('#7541c8' if light else '#c9a0ff', 'Merged', 'M4 3v10m0-7c7 0 7 5 7 7M8 10l3 3 3-3', [(4, 2), (4, 14)])
+    if state.startswith('Under review'):
+        return ('#916300' if light else '#f2cc60', 'Review', 'M4 4v9M12 13V6c0-3-4-3-4-3m0 0 2-2M8 3l2 2', [(4, 2), (4, 14), (12, 14)])
+    if state.startswith('Discussion'):
+        return ('#087e8b' if light else '#65dfeb', 'Discussion', 'M2 2h12v9H7l-4 3v-3H2ZM5 5h6M5 8h4', [])
+    if state.startswith('Resolved'):
+        return ('#16734c' if light else '#7ee7b3', 'Report resolved', 'M4 8l3 3 5-6', [(8, 8, 7)])
+    if state.startswith('Closed'):
+        return ('#656d76' if light else '#aab4c2', 'Unmerged', 'M4 4l8 8M12 4l-8 8', [(8, 8, 7)])
+    return ('#656d76' if light else '#aab4c2', state.split(' #')[0], 'M3 8h10M9 4l4 4-4 4', [])
+
+
 def render(p, theme):
     bg, fg, muted, border, cyan, pink, purple = PALETTES[theme]
     esc = html.escape
+    light = theme == 'light'
     stars = str(p['stars']) if p['stars'] < 1000 else f'{p["stars"]/1000:.1f}k'
     states = p['statuses'][:2]
     if len(p['statuses']) > 2:
-        states = [p['statuses'][0], f'+ {len(p["statuses"])-1} more · Details']
-    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="230" height="136" viewBox="0 0 230 136"><title>{esc(p["name"])} contribution details</title>',
-        f'<path d="M1 1H215L229 15V135H15L1 121Z" fill="{bg}" stroke="{border}"/>',
+        states = [p['statuses'][0], f'+{len(p["statuses"])-1} · Details →']
+    bg = '#eaf0f6' if light else bg
+    shine = '#ffffff' if light else '#c7f8ff'
+    svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="230" height="136" viewBox="0 0 230 136"><title>{esc(p["name"])} contribution details: {esc("; ".join(p["statuses"]))}</title>',
+        f'<defs><linearGradient id="badge-sheen"><stop stop-color="{shine}" stop-opacity="0"/><stop offset=".48" stop-color="{shine}" stop-opacity=".15"/><stop offset=".6" stop-color="{shine}" stop-opacity=".9"/><stop offset="1" stop-color="{shine}" stop-opacity="0"/></linearGradient></defs>',
+        '<style>@media(prefers-reduced-motion:reduce){.sheen{display:none}}</style>',
+        f'<path d="M1 1H215L229 15V135H15L1 121Z" fill="{bg}" fill-opacity="{.8 if light else .64}" stroke="{border}"/>',
+        (f'<path d="M3 32V3H213L227 17" fill="none" stroke="#8192a5" stroke-opacity=".16" stroke-width="2"/>' if light else ''),
         f'<path d="M1 29V1H31M201 1H215L229 15V29" fill="none" stroke="{cyan}" stroke-width="2"/>',
         f'<path d="M200 135H229V107" fill="none" stroke="{pink}" stroke-width="2"/>',
-        f'<g font-family="Arial,sans-serif"><text x="13" y="27" fill="{fg}" font-size="16" font-weight="700">{esc(p["name"])}</text>',
-        f'<text x="216" y="27" text-anchor="end" fill="{purple}" font-size="13">★ {stars}</text>']
-    for j, line in enumerate(textwrap.wrap(p['caption'], width=29)):
-        svg.append(f'<text x="13" y="{52+j*17}" fill="{muted}" font-size="13">{esc(line)}</text>')
+        f'<g font-family="Avenir Next,Segoe UI,Arial,sans-serif"><text x="13" y="27" fill="{fg}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14" font-weight="700" letter-spacing="-.35">{esc(p["name"])}</text>',
+        f'<text x="216" y="27" text-anchor="end" fill="{purple}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11.5">★ {stars}</text>']
+    for j, line in enumerate(textwrap.wrap(p['caption'], width=29)[:2]):
+        svg.append(f'<text x="13" y="{49+j*16}" fill="{muted}" font-size="12.5">{esc(line)}</text>')
     for j, state in enumerate(states):
-        color = ('#1a7f37' if theme == 'light' else '#7ee787') if state.startswith('Merged') else ('#0969da' if theme == 'light' else '#79c0ff') if state.startswith('Resolved') else purple if state.startswith('Discussion') else ('#8b5b00' if theme == 'light' else '#e3b341') if state.startswith('Under review') else muted
-        svg.append(f'<text x="13" y="{103+j*17}" fill="{color}" font-size="13">{esc(state)}</text>')
+        y = 100+j*19
+        if state.startswith('+'):
+            svg.append(f'<text x="14" y="{y}" fill="{muted}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11">{esc(state)}</text>')
+            continue
+        color, label, path, circles = status_visual(state, theme)
+        number = re.search(r'#(\d+)', state)
+        label += f' #{number.group(1)}' if number else ''
+        badge_width = min(202, 29 + len(label) * 6.6)
+        svg.append(f'<defs><clipPath id="badge-{j}"><rect x="10" y="{y-14}" width="{badge_width}" height="18" rx="4"/></clipPath></defs>')
+        svg.append(f'<rect x="10" y="{y-14}" width="{badge_width}" height="18" rx="4" fill="{color}" fill-opacity=".07" stroke="{color}" stroke-opacity=".18" stroke-width=".6"/>')
+        timing = int.from_bytes(hashlib.sha256(f"{p['slug']}:{state}:{j}".encode()).digest()[:4], 'big')
+        duration = 7 + (timing % 6001) / 1000
+        offset = ((timing >> 12) % 10000) / 10000 * duration
+        sweep_end = round(2.25 / duration, 4)
+        svg.append(f'<g clip-path="url(#badge-{j})"><g class="sheen" opacity=".85"><animateTransform attributeName="transform" type="translate" values="-55 {y-42};{badge_width+35} {y+8};{badge_width+35} {y+8}" keyTimes="0;{sweep_end};1" dur="{duration:.3f}s" begin="-{offset:.3f}s" repeatCount="indefinite"/><rect x="-24" y="-35" width="48" height="70" transform="rotate(-25)" fill="url(#badge-sheen)"/></g></g>')
+        svg.append(f'<g transform="translate(13 {y-12})" fill="none" stroke="{color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{path}"/>')
+        for circle in circles:
+            x, cy, *radius = circle
+            svg.append(f'<circle cx="{x}" cy="{cy}" r="{radius[0] if radius else 1.7}"/>')
+        svg.append(f'</g><text x="35" y="{y}" fill="{color}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11">{esc(label)}</text>')
     return ''.join(svg) + '</g></svg>\n'
+
+def sync_grid(text, projects):
+    start = '<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->'
+    end = '<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->'
+    if text.count(start) != 1 or text.count(end) != 1:
+        raise ValueError('Invalid contribution grid boundaries')
+    a = text.index(start) + len(start)
+    b = text.index(end)
+    known = {p['slug']: p for p in projects}
+    existing = re.findall(r'href="contributions/projects/([^"/]+)\.md"', text[a:b])
+    order = list(dict.fromkeys(existing + sorted(known)))
+    links = []
+    for slug in order:
+        if slug not in known:
+            raise ValueError('Missing contribution evidence: ' + slug)
+        p = known[slug]
+        base = 'assets/profile/contributions/' + slug
+        alt = html.escape(p['name'] + ' — ' + p['caption'], quote=True)
+        links.append(f'<a href="contributions/projects/{slug}.md"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="{base}-dark.svg" width="300" height="177"><source media="(max-width:520px)" srcset="{base}-light.svg" width="300" height="177"><source media="(prefers-color-scheme: dark)" srcset="{base}-dark.svg"><img src="{base}-light.svg" width="205" alt="{alt}"></picture></a>')
+    block = '\n<p>\n' + '\n'.join(links) + '\n</p>\n\n[Contribution details →](contributions/README.md)\n\n'
+    return text[:a] + block + text[b:]
+
 
 def main():
     captions = json.loads((ROOT / 'profile-card-captions.json').read_text())
@@ -125,6 +187,8 @@ def main():
     (OUT / 'status.json').write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + '\n')
     for path, text in updates.items():
         path.write_text(text)
+    readme = ROOT / 'README.md'
+    readme.write_text(sync_grid(readme.read_text(), projects))
     print(f'Rendered {len(projects)} public contribution cards in both themes')
 
 if __name__ == '__main__':

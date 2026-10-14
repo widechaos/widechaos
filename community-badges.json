@@ -20,12 +20,22 @@
       "displayed": true,
       "credential_url": "https://www.kaggle.com/certification/badges/xover2022/50",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F17276c55ce13e85b658e1f49c608eba6%2FBadge-47.svg?generation=1727468428193735&alt=media",
-      "verified_on": "2026-10-03"
+      "verified_on": "2026-10-03",
+      "display_order": 14,
+      "display_alt": "Kaggle · 2 Years on Kaggle",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/50"
     },
     {
       "platform": "Kaggle",
       "name": "Python Coder",
-      "displayed": true
+      "displayed": true,
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F09e1f99bdf3222934ad7769409ec3f6d%2FBadge-26.svg?generation=1727468059623106&alt=media",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/30",
+      "display_order": 12,
+      "display_alt": "Kaggle: Python Coder",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/30"
     },
     {
       "platform": "Kaggle",
@@ -33,12 +43,22 @@
       "displayed": true,
       "credential_url": "https://www.kaggle.com/certification/badges/xover2022/37",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F453e2017576218001d5bbff451800de8%2FBadge-36.svg?generation=1727468194325199&alt=media",
-      "verified_on": "2026-10-03"
+      "verified_on": "2026-10-03",
+      "display_order": 13,
+      "display_alt": "Kaggle · Code Tagger",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/37"
     },
     {
       "platform": "Kaggle",
       "name": "Benchmark Task local builder",
-      "displayed": true
+      "displayed": true,
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F28600560%2F67c08ccc82a2487e2de66dfb8290a87d%2Fbenchmark-sdk-user.svg?generation=1780095285856089&alt=media",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/107",
+      "display_order": 11,
+      "display_alt": "Kaggle: Benchmark Task local builder",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/107"
     },
     {
       "platform": "Kaggle",
@@ -48,7 +68,13 @@
     {
       "platform": "DEV",
       "name": "Writing Debut",
-      "displayed": true
+      "displayed": true,
+      "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F280%2FWriting_Streak_Badges-05.png",
+      "credential_url": "https://dev.to/widechaos",
+      "display_order": 23,
+      "display_alt": "DEV: Writing Debut",
+      "display_group": "community",
+      "artwork_link": "https://dev.to/widechaos"
     },
     {
       "platform": "Databricks Academy",
@@ -62,7 +88,11 @@
       "badge_image_url": "https://api.accredible.com/v1/credentials/153yndfb/artifact/badge",
       "display_url": "assets/certificates/databricks-generative-ai.png",
       "display_mode": "official certificate screenshot",
-      "public_without_login_verified_on": "2026-10-03"
+      "public_without_login_verified_on": "2026-10-03",
+      "display_order": 0,
+      "display_alt": "Databricks Academy · Generative AI Fundamentals",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/databricks-generative-ai.png"
     },
     {
       "platform": "Databricks Academy",
@@ -76,7 +106,11 @@
       "badge_image_url": "https://api.accredible.com/v1/credentials/xtmi6hcu/artifact/badge",
       "display_url": "assets/certificates/databricks-ai-agent.png",
       "display_mode": "official certificate screenshot",
-      "public_without_login_verified_on": "2026-10-03"
+      "public_without_login_verified_on": "2026-10-03",
+      "display_order": 1,
+      "display_alt": "Databricks Academy · AI Agent Fundamentals",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/databricks-ai-agent.png"
     },
     {
       "platform": "Databricks Academy",
@@ -90,7 +124,11 @@
       "badge_image_url": "https://api.accredible.com/v1/credentials/wwr76w1c/artifact/badge",
       "display_url": "assets/certificates/databricks-ai-security.png",
       "display_mode": "official certificate screenshot",
-      "public_without_login_verified_on": "2026-10-03"
+      "public_without_login_verified_on": "2026-10-03",
+      "display_order": 2,
+      "display_alt": "Databricks Academy · AI Security Fundamentals",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/databricks-ai-security.png"
     },
     {
       "platform": "Hugging Face",
@@ -101,7 +139,11 @@
       "owner": "Renchao Wu",
       "credential_url": "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/WideChaos/2026-10-03.png",
       "image_url": "assets/certificates/huggingface-agents-unit1.png",
-      "display_url": "assets/certificates/huggingface-agents-unit1.png"
+      "display_url": "assets/certificates/huggingface-agents-unit1.png",
+      "display_order": 3,
+      "display_alt": "Hugging Face · Fundamentals of Agents · Unit 1 certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/huggingface-agents-unit1.png"
     },
     {
       "platform": "Alibaba Cloud Academy",
@@ -114,7 +156,11 @@
       "verified_on": "2026-10-03",
       "credential_url": "https://github.com/widechaos/widechaos/blob/main/assets/certificates/alibaba-cloud-generative-ai.png",
       "image_url": "assets/certificates/alibaba-cloud-generative-ai.png",
-      "official_result_url": "https://edu.alibabacloud.com/clouder/exam/result/538018"
+      "official_result_url": "https://edu.alibabacloud.com/clouder/exam/result/538018",
+      "display_order": 5,
+      "display_alt": "Alibaba Cloud · Apsara Clouder · Generative AI",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/alibaba-cloud-generative-ai.png"
     },
     {
       "platform": "Cognitive Class / IBM Skills Network",
@@ -130,7 +176,11 @@
       "score_percent": 100,
       "image_url": "assets/certificates/cognitive-class-prompt-engineering.png",
       "source_image_url": "https://courses.cognitiveclass.ai/certificates/c1d112d619974cdcb875f699f5ac5160",
-      "display_url": "assets/certificates/cognitive-class-prompt-engineering.png"
+      "display_url": "assets/certificates/cognitive-class-prompt-engineering.png",
+      "display_order": 6,
+      "display_alt": "Cognitive Class · Prompt Engineering for Everyone certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/cognitive-class-prompt-engineering.png"
     },
     {
       "platform": "Cognitive Class / IBM Developer Skills Network",
@@ -147,7 +197,11 @@
       "course_code": "CB0101EN",
       "score_percent": 97,
       "review_score": "35/35",
-      "exam_score": "14/15"
+      "exam_score": "14/15",
+      "display_order": 7,
+      "display_alt": "Cognitive Class · Build Your Own Chatbot certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/cognitive-class-chatbot.png"
     },
     {
       "platform": "Cognitive Class / IBM Skills Network",
@@ -166,7 +220,11 @@
         "AI Ethics",
         "Introducing AI"
       ],
-      "completion_basis": "Platform completion checks; not a knowledge examination or hands-on project"
+      "completion_basis": "Platform completion checks; not a knowledge examination or hands-on project",
+      "display_order": 8,
+      "display_alt": "Cognitive Class · Fundamentals of AI certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/cognitive-class-fundamentals-ai.png"
     },
     {
       "platform": "Cognitive Class / IBM Developer Skills Network",
@@ -183,7 +241,11 @@
       "display_mode": "official certificate screenshot",
       "score_percent": 100,
       "review_score": "15/15",
-      "exam_score": "20/20"
+      "exam_score": "20/20",
+      "display_order": 9,
+      "display_alt": "Cognitive Class · Machine Learning with Python certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/cognitive-class-machine-learning.png"
     },
     {
       "platform": "Hugging Face",
@@ -201,7 +263,11 @@
       "total_attempted": 20,
       "agent_code": "https://huggingface.co/spaces/WideChaos/evidence-agent/tree/main",
       "evaluation_model": "mlx-community/Qwen3-14B-4bit",
-      "completion_basis": "Official final-project model evaluation; certificate issued under WideChaos. Does not imply complete video viewing or independent manual test taking."
+      "completion_basis": "Official final-project model evaluation; certificate issued under WideChaos. Does not imply complete video viewing or independent manual test taking.",
+      "display_order": 4,
+      "display_alt": "Hugging Face · Agents Course certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/huggingface-agents-course.png"
     },
     {
       "platform": "Kaggle",
@@ -211,7 +277,11 @@
       "verified_on": "2026-10-04",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fe06d05ebef3630403946b71cbdc11665%2FBadge-42.svg?generation=1727468309615075&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 15,
+      "display_alt": "Kaggle · Bookmarker",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "IBM SkillsBuild",
@@ -225,7 +295,11 @@
       "image_url": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png",
       "display_url": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png",
       "display_mode": "official certificate PDF rendered as image",
-      "certificate_file": "assets/certificates/ibm-skillsbuild-ai-fundamentals.pdf"
+      "certificate_file": "assets/certificates/ibm-skillsbuild-ai-fundamentals.pdf",
+      "display_order": 10,
+      "display_alt": "IBM SkillsBuild · Artificial Intelligence Fundamentals certificate",
+      "display_group": "certificate",
+      "artwork_link": "assets/certificates/ibm-skillsbuild-ai-fundamentals.png"
     },
     {
       "platform": "Kaggle",
@@ -235,7 +309,11 @@
       "verified_on": "2026-10-08",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbd815f5d633db594d07a22a6e3f1067e%2FBadge-43.svg?generation=1727468286042063&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 16,
+      "display_alt": "Kaggle · Collector",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "DEV",
@@ -245,7 +323,11 @@
       "verified_on": "2026-10-10",
       "credential_url": "https://dev.to/widechaos",
       "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png",
-      "verification_source": "Official owner profile badge and badge modal; exact challenge and award date not exposed."
+      "verification_source": "Official owner profile badge and badge modal; exact challenge and award date not exposed.",
+      "display_order": 24,
+      "display_alt": "DEV: Hacktoberfest 2026 Challenge Completion",
+      "display_group": "community",
+      "artwork_link": "https://dev.to/widechaos"
     },
     {
       "platform": "Kaggle",
@@ -255,7 +337,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4320b13590f043b8c58421eb25f04235%2FBadge-33.svg?generation=1727468143701354&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 17,
+      "display_alt": "Kaggle · API Notebook Creator",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "Kaggle",
@@ -265,7 +351,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F42167cf9c1c0a74d4e1c7503c010c82d%2FBadge-31.svg?generation=1727468175250681&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 18,
+      "display_alt": "Kaggle · Colab Coder",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "Kaggle",
@@ -275,7 +365,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F28e0e70842ce6972f4d68f5b6ecd549a%2FBadge-12.svg?generation=1727462988946700&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 19,
+      "display_alt": "Kaggle · Dataset Creator",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "Kaggle",
@@ -285,7 +379,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F4bcf6474cdf3503864419523d22b6019%2FBadge-15.svg?generation=1727463114221819&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 20,
+      "display_alt": "Kaggle · API Dataset Creator",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "Kaggle",
@@ -295,7 +393,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fa54e9a00d911cc8e70a0d238f00987b0%2FBadge-16.svg?generation=1727463126992533&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 21,
+      "display_alt": "Kaggle · Dataset Documenter",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     },
     {
       "platform": "Kaggle",
@@ -305,7 +407,11 @@
       "verified_on": "2026-10-11",
       "credential_url": "https://www.kaggle.com/xover2022",
       "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F5d31f6794c65cc3ed7e29768cd541a53%2FBadge-17.svg?generation=1727463142252997&alt=media",
-      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)"
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved filter)",
+      "display_order": 22,
+      "display_alt": "Kaggle · Dataset Tagger",
+      "display_group": "community",
+      "artwork_link": "https://www.kaggle.com/xover2022"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",

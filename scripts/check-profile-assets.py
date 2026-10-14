@@ -37,6 +37,15 @@ if contributions:
         errors.append('Contribution cards must wrap naturally; remove hard-coded line breaks')
     if re.search(r'</a>[^<]*\n\s*\n\s*<a', grid):
         errors.append('Contribution cards must remain in one continuous paragraph')
+collection = re.search(r'<!-- COMMUNITY-BADGES:START -->(.*?)<!-- COMMUNITY-BADGES:END -->', text, re.S)
+if collection:
+    block = collection.group(1)
+    import json
+    community = json.loads((ROOT / 'community-badges.json').read_text())
+    reading = json.loads((ROOT / 'weread-badges.json').read_text())
+    expected = sum(bool(b.get('displayed')) for b in community['known_badges']) + len(reading['selected']) + len(reading['known_badges'])
+    if len(re.findall(r'<img src="assets/collection/', block)) != expected or '<kbd>' in block:
+        errors.append('Collection styles out of sync: run python3 scripts/update-collection.py')
 for value in sorted(refs.paths):
     url = urlsplit(value)
     if url.scheme or url.netloc or not url.path:
