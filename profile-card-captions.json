@@ -9,5 +9,6 @@
   "python-dotenv": "CRLF parser warning line numbers",
   "dateutil": "Malformed weekday ordinal handling",
   "peonping": "Symlinked pack directory playback",
-  "faster-whisper": "Offline and PCM usage guides"
+  "faster-whisper": "Offline and PCM usage guides",
+  "mlx-audio": "Band-limited audio upsampling"
 }

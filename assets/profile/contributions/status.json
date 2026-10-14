@@ -122,5 +122,12 @@
       "number": "3770",
       "live_pr": true
     }
+  ],
+  "Blaizzy/mlx-audio": [
+    {
+      "status": "Merged",
+      "url": "https://github.com/Blaizzy/mlx-audio/pull/1021",
+      "number": "1021"
+    }
   ]
 }

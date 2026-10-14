@@ -10,6 +10,7 @@ One row per project. Open a project for its contribution details.
 | Project & focus | Contribution status |
 | :--- | :--- |
 | **[Ralph](projects/ralph.md)**<br>Regression tests and script cleanup | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
+| **[mlx-audio](projects/mlx-audio.md)**<br>Band-limited audio upsampling | **Merged** · [#1021](https://github.com/Blaizzy/mlx-audio/pull/1021) |
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
 | **[Ekko Studio](projects/ekko-studio.md)**<br>Chat controls, OAuth provider selection and managed MCP credentials | **Merged** · [#3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359), [#3365](https://github.com/EKKOLearnAI/ekko-studio/pull/3365), [#3374](https://github.com/EKKOLearnAI/ekko-studio/pull/3374)<br>**Under review** · [#3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343) |
 | **[OpenWhispr](projects/openwhispr.md)**<br>Voice Assistant prompt selection | **Under review** · [#2629](https://github.com/OpenWhispr/openwhispr/pull/2629) |
@@ -20,4 +21,5 @@ One row per project. Open a project for its contribution details.
 | **[python-dotenv](projects/python-dotenv.md)**<br>CRLF parser warning line numbers | **Under review** · [#722](https://github.com/theskumar/python-dotenv/pull/722) |
 | **[dateutil](projects/dateutil.md)**<br>Malformed weekday ordinal handling | **Under review** · [#1597](https://github.com/dateutil/dateutil/pull/1597) |
 | **[PeonPing](projects/peonping.md)**<br>Symlinked pack directory playback | **Under review** · [#603](https://github.com/PeonPing/peon-ping/pull/603) |
-| **[faster-whisper](projects/faster-whisper.md)**<br>Offline and PCM usage guides | **Closed · unmerged** · [#1554](https://github.com/SYSTRAN/faster-whisper/pull/1554)<br>**Closed · unmerged** · [#1556](https://github.com/SYSTRAN/faster-whisper/pull/1556) |
+
+[Next: more projects →](page-2.md)
