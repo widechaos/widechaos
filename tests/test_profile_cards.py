@@ -30,6 +30,18 @@ class CardSyncTests(unittest.TestCase):
         after = cards.sync_status_text(text, projects)
         self.assertEqual(after, text.replace('**Under review**', '**Merged**', 2))
 
+    def test_status_then_relevant_date_not_stars_or_other_activity(self):
+        def p(slug, states, stars=0):
+            return dict(slug=slug, stars=stars, evidence=[dict(status=state, sort_date=date, url=slug+str(i)) for i,(state,date) in enumerate(states)])
+        projects = [
+            p('review', [('Under review','2026-10-14T00:00:00Z')], 90000),
+            p('old-merge', [('Merged','2026-10-10T00:00:00Z'), ('Under review','2026-10-14T00:00:00Z')]),
+            p('new-merge', [('Merged','2026-10-12T00:00:00Z')]),
+            p('report', [('Resolved report','2026-10-14T00:00:00Z')]),
+            p('closed', [('Closed · unmerged','2026-10-14T00:00:00Z')]),
+        ]
+        self.assertEqual([p['slug'] for p in sorted(projects,key=cards.project_order)], ['new-merge','old-merge','report','review','closed'])
+
     def test_other_authors_are_rejected(self):
         project = {'repo': 'owner/repo', 'evidence': [{'url': 'https://github.com/owner/repo/pull/12'}]}
         with patch.object(cards, 'api', side_effect=[

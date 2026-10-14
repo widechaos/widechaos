@@ -58,6 +58,12 @@ for value in sorted(refs.paths):
             ET.parse(path)
         except ET.ParseError as error:
             errors.append(f'Invalid SVG {value}: {error}')
+# Guard the approved font hierarchy against older regenerators.
+for pattern in ('assets/work-*.svg', 'assets/contact-*.svg', 'assets/section-*.svg', 'assets/motion/header-*.svg', 'assets/motion/identity-panel-*.svg'):
+    for path in ROOT.glob(pattern):
+        svg = path.read_text()
+        if 'font-family="monospace"' in svg or 'font-family="sans-serif"' in svg or 'font-family="Arial,PingFang SC,sans-serif"' in svg:
+            errors.append(f'Typography out of sync: {path.relative_to(ROOT)}; run scripts/update-typography.py')
 if errors:
     raise SystemExit('\n'.join(errors))
 print('Profile references, SVGs and sync boundaries are valid.')

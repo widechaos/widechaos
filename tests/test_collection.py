@@ -82,13 +82,13 @@ class CollectionTests(unittest.TestCase):
             + "preserved-after"
         )
         projects = [
-            dict(slug=s, name=s.title(), caption="Verified work")
+            dict(slug=s, name=s.title(), caption="Verified work", evidence=[dict(status="Merged", sort_date="2026-10-14T00:00:00Z" if s == "new" else "2026-10-13T00:00:00Z", url="https://github.com/o/r/pull/1")])
             for s in ("new", "old")
         ]
         after = cards.sync_grid(before, projects)
         self.assertTrue(after.startswith("preserved-before"))
         self.assertTrue(after.endswith("preserved-after"))
-        self.assertLess(after.index("projects/old.md"), after.index("projects/new.md"))
+        self.assertLess(after.index("projects/new.md"), after.index("projects/old.md"))
         self.assertNotIn("<br>", after)
         self.assertIn('width="300"', after)
 

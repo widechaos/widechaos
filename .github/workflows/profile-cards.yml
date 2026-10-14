@@ -10,6 +10,11 @@ on:
       - 'profile-card-captions.json'
       - 'scripts/update-profile-cards.py'
       - 'scripts/update-collection.py'
+      - 'scripts/update-typography.py'
+      - 'assets/work-*.svg'
+      - 'assets/contact-*.svg'
+      - 'assets/section-*.svg'
+      - 'assets/motion/**'
       - 'community-badges.json'
       - 'weread-badges.json'
       - 'assets/certificates/**'
@@ -36,13 +41,15 @@ jobs:
         run: python3 scripts/update-profile-cards.py
       - name: Render verified collection styles
         run: python3 scripts/update-collection.py
+      - name: Preserve approved typography
+        run: python3 scripts/update-typography.py
       - name: Validate generated profile assets
         run: python3 scripts/check-profile-assets.py
       - name: Save changed cards
         run: |
           git config user.name 'Renchao Wu'
           git config user.email '42173584+widechaos@users.noreply.github.com'
-          git add README.md assets/profile/contributions assets/collection contributions
+          git add README.md assets/profile/contributions assets/collection assets/work-*.svg assets/contact-*.svg assets/section-*.svg assets/motion contributions
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh contribution stars and PR states'
           git push origin HEAD:main

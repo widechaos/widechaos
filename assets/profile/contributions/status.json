@@ -4,54 +4,62 @@
       "status": "Under review",
       "url": "https://github.com/dateutil/dateutil/pull/1597",
       "number": "1597",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-06T17:52:57Z"
     }
   ],
   "EKKOLearnAI/ekko-studio": [
     {
-      "status": "Under review",
-      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3343",
-      "number": "3343",
-      "live_pr": true
-    },
-    {
       "status": "Merged",
-      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3359",
-      "number": "3359",
-      "live_pr": true
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3374",
+      "number": "3374",
+      "live_pr": true,
+      "sort_date": "2026-10-12T12:41:31Z"
     },
     {
       "status": "Merged",
       "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3365",
       "number": "3365",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-12T09:28:04Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3374",
-      "number": "3374",
-      "live_pr": true
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3359",
+      "number": "3359",
+      "live_pr": true,
+      "sort_date": "2026-10-11T01:27:10Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3343",
+      "number": "3343",
+      "live_pr": true,
+      "sort_date": "2026-10-09T17:57:36Z"
     }
   ],
   "SYSTRAN/faster-whisper": [
     {
       "status": "Closed · unmerged",
-      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1554",
-      "number": "1554",
-      "live_pr": true
+      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1556",
+      "number": "1556",
+      "live_pr": true,
+      "sort_date": "2026-10-04T14:42:56Z"
     },
     {
       "status": "Closed · unmerged",
-      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1556",
-      "number": "1556",
-      "live_pr": true
+      "url": "https://github.com/SYSTRAN/faster-whisper/pull/1554",
+      "number": "1554",
+      "live_pr": true,
+      "sort_date": "2026-10-04T14:42:45Z"
     }
   ],
   "encode/httpx": [
     {
       "status": "Discussion · no PR yet",
       "url": "https://github.com/encode/httpx/discussions/3799",
-      "number": "3799"
+      "number": "3799",
+      "sort_date": "2026-10-05T06:15:47Z"
     }
   ],
   "livekit/agents": [
@@ -59,7 +67,8 @@
       "status": "Under review",
       "url": "https://github.com/livekit/agents/pull/7658",
       "number": "7658",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-07T20:37:20Z"
     }
   ],
   "pydantic/logfire": [
@@ -67,7 +76,8 @@
       "status": "Under review",
       "url": "https://github.com/pydantic/logfire/pull/2533",
       "number": "2533",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-08T21:41:19Z"
     }
   ],
   "Blaizzy/mlx-audio": [
@@ -75,14 +85,16 @@
       "status": "Merged",
       "url": "https://github.com/Blaizzy/mlx-audio/pull/1021",
       "number": "1021",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-14T13:10:49Z"
     }
   ],
   "more-itertools/more-itertools": [
     {
       "status": "Resolved report",
       "url": "https://github.com/more-itertools/more-itertools/issues/1308",
-      "number": "1308"
+      "number": "1308",
+      "sort_date": "2026-10-07T15:05:30Z"
     }
   ],
   "OpenWhispr/openwhispr": [
@@ -90,7 +102,8 @@
       "status": "Under review",
       "url": "https://github.com/OpenWhispr/openwhispr/pull/2629",
       "number": "2629",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-12T19:01:54Z"
     }
   ],
   "PeonPing/peon-ping": [
@@ -98,7 +111,8 @@
       "status": "Under review",
       "url": "https://github.com/PeonPing/peon-ping/pull/603",
       "number": "603",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-07T15:58:18Z"
     }
   ],
   "theskumar/python-dotenv": [
@@ -106,7 +120,8 @@
       "status": "Under review",
       "url": "https://github.com/theskumar/python-dotenv/pull/722",
       "number": "722",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-05T06:08:08Z"
     }
   ],
   "frankbria/ralph-claude-code": [
@@ -114,13 +129,15 @@
       "status": "Merged",
       "url": "https://github.com/frankbria/ralph-claude-code/pull/380",
       "number": "380",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-09T20:10:37Z"
     },
     {
       "status": "Under review",
       "url": "https://github.com/frankbria/ralph-claude-code/pull/377",
       "number": "377",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-08T15:50:12Z"
     }
   ],
   "tornadoweb/tornado": [
@@ -128,7 +145,8 @@
       "status": "Under review",
       "url": "https://github.com/tornadoweb/tornado/pull/3770",
       "number": "3770",
-      "live_pr": true
+      "live_pr": true,
+      "sort_date": "2026-10-07T07:05:06Z"
     }
   ]
 }

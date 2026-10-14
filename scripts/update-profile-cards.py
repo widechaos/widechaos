@@ -2,6 +2,7 @@
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import html
+from datetime import datetime
 import hashlib
 import json
 import re
@@ -55,7 +56,19 @@ def get_metadata(p):
     for item in p['evidence']:
         match = re.fullmatch(r'https://github.com/([^/]+/[^/]+)/pull/(\d+)', item['url'])
         if not match:
-            # Reports and discussions need human attribution; closure is not proof of a fix.
+            # Fetch dates only: human-verified report attribution stays unchanged.
+            other = re.fullmatch(r'https://github.com/([^/]+/[^/]+)/(issues|discussions)/(\d+)', item['url'])
+            if not other or other[1].lower() != p['repo'].lower():
+                raise ValueError('Unrecognized contribution evidence URL')
+            repo, kind, number = other.groups()
+            if kind == 'issues':
+                data = api(f'repos/{repo}/issues/{number}')
+                item['sort_date'] = (data.get('closed_at') if item['status'].startswith('Resolved') else None) or data['created_at']
+            else:
+                owner, name = repo.split('/')
+                query = 'query { repository(owner: "' + owner + '", name: "' + name + '") { discussion(number: ' + number + ') { createdAt } } }'
+                result = subprocess.run(['gh', 'api', 'graphql', '-f', 'query=' + query], check=True, capture_output=True, text=True, timeout=45)
+                item['sort_date'] = json.loads(result.stdout)['data']['repository']['discussion']['createdAt']
             continue
         repo, number = match.groups()
         if repo.lower() != p['repo'].lower():
@@ -65,9 +78,33 @@ def get_metadata(p):
             raise ValueError('PR author does not match the profile owner')
         item['status'] = pr_status(data)
         item['live_pr'] = True
+        item['sort_date'] = data.get('merged_at') or data.get('closed_at') or data['created_at']
+    p['evidence'].sort(key=evidence_order)
     p['statuses'] = [item['status'] + (f" #{item['number']}" if item['number'] else '')
                      for item in p['evidence']]
     return p
+
+
+def status_rank(status):
+    for prefix, rank in [('Merged', 0), ('Resolved', 1), ('Under review', 2), ('Draft', 2), ('Discussion', 3), ('Closed', 4)]:
+        if status.startswith(prefix):
+            return rank
+    raise ValueError('Unrecognized contribution status: ' + status)
+
+
+def evidence_order(item):
+    # Status milestones or original submission dates, never comment/repository activity.
+    date = item.get('sort_date')
+    timestamp = datetime.fromisoformat(date.replace('Z', '+00:00')).timestamp() if date else 0
+    return status_rank(item['status']), -timestamp, item['url']
+
+
+def project_order(p):
+    if not p.get('evidence'):
+        raise ValueError('Missing contribution sorting evidence')
+    rank = min(status_rank(i['status']) for i in p['evidence'])
+    relevant = [i for i in p['evidence'] if status_rank(i['status']) == rank]
+    return min(evidence_order(i)[:2] for i in relevant) + (p['slug'],)
 
 
 def sync_status_text(text, projects):
@@ -152,7 +189,10 @@ def sync_grid(text, projects):
     b = text.index(end)
     known = {p['slug']: p for p in projects}
     existing = re.findall(r'href="contributions/projects/([^"/]+)\.md"', text[a:b])
-    order = list(dict.fromkeys(existing + sorted(known)))
+    missing = set(existing) - set(known)
+    if missing:
+        raise ValueError('Missing contribution evidence: ' + ', '.join(sorted(missing)))
+    order = [p['slug'] for p in sorted(projects, key=project_order)]
     links = []
     for slug in order:
         if slug not in known:
