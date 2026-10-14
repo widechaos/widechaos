@@ -26,6 +26,17 @@ for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS'):
     start, end = f'<!-- {boundary}:START -->', f'<!-- {boundary}:END -->'
     if text.count(start) != 1 or text.count(end) != 1 or text.find(start) > text.find(end):
         errors.append(f'Invalid sync boundary: {boundary}')
+# Contribution cards must flow naturally when projects are inserted or reordered.
+contributions = re.search(
+    r'<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->(.*?)<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->',
+    text, re.S,
+)
+if contributions:
+    grid = contributions.group(1)
+    if re.search(r'<br\s*/?>', grid, re.I):
+        errors.append('Contribution cards must wrap naturally; remove hard-coded line breaks')
+    if re.search(r'</a>[^<]*\n\s*\n\s*<a', grid):
+        errors.append('Contribution cards must remain in one continuous paragraph')
 for value in sorted(refs.paths):
     url = urlsplit(value)
     if url.scheme or url.netloc or not url.path:
