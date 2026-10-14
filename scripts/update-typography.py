@@ -1,6 +1,7 @@
 """Apply the approved font hierarchy to controllable SVG modules, preserving animation."""
 from pathlib import Path
 import re
+import hashlib
 R=Path(__file__).resolve().parents[1]
 mono='SFMono-Regular,Consolas,Liberation Mono,monospace';sans='Avenir Next,Segoe UI,Arial,sans-serif'
 paths=[]
@@ -16,3 +17,23 @@ for p in paths:
  p.write_text(s)
 
 print("Applied approved profile typography")
+
+# Content-addressed image paths avoid GitHub raw/CDN serving older fonts.
+readme=R/'README.md'
+text=readme.read_text()
+folder=R/'assets/typography'
+folder.mkdir(exist_ok=True)
+active=set()
+for p in paths:
+    data=p.read_bytes()
+    name=p.stem+'-'+hashlib.sha256(data).hexdigest()[:12]+'.svg'
+    target=folder/name
+    target.write_bytes(data)
+    active.add(name)
+    source=p.relative_to(R).as_posix()
+    text=text.replace(source, 'assets/typography/'+name)
+    text=re.sub(r'assets/typography/'+re.escape(p.stem)+r'-[0-9a-f]{12}\.svg', 'assets/typography/'+name, text)
+for old in folder.glob('*.svg'):
+    if old.name not in active:
+        old.unlink()
+readme.write_text(text)

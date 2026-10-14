@@ -199,8 +199,10 @@ def sync_grid(text, projects):
             raise ValueError('Missing contribution evidence: ' + slug)
         p = known[slug]
         base = 'assets/profile/contributions/' + slug
+        light = base + '-light-' + hashlib.sha256(render(p, 'light').encode()).hexdigest()[:12] + '.svg'
+        dark = base + '-dark-' + hashlib.sha256(render(p, 'dark').encode()).hexdigest()[:12] + '.svg'
         alt = html.escape(p['name'] + ' — ' + p['caption'], quote=True)
-        links.append(f'<a href="contributions/projects/{slug}.md"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="{base}-dark.svg" width="300" height="177"><source media="(max-width:520px)" srcset="{base}-light.svg" width="300" height="177"><source media="(prefers-color-scheme: dark)" srcset="{base}-dark.svg"><img src="{base}-light.svg" width="205" alt="{alt}"></picture></a>')
+        links.append(f'<a href="contributions/projects/{slug}.md"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="{dark}" width="300" height="177"><source media="(max-width:520px)" srcset="{light}" width="300" height="177"><source media="(prefers-color-scheme: dark)" srcset="{dark}"><img src="{light}" width="205" alt="{alt}"></picture></a>')
     block = '\n<p>\n' + '\n'.join(links) + '\n</p>\n\n[Contribution details →](contributions/README.md)\n\n'
     return text[:a] + block + text[b:]
 
@@ -221,7 +223,14 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for p in projects:
         for theme in PALETTES:
-            (OUT / f'{p["slug"]}-{theme}.svg').write_text(render(p, theme))
+            svg = render(p, theme)
+            (OUT / f'{p["slug"]}-{theme}.svg').write_text(svg)
+            digest = hashlib.sha256(svg.encode()).hexdigest()[:12]
+            filename = f'{p["slug"]}-{theme}-{digest}.svg'
+            (OUT / filename).write_text(svg)
+            for old in OUT.glob(f'{p["slug"]}-{theme}-*.svg'):
+                if re.fullmatch(re.escape(p['slug'] + '-' + theme) + r'-[0-9a-f]{12}\.svg', old.name) and old.name != filename:
+                    old.unlink()
     (OUT / 'stars.json').write_text(json.dumps({p['repo']: p['stars'] for p in projects}, indent=2) + '\n')
     snapshot = {p['repo']: p['evidence'] for p in projects}
     (OUT / 'status.json').write_text(json.dumps(snapshot, indent=2, ensure_ascii=False) + '\n')

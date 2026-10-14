@@ -82,7 +82,7 @@ class CollectionTests(unittest.TestCase):
             + "preserved-after"
         )
         projects = [
-            dict(slug=s, name=s.title(), caption="Verified work", evidence=[dict(status="Merged", sort_date="2026-10-14T00:00:00Z" if s == "new" else "2026-10-13T00:00:00Z", url="https://github.com/o/r/pull/1")])
+            dict(slug=s, name=s.title(), caption="Verified work", stars=1, statuses=["Merged #1"], evidence=[dict(status="Merged", sort_date="2026-10-14T00:00:00Z" if s == "new" else "2026-10-13T00:00:00Z", url="https://github.com/o/r/pull/1")])
             for s in ("new", "old")
         ]
         after = cards.sync_grid(before, projects)
