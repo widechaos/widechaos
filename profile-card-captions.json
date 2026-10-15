@@ -8,8 +8,9 @@
   "httpx": "Fragmented raw-deflate decoding",
   "python-dotenv": "CRLF parser warning line numbers",
   "dateutil": "Malformed weekday ordinal handling",
-  "peonping": "Symlinked pack directory playback",
+  "peonping": "Hook configuration and relay playback",
   "faster-whisper": "Offline and PCM usage guides",
   "mlx-audio": "Band-limited audio upsampling",
-  "genoffice": "PDF-to-Word font names"
+  "genoffice": "PDF-to-Word font names",
+  "openwhispr": "Voice prompts and saved speaker edits"
 }

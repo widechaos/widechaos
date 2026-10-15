@@ -109,6 +109,13 @@
   "OpenWhispr/openwhispr": [
     {
       "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/2672",
+      "number": "2672",
+      "live_pr": true,
+      "sort_date": "2026-10-14T15:33:35Z"
+    },
+    {
+      "status": "Under review",
       "url": "https://github.com/OpenWhispr/openwhispr/pull/2629",
       "number": "2629",
       "live_pr": true,
@@ -116,6 +123,20 @@
     }
   ],
   "PeonPing/peon-ping": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/PeonPing/peon-ping/pull/613",
+      "number": "613",
+      "live_pr": true,
+      "sort_date": "2026-10-15T09:59:04Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/PeonPing/peon-ping/pull/611",
+      "number": "611",
+      "live_pr": true,
+      "sort_date": "2026-10-14T19:39:47Z"
+    },
     {
       "status": "Under review",
       "url": "https://github.com/PeonPing/peon-ping/pull/603",
