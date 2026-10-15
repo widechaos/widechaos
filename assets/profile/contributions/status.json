@@ -54,6 +54,15 @@
       "sort_date": "2026-10-04T14:42:45Z"
     }
   ],
+  "genspark-ai/genoffice": [
+    {
+      "status": "Merged",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2025",
+      "number": "2025",
+      "live_pr": true,
+      "sort_date": "2026-10-15T03:13:51Z"
+    }
+  ],
   "encode/httpx": [
     {
       "status": "Discussion · no PR yet",
@@ -147,13 +156,6 @@
       "number": "3770",
       "live_pr": true,
       "sort_date": "2026-10-07T07:05:06Z"
-    }
-  ],
-  "genspark-ai/genoffice": [
-    {
-      "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2025",
-      "number": "2025"
     }
   ]
 }
