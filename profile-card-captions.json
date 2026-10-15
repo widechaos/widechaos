@@ -10,5 +10,6 @@
   "dateutil": "Malformed weekday ordinal handling",
   "peonping": "Symlinked pack directory playback",
   "faster-whisper": "Offline and PCM usage guides",
-  "mlx-audio": "Band-limited audio upsampling"
+  "mlx-audio": "Band-limited audio upsampling",
+  "genoffice": "PDF-to-Word font names"
 }
