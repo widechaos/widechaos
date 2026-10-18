@@ -1,7 +1,7 @@
 {
   "platform": "WeRead",
-  "checked_on": "2026-10-11",
-  "scope": "95 screenshot/API-evidenced medals: historical owner wall of 94 plus a newly supplied earned share for Perfect reading week 40 · 2026. Includes 35 API-confirmed official assets and 60 screenshot-sourced medals. Original icon crops are preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish future weekly automatic coverage.",
+  "checked_on": "2026-10-18",
+  "scope": "96 screenshot/API-evidenced medals: historical owner wall of 94 plus owner-earned shares for Perfect reading week 40 and Raging reading week 41 in 2026. Includes 35 API-confirmed official assets and 61 screenshot-sourced medals. Original icon crops preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish current full inventory or future weekly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
   "returned_count": 35,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
@@ -290,6 +290,28 @@
     }
   ],
   "known_badges": [
+    {
+      "id": "screenshot-2026-raging-week-41",
+      "name": "狂暴阅读周",
+      "display_name_en": "Raging reading week 41 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-raging-week-41.png",
+      "verified_on": "2026-10-18",
+      "verification_source": "Owner-supplied WeRead earned medal share screenshot; visible owner receipt, year 2026 and week 41",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "3f84b37d6dd6a1cf64de3812f2b46b2bd3591bc75dbe7a9174329156ef4e312e",
+      "crop_box": [
+        248,
+        442,
+        772,
+        1015
+      ],
+      "year": 2026,
+      "week": 41,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "display_asset_path": "assets/weread/display/screenshot-2026-raging-week-41.png",
+      "display_processing": "Exterior-connected navy background removed, with the convex rounded-hexagon contour restored to preserve the original dark rim. Original interior pixels retained; 0.5px exterior mask feather. Centered to 256px maximum extent on transparent 320px canvas; source crop preserved.",
+      "qualification_text": "一周阅读7天，时长达25小时可得"
+    },
     {
       "id": "screenshot-2026-perfect-week-40",
       "name": "完美阅读周",
@@ -2606,7 +2628,7 @@
     "wall_label": "More reading badges",
     "public_count": false
   },
-  "known_count": 95,
+  "known_count": 96,
   "selected_count": 14,
   "screenshot_evidence": {
     "sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
@@ -2629,6 +2651,12 @@
       "badge_id": "screenshot-2026-perfect-week-40",
       "received_on": "2026-10-11",
       "privacy": "Only the medal icon crop is published; original owner share and avatar remain local."
+    },
+    {
+      "sha256": "3f84b37d6dd6a1cf64de3812f2b46b2bd3591bc75dbe7a9174329156ef4e312e",
+      "badge_id": "screenshot-2026-raging-week-41",
+      "received_on": "2026-10-18",
+      "privacy": "Only medal icon crop published; original earned share and avatar remain local."
     }
   ]
 }
