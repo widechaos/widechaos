@@ -8,3 +8,7 @@
 | **Merged** | **[Managed MCP credential inheritance · #3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)**<br>Prevent stale parent bearer tokens from overriding the current profile credential in built-in managed MCP subprocesses. |
 | **Merged** | **[Thinking reply visibility · #3365](https://github.com/EKKOLearnAI/ekko-studio/pull/3365)**<br>Keep an unfinished leading thinking block out of the settled chat reply. |
 | **Merged** | **[Scrollable category submenu · #3374](https://github.com/EKKOLearnAI/ekko-studio/pull/3374)**<br>Keep every category reachable in the session context menu, including in short windows. |
+| **Merged** | **[Cross-profile attachment runs · #3439](https://github.com/EKKOLearnAI/ekko-studio/pull/3439)**<br>I made attachment runs use their authorized run profile while preserving stored-session profile and user-access checks. Actual handler regressions cover allowed runs and denied profile/path cases. |
+| **Under review** | **[Hermes CLI display versions · #3444](https://github.com/EKKOLearnAI/ekko-studio/pull/3444)**<br>I switched discovery to the canonical display-version API with legacy fallback, preserving stamp and Git identities instead of showing the placeholder version. |
+
+The attachment fix is limited to run requests; other cross-profile approval, abort and queue operations are unchanged. Handler tests use synthetic sessions and a stub agent rather than a real Socket.IO transport. CLI discovery tests do not cover Windows launcher paths or installation and upgrade flows.
