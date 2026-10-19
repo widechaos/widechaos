@@ -11,6 +11,13 @@
   "EKKOLearnAI/ekko-studio": [
     {
       "status": "Merged",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3439",
+      "number": "3439",
+      "live_pr": true,
+      "sort_date": "2026-10-19T12:20:21Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3374",
       "number": "3374",
       "live_pr": true,
@@ -29,6 +36,13 @@
       "number": "3359",
       "live_pr": true,
       "sort_date": "2026-10-11T01:27:10Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3444",
+      "number": "3444",
+      "live_pr": true,
+      "sort_date": "2026-10-19T05:33:41Z"
     },
     {
       "status": "Under review",
