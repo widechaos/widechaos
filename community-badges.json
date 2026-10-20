@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-11",
+  "checked_on": "2026-10-20",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -412,6 +412,18 @@
       "display_alt": "Kaggle · Dataset Tagger",
       "display_group": "community",
       "artwork_link": "https://www.kaggle.com/xover2022"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Code Uploader",
+      "displayed": true,
+      "verified_on": "2026-10-20",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/33",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F1e4546d427340e1495b9ee02261e2dc6%2FBadge-34.svg?generation=1727468126171650&alt=media",
+      "verification_source": "https://www.kaggle.com/xover2022 (earned profile badge and official owner certificate link)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Code Uploader",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/33"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
