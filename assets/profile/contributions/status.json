@@ -143,11 +143,11 @@
   ],
   "OpenWhispr/openwhispr": [
     {
-      "status": "Under review",
+      "status": "Merged",
       "url": "https://github.com/OpenWhispr/openwhispr/pull/2672",
       "number": "2672",
       "live_pr": true,
-      "sort_date": "2026-10-14T15:33:35Z"
+      "sort_date": "2026-10-20T07:28:29Z"
     },
     {
       "status": "Under review",
