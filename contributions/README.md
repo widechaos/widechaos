@@ -15,7 +15,7 @@ One row per project. Open a project for its contribution details.
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
 | **[Ekko Studio](projects/ekko-studio.md)**<br>Chat controls, attachment access and managed MCP credentials | **Merged** · [#3439](https://github.com/EKKOLearnAI/ekko-studio/pull/3439), [#3473](https://github.com/EKKOLearnAI/ekko-studio/pull/3473), [#3457](https://github.com/EKKOLearnAI/ekko-studio/pull/3457)<br>**2 under review** · details on the project page |
 | **[OpenWhispr](projects/openwhispr.md)**<br>Voice prompts and saved speaker edits | **Under review** · [#2629](https://github.com/OpenWhispr/openwhispr/pull/2629)<br>**Merged** · [#2672](https://github.com/OpenWhispr/openwhispr/pull/2672) |
-| **[Logfire](projects/logfire.md)**<br>Metrics across sampled-out spans | **Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533) |
+| **[Logfire](projects/logfire.md)**<br>Application tracing and instrumentation | **Merged** · [#2611](https://github.com/pydantic/logfire/pull/2611)<br>**Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533), [#2588](https://github.com/pydantic/logfire/pull/2588) |
 | **[LiveKit Agents](projects/livekit-agents.md)**<br>Stream cleanup on errors and cancellation | **Under review** · [#7658](https://github.com/livekit/agents/pull/7658) |
 | **[Tornado](projects/tornado.md)**<br>Cancellation-safe lock and semaphore handoff | **Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770) |
 | **[HTTPX](projects/httpx.md)**<br>Fragmented raw-deflate decoding | **Discussion** · [#3799](https://github.com/encode/httpx/discussions/3799) |
