@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-20",
+  "checked_on": "2026-10-21",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -502,6 +502,58 @@
       "display_group": "community",
       "display_alt": "Kaggle · 7 Day Login Streak",
       "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/56"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "R Coder",
+      "displayed": true,
+      "issued_on": "2026-10-20",
+      "verified_on": "2026-10-21",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/31",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fc3120a3eaa99efb354dd8f13fa488ab3%2FBadge-27.svg?generation=1727468079059480&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved and owner profile certificate dialog)",
+      "display_group": "community",
+      "display_alt": "Kaggle · R Coder",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/31"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "R Markdown Coder",
+      "displayed": true,
+      "issued_on": "2026-10-20",
+      "verified_on": "2026-10-21",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/32",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fdfb6c5a521462324e8587dc077c950cb%2FBadge-28.svg?generation=1727468098225338&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved and owner profile certificate dialog)",
+      "display_group": "community",
+      "display_alt": "Kaggle · R Markdown Coder",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/32"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Code Forker",
+      "displayed": true,
+      "issued_on": "2026-10-20",
+      "verified_on": "2026-10-21",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/38",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7567026dd0c594f1193b49a98a976056%2FBadge-35.svg?generation=1727468213893504&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved and owner profile certificate dialog)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Code Forker",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/38"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Vampire",
+      "displayed": true,
+      "issued_on": "2026-10-20",
+      "verified_on": "2026-10-21",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/44",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F059c9b5e8bad980032971b42cb35cb10%2FBadge-44.svg?generation=1727468322667890&alt=media",
+      "verification_source": "https://www.kaggle.com/progression/badges (authenticated Achieved and owner profile certificate dialog)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Vampire",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/44"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
