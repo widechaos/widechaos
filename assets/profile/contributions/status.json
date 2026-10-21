@@ -131,6 +131,20 @@
   ],
   "pydantic/logfire": [
     {
+      "status": "Merged",
+      "url": "https://github.com/pydantic/logfire/pull/2611",
+      "number": "2611",
+      "live_pr": true,
+      "sort_date": "2026-10-21T11:43:45Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/pydantic/logfire/pull/2588",
+      "number": "2588",
+      "live_pr": true,
+      "sort_date": "2026-10-18T19:25:12Z"
+    },
+    {
       "status": "Under review",
       "url": "https://github.com/pydantic/logfire/pull/2533",
       "number": "2533",
