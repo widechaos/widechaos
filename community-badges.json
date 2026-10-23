@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-21",
+  "checked_on": "2026-10-23",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -554,6 +554,18 @@
       "display_group": "community",
       "display_alt": "Kaggle · Vampire",
       "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/44"
+    },
+    {
+      "platform": "DEV",
+      "name": "Sanity Challenge Completion",
+      "displayed": true,
+      "verified_on": "2026-10-23",
+      "credential_url": "https://dev.to/widechaos",
+      "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F508%2Fsanity-challenge_updated-04.png",
+      "verification_source": "https://dev.to/widechaos (official earned badge button and description modal)",
+      "display_group": "community",
+      "display_alt": "DEV · Sanity Challenge Completion",
+      "artwork_link": "https://dev.to/widechaos"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
