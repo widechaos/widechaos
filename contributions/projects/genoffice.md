@@ -4,6 +4,7 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Inline equation indentation · #2148](https://github.com/genspark-ai/genoffice/pull/2148)**<br>I isolated inline math from inherited paragraph indentation and alignment, following the issue reporter’s diagnosis. Chromium editor and HTML export checks verify the geometry; save/reopen retains OMML and paragraph formatting. |
 | **Merged** | **[Clickable Markdown graph close button · #2138](https://github.com/genspark-ai/genoffice/pull/2138)**<br>I excluded the close button from Electron’s native window drag region so a mouse click reaches its existing handler. Native mouse input on macOS verified the source-revert failure and patched success while keeping the editor open; Windows installers were not tested. |
 | **Merged** | **[Single active home navigation entry · #2135](https://github.com/genspark-ai/genoffice/pull/2135)**<br>I made the current content view determine the highlighted sidebar entry and aria-current, so opening Ask AI from Recent or Starred selects only Ask AI. React interaction regressions and light/dark Chromium checks cover the transitions. |
 | **Merged** | **[DFKai-SB PostScript font alias · #2025](https://github.com/genspark-ai/genoffice/pull/2025)**<br>I mapped the exact PDFMaker font name to DFKai-SB so PDF-to-Word output retains the installed family name. Synthetic PDFium-to-DOCX tests verify the text and Word font fields. |
