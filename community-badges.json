@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-10-23",
+  "checked_on": "2026-10-25",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -566,6 +566,17 @@
       "display_group": "community",
       "display_alt": "DEV · Sanity Challenge Completion",
       "artwork_link": "https://dev.to/widechaos"
+    },
+    {
+      "platform": "DEV",
+      "name": "1 Week Community Wellness Streak",
+      "displayed": true,
+      "verified_on": "2026-10-25",
+      "credential_url": "https://dev.to/widechaos",
+      "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F160%2FCommunity_Wellness_Streak_Badge-01.png",
+      "verification_source": "Official owner public DEV profile badge-160 and official badge description, 2026-10-25; For actively engaging with the community by posting at least 2 comments in a single week.",
+      "display_group": "community",
+      "display_alt": "DEV · 1 Week Community Wellness Streak"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
