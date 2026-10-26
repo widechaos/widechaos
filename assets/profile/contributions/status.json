@@ -11,6 +11,27 @@
   "EKKOLearnAI/ekko-studio": [
     {
       "status": "Merged",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3546",
+      "number": "3546",
+      "live_pr": true,
+      "sort_date": "2026-10-26T04:42:49Z"
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3444",
+      "number": "3444",
+      "live_pr": true,
+      "sort_date": "2026-10-26T04:24:40Z"
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3498",
+      "number": "3498",
+      "live_pr": true,
+      "sort_date": "2026-10-26T03:26:35Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3526",
       "number": "3526",
       "live_pr": true,
@@ -64,13 +85,6 @@
       "number": "3359",
       "live_pr": true,
       "sort_date": "2026-10-11T01:27:10Z"
-    },
-    {
-      "status": "Under review",
-      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3444",
-      "number": "3444",
-      "live_pr": true,
-      "sort_date": "2026-10-19T05:33:41Z"
     },
     {
       "status": "Under review",
