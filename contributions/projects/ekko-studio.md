@@ -4,6 +4,8 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Configurable DSH readiness budget · #3526](https://github.com/EKKOLearnAI/ekko-studio/pull/3526)**<br>I made configuration startup wait up to 180 seconds by default, with an adjustable budget, while preserving individual probe timeouts and cleanup. Actual Windows plugin startup was not tested locally. |
+| **Merged** | **[Separate plan identity from turn context · #3544](https://github.com/EKKOLearnAI/ekko-studio/pull/3544)**<br>I separated shared plan IDs from turn authorization contexts and added stale-context guidance, preserving revisions and old history. Tool-call arguments can still retain old contexts; model adherence was not tested. |
 | **Under review** | **[Named-profile model picker · #3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343)**<br>Show inherited root OAuth providers in named-profile model pickers without copying or refreshing credentials. |
 | **Merged** | **[Managed MCP credential inheritance · #3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)**<br>Prevent stale parent bearer tokens from overriding the current profile credential in built-in managed MCP subprocesses. |
 | **Merged** | **[Thinking reply visibility · #3365](https://github.com/EKKOLearnAI/ekko-studio/pull/3365)**<br>Keep an unfinished leading thinking block out of the settled chat reply. |
