@@ -249,6 +249,27 @@
     },
     {
       "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/2873",
+      "number": "2873",
+      "live_pr": true,
+      "sort_date": "2026-10-22T08:14:56Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/2751",
+      "number": "2751",
+      "live_pr": true,
+      "sort_date": "2026-10-18T01:00:01Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/2700",
+      "number": "2700",
+      "live_pr": true,
+      "sort_date": "2026-10-15T22:06:02Z"
+    },
+    {
+      "status": "Under review",
       "url": "https://github.com/OpenWhispr/openwhispr/pull/2629",
       "number": "2629",
       "live_pr": true,
