@@ -308,11 +308,11 @@
   ],
   "theskumar/python-dotenv": [
     {
-      "status": "Under review",
+      "status": "Closed · unmerged",
       "url": "https://github.com/theskumar/python-dotenv/pull/722",
       "number": "722",
       "live_pr": true,
-      "sort_date": "2026-10-05T06:08:08Z"
+      "sort_date": "2026-10-28T14:13:44Z"
     }
   ],
   "frankbria/ralph-claude-code": [
