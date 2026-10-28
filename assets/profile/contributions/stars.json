@@ -1,16 +1,16 @@
 {
   "dateutil/dateutil": 2641,
   "EKKOLearnAI/ekko-studio": 11587,
-  "SYSTRAN/faster-whisper": 26238,
-  "genspark-ai/genoffice": 11125,
+  "SYSTRAN/faster-whisper": 26244,
+  "genspark-ai/genoffice": 11136,
   "encode/httpx": 15702,
-  "livekit/agents": 14968,
+  "livekit/agents": 14972,
   "pydantic/logfire": 4523,
-  "Blaizzy/mlx-audio": 8135,
+  "Blaizzy/mlx-audio": 8136,
   "more-itertools/more-itertools": 4103,
-  "OpenWhispr/openwhispr": 10164,
+  "OpenWhispr/openwhispr": 10179,
   "PeonPing/peon-ping": 5092,
-  "theskumar/python-dotenv": 8907,
-  "frankbria/ralph-claude-code": 9717,
+  "theskumar/python-dotenv": 8908,
+  "frankbria/ralph-claude-code": 9718,
   "tornadoweb/tornado": 22165
 }
