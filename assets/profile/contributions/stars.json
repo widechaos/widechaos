@@ -12,5 +12,6 @@
   "PeonPing/peon-ping": 5100,
   "theskumar/python-dotenv": 8912,
   "frankbria/ralph-claude-code": 9721,
-  "tornadoweb/tornado": 22165
+  "tornadoweb/tornado": 22165,
+  "facelessuser/wcmatch": 169
 }

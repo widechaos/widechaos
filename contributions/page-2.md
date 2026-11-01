@@ -4,5 +4,6 @@
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[python-dotenv](projects/python-dotenv.md)**<br>CRLF parser warning line numbers | **Closed · unmerged** · [#722](https://github.com/theskumar/python-dotenv/pull/722) |
 | **[PeonPing](projects/peonping.md)**<br>Hook configuration and relay playback | **Closed · unmerged** · [#603](https://github.com/PeonPing/peon-ping/pull/603)<br>**Closed · unmerged** · [#611](https://github.com/PeonPing/peon-ping/pull/611)<br>**Closed · unmerged** · [#613](https://github.com/PeonPing/peon-ping/pull/613) |
 | **[faster-whisper](projects/faster-whisper.md)**<br>Offline and PCM usage guides | **Closed · unmerged** · [#1554](https://github.com/SYSTRAN/faster-whisper/pull/1554)<br>**Closed · unmerged** · [#1556](https://github.com/SYSTRAN/faster-whisper/pull/1556) |

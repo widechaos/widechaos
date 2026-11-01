@@ -339,5 +339,14 @@
       "live_pr": true,
       "sort_date": "2026-10-07T07:05:06Z"
     }
+  ],
+  "facelessuser/wcmatch": [
+    {
+      "status": "Merged",
+      "url": "https://github.com/facelessuser/wcmatch/pull/263",
+      "number": "263",
+      "live_pr": true,
+      "sort_date": "2026-11-01T17:40:12Z"
+    }
   ]
 }

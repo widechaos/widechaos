@@ -9,6 +9,7 @@ One row per project. Open a project for its contribution details.
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[wcmatch](projects/wcmatch.md)**<br>Combined pattern limits and duplicate exclusions | **Merged** · [#263](https://github.com/facelessuser/wcmatch/pull/263) |
 | **[GenOffice](projects/genoffice.md)**<br>Desktop navigation and document fidelity | **Merged** · [#2279](https://github.com/genspark-ai/genoffice/pull/2279), [#2164](https://github.com/genspark-ai/genoffice/pull/2164), [#2148](https://github.com/genspark-ai/genoffice/pull/2148) |
 | **[Ralph](projects/ralph.md)**<br>Regression tests and script cleanup | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
 | **[mlx-audio](projects/mlx-audio.md)**<br>Band-limited audio upsampling | **Merged** · [#1021](https://github.com/Blaizzy/mlx-audio/pull/1021) |
@@ -20,6 +21,5 @@ One row per project. Open a project for its contribution details.
 | **[Tornado](projects/tornado.md)**<br>Cancellation-safe lock and semaphore handoff | **Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770) |
 | **[dateutil](projects/dateutil.md)**<br>Malformed weekday ordinal handling | **Under review** · [#1597](https://github.com/dateutil/dateutil/pull/1597) |
 | **[HTTPX](projects/httpx.md)**<br>Fragmented raw-deflate decoding | **Discussion** · [#3799](https://github.com/encode/httpx/discussions/3799) |
-| **[python-dotenv](projects/python-dotenv.md)**<br>CRLF parser warning line numbers | **Closed · unmerged** · [#722](https://github.com/theskumar/python-dotenv/pull/722) |
 
 [Next: more projects →](page-2.md)
