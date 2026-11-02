@@ -9,8 +9,8 @@ One row per project. Open a project for its contribution details.
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[GenOffice](projects/genoffice.md)**<br>Desktop navigation and document fidelity | **Merged** · [#2392](https://github.com/genspark-ai/genoffice/pull/2392), [#2333](https://github.com/genspark-ai/genoffice/pull/2333), [#2344](https://github.com/genspark-ai/genoffice/pull/2344) |
 | **[wcmatch](projects/wcmatch.md)**<br>Combined pattern limits and duplicate exclusions | **Merged** · [#263](https://github.com/facelessuser/wcmatch/pull/263) |
-| **[GenOffice](projects/genoffice.md)**<br>Desktop navigation and document fidelity | **Merged** · [#2279](https://github.com/genspark-ai/genoffice/pull/2279), [#2164](https://github.com/genspark-ai/genoffice/pull/2164), [#2148](https://github.com/genspark-ai/genoffice/pull/2148) |
 | **[Ralph](projects/ralph.md)**<br>Regression tests and script cleanup | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
 | **[mlx-audio](projects/mlx-audio.md)**<br>Band-limited audio upsampling | **Merged** · [#1021](https://github.com/Blaizzy/mlx-audio/pull/1021) |
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
