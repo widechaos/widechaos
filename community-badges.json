@@ -624,6 +624,24 @@
       "display_group": "certificate",
       "display_alt": "Kaggle Learn · Python certificate",
       "completion_basis": "Official certificate verified by course operator; seven required exercise groups completed with original checks by assistant under owner authorization. Platform 100% does not establish independent mastery."
+    },
+    {
+      "platform": "Kaggle Learn",
+      "name": "Intro to AI Ethics",
+      "kind": "course completion certificate",
+      "displayed": true,
+      "owner": "十方空烬",
+      "account": "xover2022",
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-02",
+      "credential_url": "https://www.kaggle.com/learn/certification/xover2022/intro-to-ai-ethics",
+      "image_url": "assets/certificates/kaggle-intro-to-ai-ethics.png",
+      "display_url": "assets/certificates/kaggle-intro-to-ai-ethics.png",
+      "artwork_link": "assets/certificates/kaggle-intro-to-ai-ethics.png",
+      "display_mode": "official certificate PNG",
+      "display_group": "certificate",
+      "display_alt": "Kaggle Learn · Intro to AI Ethics certificate",
+      "completion_basis": "Official certificate verified by course operator; four exercise groups answered and original feedback run, five tutorials read by assistant under owner authorization. Platform 100% does not establish independent mastery."
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
