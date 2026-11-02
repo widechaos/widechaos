@@ -840,6 +840,24 @@
       "display_group": "certificate",
       "display_alt": "Kaggle Learn · Time Series certificate",
       "completion_basis": "Official certificate verified by course operator; six required original exercise groups completed by assistant under owner authorization. Optional final DirRec training and competition not done. Platform 100% does not establish independent mastery."
+    },
+    {
+      "platform": "Kaggle Learn",
+      "name": "Computer Vision",
+      "kind": "course completion certificate",
+      "displayed": true,
+      "owner": "十方空烬",
+      "account": "xover2022",
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-02",
+      "credential_url": "https://www.kaggle.com/learn/certification/xover2022/computer-vision",
+      "image_url": "assets/certificates/kaggle-computer-vision.png",
+      "display_url": "assets/certificates/kaggle-computer-vision.png",
+      "artwork_link": "assets/certificates/kaggle-computer-vision.png",
+      "display_mode": "official certificate PNG",
+      "display_group": "certificate",
+      "display_alt": "Kaggle Learn · Computer Vision certificate",
+      "completion_basis": "Official certificate verified by course operator; six required original exercise groups and original 30/50 epoch training plus final augmented 50 epoch model completed by assistant under owner authorization. Optional competition and TPU tasks not done. Platform 100% does not establish independent mastery."
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
