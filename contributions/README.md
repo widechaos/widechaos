@@ -9,13 +9,13 @@ One row per project. Open a project for its contribution details.
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[OpenWhispr](projects/openwhispr.md)**<br>Voice dictation, notes and compatible endpoint routing | **Merged** · [#2873](https://github.com/OpenWhispr/openwhispr/pull/2873), [#2742](https://github.com/OpenWhispr/openwhispr/pull/2742), [#2880](https://github.com/OpenWhispr/openwhispr/pull/2880) |
 | **[GenOffice](projects/genoffice.md)**<br>Desktop navigation and document fidelity | **Merged** · [#2433](https://github.com/genspark-ai/genoffice/pull/2433), [#2415](https://github.com/genspark-ai/genoffice/pull/2415), [#2392](https://github.com/genspark-ai/genoffice/pull/2392) |
 | **[wcmatch](projects/wcmatch.md)**<br>Combined pattern limits and duplicate exclusions | **Merged** · [#263](https://github.com/facelessuser/wcmatch/pull/263) |
 | **[Ralph](projects/ralph.md)**<br>Regression tests and script cleanup | **Merged** · [#380](https://github.com/frankbria/ralph-claude-code/pull/380)<br>**Under review** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377) |
 | **[mlx-audio](projects/mlx-audio.md)**<br>Band-limited audio upsampling | **Merged** · [#1021](https://github.com/Blaizzy/mlx-audio/pull/1021) |
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
 | **[Ekko Studio](projects/ekko-studio.md)**<br>Chat controls, attachment access and managed MCP credentials | **Merged** · [#3546](https://github.com/EKKOLearnAI/ekko-studio/pull/3546), [#3444](https://github.com/EKKOLearnAI/ekko-studio/pull/3444), [#3498](https://github.com/EKKOLearnAI/ekko-studio/pull/3498)<br>**1 under review** · details on the project page |
-| **[OpenWhispr](projects/openwhispr.md)**<br>Voice prompts and reliable transcript notes | **Merged** · [#2742](https://github.com/OpenWhispr/openwhispr/pull/2742), [#2880](https://github.com/OpenWhispr/openwhispr/pull/2880), [#2672](https://github.com/OpenWhispr/openwhispr/pull/2672)<br>**4 under review** · details on the project page |
 | **[Logfire](projects/logfire.md)**<br>Application tracing and instrumentation | **Merged** · [#2611](https://github.com/pydantic/logfire/pull/2611)<br>**Under review** · [#2533](https://github.com/pydantic/logfire/pull/2533), [#2588](https://github.com/pydantic/logfire/pull/2588) |
 | **[LiveKit Agents](projects/livekit-agents.md)**<br>Stream cleanup on errors and cancellation | **Under review** · [#7658](https://github.com/livekit/agents/pull/7658) |
 | **[Tornado](projects/tornado.md)**<br>Cancellation-safe lock and semaphore handoff | **Under review** · [#3770](https://github.com/tornadoweb/tornado/pull/3770) |
