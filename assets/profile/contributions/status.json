@@ -131,13 +131,6 @@
       "number": "2392",
       "live_pr": true,
       "sort_date": "2026-11-02T03:04:47Z"
-    },
-    {
-      "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2333",
-      "number": "2333",
-      "live_pr": true,
-      "sort_date": "2026-11-02T03:03:50Z"
     }
   ],
   "encode/httpx": [
