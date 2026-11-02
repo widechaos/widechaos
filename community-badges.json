@@ -606,6 +606,24 @@
       "display_group": "certificate",
       "display_alt": "Kaggle Learn · Intro to Programming certificate",
       "completion_basis": "Official completion certificate verified by course operator; five exercise groups completed with original checks by assistant under owner authorization. Platform 100% does not establish independent work or full tutorial reading."
+    },
+    {
+      "platform": "Kaggle Learn",
+      "name": "Python",
+      "kind": "course completion certificate",
+      "displayed": true,
+      "owner": "十方空烬",
+      "account": "xover2022",
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-02",
+      "credential_url": "https://www.kaggle.com/learn/certification/xover2022/python",
+      "image_url": "assets/certificates/kaggle-python.png",
+      "display_url": "assets/certificates/kaggle-python.png",
+      "artwork_link": "assets/certificates/kaggle-python.png",
+      "display_mode": "official certificate PNG",
+      "display_group": "certificate",
+      "display_alt": "Kaggle Learn · Python certificate",
+      "completion_basis": "Official certificate verified by course operator; seven required exercise groups completed with original checks by assistant under owner authorization. Platform 100% does not establish independent mastery."
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
