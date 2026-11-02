@@ -1,7 +1,7 @@
 {
   "platform": "WeRead",
-  "checked_on": "2026-10-25",
-  "scope": "97 screenshot/API-evidenced medals: historical owner wall of 94 plus owner-earned shares for Perfect reading weeks 40 and 42 and Raging reading week 41 in 2026. Includes 35 API-confirmed official assets and 62 screenshot-sourced medals. Original icon crops preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish current full inventory or future weekly automatic coverage.",
+  "checked_on": "2026-11-02",
+  "scope": "99 screenshot/API-evidenced medals: historical owner wall of 94 plus owner-earned shares for Perfect reading weeks 40, 42 and 43, Raging reading week 41, and Perfect reading month October in 2026. Includes 35 API-confirmed official assets and 64 screenshot-sourced medals. Original icon crops preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish current full inventory or future weekly/monthly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
   "returned_count": 35,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
@@ -290,6 +290,50 @@
     }
   ],
   "known_badges": [
+    {
+      "id": "screenshot-2026-perfect-month-10",
+      "name": "完美阅读月",
+      "display_name_en": "Perfect reading month · October 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-month-10.png",
+      "verified_on": "2026-11-02",
+      "verification_source": "Owner-supplied WeRead earned share screenshot with explicit year and calendar month/week",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "18624d7a6fcaf8390c554322ce6cf8ab9dafa348713e0108f585eaa90aec276d",
+      "crop_box": [
+        248,
+        442,
+        772,
+        1015
+      ],
+      "year": 2026,
+      "month": 10,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-month-10.png",
+      "display_processing": "Exterior-connected navy background removed, with the convex rounded-hexagon contour restored to preserve the original dark rim. Original interior pixels retained; 0.5px exterior mask feather. Centered to 256px maximum extent on transparent 320px canvas; source crop preserved.",
+      "qualification_text": "本月阅读30天，时长达40小时可得"
+    },
+    {
+      "id": "screenshot-2026-perfect-week-43",
+      "name": "完美阅读周",
+      "display_name_en": "Perfect reading week 43 · 2026",
+      "asset_path": "assets/weread/screenshot-2026-perfect-week-43.png",
+      "verified_on": "2026-11-02",
+      "verification_source": "Owner-supplied WeRead earned share screenshot with explicit year and calendar month/week",
+      "source_kind": "owner_screenshot_crop",
+      "source_sha256": "33e6381962b72bc462f3e997520511803e499f7c11999113bf50dad9894c447c",
+      "crop_box": [
+        248,
+        442,
+        772,
+        1015
+      ],
+      "year": 2026,
+      "week": 43,
+      "identity_note": "Screenshot-local identifier; official medal API id and award timestamp are not inferred.",
+      "display_asset_path": "assets/weread/display/screenshot-2026-perfect-week-43.png",
+      "display_processing": "Exterior-connected navy background removed, with the convex rounded-hexagon contour restored to preserve the original dark rim. Original interior pixels retained; 0.5px exterior mask feather. Centered to 256px maximum extent on transparent 320px canvas; source crop preserved.",
+      "qualification_text": "一周阅读7天，时长达10小时可得"
+    },
     {
       "id": "screenshot-2026-perfect-week-42",
       "name": "完美阅读周",
@@ -2650,7 +2694,7 @@
     "wall_label": "More reading badges",
     "public_count": false
   },
-  "known_count": 97,
+  "known_count": 99,
   "selected_count": 14,
   "screenshot_evidence": {
     "sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
@@ -2685,6 +2729,18 @@
       "badge_id": "screenshot-2026-perfect-week-42",
       "received_on": "2026-10-25",
       "privacy": "Only medal icon crop published; original earned share and avatar remain local."
+    },
+    {
+      "sha256": "18624d7a6fcaf8390c554322ce6cf8ab9dafa348713e0108f585eaa90aec276d",
+      "badge_id": "screenshot-2026-perfect-month-10",
+      "received_on": "2026-11-02",
+      "privacy": "Only medal icon crop published; owner avatar/name and full share screenshot remain local."
+    },
+    {
+      "sha256": "33e6381962b72bc462f3e997520511803e499f7c11999113bf50dad9894c447c",
+      "badge_id": "screenshot-2026-perfect-week-43",
+      "received_on": "2026-11-02",
+      "privacy": "Only medal icon crop published; owner avatar/name and full share screenshot remain local."
     }
   ]
 }
