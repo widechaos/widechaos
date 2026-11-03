@@ -85,6 +85,15 @@
       "sort_date": "2026-10-05T06:15:47Z"
     }
   ],
+  "python-humanize/humanize": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/python-humanize/humanize/pull/497",
+      "number": "497",
+      "live_pr": true,
+      "sort_date": "2026-11-01T02:26:57Z"
+    }
+  ],
   "livekit/agents": [
     {
       "status": "Under review",
@@ -115,6 +124,31 @@
       "number": "2588",
       "live_pr": true,
       "sort_date": "2026-11-03T09:04:34Z"
+    }
+  ],
+  "mcp-use/mcp-use": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/mcp-use/mcp-use/pull/3006",
+      "number": "3006",
+      "live_pr": true,
+      "sort_date": "2026-11-03T04:59:28Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/mcp-use/mcp-use/pull/2926",
+      "number": "2926",
+      "live_pr": true,
+      "sort_date": "2026-10-24T10:57:26Z"
+    }
+  ],
+  "MemoriLabs/Memori": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/MemoriLabs/Memori/pull/648",
+      "number": "648",
+      "live_pr": true,
+      "sort_date": "2026-10-31T06:24:40Z"
     }
   ],
   "Blaizzy/mlx-audio": [
@@ -162,6 +196,13 @@
       "number": "2672",
       "live_pr": true,
       "sort_date": "2026-10-20T07:28:29Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3087",
+      "number": "3087",
+      "live_pr": true,
+      "sort_date": "2026-11-03T17:07:39Z"
     },
     {
       "status": "Under review",

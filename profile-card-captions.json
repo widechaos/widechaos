@@ -13,5 +13,8 @@
   "mlx-audio": "Band-limited audio upsampling",
   "genoffice": "Document fidelity and desktop navigation",
   "openwhispr": "Voice prompts and reliable transcript notes",
-  "wcmatch": "Consistent limits for duplicate patterns"
+  "wcmatch": "Consistent limits for duplicate patterns",
+  "mcp-use": "Client configuration and Inspector keyboard focus",
+  "memori": "System message content handling",
+  "humanize": "Decimal formatting across locales"
 }
