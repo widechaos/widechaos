@@ -160,17 +160,17 @@
     },
     {
       "status": "Under review",
-      "url": "https://github.com/pydantic/logfire/pull/2588",
-      "number": "2588",
-      "live_pr": true,
-      "sort_date": "2026-10-18T19:25:12Z"
-    },
-    {
-      "status": "Under review",
       "url": "https://github.com/pydantic/logfire/pull/2533",
       "number": "2533",
       "live_pr": true,
       "sort_date": "2026-10-08T21:41:19Z"
+    },
+    {
+      "status": "Closed · unmerged",
+      "url": "https://github.com/pydantic/logfire/pull/2588",
+      "number": "2588",
+      "live_pr": true,
+      "sort_date": "2026-11-03T09:04:34Z"
     }
   ],
   "Blaizzy/mlx-audio": [
