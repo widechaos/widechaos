@@ -24,7 +24,9 @@
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-2-dark-mobile-ca81b69b2575.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-2-dark-wide-3d29f3723cd9.svg"><source media="(max-width:520px)" srcset="assets/typography/section-2-mobile-4d4e46112417.svg"><img src="assets/typography/section-2-wide-4de2f20aba9e.svg" width="100%" alt="GitHub activity"></picture></h2>
 
-[![Public GitHub activity; commits in 2026](https://github-stats-extended.vercel.app/api?username=widechaos&show_icons=true&hide_border=true&title_color=7541c8&icon_color=087e8b&text_color=1f2328&bg_color=ffffff&disable_animations=true&hide_rank=true&commits_year=2026&custom_title=Public%20GitHub%20activity)](https://github.com/stats-organization/github-stats-extended)
+<!-- GITHUB-ACTIVITY:START -->
+<p><a href="https://github.com/widechaos?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity/calendar-dark-a9042f83219b.svg"><img src="assets/profile/activity/calendar-light-95a49f5c9f28.svg" width="467" alt="2026 GitHub contributions: 5,313. Includes commits, pull requests, issues and reviews."></picture></a></p>
+<!-- GITHUB-ACTIVITY:END -->
 
 
 <details>

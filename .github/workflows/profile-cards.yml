@@ -1,4 +1,4 @@
-name: Refresh contribution cards
+name: Refresh profile cards
 on:
   schedule:
     - cron: '17 1 * * *'
@@ -9,6 +9,7 @@ on:
       - 'contributions/projects/**'
       - 'profile-card-captions.json'
       - 'scripts/update-profile-cards.py'
+      - 'scripts/update-activity.py'
       - 'scripts/update-collection.py'
       - 'scripts/update-typography.py'
       - 'assets/work-*.svg'
@@ -39,6 +40,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/update-profile-cards.py
+      - name: Render public GitHub contribution calendar
+        run: python3 scripts/update-activity.py
       - name: Render verified collection styles
         run: python3 scripts/update-collection.py
       - name: Preserve approved typography
@@ -49,7 +52,7 @@ jobs:
         run: |
           git config user.name 'Renchao Wu'
           git config user.email '42173584+widechaos@users.noreply.github.com'
-          git add README.md assets/profile/contributions assets/collection assets/work-*.svg assets/contact-*.svg assets/section-*.svg assets/motion assets/typography contributions
+          git add README.md assets/profile/contributions assets/profile/activity assets/collection assets/work-*.svg assets/contact-*.svg assets/section-*.svg assets/motion assets/typography contributions
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh contribution stars and PR states'
+          git commit -m 'Refresh public profile cards'
           git push origin HEAD:main

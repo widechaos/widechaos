@@ -22,7 +22,7 @@ refs = References()
 refs.feed(text)
 refs.paths.update(re.findall(r'\]\(([^)]+)\)', text))
 errors = []
-for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS'):
+for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS', 'GITHUB-ACTIVITY'):
     start, end = f'<!-- {boundary}:START -->', f'<!-- {boundary}:END -->'
     if text.count(start) != 1 or text.count(end) != 1 or text.find(start) > text.find(end):
         errors.append(f'Invalid sync boundary: {boundary}')
