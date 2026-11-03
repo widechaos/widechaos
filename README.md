@@ -25,7 +25,7 @@
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-2-dark-mobile-ca81b69b2575.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-2-dark-wide-3d29f3723cd9.svg"><source media="(max-width:520px)" srcset="assets/typography/section-2-mobile-4d4e46112417.svg"><img src="assets/typography/section-2-wide-4de2f20aba9e.svg" width="100%" alt="GitHub activity"></picture></h2>
 
 <!-- GITHUB-ACTIVITY:START -->
-<p><a href="https://github.com/widechaos?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity/calendar-dark-47b22d354a11.svg"><img src="assets/profile/activity/calendar-light-12d7532aa8cb.svg" width="467" alt="2026 GitHub contributions: 5,180. Includes commits, pull requests, issues and reviews."></picture></a></p>
+<p><a href="https://github.com/widechaos?tab=overview&amp;from=2026-01-01&amp;to=2026-12-31"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/profile/activity/calendar-dark-mobile-a6f099db3b92.svg"><source media="(max-width:520px)" srcset="assets/profile/activity/calendar-light-mobile-d368e37d0791.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/profile/activity/calendar-dark-b65d89e6a3f3.svg"><img src="assets/profile/activity/calendar-light-4da63cd1612d.svg" width="640" alt="2026: 5,183 total GitHub contributions; Last 30 days 4,222, Active days 30/30, Longest streak 51. Calendar-derived metrics; longest streak in days, recent interval 2026-10-05 through 2026-11-03."></picture></a></p>
 <!-- GITHUB-ACTIVITY:END -->
 
 

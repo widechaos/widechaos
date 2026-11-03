@@ -40,7 +40,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: python3 scripts/update-profile-cards.py
-      - name: Render public GitHub contribution calendar
+      - name: Render official GitHub activity
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python3 scripts/update-activity.py
       - name: Render verified collection styles
         run: python3 scripts/update-collection.py
