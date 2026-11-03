@@ -4,17 +4,10 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Streamed tool-call identity · #3647](https://github.com/EKKOLearnAI/ekko-studio/pull/3647)**<br>I preserved tool-call IDs and names across empty continuation chunks while keeping argument fragments intact. Local HTTP/SSE regressions cover the reported shape; no live provider account was used. |
 | **Merged** | **[Public Agent availability for Workflow and Group Chat · #3546](https://github.com/EKKOLearnAI/ekko-studio/pull/3546)**<br>I moved Agent selection to public execution eligibility while retaining administrator inventory permissions and Hermes executable-path checks. Role-route and headless page tests use synthetic fixtures. |
 | **Merged** | **[Safe group-routing failure diagnostics · #3498](https://github.com/EKKOLearnAI/ekko-studio/pull/3498)**<br>I added bounded routing diagnostics without logging message bodies, credentials or provider responses. This does not add persistent decisions for every failure or diagnose the reporter's exact incident. |
-| **Merged** | **[Configurable DSH readiness budget · #3526](https://github.com/EKKOLearnAI/ekko-studio/pull/3526)**<br>I made configuration startup wait up to 180 seconds by default, with an adjustable budget, while preserving individual probe timeouts and cleanup. Actual Windows plugin startup was not tested locally. |
-| **Merged** | **[Separate plan identity from turn context · #3544](https://github.com/EKKOLearnAI/ekko-studio/pull/3544)**<br>I separated shared plan IDs from turn authorization contexts and added stale-context guidance, preserving revisions and old history. Tool-call arguments can still retain old contexts; model adherence was not tested. |
-| **Under review** | **[Named-profile model picker · #3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343)**<br>Show inherited root OAuth providers in named-profile model pickers without copying or refreshing credentials. |
-| **Merged** | **[Managed MCP credential inheritance · #3359](https://github.com/EKKOLearnAI/ekko-studio/pull/3359)**<br>Prevent stale parent bearer tokens from overriding the current profile credential in built-in managed MCP subprocesses. |
-| **Merged** | **[Thinking reply visibility · #3365](https://github.com/EKKOLearnAI/ekko-studio/pull/3365)**<br>Keep an unfinished leading thinking block out of the settled chat reply. |
-| **Merged** | **[Scrollable category submenu · #3374](https://github.com/EKKOLearnAI/ekko-studio/pull/3374)**<br>Keep every category reachable in the session context menu, including in short windows. |
-| **Merged** | **[Cross-profile attachment runs · #3439](https://github.com/EKKOLearnAI/ekko-studio/pull/3439)**<br>I made attachment runs use their authorized run profile while preserving stored-session profile and user-access checks. Actual handler regressions cover allowed runs and denied profile/path cases. |
-| **Merged** | **[Hermes CLI display versions · #3444](https://github.com/EKKOLearnAI/ekko-studio/pull/3444)**<br>I switched discovery to the canonical display-version API with legacy fallback, preserving stamp and Git identities instead of showing the placeholder version. |
-| **Merged** | **[Completed-abort thinking indicator · #3473](https://github.com/EKKOLearnAI/ekko-studio/pull/3473)**<br>Stop the thinking indicator and timer after abort completion while keeping active runs and pending aborts visible. Session-switch residue and broader resume races remain outside this fix. |
-| **Merged** | **[Unicode tool-result boundaries · #3457](https://github.com/EKKOLearnAI/ekko-studio/pull/3457)**<br>Keep UTF-16 surrogate pairs intact at tool-context truncation boundaries. Existing malformed sessions and provider-specific errors remain outside this fix. |
 
-The attachment fix is limited to run requests; other cross-profile approval, abort and queue operations are unchanged. Handler tests use synthetic sessions and a stub agent rather than a real Socket.IO transport. CLI discovery tests do not cover Windows launcher paths or installation and upgrade flows.
+| **Under review** | **[Named-profile model picker · #3343](https://github.com/EKKOLearnAI/ekko-studio/pull/3343)**<br>Show inherited root OAuth providers in named-profile model pickers without copying or refreshing credentials. |
+
+[All 2026 contributions and scope notes](ekko-studio/2026.md)
