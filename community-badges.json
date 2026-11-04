@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-11-02",
+  "checked_on": "2026-11-04",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -876,6 +876,45 @@
       "display_group": "certificate",
       "display_alt": "Kaggle Learn · Geospatial Analysis certificate",
       "completion_basis": "Official certificate verified by course operator; five required original exercise groups completed by assistant under owner authorization. Course boundary data substituted for restricted external basemap; textbook distance-unit mislabel recorded in course evidence, not a real hospital coverage conclusion. Platform 100% does not establish independent mastery."
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Learner",
+      "displayed": true,
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-04",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/46",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2Fbac00bdcf5aa52c077bef4d95da882f3%2FBadge-37.svg?generation=1727468352009252&alt=media",
+      "verification_source": "https://www.kaggle.com/xover2022 (official earned badge dialog and personal badge certificate, anonymously read in headless browser)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Learner",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/46"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Student",
+      "displayed": true,
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-04",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/47",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F59be06dc5fa3103f7f3d4064730449a4%2FBadge-38.svg?generation=1727468372542689&alt=media",
+      "verification_source": "https://www.kaggle.com/xover2022 (official earned badge dialog and personal badge certificate, anonymously read in headless browser)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Student",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/47"
+    },
+    {
+      "platform": "Kaggle",
+      "name": "Graduate",
+      "displayed": true,
+      "issued_on": "2026-11-02",
+      "verified_on": "2026-11-04",
+      "credential_url": "https://www.kaggle.com/certification/badges/xover2022/48",
+      "image_url": "https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1488634%2F7497cc64368fa8d323dbd46eff514e25%2FBadge-39.svg?generation=1727468387653485&alt=media",
+      "verification_source": "https://www.kaggle.com/xover2022 (official earned badge dialog and personal badge certificate, anonymously read in headless browser)",
+      "display_group": "community",
+      "display_alt": "Kaggle · Graduate",
+      "artwork_link": "https://www.kaggle.com/certification/badges/xover2022/48"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
