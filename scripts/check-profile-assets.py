@@ -30,7 +30,7 @@ for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS'):
 if 'assets/profile/activity/' in text or 'GITHUB-ACTIVITY:START' in text:
     errors.append('Duplicate activity card: keep the native GitHub calendar only')
 headings = re.findall(r'<h2>.*?<img[^>]+alt="([^"]+)".*?</h2>', text, re.S)
-if headings != ['About', 'Selected work', 'Open-source contributions', 'Toolbox', 'Collection', 'Connect']:
+if headings != ['About', 'Experiments', 'Open-source contributions', 'Toolbox', 'Collection', 'Connect']:
     errors.append('Profile sections must follow the approved work-first information order')
 # Contribution cards must flow naturally when projects are inserted or reordered.
 contributions = re.search(
