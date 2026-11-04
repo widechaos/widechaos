@@ -140,6 +140,10 @@ def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--snapshot', type=Path, help='Render a saved official response for review')
     args=parser.parse_args()
+    readme=(ROOT/'README.md').read_text()
+    if START not in readme and END not in readme:
+        print('Custom activity card retired; the native GitHub calendar is retained.')
+        return
     now=datetime.now(ZoneInfo('Asia/Muscat'))
     response=json.loads(args.snapshot.read_text()) if args.snapshot else fetch_snapshot(now.year)
     data=parse_snapshot(response,now.year,now.date().isoformat())

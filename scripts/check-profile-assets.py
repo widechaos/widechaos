@@ -22,10 +22,16 @@ refs = References()
 refs.feed(text)
 refs.paths.update(re.findall(r'\]\(([^)]+)\)', text))
 errors = []
-for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS', 'GITHUB-ACTIVITY'):
+for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS'):
     start, end = f'<!-- {boundary}:START -->', f'<!-- {boundary}:END -->'
     if text.count(start) != 1 or text.count(end) != 1 or text.find(start) > text.find(end):
         errors.append(f'Invalid sync boundary: {boundary}')
+# The official profile calendar supplies activity; the README supplies work and evidence.
+if 'assets/profile/activity/' in text or 'GITHUB-ACTIVITY:START' in text:
+    errors.append('Duplicate activity card: keep the native GitHub calendar only')
+headings = re.findall(r'<h2>.*?<img[^>]+alt="([^"]+)".*?</h2>', text, re.S)
+if headings != ['About', 'Selected work', 'Open-source contributions', 'Toolbox', 'Collection', 'Connect']:
+    errors.append('Profile sections must follow the approved work-first information order')
 # Contribution cards must flow naturally when projects are inserted or reordered.
 contributions = re.search(
     r'<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->(.*?)<!-- OPEN-SOURCE-CONTRIBUTIONS:END -->',

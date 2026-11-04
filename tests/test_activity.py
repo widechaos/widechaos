@@ -20,6 +20,19 @@ def snapshot(year=2026):
 
 
 class ActivityTests(unittest.TestCase):
+    def test_retired_card_does_not_fetch_or_rewrite_the_profile(self):
+        import tempfile
+        from unittest.mock import patch
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            readme=root/'README.md'
+            readme.write_text('# Selected work\n')
+            with patch.object(activity, 'ROOT', root), patch.object(activity, 'fetch_snapshot') as fetch, patch('sys.argv', ['update-activity.py']):
+                activity.main()
+            fetch.assert_not_called()
+            self.assertEqual(readme.read_text(), '# Selected work\n')
+            self.assertFalse((root/'assets').exists())
+
     def test_snapshot_preserves_leap_days_and_official_color_levels(self):
         data=activity.parse_snapshot(snapshot(2028),2028,'2028-12-31')
         self.assertEqual(len(data['days']),366)
