@@ -261,17 +261,24 @@
   "frankbria/ralph-claude-code": [
     {
       "status": "Merged",
+      "url": "https://github.com/frankbria/ralph-claude-code/pull/377",
+      "number": "377",
+      "live_pr": true,
+      "sort_date": "2026-11-04T03:49:53Z"
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/frankbria/ralph-claude-code/pull/390",
+      "number": "390",
+      "live_pr": true,
+      "sort_date": "2026-11-04T03:38:05Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/frankbria/ralph-claude-code/pull/380",
       "number": "380",
       "live_pr": true,
       "sort_date": "2026-10-09T20:10:37Z"
-    },
-    {
-      "status": "Under review",
-      "url": "https://github.com/frankbria/ralph-claude-code/pull/377",
-      "number": "377",
-      "live_pr": true,
-      "sort_date": "2026-10-08T15:50:12Z"
     }
   ],
   "tornadoweb/tornado": [
