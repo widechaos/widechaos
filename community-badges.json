@@ -959,5 +959,29 @@
     "weread_featured_count": 14,
     "caption_layout": "Within icon paragraph after a single br; preserve responsive wrapping.",
     "weread_wall_frame": "kbd; all medal images centered on a transparent canvas"
-  }
+  },
+  "activity_mementos": [
+    {
+      "id": "hacktoberfest-2026-sticker-book",
+      "platform": "Hacktoberfest",
+      "name": "Hacktoberfest 2026 · Virtual sticker book",
+      "kind": "virtual sticker book",
+      "owner": "RENCHAO WU",
+      "displayed": true,
+      "asset_path": "assets/mementos/hacktoberfest-2026-sticker-book.png",
+      "source_url": "https://hacktoberfest.com/my/",
+      "verified_on": "2026-11-05",
+      "stickers_unlocked": 6,
+      "stickers_total": 25,
+      "earned_activities": [
+        "Sign in",
+        "Connect DEV account",
+        "Launch weekend DEV Challenge submission",
+        "Week 1 DEV Challenge submission",
+        "Week 2 DEV Challenge submission",
+        "Week 3 DEV Challenge submission"
+      ],
+      "evidence_note": "Official account export. Activity stickers record participation; this is not an award certificate or a DEV badge. Week 4 not earned. Physical sticker pack not unlocked."
+    }
+  ]
 }

@@ -177,6 +177,8 @@ def main():
         raise ValueError("Invalid collection boundaries")
     # Prepare every image before updating the README, so download failures keep it intact.
     assets, block = generate(collect())
+    catalog = json.loads((ROOT / "community-badges.json").read_text())
+    block += memento_block(catalog.get("activity_mementos", []))
     for path, svg in assets.items():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(svg)
@@ -186,6 +188,31 @@ def main():
     print(
         "Rendered themed collection frames; preserved original artwork and evidence links."
     )
+
+
+def memento_block(items):
+    """Keep official virtual sticker books separate from earned credentials."""
+    rows = []
+    for item in items:
+        if not item.get("displayed"):
+            continue
+        if item.get("kind") != "virtual sticker book":
+            raise ValueError("Unsupported activity memento kind")
+        src = item["asset_path"]
+        if not src.startswith("assets/mementos/") or not item["source_url"].startswith("https://"):
+            raise ValueError("Memento needs local original artwork and an official source")
+        artwork(src)
+        alt = html.escape(item["name"], quote=True)
+        rows.append(
+            '<p><a href="' + html.escape(src, quote=True) + '"><img src="'
+            + html.escape(src, quote=True) + '" width="240" alt="' + alt
+            + '"></a><br><sub>' + alt + '</sub><br><sub><a href="'
+            + html.escape(item["source_url"], quote=True)
+            + '">Official account dashboard (sign-in required)</a></sub></p>'
+        )
+    if not rows:
+        return ""
+    return '<details><summary>Event mementos · Virtual sticker books</summary>\n\n' + '\n\n'.join(rows) + '\n\n</details>\n\n'
 
 
 if __name__ == "__main__":

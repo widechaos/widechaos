@@ -138,6 +138,12 @@
 
 </details>
 
+<details><summary>Event mementos · Virtual sticker books</summary>
+
+<p><a href="assets/mementos/hacktoberfest-2026-sticker-book.png"><img src="assets/mementos/hacktoberfest-2026-sticker-book.png" width="240" alt="Hacktoberfest 2026 · Virtual sticker book"></a><br><sub>Hacktoberfest 2026 · Virtual sticker book</sub><br><sub><a href="https://hacktoberfest.com/my/">Official account dashboard (sign-in required)</a></sub></p>
+
+</details>
+
 <!-- COMMUNITY-BADGES:END -->
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-6-dark-mobile-982a9a6f5f0f.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-6-dark-wide-7382c6138b93.svg"><source media="(max-width:520px)" srcset="assets/typography/section-6-mobile-8f00b937e2ff.svg"><img src="assets/typography/section-6-wide-0279f0bc8c35.svg" width="100%" alt="Connect"></picture></h2>

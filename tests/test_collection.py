@@ -22,6 +22,21 @@ card_spec.loader.exec_module(cards)
 
 
 class CollectionTests(unittest.TestCase):
+    def test_virtual_sticker_book_keeps_original_outside_credentials(self):
+        item = dict(displayed=True, kind="virtual sticker book",
+                    name="Hacktoberfest 2026 · Virtual sticker book",
+                    asset_path="assets/mementos/sticker-book.png",
+                    source_url="https://hacktoberfest.com/my/")
+        with patch.object(collection, "artwork", return_value="original bytes") as read:
+            block = collection.memento_block([item])
+        read.assert_called_once_with(item["asset_path"])
+        self.assertIn('src="' + item["asset_path"] + '"', block)
+        self.assertIn("Virtual sticker books", block)
+        self.assertIn("sign-in required", block)
+        self.assertNotIn("Verify learning credentials", block)
+        self.assertNotIn("assets/collection/", block)
+        self.assertEqual(collection.memento_block([]), "")
+
     def test_original_artwork_and_reduced_motion_survive_every_frame(self):
         payload = (
             b'<svg xmlns="http://www.w3.org/2000/svg"><text>Original 40</text></svg>'
