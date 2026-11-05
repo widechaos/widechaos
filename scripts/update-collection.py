@@ -19,6 +19,10 @@ START = "<!-- COMMUNITY-BADGES:START -->"
 END = "<!-- COMMUNITY-BADGES:END -->"
 
 
+def artwork_slug(kind, src):
+    return hashlib.sha256((str(kind) + ":" + src).encode()).hexdigest()[:20]
+
+
 def render(src, alt, kind, url, theme):
     dark = theme == "dark"
     bg = "#161b22" if dark else "#f1f4f8"
@@ -107,11 +111,12 @@ def collect():
         )
     for index, key in [(2, "selected"), (3, "known_badges")]:
         for b in reading[key]:
+            src = b.get("display_asset_path", b["asset_path"])
             groups[index].append(
                 dict(
-                    src=b.get("display_asset_path", b["asset_path"]),
+                    src=src,
                     alt=b["display_name_en"],
-                    link="https://weread.qq.com/",
+                    link="https://widechaos.cn/about?medal=" + artwork_slug(2, src) + "#collection",
                     kind=2,
                 )
             )
@@ -122,9 +127,7 @@ def generate(groups):
     assets = {}
 
     def tag(item):
-        slug = hashlib.sha256(
-            (str(item["kind"]) + ":" + item["src"]).encode()
-        ).hexdigest()[:20]
+        slug = artwork_slug(item["kind"], item["src"])
         uri = artwork(item["src"])
         for theme in ("light", "dark"):
             svg = render(item["src"], item["alt"], item["kind"], uri, theme)

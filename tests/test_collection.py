@@ -22,6 +22,14 @@ card_spec.loader.exec_module(cards)
 
 
 class CollectionTests(unittest.TestCase):
+    def test_reading_links_target_the_exact_existing_site_artwork(self):
+        groups = collection.collect()
+        for group in groups[2:]:
+            for item in group:
+                slug = collection.artwork_slug(item["kind"], item["src"])
+                self.assertEqual(item["link"], "https://widechaos.cn/about?medal=" + slug + "#collection")
+                self.assertTrue((collection.OUT / (slug + "-light.svg")).is_file())
+
     def test_virtual_sticker_book_keeps_original_outside_credentials(self):
         item = dict(displayed=True, kind="virtual sticker book",
                     name="Hacktoberfest 2026 · Virtual sticker book",
