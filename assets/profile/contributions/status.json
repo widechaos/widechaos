@@ -171,6 +171,20 @@
   "OpenWhispr/openwhispr": [
     {
       "status": "Merged",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3005",
+      "number": "3005",
+      "live_pr": true,
+      "sort_date": "2026-11-05T08:54:46Z"
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3087",
+      "number": "3087",
+      "live_pr": true,
+      "sort_date": "2026-11-05T07:44:13Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/OpenWhispr/openwhispr/pull/2873",
       "number": "2873",
       "live_pr": true,
@@ -196,13 +210,6 @@
       "number": "2672",
       "live_pr": true,
       "sort_date": "2026-10-20T07:28:29Z"
-    },
-    {
-      "status": "Under review",
-      "url": "https://github.com/OpenWhispr/openwhispr/pull/3087",
-      "number": "3087",
-      "live_pr": true,
-      "sort_date": "2026-11-03T17:07:39Z"
     },
     {
       "status": "Under review",

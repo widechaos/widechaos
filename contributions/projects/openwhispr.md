@@ -4,7 +4,8 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Under review** | **[Single-instance exit diagnostic · #3087](https://github.com/OpenWhispr/openwhispr/pull/3087)**<br>Explain an early exit when the single-instance lock is unavailable. Lock recovery and the reported Linux PID-collision hypothesis are outside this diagnostic. |
+| **Merged** | **[Linux session setup instruction · #3005](https://github.com/OpenWhispr/openwhispr/pull/3005)**<br>I clarified that Hold to Speak setup requires logging out of the Linux user account and back in, across all 11 locales. Input permissions and the setup command are unchanged; native logout/login was not tested. |
+| **Merged** | **[Single-instance exit diagnostic · #3087](https://github.com/OpenWhispr/openwhispr/pull/3087)**<br>Explain an early exit when the single-instance lock is unavailable. Lock recovery and the reported Linux PID-collision hypothesis are outside this diagnostic. |
 | **Merged** | **[Gemini-compatible endpoint routing · #2873](https://github.com/OpenWhispr/openwhispr/pull/2873)**<br>I preserved the compatible base URL and routed raw cleanup to Chat Completions. Thinking-control compatibility remains outside this change. |
 | **Merged** | **[Hyprland configuration updates · #2742](https://github.com/OpenWhispr/openwhispr/pull/2742)**<br>I fixed Hyprland configuration updates to respect sourced loader files and write configuration atomically. The maintainer extended nested-loader and settings-failure coverage; those additions retain their authorship. |
 | **Merged** | **[Uploaded transcripts and mobile note tabs · #2880](https://github.com/OpenWhispr/openwhispr/pull/2880)**<br>I saved uploaded speech in the transcript field and kept the mobile Transcript tab alongside editable notes after a summary is generated. The maintainer added speaker/timing preservation and desktop acceptance checks. Historical-upload migration and transcript search indexing remain outside this change. |
