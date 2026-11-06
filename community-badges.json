@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checked_on": "2026-11-04",
+  "checked_on": "2026-11-06",
   "profiles": {
     "kaggle": "https://www.kaggle.com/xover2022",
     "dev": "https://dev.to/widechaos",
@@ -933,6 +933,18 @@
       "display_group": "certificate",
       "display_alt": "Kaggle Learn · Intro to Game AI and Reinforcement Learning certificate",
       "completion_basis": "Official certificate and course 100% verified by course operator; four required original exercise groups actually run by assistant under owner authorization. Optional reinforcement learning training and competition submission were not done. This does not establish independent mastery."
+    },
+    {
+      "platform": "DEV",
+      "name": "Kaggle Benchmarking Challenge Completion",
+      "displayed": true,
+      "image_url": "https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F514%2Fheader-kaggle-04.png",
+      "credential_url": "https://dev.to/widechaos",
+      "display_group": "community",
+      "display_alt": "DEV · Kaggle Benchmarking Challenge Completion",
+      "artwork_link": "https://dev.to/widechaos",
+      "verified_on": "2026-11-06",
+      "kind": "challenge completion"
     }
   ],
   "policy": "Keep existing curated selection. Add newly earned official badges after verification; never infer awards from submissions.",
