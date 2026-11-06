@@ -9,10 +9,10 @@ One row per project. Open a project for its contribution details.
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[GenOffice](projects/genoffice.md)**<br>Document fidelity and safe workbook saves | **Merged** · [#2511](https://github.com/genspark-ai/genoffice/pull/2511), [#2433](https://github.com/genspark-ai/genoffice/pull/2433), [#2415](https://github.com/genspark-ai/genoffice/pull/2415) |
 | **[Ekko Studio](projects/ekko-studio.md)**<br>Realtime voice, streamed tool calls and agent routing | **Merged** · [#3708](https://github.com/EKKOLearnAI/ekko-studio/pull/3708), [#3647](https://github.com/EKKOLearnAI/ekko-studio/pull/3647), [#3546](https://github.com/EKKOLearnAI/ekko-studio/pull/3546) |
 | **[OpenWhispr](projects/openwhispr.md)**<br>Voice dictation, notes and startup diagnostics | **Merged** · [#3005](https://github.com/OpenWhispr/openwhispr/pull/3005), [#3087](https://github.com/OpenWhispr/openwhispr/pull/3087), [#2873](https://github.com/OpenWhispr/openwhispr/pull/2873) |
 | **[Ralph](projects/ralph.md)**<br>Regression tests, script cleanup and sandbox uploads | **Merged** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377), [#390](https://github.com/frankbria/ralph-claude-code/pull/390), [#380](https://github.com/frankbria/ralph-claude-code/pull/380) |
-| **[GenOffice](projects/genoffice.md)**<br>Desktop navigation and document fidelity | **Merged** · [#2433](https://github.com/genspark-ai/genoffice/pull/2433), [#2415](https://github.com/genspark-ai/genoffice/pull/2415), [#2392](https://github.com/genspark-ai/genoffice/pull/2392) |
 | **[wcmatch](projects/wcmatch.md)**<br>Combined pattern limits and duplicate exclusions | **Merged** · [#263](https://github.com/facelessuser/wcmatch/pull/263) |
 | **[mlx-audio](projects/mlx-audio.md)**<br>Band-limited audio upsampling | **Merged** · [#1021](https://github.com/Blaizzy/mlx-audio/pull/1021) |
 | **[more-itertools](projects/more-itertools.md)**<br>Validator bypass report | **Resolved report** · [#1308](https://github.com/more-itertools/more-itertools/issues/1308) |
