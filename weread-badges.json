@@ -1,9 +1,9 @@
 {
   "platform": "WeRead",
-  "checked_on": "2026-11-02",
+  "checked_on": "2026-11-07",
   "scope": "99 screenshot/API-evidenced medals: historical owner wall of 94 plus owner-earned shares for Perfect reading weeks 40, 42 and 43, Raging reading week 41, and Perfect reading month October in 2026. Includes 35 API-confirmed official assets and 64 screenshot-sourced medals. Original icon crops preserved; transparent normalized display derivatives remove only exterior backgrounds. This does not establish current full inventory or future weekly/monthly automatic coverage.",
   "wall_count_from_owner_screenshot": 94,
-  "returned_count": 35,
+  "returned_count": 36,
   "image_source": "Official WeRead Android 10.2.2.10167650_0.apk: medals.hbc (medalsV4) and readChallenge.hbc (medalsV5)",
   "selected": [
     {
@@ -2682,6 +2682,25 @@
       },
       "display_asset_path": "assets/weread/display/M1-0-30.png",
       "display_processing": "Exterior-connected background removed for screenshot crops; original medal artwork retained. All display assets centered to a 256px maximum extent on a transparent 320px canvas; original source preserved."
+    },
+    {
+      "id": "M15-2-0",
+      "type": 15,
+      "subtype": 2,
+      "level": 0,
+      "name": "21天阅读挑战",
+      "title": "21天阅读挑战",
+      "displayText": "21天阅读挑战",
+      "atime": 1793980883,
+      "ctime": 1793980883,
+      "verified_on": "2026-11-07",
+      "verification_source": "Official Agent Gateway /readdata/detail overall earned medals",
+      "image_url": "https://weread-1258476243.file.myqcloud.com/app/assets/medalsV5/0_480_M15-2-0.png",
+      "asset_path": "assets/weread/M15-2-0.png",
+      "display_asset_path": "assets/weread/display/M15-2-0.png",
+      "display_name_en": "21-day Reading Challenge · 2",
+      "display_processing": "Existing transparent official artwork cropped to its alpha bounds, scaled to a 256px maximum extent and centered on a transparent 320px canvas. Original artwork preserved.",
+      "identity_note": "The numeral 2 is visible in the official artwork; type 15/subtype 2/level 0 are copied from the earned API record, not inferred as a level upgrade."
     }
   ],
   "display": {
@@ -2694,7 +2713,7 @@
     "wall_label": "More reading badges",
     "public_count": false
   },
-  "known_count": 99,
+  "known_count": 100,
   "selected_count": 14,
   "screenshot_evidence": {
     "sha256": "f7885e9d5ce2056869a434c70f1af8eff6780a432ba47b8a22a48a495b97ebd9",
