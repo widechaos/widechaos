@@ -57,6 +57,13 @@
   "genspark-ai/genoffice": [
     {
       "status": "Merged",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2541",
+      "number": "2541",
+      "live_pr": true,
+      "sort_date": "2026-11-08T02:35:14Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/genspark-ai/genoffice/pull/2511",
       "number": "2511",
       "live_pr": true,
