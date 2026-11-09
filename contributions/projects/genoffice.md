@@ -4,8 +4,8 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Tracked inline atom revisions · #2556](https://github.com/genspark-ai/genoffice/pull/2556)**<br>I made revision collection include marked inline atoms so note references and breaks can be listed, accepted and rejected. Synthetic CLI round trips preserve untouched note parts; orphan note bodies remain unchanged. |
+| **Merged** | **[Print settings overflow · #2553](https://github.com/genspark-ai/genoffice/pull/2553)**<br>I allowed print-setting fields to shrink and wrap within their existing column, preventing translated controls from forcing horizontal overflow. |
 | **Merged** | **[Nonblocking recent-file probes · #2541](https://github.com/genspark-ai/genoffice/pull/2541)**<br>I moved background recent-file metadata checks off the main thread and kept startup menus from probing unavailable paths. Offline filesystem tests preserve ordering, paging and unavailable entries. |
-| **Merged** | **[Worksheet-level table parts · #2511](https://github.com/genspark-ai/genoffice/pull/2511)**<br>I kept new table parts at worksheet level when conditional-formatting rules contain nested extension lists. Round-trip tests preserve the original CF and x14 payload bytes. Clearing protected x14 formatting remains refused; this does not resolve all of #2510. |
-| **Merged** | **[Save As with an unusable default folder · #2433](https://github.com/genspark-ai/genoffice/pull/2433)**<br>I kept Docs Save As available when its optional default directory cannot be used. Real IPC and filesystem tests preserve the selected file bytes; silent saves keep their existing directory checks. |
 
 [All 2026 contributions and scope notes](genoffice/2026.md)
