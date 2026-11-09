@@ -90,6 +90,27 @@
       ],
       "cta": "Open model & evidence →",
       "details": "One from-scratch fit on BANKING77 is evaluated as float/int8 storage with raw/calibrated probabilities: four representations, not four trained models. All 301 errors on the official 3,080-row test set are retained; the two quantization-changed predictions are wrong before and after. This is a previously seen benchmark, not a historical blind test. The English 77-class closed set always selects a known class, with no out-of-domain rejection. The browser dequantizes int8 storage for floating-point inference; no integer-kernel or speed-up claim. [Public model demo & source](https://huggingface.co/spaces/WideChaos/tiny-hash-intent) · [English write-up](https://widechaos.cn/blog/tiny-hash-intent-en) · [中文说明](https://widechaos.cn/blog/tiny-hash-intent-zh)."
+    },
+    {
+      "id": "split-boundary-audit",
+      "work_identity": "work:split-boundary-audit:v1",
+      "name": "Split Boundary Audit · Group Planner",
+      "href": "https://huggingface.co/spaces/WideChaos/split-boundary-audit",
+      "alt": "Split Boundary Audit Group Planner: keep declared groups and exact-text connections together across train, validation and test. All records retained; greedy planning is not optimal and does not certify statistical independence.",
+      "eyebrow": "SPLIT BOUNDARY / GROUP PLANNER",
+      "headline": "Keep groups together.",
+      "question": [
+        "Plan train, validation and test splits,",
+        "then export records and review warnings."
+      ],
+      "result": "30 / 3 / 3",
+      "result_label": "Actual split · 36-record synthetic example",
+      "limits": [
+        "Greedy planning is not optimal",
+        "No independence or semantic guarantee"
+      ],
+      "cta": "Open planner & evidence →",
+      "details": "A local browser planner keeps caller-declared groups and groups connected by exact text together across train, validation and test, then exports the full plan and assigned records for the included Python auditor. It preserves every record, conflicting labels and achieved-ratio deviations. The 36-record synthetic example has 12 declared groups and 10 connected units; an 80/10/10 target yields 30/3/3 records, with one normalization candidate and one conflicting-label set retained for review. Normalized matches are candidates only. A retained counterexample shows the single-pass greedy planner is not globally optimal. Group provenance is supplied by the caller; a CLEAR audit does not prove statistical independence or absence of semantic leakage. Original Apache-2.0 code and synthetic examples; no model or external dataset. [Public planner, source & audit](https://huggingface.co/spaces/WideChaos/split-boundary-audit)."
     }
   ]
 }
