@@ -22,7 +22,7 @@ refs = References()
 refs.feed(text)
 refs.paths.update(re.findall(r'\]\(([^)]+)\)', text))
 errors = []
-for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS'):
+for boundary in ('COMMUNITY-BADGES', 'OPEN-SOURCE-CONTRIBUTIONS', 'EXPERIMENTS'):
     start, end = f'<!-- {boundary}:START -->', f'<!-- {boundary}:END -->'
     if text.count(start) != 1 or text.count(end) != 1 or text.find(start) > text.find(end):
         errors.append(f'Invalid sync boundary: {boundary}')
@@ -52,6 +52,13 @@ if collection:
     expected = sum(bool(b.get('displayed')) for b in community['known_badges']) + len(reading['selected']) + len(reading['known_badges'])
     if len(re.findall(r'<img src="assets/collection/', block)) != expected or '<kbd>' in block:
         errors.append('Collection styles out of sync: run python3 scripts/update-collection.py')
+experiments = re.search(r'<!-- EXPERIMENTS:START -->(.*?)<!-- EXPERIMENTS:END -->', text, re.S)
+if experiments:
+    import json
+    catalog = json.loads((ROOT / 'experiments.json').read_text())['items']
+    displayed = re.findall(r'<a href="([^"]+)"><picture>', experiments.group(1))
+    if displayed != [item['href'] for item in catalog]:
+        errors.append('Experiments out of sync: run python3 scripts/update-experiments.py')
 for value in sorted(refs.paths):
     url = urlsplit(value)
     if url.scheme or url.netloc or not url.path:

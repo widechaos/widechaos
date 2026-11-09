@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "policy": "Only explicitly authorized, verified public works. Keep one card per stable id; update an existing record for a same-work revision. Do not infer publication, scores or adoption.",
+  "items": [
+    {
+      "id": "router",
+      "name": "Bilingual Router LoRA",
+      "href": "https://huggingface.co/WideChaos/bilingual-router-qwen2.5-0.5b-lora-v2/blob/main/REVIEW.md",
+      "alt": "Bilingual Router: strict all-field accuracy 7.6% to 47.2%, JSON validity 98.6% to 95.5%; 576 synthetic tests, one run. Read results and failures.",
+      "legacy_assets": {
+        "dark_mobile": "assets/experiments/router-dark-mobile-2e301d152367.svg",
+        "light_mobile": "assets/experiments/router-light-mobile-137a0709478d.svg",
+        "dark": "assets/experiments/router-dark-a05fdf6030fe.svg",
+        "light": "assets/experiments/router-light-5b983f92ee5f.svg"
+      },
+      "details": "Qwen2.5-0.5B-Instruct, base → adapter, 576 frozen synthetic tests. One seed and run, with the schema supplied to both models. Strict all-field accuracy improved while strict JSON validity fell; unseen-operation failures remain visible. These are experimental results, not production performance. [Model &amp; reproduction](https://huggingface.co/WideChaos/bilingual-router-qwen2.5-0.5b-lora-v2/blob/main/README.md)."
+    },
+    {
+      "id": "agent",
+      "name": "Evidence Agent",
+      "href": "https://huggingface.co/spaces/WideChaos/evidence-agent/blob/main/EVALUATION.md",
+      "alt": "Evidence Agent: historical local 14B evaluation 9 of 20; live 4B demo has no equivalent verified score. Traces do not guarantee correctness. Read evaluation and failures.",
+      "legacy_assets": {
+        "dark_mobile": "assets/experiments/agent-dark-mobile-100153c80d93.svg",
+        "light_mobile": "assets/experiments/agent-light-mobile-1e0245639865.svg",
+        "dark": "assets/experiments/agent-dark-f8b721544170.svg",
+        "light": "assets/experiments/agent-light-c4367e38ce9a.svg"
+      },
+      "details": "the 9/20 result belongs to the documented local Qwen3-14B run on October 3, 2026. The live 4B demo has no equivalent verified score. Tool traces support inspection, not a correctness guarantee. Free GPU quota can interrupt inference; labeled tool walkthroughs remain separate. [Demo &amp; setup](https://huggingface.co/spaces/WideChaos/evidence-agent)."
+    },
+    {
+      "id": "json-wire-boundary-lab",
+      "work_identity": "work:json-wire-boundary-lab:v1",
+      "name": "JSON Wire Browser Lab",
+      "href": "https://huggingface.co/spaces/WideChaos/json-wire-boundary-lab",
+      "alt": "JSON Wire Browser Lab: inspect browser decoding, JSON parsing and re-encoding separately. Parsed values can round-trip while original bytes change; no semantic correctness guarantee.",
+      "eyebrow": "JSON WIRE / BROWSER LAB",
+      "headline": "What survives a round-trip?",
+      "question": [
+        "Inspect browser JSON decoding,",
+        "parsing and re-encoding separately."
+      ],
+      "result": "Bytes ≠ values",
+      "result_label": "A parsed value can survive a round-trip",
+      "limits": [
+        "Decoding, parsing and encoding differ",
+        "Not a semantic correctness guarantee"
+      ],
+      "cta": "Open lab & evidence →",
+      "details": "A browser-local workbench separates UTF-8 decoding, JSON parsing and re-encoding, with fixed byte fixtures and a frozen Python reference. A large integer can change even when the parsed value round-trips. These checks do not prove semantic correctness or sanitize untrusted input. Exported reports include input bytes and runtime details; review them before sharing. [Public lab & source](https://huggingface.co/spaces/WideChaos/json-wire-boundary-lab)."
+    },
+    {
+      "id": "offline-evidence-finder",
+      "work_identity": "work:offline-evidence-finder:v1",
+      "name": "Offline Evidence Finder",
+      "href": "https://huggingface.co/spaces/WideChaos/offline-evidence-finder",
+      "alt": "Offline Evidence Finder: browser-local English and Chinese lexical retrieval with exact quotes and UTF-16 offsets. One of four unanswerable development queries returned a hit; matching quotes do not prove semantic support.",
+      "eyebrow": "OFFLINE EVIDENCE FINDER",
+      "headline": "Exact quotes are not proof.",
+      "question": [
+        "Search English and Chinese text,",
+        "then export quotes and source offsets."
+      ],
+      "result": "1 / 4",
+      "result_label": "Unanswerable queries returned a hit",
+      "limits": [
+        "Lexical matching, not semantic support",
+        "Hand-picked development queries"
+      ],
+      "cta": "Open lab & evidence →",
+      "details": "Browser-local English and Chinese lexical retrieval exports exact quotes, UTF-16 offsets and source text. After a disclosed sample-extraction correction, one of four unanswerable queries still matched an unrelated excerpt. These hand-picked development queries are not a blind retrieval benchmark; a location match does not establish truth, answerability or semantic support. No model inference or training. [Public lab & source](https://huggingface.co/spaces/WideChaos/offline-evidence-finder) · [English write-up](https://widechaos.cn/blog/offline-evidence-finder-en) · [中文说明](https://widechaos.cn/blog/offline-evidence-finder-zh)."
+    },
+    {
+      "id": "tiny-hash-intent",
+      "work_identity": "work:tiny-hash-intent:v1",
+      "name": "Tiny Hash Intent",
+      "href": "https://huggingface.co/spaces/WideChaos/tiny-hash-intent",
+      "alt": "Tiny Hash Intent: one from-scratch fit, four evaluation representations and 301 retained errors across 3,080 test rows. English closed-set classification has no OOD rejection; int8 storage is not a speed benchmark.",
+      "eyebrow": "TINY HASH INTENT / FROM SCRATCH",
+      "headline": "Small model, real errors.",
+      "question": [
+        "Run a trained intent classifier",
+        "locally, with its full error report."
+      ],
+      "result": "301 / 3,080",
+      "result_label": "Test errors · One fit, four views",
+      "limits": [
+        "English closed set · No OOD rejection",
+        "Int8 storage is not a speed benchmark"
+      ],
+      "cta": "Open model & evidence →",
+      "details": "One from-scratch fit on BANKING77 is evaluated as float/int8 storage with raw/calibrated probabilities: four representations, not four trained models. All 301 errors on the official 3,080-row test set are retained; the two quantization-changed predictions are wrong before and after. This is a previously seen benchmark, not a historical blind test. The English 77-class closed set always selects a known class, with no out-of-domain rejection. The browser dequantizes int8 storage for floating-point inference; no integer-kernel or speed-up claim. [Public model demo & source](https://huggingface.co/spaces/WideChaos/tiny-hash-intent) · [English write-up](https://widechaos.cn/blog/tiny-hash-intent-en) · [中文说明](https://widechaos.cn/blog/tiny-hash-intent-zh)."
+    }
+  ]
+}
