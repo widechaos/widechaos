@@ -9,8 +9,8 @@ One row per project. Open a project for its contribution details.
 
 | Project & focus | Contribution status |
 | :--- | :--- |
+| **[Ekko Studio](projects/ekko-studio.md)**<br>Realtime voice, streamed tool calls and agent routing | **Merged** · [#3708](https://github.com/EKKOLearnAI/ekko-studio/pull/3708), [#3728](https://github.com/EKKOLearnAI/ekko-studio/pull/3728), [#3723](https://github.com/EKKOLearnAI/ekko-studio/pull/3723) |
 | **[GenOffice](projects/genoffice.md)**<br>Document fidelity and safe workbook saves | **Merged** · [#2541](https://github.com/genspark-ai/genoffice/pull/2541), [#2511](https://github.com/genspark-ai/genoffice/pull/2511), [#2433](https://github.com/genspark-ai/genoffice/pull/2433) |
-| **[Ekko Studio](projects/ekko-studio.md)**<br>Realtime voice, streamed tool calls and agent routing | **Merged** · [#3708](https://github.com/EKKOLearnAI/ekko-studio/pull/3708), [#3647](https://github.com/EKKOLearnAI/ekko-studio/pull/3647), [#3546](https://github.com/EKKOLearnAI/ekko-studio/pull/3546) |
 | **[OpenWhispr](projects/openwhispr.md)**<br>Voice dictation, notes and startup diagnostics | **Merged** · [#3005](https://github.com/OpenWhispr/openwhispr/pull/3005), [#3087](https://github.com/OpenWhispr/openwhispr/pull/3087), [#2873](https://github.com/OpenWhispr/openwhispr/pull/2873) |
 | **[Ralph](projects/ralph.md)**<br>Regression tests, script cleanup and sandbox uploads | **Merged** · [#377](https://github.com/frankbria/ralph-claude-code/pull/377), [#390](https://github.com/frankbria/ralph-claude-code/pull/390), [#380](https://github.com/frankbria/ralph-claude-code/pull/380) |
 | **[wcmatch](projects/wcmatch.md)**<br>Combined pattern limits and duplicate exclusions | **Merged** · [#263](https://github.com/facelessuser/wcmatch/pull/263) |
