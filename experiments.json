@@ -111,6 +111,27 @@
       ],
       "cta": "Open planner & evidence →",
       "details": "A local browser planner keeps caller-declared groups and groups connected by exact text together across train, validation and test, then exports the full plan and assigned records for the included Python auditor. It preserves every record, conflicting labels and achieved-ratio deviations. The 36-record synthetic example has 12 declared groups and 10 connected units; an 80/10/10 target yields 30/3/3 records, with one normalization candidate and one conflicting-label set retained for review. Normalized matches are candidates only. A retained counterexample shows the single-pass greedy planner is not globally optimal. Group provenance is supplied by the caller; a CLEAR audit does not prove statistical independence or absence of semantic leakage. Original Apache-2.0 code and synthetic examples; no model or external dataset. [Public planner, source & audit](https://huggingface.co/spaces/WideChaos/split-boundary-audit) · [English write-up](https://widechaos.cn/blog/split-boundary-audit-en) · [中文说明](https://widechaos.cn/blog/split-boundary-audit-zh)."
+    },
+    {
+      "id": "annotation-pair-review",
+      "work_identity": "work:annotation-pair-review:v1",
+      "name": "Annotation Pair Review",
+      "href": "https://huggingface.co/spaces/WideChaos/annotation-pair-review",
+      "alt": "Annotation Pair Review: 100% conditional agreement can cover just one of twelve synthetic records. Browser-local manual review keeps disagreements, abstentions and unfinished work visible. Agreement is not accuracy; no autosave.",
+      "eyebrow": "ANNOTATION PAIR / MANUAL REVIEW",
+      "headline": "Agreement needs coverage.",
+      "question": [
+        "Compare two annotation files,",
+        "then review each record manually."
+      ],
+      "result": "100% · 1 / 12",
+      "result_label": "Partial synthetic example · Both labelled",
+      "limits": [
+        "Agreement is not accuracy",
+        "No autosave · Export to keep work"
+      ],
+      "cta": "Open review & evidence →",
+      "details": "A browser-local workbench shows conditional label agreement beside coverage, keeping disagreements, abstentions and unfinished records visible for manual final decisions. The partial synthetic example reaches 100% agreement with only 1 of 12 records labelled by both roles; the default example has 4/12 coverage and 2/4 identical labels (50%). These are scripted role annotations, not independent human annotators, accuracy or gold labels. Full inventory, taxonomy and record order must match; no intersection-only merging or automatic adjudication. The tab does not autosave: refresh loses unsaved work. Downloaded snapshots can restore a review and contain full original texts and notes; review them before sharing. Checksums establish consistency, not authenticity. No model, training or measured adoption. [Public workbench, source & reproduction](https://huggingface.co/spaces/WideChaos/annotation-pair-review)."
     }
   ]
 }
