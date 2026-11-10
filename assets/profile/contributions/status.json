@@ -1,4 +1,20 @@
 {
+  "google/adk-python": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/google/adk-python/pull/7738",
+      "number": "7738",
+      "live_pr": true,
+      "sort_date": "2026-10-26T09:04:11Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/google/adk-python/pull/7670",
+      "number": "7670",
+      "live_pr": true,
+      "sort_date": "2026-10-22T10:12:13Z"
+    }
+  ],
   "dateutil/dateutil": [
     {
       "status": "Under review",
@@ -6,6 +22,15 @@
       "number": "1597",
       "live_pr": true,
       "sort_date": "2026-10-06T17:52:57Z"
+    }
+  ],
+  "dograh-hq/dograh": [
+    {
+      "status": "Under review",
+      "url": "https://github.com/dograh-hq/dograh/pull/982",
+      "number": "982",
+      "live_pr": true,
+      "sort_date": "2026-11-08T12:14:33Z"
     }
   ],
   "EKKOLearnAI/ekko-studio": [
@@ -29,6 +54,20 @@
       "number": "3723",
       "live_pr": true,
       "sort_date": "2026-11-09T00:38:29Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3732",
+      "number": "3732",
+      "live_pr": true,
+      "sort_date": "2026-11-09T06:27:35Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/EKKOLearnAI/ekko-studio/pull/3530",
+      "number": "3530",
+      "live_pr": true,
+      "sort_date": "2026-10-24T14:51:40Z"
     },
     {
       "status": "Under review",
@@ -117,6 +156,13 @@
       "number": "2533",
       "live_pr": true,
       "sort_date": "2026-10-08T21:41:19Z"
+    },
+    {
+      "status": "Closed · unmerged",
+      "url": "https://github.com/pydantic/logfire/pull/2745",
+      "number": "2745",
+      "live_pr": true,
+      "sort_date": "2026-11-07T05:36:46Z"
     },
     {
       "status": "Closed · unmerged",
@@ -217,6 +263,20 @@
       "number": "2672",
       "live_pr": true,
       "sort_date": "2026-10-20T07:28:29Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3049",
+      "number": "3049",
+      "live_pr": true,
+      "sort_date": "2026-11-01T22:52:13Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3008",
+      "number": "3008",
+      "live_pr": true,
+      "sort_date": "2026-10-29T03:48:47Z"
     },
     {
       "status": "Under review",
