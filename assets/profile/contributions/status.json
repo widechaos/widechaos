@@ -197,10 +197,17 @@
       "sort_date": "2026-10-31T06:24:40Z"
     }
   ],
-  "Blaizzy/mlx-audio": [
+  "Neywa-Labs/mlx-audio": [
     {
       "status": "Merged",
-      "url": "https://github.com/Blaizzy/mlx-audio/pull/1021",
+      "url": "https://github.com/Neywa-Labs/mlx-audio/pull/1178",
+      "number": "1178",
+      "live_pr": true,
+      "sort_date": "2026-11-11T20:24:09Z"
+    },
+    {
+      "status": "Merged",
+      "url": "https://github.com/Neywa-Labs/mlx-audio/pull/1021",
       "number": "1021",
       "live_pr": true,
       "sort_date": "2026-10-14T13:10:49Z"
