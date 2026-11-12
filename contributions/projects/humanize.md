@@ -4,4 +4,4 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Under review** | **[Decimal formatting in intcomma · #497](https://github.com/python-humanize/humanize/pull/497)**<br>Preserve decimal digits and trailing zeros in intcomma across the tested locales. |
+| **Closed · unmerged** | **[Decimal formatting in intcomma · #497](https://github.com/python-humanize/humanize/pull/497)**<br>I proposed preserving decimal digits and trailing zeros in intcomma. The maintainer closed the PR while addressing an influx of low-quality and duplicate submissions to the issue. It was not merged. |

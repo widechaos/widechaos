@@ -126,11 +126,11 @@
   ],
   "python-humanize/humanize": [
     {
-      "status": "Under review",
+      "status": "Closed · unmerged",
       "url": "https://github.com/python-humanize/humanize/pull/497",
       "number": "497",
       "live_pr": true,
-      "sort_date": "2026-11-01T02:26:57Z"
+      "sort_date": "2026-11-12T08:53:14Z"
     }
   ],
   "livekit/agents": [
