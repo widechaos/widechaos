@@ -175,17 +175,17 @@
   "mcp-use/mcp-use": [
     {
       "status": "Under review",
-      "url": "https://github.com/mcp-use/mcp-use/pull/3006",
-      "number": "3006",
-      "live_pr": true,
-      "sort_date": "2026-11-03T04:59:28Z"
-    },
-    {
-      "status": "Under review",
       "url": "https://github.com/mcp-use/mcp-use/pull/2926",
       "number": "2926",
       "live_pr": true,
       "sort_date": "2026-10-24T10:57:26Z"
+    },
+    {
+      "status": "Closed · unmerged",
+      "url": "https://github.com/mcp-use/mcp-use/pull/3006",
+      "number": "3006",
+      "live_pr": true,
+      "sort_date": "2026-11-12T19:10:29Z"
     }
   ],
   "MemoriLabs/Memori": [
