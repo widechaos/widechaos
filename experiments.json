@@ -132,6 +132,27 @@
       ],
       "cta": "Open review & evidence →",
       "details": "A browser-local workbench shows conditional label agreement beside coverage, keeping disagreements, abstentions and unfinished records visible for manual final decisions. The partial synthetic example reaches 100% agreement with only 1 of 12 records labelled by both roles; the default example has 4/12 coverage and 2/4 identical labels (50%). These are scripted role annotations, not independent human annotators, accuracy or gold labels. Full inventory, taxonomy and record order must match; no intersection-only merging or automatic adjudication. The tab does not autosave: refresh loses unsaved work. Downloaded snapshots can restore a review and contain full original texts and notes; review them before sharing. Checksums establish consistency, not authenticity. No model, training or measured adoption. [Public workbench, source & reproduction](https://huggingface.co/spaces/WideChaos/annotation-pair-review) · [English write-up](https://widechaos.cn/blog/annotation-pair-review-en) · [中文说明](https://widechaos.cn/blog/annotation-pair-review-zh)."
+    },
+    {
+      "id": "local-label-queue",
+      "work_identity": "work:local-label-queue:v1",
+      "name": "Local Label Queue",
+      "href": "https://huggingface.co/spaces/WideChaos/local-label-queue",
+      "alt": "Local Label Queue: twelve abstentions can produce 100% reviewed progress with zero assigned labels. Browser-local manual text labeling preserves labels, abstentions and unfinished work. No autosave or label-quality judgment.",
+      "eyebrow": "LOCAL LABEL QUEUE / MANUAL REVIEW",
+      "headline": "Reviewed with no labels.",
+      "question": [
+        "Label text or record an abstention,",
+        "then export every source record."
+      ],
+      "result": "100% · 0 labels",
+      "result_label": "12 synthetic records · All abstained",
+      "limits": [
+        "Review progress is not label quality",
+        "No autosave · Download a checkpoint"
+      ],
+      "cta": "Open queue & evidence →",
+      "details": "A browser-local manual text-labeling queue keeps labelled, abstained and unfinished records separate and preserves every source text, id, group and annotation in exports. In the synthetic all-abstained example, all 12 records are reviewed but zero labels are assigned. The running demo instead has 2 labelled, 1 abstained and 9 unfinished records; revision 5 counts edits, not reviewed records. These authored examples have no gold labels or independently verified human annotators. No model, training, automatic quality check or measured adoption. There is no autosave: refresh loses unsaved work. Download a checkpoint first; restoration requires a verified preview and explicit full-session replacement, with no merge. Exports contain full source texts and annotations, so review before sharing. Hashes establish consistency, not signatures, encryption or authenticity. [Public queue, source & reproduction](https://huggingface.co/spaces/WideChaos/local-label-queue)."
     }
   ]
 }
