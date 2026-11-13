@@ -7,7 +7,7 @@
   <sub><i>"From the ashes a fire shall be woken, a light from the shadows shall spring." — J.R.R. Tolkien</i></sub>
 </p>
 
-<p><img src="https://hits.sh/github.com/widechaos.svg?style=flat-square&amp;label=Profile%20views&amp;color=7541c8" alt="Profile views"></p>
+<p><img src="https://hits.sh/github.com/widechaos.svg?style=flat-square&amp;label=Profile%20views&amp;color=7541c8&amp;extraCount=32768" alt="Profile views" title="32,768 starting baseline + recorded hits; not unique visitors"></p>
 
 <h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-1-dark-mobile-586433dc757e.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-1-dark-wide-1790fea7bd54.svg"><source media="(max-width:520px)" srcset="assets/typography/section-1-mobile-efcfe4c5d7fc.svg"><img src="assets/typography/section-1-wide-c29cd4196ffb.svg" width="100%" alt="About"></picture></h2>
 
