@@ -99,7 +99,11 @@ def block(items, featured, refs):
                      f'<img src="{paths["light"]}" width="32%" alt="{esc(alt)}"></picture></a>')
     # New entries remain discoverable without growing the default front shelf.
     directory = '\n'.join(f'- [{i["name"]}]({i["href"]}) — {i.get("summary") or " ".join(i.get("question", ["Read the experiment and its limitations."]))}' for i in items)
-    details = '\n'.join(f'- **{i["name"]}:** {i["details"]}' for i in items)
+    def result_summary(item):
+        if 'legacy_assets' in item:
+            return item['alt']
+        return f"{item['result_label']}: {item['result']}. {'; '.join(item['limits'])}."
+    details = '\n'.join(f'- **{i["name"]}:** {result_summary(i)} {i["details"]}' for i in items)
     return ('Small tools for inspecting text, datasets and model results. Pick a task to explore.\n\n<p>\n' + '\n'.join(cards) +
             '\n</p>\n\n<details>\n<summary>Explore all experiments</summary>\n\n' + directory +
             '\n\n<details>\n<summary>Methods, results &amp; limits</summary>\n\n' + details + '\n\n</details>\n\n</details>')
