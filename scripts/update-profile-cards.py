@@ -1,5 +1,8 @@
 """Render contribution cards from public project records and current GitHub stars and PR states."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from profile_neon import apply_neon
 from concurrent.futures import ThreadPoolExecutor
 import html
 from datetime import datetime
@@ -140,45 +143,49 @@ def render(p, theme):
     bg, fg, muted, border, cyan, pink, purple = PALETTES[theme]
     esc = html.escape
     light = theme == 'light'
+    bg = '#eef3f9' if light else '#151e2d'
     stars = str(p['stars']) if p['stars'] < 1000 else f'{p["stars"]/1000:.1f}k'
-    states = p['statuses'][:2]
-    if len(p['statuses']) > 2:
-        states = [p['statuses'][0], f'+{len(p["statuses"])-1} · Details →']
-    bg = '#eaf0f6' if light else bg
-    shine = '#ffffff' if light else '#c7f8ff'
+    delay = .18 + (int(hashlib.sha256(p['slug'].encode()).hexdigest()[:4], 16) % 280) / 1000
     svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="230" height="136" viewBox="0 0 230 136"><title>{esc(p["name"])} contribution details: {esc("; ".join(p["statuses"]))}</title>',
-        f'<defs><linearGradient id="badge-sheen"><stop stop-color="{shine}" stop-opacity="0"/><stop offset=".48" stop-color="{shine}" stop-opacity=".15"/><stop offset=".6" stop-color="{shine}" stop-opacity=".9"/><stop offset="1" stop-color="{shine}" stop-opacity="0"/></linearGradient></defs>',
-        '<style>@media(prefers-reduced-motion:reduce){.sheen{display:none}}</style>',
-        f'<path d="M1 1H215L229 15V135H15L1 121Z" fill="{bg}" fill-opacity="{.8 if light else .64}" stroke="{border}"/>',
-        (f'<path d="M3 32V3H213L227 17" fill="none" stroke="#8192a5" stroke-opacity=".16" stroke-width="2"/>' if light else ''),
-        f'<path d="M1 29V1H31M201 1H215L229 15V29" fill="none" stroke="{cyan}" stroke-width="2"/>',
-        f'<path d="M200 135H229V107" fill="none" stroke="{pink}" stroke-width="2"/>',
+        '<style>.combo-hit{transform-origin:18px 116px;animation:impact .65s cubic-bezier(.17,.8,.28,1) DELAYs 1}.combo-sweep{opacity:0;animation:sweep .7s ease-out DELAYs 1}@keyframes impact{0%{transform:translateX(-4px) scale(.7);opacity:.35}28%{transform:scale(1.18) rotate(-3deg);opacity:1}52%{transform:scale(.97)}100%{transform:none}}@keyframes sweep{0%{transform:translateX(-75px);opacity:0}30%{opacity:.8}100%{transform:translateX(95px);opacity:0}}@media(prefers-reduced-motion:reduce){.combo-hit,.combo-sweep{animation:none!important}.combo-sweep{display:none}}</style>'.replace('DELAY', f'{delay:.3f}'),
+        f'<path d="M1 1H215L229 15V135H15L1 121Z" fill="{bg}" stroke="{border}"/>',
+        f'<path d="M1 29V1H31" fill="none" stroke="{cyan}" stroke-width="2"/>',
+        f'<path d="M204 135H229V110" fill="none" stroke="{purple}" stroke-width="1.4"/>',
         f'<g font-family="Avenir Next,Segoe UI,Arial,sans-serif"><text x="13" y="27" fill="{fg}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="14" font-weight="700" letter-spacing="-.35">{esc(p["name"])}</text>',
-        f'<text x="216" y="27" text-anchor="end" fill="{purple}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11.5">★ {stars}</text>']
+        f'<text x="216" y="27" text-anchor="end" fill="{muted}" opacity=".8" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="10.5">★ {stars}</text>']
     for j, line in enumerate(textwrap.wrap(p['caption'], width=29)[:2]):
         svg.append(f'<text x="13" y="{49+j*16}" fill="{muted}" font-size="12.5">{esc(line)}</text>')
-    for j, state in enumerate(states):
-        y = 100+j*19
-        if state.startswith('+'):
-            svg.append(f'<text x="14" y="{y}" fill="{muted}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11">{esc(state)}</text>')
-            continue
-        color, label, path, circles = status_visual(state, theme)
-        number = re.search(r'#(\d+)', state)
-        label += f' #{number.group(1)}' if number else ''
-        badge_width = min(202, 29 + len(label) * 6.6)
-        svg.append(f'<defs><clipPath id="badge-{j}"><rect x="10" y="{y-14}" width="{badge_width}" height="18" rx="4"/></clipPath></defs>')
-        svg.append(f'<rect x="10" y="{y-14}" width="{badge_width}" height="18" rx="4" fill="{color}" fill-opacity=".07" stroke="{color}" stroke-opacity=".18" stroke-width=".6"/>')
-        timing = int.from_bytes(hashlib.sha256(f"{p['slug']}:{state}:{j}".encode()).digest()[:4], 'big')
-        duration = 7 + (timing % 6001) / 1000
-        offset = ((timing >> 12) % 10000) / 10000 * duration
-        sweep_end = round(2.25 / duration, 4)
-        svg.append(f'<g clip-path="url(#badge-{j})"><g class="sheen" opacity=".85"><animateTransform attributeName="transform" type="translate" values="-55 {y-42};{badge_width+35} {y+8};{badge_width+35} {y+8}" keyTimes="0;{sweep_end};1" dur="{duration:.3f}s" begin="-{offset:.3f}s" repeatCount="indefinite"/><rect x="-24" y="-35" width="48" height="70" transform="rotate(-25)" fill="url(#badge-sheen)"/></g></g>')
-        svg.append(f'<g transform="translate(13 {y-12})" fill="none" stroke="{color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{path}"/>')
-        for circle in circles:
-            x, cy, *radius = circle
-            svg.append(f'<circle cx="{x}" cy="{cy}" r="{radius[0] if radius else 1.7}"/>')
-        svg.append(f'</g><text x="35" y="{y}" fill="{color}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11">{esc(label)}</text>')
-    return ''.join(svg) + '</g></svg>\n'
+    state = p['statuses'][0]
+    color, label, path, circles = status_visual(state, theme)
+    number = re.search(r'#(\d+)', state)
+    label += f' #{number.group(1)}' if number else ''
+    badge_width = min(202, 29 + len(label) * 6.6)
+    svg.append(f'<path d="M15 86H{10+badge_width}L{5+badge_width} 104H10Z" fill="{color}" fill-opacity=".13"/>')
+    svg.append(f'<path d="M12 89V101" stroke="{color}" stroke-width="2"/>')
+    svg.append(f'<g transform="translate(15 88)" fill="none" stroke="{color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{path}"/>')
+    for circle in circles:
+        x, cy, *radius = circle
+        svg.append(f'<circle cx="{x}" cy="{cy}" r="{radius[0] if radius else 1.7}"/>')
+    svg.append(f'</g><text x="35" y="100" fill="{color}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11">{esc(label)}</text>')
+    extra = len(p['statuses']) - 1
+    if extra:
+        count = f'+{extra}'
+        width = 85 + max(0, len(count)-2)*12
+        number_width = len(count)*12
+        fill = '#e9ddff' if light else '#41216c'
+        ink = '#5720a5' if light else '#f1e4ff'
+        svg.append(f'<g class="combo-hit" aria-label="{extra} additional contribution records">'
+                   f'<path d="M16 111H{width+13}L{width+9} 132H12Z" fill="{cyan}" fill-opacity=".45"/>'
+                   f'<path d="M15 109H{width+12}L{width+8} 130H11Z" fill="{fill}" stroke="{purple}" stroke-width=".8"/>'
+                   f'<path d="M16 110L12 129" stroke="{cyan}" stroke-width="2"/>'
+                   f'<text x="20.6" y="125" fill="{cyan}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-weight="800" font-style="italic" font-size="21">{count}</text>'
+                   f'<text x="20" y="125" fill="{ink}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-weight="800" font-style="italic" font-size="21">{count}</text>'
+                   f'<text x="{24+number_width}" y="121" fill="{ink}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="8" font-weight="600">MORE</text>'
+                   f'<defs><clipPath id="combo-clip"><path d="M15 109H{width+12}L{width+8} 130H11Z"/></clipPath><linearGradient id="combo-glint"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>'
+                   '<g clip-path="url(#combo-clip)"><g class="combo-sweep"><path d="M0 105H16L4 134H-12Z" fill="url(#combo-glint)"/></g></g></g>')
+    svg.append(f'<text x="216" y="125" text-anchor="end" fill="{purple}" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="10.5" font-weight="600">Details ↗</text>')
+    return apply_neon(''.join(svg) + '</g></svg>', theme)
+
 
 def sync_grid(text, projects):
     start = '<!-- OPEN-SOURCE-CONTRIBUTIONS:START -->'

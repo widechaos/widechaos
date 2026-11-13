@@ -2,6 +2,7 @@
 from pathlib import Path
 import re
 import hashlib
+from profile_neon import apply_neon
 R=Path(__file__).resolve().parents[1]
 mono='SFMono-Regular,Consolas,Liberation Mono,monospace';sans='Avenir Next,Segoe UI,Arial,sans-serif'
 paths=[]
@@ -14,6 +15,8 @@ for p in paths:
  if p.name.startswith('identity-panel'):
   s=s.replace('Arial,PingFang SC,sans-serif','SFMono-Regular,Consolas,Liberation Mono,PingFang SC,Microsoft YaHei,monospace')
   s=s.replace('font-size="13"','font-size="12"')
+ if p.name.startswith(('contact-', 'section-')):
+  s=apply_neon(s, 'dark' if '-dark' in p.name else 'light', 'section' if p.name.startswith('section-') else 'card')
  p.write_text(s)
 
 print("Applied approved profile typography")

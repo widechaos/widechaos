@@ -1,5 +1,8 @@
 """Render a bounded tool shelf and the complete, evidence-preserving experiment directory."""
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from profile_neon import apply_neon
 import hashlib
 import html
 import json
@@ -72,7 +75,7 @@ def render(item, theme, mobile=False):
     short_name = {'split-boundary-audit': 'Split Boundary Audit'}.get(item['id'], item['name'])
     svg += text(short_name, 16, 161, 10, purple, MONO)
     svg += text('↗', width-31, 162, 16, accent, SANS)
-    return svg + '</svg>'
+    return apply_neon(svg + '</svg>', theme)
 
 
 def assets_for(item):
