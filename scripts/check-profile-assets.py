@@ -55,10 +55,16 @@ if collection:
 experiments = re.search(r'<!-- EXPERIMENTS:START -->(.*?)<!-- EXPERIMENTS:END -->', text, re.S)
 if experiments:
     import json
-    catalog = json.loads((ROOT / 'experiments.json').read_text())['items']
+    data = json.loads((ROOT / 'experiments.json').read_text())
+    catalog = data['items']
+    lookup = {item['id']: item for item in catalog}
+    featured = data['showcase']['featured']
     displayed = re.findall(r'<a href="([^"]+)"><picture>', experiments.group(1))
-    if displayed != [item['href'] for item in catalog]:
-        errors.append('Experiments out of sync: run python3 scripts/update-experiments.py')
+    if not 1 <= len(featured) <= 3 or displayed != [lookup[key]['href'] for key in featured]:
+        errors.append('Experiments front shelf out of sync: run python3 scripts/update-experiments.py')
+    for item in catalog:
+        if f'[{item["name"]}]({item["href"]})' not in experiments.group(1) or item['details'] not in experiments.group(1):
+            errors.append('Experiment missing from directory or evidence: ' + item['id'])
 for value in sorted(refs.paths):
     url = urlsplit(value)
     if url.scheme or url.netloc or not url.path:
