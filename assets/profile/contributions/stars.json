@@ -1,7 +1,7 @@
 {
   "google/adk-python": 22210,
   "dateutil/dateutil": 2646,
-  "dograh-hq/dograh": 6089,
+  "dograh-hq/dograh": 6090,
   "EKKOLearnAI/ekko-studio": 11766,
   "SYSTRAN/faster-whisper": 26732,
   "genspark-ai/genoffice": 12320,
@@ -13,7 +13,7 @@
   "MemoriLabs/Memori": 17569,
   "Neywa-Labs/mlx-audio": 8264,
   "more-itertools/more-itertools": 4105,
-  "OpenWhispr/openwhispr": 11531,
+  "OpenWhispr/openwhispr": 11533,
   "PeonPing/peon-ping": 5114,
   "theskumar/python-dotenv": 8921,
   "frankbria/ralph-claude-code": 9730,
