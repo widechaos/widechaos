@@ -213,6 +213,21 @@
         "note": "Recalculates outputs; no training.",
         "glyph": "audit"
       }
+    },
+    {
+      "id": "bike-hour-forecast",
+      "work_identity": "work:bike-hour-forecast:v1",
+      "name": "Bike Hour Forecast",
+      "href": "https://widechaos-bike-hour-forecast.static.hf.space/index.html",
+      "alt": "Bike Hour Forecast: browser-local saved-weight inference on historical 2011–2012 system-level rental counts; 4,258 eligible test targets and 118 omitted targets. Not station availability or current-city validation.",
+      "summary": "Estimate the next historical rental hour and compare two simple baselines locally.",
+      "result_label": "Historical test MAE · 4,258 eligible targets",
+      "result": "33.85 vs 86.91 / 80.94",
+      "limits": [
+        "118 test targets excluded for incomplete history",
+        "System-level 2011–2012 counts; no current-city or station availability validation"
+      ],
+      "details": "One 1,185-parameter network trained for 40 CPU epochs; epoch 20 was selected using validation only. The browser runs saved weights on 24 consecutive hourly counts and exports all inputs and predictions beside two untrained baselines. On the same 4,258 eligible test targets, MAE is 33.8476 versus 86.9054 and 80.9385; 118 of 4,376 test targets were omitted for incomplete history. The largest retained error predicts 509.01 against truth 114. Source data have 165 absent nominal hours, with no zero-fill or UTC/DST reconstruction. Rolling forecasts may use observed earlier validation/test counts, windows overlap, and source data were seen before the protocol. No historical-blind, uncertainty, stronger-baseline, current-city, station-availability, production or adoption claim. Today’s release runs saved weights; it is not new training. Code is Apache-2.0; UCI data and derived weights/results are CC BY 4.0 with full attribution. [Public HF source & methods](https://huggingface.co/spaces/WideChaos/bike-hour-forecast) · [Exact release](https://huggingface.co/spaces/WideChaos/bike-hour-forecast/commit/12485db6742972da6589e0ae3454657255b5fb24)."
     }
   ],
   "showcase": {
