@@ -228,6 +228,23 @@
         "System-level 2011–2012 counts; no current-city or station availability validation"
       ],
       "details": "One 1,185-parameter network trained for 40 CPU epochs; epoch 20 was selected using validation only. The browser runs saved weights on 24 consecutive hourly counts and exports all inputs and predictions beside two untrained baselines. On the same 4,258 eligible test targets, MAE is 33.8476 versus 86.9054 and 80.9385; 118 of 4,376 test targets were omitted for incomplete history. The largest retained error predicts 509.01 against truth 114. Source data have 165 absent nominal hours, with no zero-fill or UTC/DST reconstruction. Rolling forecasts may use observed earlier validation/test counts, windows overlap, and source data were seen before the protocol. No historical-blind, uncertainty, stronger-baseline, current-city, station-availability, production or adoption claim. Today’s release runs saved weights; it is not new training. Code is Apache-2.0; UCI data and derived weights/results are CC BY 4.0 with full attribution. [Public HF source & methods](https://huggingface.co/spaces/WideChaos/bike-hour-forecast) · [Exact release](https://huggingface.co/spaces/WideChaos/bike-hour-forecast/commit/12485db6742972da6589e0ae3454657255b5fb24). · [English write-up](https://widechaos.cn/blog/bike-hour-forecast-en) · [中文说明](https://widechaos.cn/blog/bike-hour-forecast-zh)"
+    },
+    {
+      "id": "char-router-abstention-study",
+      "work_identity": "work:char-router-abstention-study:v1",
+      "version": "0.1.0",
+      "name": "CPU Character Router · Failed abstention threshold",
+      "href": "https://huggingface.co/WideChaos/char-router-abstention-study",
+      "source_manifest_sha256": "a7c0adc50d078485ccfa46a20f7cdd44ac1448c6857b4c1a7733520bcc2adee9",
+      "alt": "CPU Character Router: all six synthetic out-of-domain test requests were falsely accepted by a validation-selected abstention rule. Local NumPy CPU model only; no hosted App or verified provider integration.",
+      "summary": "Inspect a failed abstention rule in a small local CPU classifier.",
+      "result_label": "Out-of-domain test requests falsely accepted",
+      "result": "6 / 6",
+      "limits": [
+        "Synthetic templates; no open-world rejection guarantee",
+        "Local NumPy CPU CLI; no hosted App or verified provider"
+      ],
+      "details": "One zero-initialized linear character classifier was fitted for 300 CPU epochs on 96 original synthetic requests, using 4,096 hashed character 1–3-gram features. All 204 records and every validation/test output are retained. The validation-selected 0.4 threshold achieved 44 correct among 47 accepted validation requests, then 43 correct among 52 accepted test requests. Known-route test accuracy was 44/48, while all six out-of-domain test requests were falsely accepted (three per language). The soup-recipe request was accepted as notes at about 0.486 maximum softmax; route preference is not calibrated confidence or membership. Templates were author-written and visible; grouped splits do not establish human blindness, semantic independence, general bilingual understanding or production safety. This release replays saved JSON weights with local NumPy; it is not a new fit, hosted App, verified Transformers/Inference Provider integration or executed tool action. Code, synthetic data and weights are original Apache-2.0 work; NumPy has separate terms. Full public Raw contents and saved-model CPU replay were verified by the release owner; the native HF download menu has no successful file-download receipt and remains a separate unverified gate. [Exact model release & evidence](https://huggingface.co/WideChaos/char-router-abstention-study/commit/bd2a30de287fe419b7d31838b40f5ae4d2d70061)."
     }
   ],
   "showcase": {
