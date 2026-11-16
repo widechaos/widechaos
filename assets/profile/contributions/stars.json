@@ -1,10 +1,10 @@
 {
   "google/adk-python": 22233,
   "dateutil/dateutil": 2647,
-  "dograh-hq/dograh": 6123,
+  "dograh-hq/dograh": 6135,
   "EKKOLearnAI/ekko-studio": 11776,
-  "SYSTRAN/faster-whisper": 26783,
-  "genspark-ai/genoffice": 12413,
+  "SYSTRAN/faster-whisper": 26785,
+  "genspark-ai/genoffice": 12415,
   "encode/httpx": 15798,
   "python-humanize/humanize": 770,
   "livekit/agents": 15240,
@@ -13,10 +13,10 @@
   "MemoriLabs/Memori": 17590,
   "Neywa-Labs/mlx-audio": 8273,
   "more-itertools/more-itertools": 4106,
-  "OpenWhispr/openwhispr": 11648,
+  "OpenWhispr/openwhispr": 11649,
   "PeonPing/peon-ping": 5114,
   "theskumar/python-dotenv": 8921,
-  "frankbria/ralph-claude-code": 9734,
+  "frankbria/ralph-claude-code": 9733,
   "tornadoweb/tornado": 22165,
   "facelessuser/wcmatch": 169
 }
