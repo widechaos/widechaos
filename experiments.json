@@ -245,6 +245,23 @@
         "Local NumPy CPU CLI; no hosted App or verified provider"
       ],
       "details": "One zero-initialized linear character classifier was fitted for 300 CPU epochs on 96 original synthetic requests, using 4,096 hashed character 1–3-gram features. All 204 records and every validation/test output are retained. The validation-selected 0.4 threshold achieved 44 correct among 47 accepted validation requests, then 43 correct among 52 accepted test requests. Known-route test accuracy was 44/48, while all six out-of-domain test requests were falsely accepted (three per language). The soup-recipe request was accepted as notes at about 0.486 maximum softmax; route preference is not calibrated confidence or membership. Templates were author-written and visible; grouped splits do not establish human blindness, semantic independence, general bilingual understanding or production safety. This release replays saved JSON weights with local NumPy; it is not a new fit, hosted App, verified Transformers/Inference Provider integration or executed tool action. Code, synthetic data and weights are original Apache-2.0 work; NumPy has separate terms. Full public Raw contents and saved-model CPU replay were verified by the release owner; the native HF download menu has no successful file-download receipt and remains a separate unverified gate. [Exact model release & evidence](https://huggingface.co/WideChaos/char-router-abstention-study/commit/bd2a30de287fe419b7d31838b40f5ae4d2d70061). [English write-up](https://widechaos.cn/blog/char-router-abstention-study-en) · [中文详解](https://widechaos.cn/blog/char-router-abstention-study-zh)."
+    },
+    {
+      "id": "forecast-interval-lab",
+      "work_identity": "work:forecast-interval-lab:v1",
+      "version": "0.1.0",
+      "name": "Forecast Interval Lab",
+      "href": "https://huggingface.co/spaces/WideChaos/forecast-interval-lab",
+      "source_manifest_sha256": "d7c68154ddcc24a8b5ae0bdcffd0ab18067d0817e5421bd22fd69e4026810f6b",
+      "alt": "Forecast Interval Lab: the nominal 90% interval covered 91.45% overall but 86.11% in October; all 364 misses retained. Historical rental counts, no future coverage guarantee.",
+      "summary": "Inspect hourly rental intervals and the months their overall coverage hides.",
+      "result_label": "Nominal 90% interval · October coverage",
+      "result": "86.11%",
+      "limits": [
+        "Historical system rentals; no station availability forecast",
+        "One saved CPU model; no future-hour or monthly coverage guarantee"
+      ],
+      "details": "A local browser lab using one original November 4 CPU point fit: 40 epochs, 1,185 parameters, Q1-selected epoch 39 and 2,134 Q2 calibration errors. Three nominal levels reuse that single fit; this publication is not new training. The fixed 90% interval covered 3,894/4,258 eligible test hours (91.4514%), with all 364 misses retained (76 below, 288 above); September reached 87.6389% and October 86.1111%. Nominal 95% reached 94.8098% overall and nominal 80% reached 82.4566%, without post-test retuning. Full 17,379-row source and 1,722 omitted targets, including 118 test targets, remain; missing nominal hours are not filled and UTC/DST is not reconstructed. Rolling one-step contexts use actual earlier observations, not a recursive six-month forecast. Overlap and seasonal shift do not establish exchangeability, per-input probability or future coverage. Known historical UCI system rental totals do not measure station availability, unmet demand or current-city validity; no blind-test or adoption claim. Browser-memory computation supports finite/unbounded exact-rank arithmetic and exports complete inputs; no inference API or autosave. Code/docs are original Apache-2.0; UCI source and derived weights/calibration/results/figure retain CC BY 4.0 attribution, with method references separately cited. The release owner verified five complete actual report downloads and public-copy replay; 57 Raw text readbacks, three matching LFS pointers and an acquired figure are not 61 native source downloads. [Open browser lab](https://widechaos-forecast-interval-lab.static.hf.space/index.html) · [Exact release, full results & licenses](https://huggingface.co/spaces/WideChaos/forecast-interval-lab/commit/747f64a8adba84a346502d82568364086d8fff66)."
     }
   ],
   "showcase": {
