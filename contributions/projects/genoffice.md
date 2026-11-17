@@ -4,9 +4,9 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Merged** | **[Read-mode theme canvas · #2659](https://github.com/genspark-ai/genoffice/pull/2659)**<br>I made Read mode use the existing themed canvas instead of the fixed dark print-preview backdrop. Synthetic renderer checks preserve intentionally dark document themes. |
-| **Merged** | **[Tracked inline atom revisions · #2556](https://github.com/genspark-ai/genoffice/pull/2556)**<br>I made revision collection include marked inline atoms so note references and breaks can be listed, accepted and rejected. Synthetic CLI round trips preserve untouched note parts; orphan note bodies remain unchanged. |
-| **Merged** | **[Print settings overflow · #2553](https://github.com/genspark-ai/genoffice/pull/2553)**<br>I allowed print-setting fields to shrink and wrap within their existing column, preventing translated controls from forcing horizontal overflow. |
-| **Merged** | **[Nonblocking recent-file probes · #2541](https://github.com/genspark-ai/genoffice/pull/2541)**<br>I moved background recent-file metadata checks off the main thread and kept startup menus from probing unavailable paths. Offline filesystem tests preserve ordering, paging and unavailable entries. |
+| **Merged** | **[Conformant new-document AppVersion · #2802](https://github.com/genspark-ai/genoffice/pull/2802)**<br>I corrected the default DOCX producer-version format while preserving explicit options and imported metadata. Real package round trips preserve every other OPC payload; native Word opening remains unverified. |
+| **Merged** | **[Bounded NSS certificate reads · #2782](https://github.com/genspark-ai/genoffice/pull/2782)**<br>I overlap up to eight certificate reads per listing while preserving nickname order, skipped failures and password-file cleanup. Synthetic process-boundary tests verify scheduling; real NSS latency was not measured. |
+| **Merged** | **[Unsupported text-insert isolation · #2800](https://github.com/genspark-ai/genoffice/pull/2800)**<br>I keep an unsupported character from discarding otherwise drawable insertions in the same font group. Native PDF save/readback tests use a public font fixture and preserve shared subsetting and untouched content. |
+| **Merged** | **[Release completed PDF queue results · #2791](https://github.com/genspark-ai/genoffice/pull/2791)**<br>I release successful PDFium and font-subset outputs from the retained queue tails while preserving caller results, FIFO execution and failure recovery. Local GC probes and actual native output comparisons verify the change without an OOM claim. |
 
 [All 2026 contributions and scope notes](genoffice/2026.md)

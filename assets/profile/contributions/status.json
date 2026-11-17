@@ -103,31 +103,31 @@
   "genspark-ai/genoffice": [
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2659",
-      "number": "2659",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2802",
+      "number": "2802",
       "live_pr": true,
-      "sort_date": "2026-11-13T07:37:39Z"
+      "sort_date": "2026-11-17T03:23:23Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2553",
-      "number": "2553",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2782",
+      "number": "2782",
       "live_pr": true,
-      "sort_date": "2026-11-09T03:02:41Z"
+      "sort_date": "2026-11-17T03:23:04Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2556",
-      "number": "2556",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2800",
+      "number": "2800",
       "live_pr": true,
-      "sort_date": "2026-11-09T03:01:36Z"
+      "sort_date": "2026-11-17T03:22:44Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2541",
-      "number": "2541",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2791",
+      "number": "2791",
       "live_pr": true,
-      "sort_date": "2026-11-08T02:35:14Z"
+      "sort_date": "2026-11-17T03:21:13Z"
     }
   ],
   "encode/httpx": [
