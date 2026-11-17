@@ -2,9 +2,19 @@
 import re
 
 
+def section_viewport(svg):
+    opening = re.match(r'<svg\b[^>]*>', svg).group()
+    _, _, width, height = map(float, re.search(r'viewBox="([^"]+)"', opening).group(1).split())
+    # Match the intrinsic ratio to the padded viewBox; otherwise wide headings
+    # are letterboxed horizontally by SVG's default centered aspect-ratio fit.
+    aligned = re.sub(r'\bwidth="[^"]+"', f'width="{width:g}"', opening)
+    aligned = re.sub(r'\bheight="[^"]+"', f'height="{height:g}"', aligned)
+    return aligned + svg[len(opening):]
+
+
 def apply_neon(svg, theme, kind='card'):
     if 'data-neon="light"' in svg:
-        return svg
+        return section_viewport(svg) if kind == 'section' else svg
     opening = re.match(r'<svg\b[^>]*>', svg).group()
     view = re.search(r'viewBox="([^"]+)"', opening)
     x, y, width, height = map(float, view.group(1).split())
@@ -22,4 +32,5 @@ def apply_neon(svg, theme, kind='card'):
         body = re.sub(r'<path\b', '<path filter="url(#surface-neon)"', body)
     else:
         body = '<g filter="url(#surface-neon)">' + body + '</g>'
-    return framed + definitions + body + '</svg>\n'
+    result = framed + definitions + body + '</svg>\n'
+    return section_viewport(result) if kind == 'section' else result

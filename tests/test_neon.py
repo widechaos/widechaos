@@ -10,6 +10,17 @@ from profile_neon import apply_neon
 
 
 class NeonTests(unittest.TestCase):
+    def test_wide_heading_has_no_horizontal_letterboxing(self):
+        source='<svg xmlns="http://www.w3.org/2000/svg" width="846" height="48" viewBox="0 0 846 48"><path d="M1 9L9 1H39V39H1Z"/><text x="56" y="28">TOOLBOX</text></svg>'
+        for theme in ('light', 'dark'):
+            svg=apply_neon(source, theme, 'section')
+            root=ET.fromstring(svg)
+            _, _, w, h=map(float, root.get('viewBox').split())
+            self.assertEqual(float(root.get('width')) / float(root.get('height')), w / h)
+            self.assertEqual(svg, apply_neon(svg, theme, 'section'))
+            old=svg.replace('width="853" height="55"', 'width="846" height="48"', 1)
+            self.assertEqual(svg, apply_neon(old, theme, 'section'))
+
     def test_light_surface_is_idempotent_and_keeps_content(self):
         source='<svg xmlns="http://www.w3.org/2000/svg" width="205" height="48" viewBox="0 0 205 48"><title>Contact</title><path d="M1 1H204V47H1Z"/><text x="12" y="30">Blog</text></svg>'
         once=apply_neon(source, 'light')

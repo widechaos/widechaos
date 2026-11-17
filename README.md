@@ -9,7 +9,7 @@
 
 <p><img src="https://hits.sh/github.com/widechaos.svg?style=flat-square&amp;label=Profile%20views&amp;color=7541c8&amp;extraCount=32768" alt="Profile views" title="32,768 starting baseline + recorded hits; not unique visitors"></p>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-1-dark-mobile-586433dc757e.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-1-dark-wide-1790fea7bd54.svg"><source media="(max-width:520px)" srcset="assets/typography/section-1-mobile-efcfe4c5d7fc.svg"><img src="assets/typography/section-1-wide-c29cd4196ffb.svg" width="100%" alt="About"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-1-dark-mobile-0b57996ae9e8.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-1-dark-wide-4786468afc32.svg"><source media="(max-width:520px)" srcset="assets/typography/section-1-mobile-3ee74362cdd9.svg"><img src="assets/typography/section-1-wide-4a128e2ba961.svg" width="100%" alt="About"></picture></h2>
 
 <picture><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/identity-panel-dark-mobile-still-e328ae10ad4b.svg"><source media="(prefers-reduced-motion: reduce) and (max-width:520px)" srcset="assets/typography/identity-panel-light-mobile-still-24ee7f82afb9.svg"><source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/typography/identity-panel-dark-wide-still-02999894ee1e.svg"><source media="(prefers-reduced-motion: reduce)" srcset="assets/typography/identity-panel-light-wide-still-2c102482bce0.svg"><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/identity-panel-dark-mobile-a2d6b45846ed.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/identity-panel-dark-wide-9305176af0a7.svg"><source media="(max-width:520px)" srcset="assets/typography/identity-panel-light-mobile-19479d98c021.svg"><img src="assets/typography/identity-panel-light-wide-632a5b64ba83.svg" width="100%" alt="Ember / 邬仁超 — Build intelligence. Test everything. — AI engineering → AI research."></picture>
 
@@ -22,7 +22,7 @@
 
 </details>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-4-dark-mobile-cb23aa77fc76.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-4-dark-wide-d4522cc8d296.svg"><source media="(max-width:520px)" srcset="assets/typography/section-4-mobile-ce398b332dfa.svg"><img src="assets/typography/section-4-wide-f4c73c14df42.svg" width="100%" alt="Experiments"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-4-dark-mobile-45e186801286.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-4-dark-wide-6794b38460af.svg"><source media="(max-width:520px)" srcset="assets/typography/section-4-mobile-60e684f8ce31.svg"><img src="assets/typography/section-4-wide-4d54fe0f76c3.svg" width="100%" alt="Experiments"></picture></h2>
 
 <!-- EXPERIMENTS:START -->
 Small tools for inspecting text, datasets and model results. Pick a task to explore.
@@ -69,7 +69,7 @@ Small tools for inspecting text, datasets and model results. Pick a task to expl
 
 </details>
 <!-- EXPERIMENTS:END -->
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-7-dark-mobile-cfeae896c309.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-7-dark-wide-a149524d2c59.svg"><source media="(max-width:520px)" srcset="assets/typography/section-7-mobile-a25681753a0f.svg"><img src="assets/typography/section-7-wide-22415d0eb549.svg" width="100%" alt="Open-source contributions"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-7-dark-mobile-2a443932f7f1.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-7-dark-wide-f0cfee19b19e.svg"><source media="(max-width:520px)" srcset="assets/typography/section-7-mobile-653cb94cf557.svg"><img src="assets/typography/section-7-wide-be61f360144c.svg" width="100%" alt="Open-source contributions"></picture></h2>
 
 <!-- OPEN-SOURCE-CONTRIBUTIONS:START -->
 <p>
@@ -99,7 +99,7 @@ Small tools for inspecting text, datasets and model results. Pick a task to expl
 
 <!-- OPEN-SOURCE-CONTRIBUTIONS:END -->
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-5-dark-mobile-e8f692c58ecc.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-5-dark-wide-a12544e8486a.svg"><source media="(max-width:520px)" srcset="assets/typography/section-5-mobile-ac335309f57a.svg"><img src="assets/typography/section-5-wide-c5c2fa5a9363.svg" width="100%" alt="Toolbox"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-5-dark-mobile-1d8758469c36.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-5-dark-wide-a918486e0db4.svg"><source media="(max-width:520px)" srcset="assets/typography/section-5-mobile-2dc8f9b0c1ba.svg"><img src="assets/typography/section-5-wide-1bd9e83c87c2.svg" width="100%" alt="Toolbox"></picture></h2>
 
 <p><b>AI &amp; Agents</b><br><img src="assets/toolbox/langgraph.svg" width="16" height="16" alt="">&nbsp;LangGraph · <img src="assets/toolbox/langchain.svg" width="16" height="16" alt="">&nbsp;LangChain · <img src="assets/toolbox/hugging-face.svg" width="16" height="16" alt="">&nbsp;Hugging&nbsp;Face · <img src="assets/toolbox/transformers.svg" width="16" height="16" alt="">&nbsp;Transformers · <img src="assets/toolbox/ollama.svg" width="16" height="16" alt="">&nbsp;Ollama · <img src="assets/toolbox/rag.svg" width="16" height="16" alt="">&nbsp;RAG · <img src="assets/toolbox/mcp.svg" width="16" height="16" alt="">&nbsp;MCP</p>
 <p><b>Machine Learning &amp; Data</b><br><img src="assets/toolbox/pytorch.svg" width="16" height="16" alt="">&nbsp;PyTorch · <img src="assets/toolbox/tensorflow.svg" width="16" height="16" alt="">&nbsp;TensorFlow · <img src="assets/toolbox/scikit-learn.svg" width="16" height="16" alt="">&nbsp;scikit-learn · <img src="assets/toolbox/pandas.svg" width="16" height="16" alt="">&nbsp;Pandas · <img src="assets/toolbox/numpy.svg" width="16" height="16" alt="">&nbsp;NumPy · <img src="assets/toolbox/matplotlib.svg" width="16" height="16" alt="">&nbsp;Matplotlib</p>
@@ -120,7 +120,7 @@ Small tools for inspecting text, datasets and model results. Pick a task to expl
 
 </details>
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-3-dark-mobile-269983facc48.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-3-dark-wide-6dac2f36fb0f.svg"><source media="(max-width:520px)" srcset="assets/typography/section-3-mobile-4bc82fe33cc9.svg"><img src="assets/typography/section-3-wide-358477fa97dd.svg" width="100%" alt="Collection"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-3-dark-mobile-5b024aef0ffe.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-3-dark-wide-5630c7637a3d.svg"><source media="(max-width:520px)" srcset="assets/typography/section-3-mobile-9bd0adf91615.svg"><img src="assets/typography/section-3-wide-b042e62695f7.svg" width="100%" alt="Collection"></picture></h2>
 
 <!-- COMMUNITY-BADGES:START -->
 
@@ -180,7 +180,7 @@ Small tools for inspecting text, datasets and model results. Pick a task to expl
 
 <!-- COMMUNITY-BADGES:END -->
 
-<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-6-dark-mobile-6afc83594cdd.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-6-dark-wide-591c39156944.svg"><source media="(max-width:520px)" srcset="assets/typography/section-6-mobile-2f4e37d5173a.svg"><img src="assets/typography/section-6-wide-b8f179c2446d.svg" width="100%" alt="Connect"></picture></h2>
+<h2><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/section-6-dark-mobile-bdf2513457d1.svg"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/section-6-dark-wide-dce6f5178c36.svg"><source media="(max-width:520px)" srcset="assets/typography/section-6-mobile-98957f9f83d3.svg"><img src="assets/typography/section-6-wide-19b95efdc9ca.svg" width="100%" alt="Connect"></picture></h2>
 
 <p>
 <a href="https://widechaos.cn"><picture><source media="(prefers-color-scheme: dark) and (max-width:520px)" srcset="assets/typography/contact-0-dark-5d6d28e7f032.svg" width="250"><source media="(max-width:520px)" srcset="assets/typography/contact-0-light-ce80408fc483.svg" width="250"><source media="(prefers-color-scheme: dark)" srcset="assets/typography/contact-0-dark-grid-d560773e8d1f.svg"><img src="assets/typography/contact-0-light-grid-25570d22c3f0.svg" width="205" height="48" alt="Blog · widechaos.cn"></picture></a>
