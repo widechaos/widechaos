@@ -228,6 +228,13 @@
   "Neywa-Labs/mlx-audio": [
     {
       "status": "Merged",
+      "url": "https://github.com/Neywa-Labs/mlx-audio/pull/1216",
+      "number": "1216",
+      "live_pr": true,
+      "sort_date": "2026-11-18T22:46:31Z"
+    },
+    {
+      "status": "Merged",
       "url": "https://github.com/Neywa-Labs/mlx-audio/pull/1178",
       "number": "1178",
       "live_pr": true,
