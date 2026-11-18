@@ -4,6 +4,7 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Configured memory approval limits · #3872](https://github.com/EKKOLearnAI/ekko-studio/pull/3872)**<br>I made write approval load configured memory limits through the runtime loader. Offline tests cover actual approval and atomic rejection with synthetic data and the public runtime; native UI was not tested. |
 | **Merged** | **[Plugin host context optionals · #3827](https://github.com/EKKOLearnAI/ekko-studio/pull/3827)**<br>I kept optional host context fields from aborting plugin-enabled conversations while preserving strict plugin-return validation. Tests use the actual runtime with an in-memory plugin; the packaged Windows app and third-party plugin were not tested. |
 | **Under review** | **[Task-plan field contract · #3530](https://github.com/EKKOLearnAI/ekko-studio/pull/3530)**<br>I documented the canonical step shape and clarified missing-field diagnostics without changing accepted inputs. |
 | **Under review** | **[Device-manager exit · #3732](https://github.com/EKKOLearnAI/ekko-studio/pull/3732)**<br>I added a localized Close action and Escape dismissal to the native device manager. Headless checks cover the close path; macOS fullscreen and Spaces behavior remains unverified. |
