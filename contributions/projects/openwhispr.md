@@ -4,7 +4,7 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Under review** | **[Anthropic cleanup token limit · #3008](https://github.com/OpenWhispr/openwhispr/pull/3008)**<br>I raised the default cleanup output limit while preserving explicit caps. Approved and awaiting merge; the maintainer added request deadlines separately. Thinking behavior and real-model execution were outside my change. |
+| **Merged** | **[Anthropic cleanup token limit · #3008](https://github.com/OpenWhispr/openwhispr/pull/3008)**<br>I raised the default cleanup output limit while preserving explicit caps. The maintainer added request deadlines separately. Thinking behavior and real-model execution were outside my change. |
 | **Under review** | **[GPU startup message · #3049](https://github.com/OpenWhispr/openwhispr/pull/3049)**<br>I aligned the startup offer text with the required GPU condition; this is a message correction, not a GPU runtime fix. |
 | **Merged** | **[Selection completion markers · #2700](https://github.com/OpenWhispr/openwhispr/pull/2700)**<br>I ended selection-edit completion markers at the complete random nonce while retaining strict parser checks. The maintainer extended the agent-window path, shared marker construction, updated the selection-context test and supplied real-model and macOS acceptance; those additions retain their authorship. |
 | **Merged** | **[Linux session setup instruction · #3005](https://github.com/OpenWhispr/openwhispr/pull/3005)**<br>I clarified that Hold to Speak setup requires logging out of the Linux user account and back in, across all 11 locales. Input permissions and the setup command are unchanged; native logout/login was not tested. |
