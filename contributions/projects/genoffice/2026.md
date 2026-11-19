@@ -4,6 +4,7 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Headless export language · #2847](https://github.com/genspark-ai/genoffice/pull/2847)**<br>I initialized the saved language before headless document export. Real hidden DOCX-to-PDF checks cover saved preferences, environment override and locale fallback; missing author initials and PDF text-layer fragmentation remain separate. |
 | **Merged** | **[Creation paragraph spacing · #2822](https://github.com/genspark-ai/genoffice/pull/2822)**<br>I preserve public paragraph spacing when creating slide elements, including explicit zero values and omitted fields. Real PPTX save/reopen regressions cover creation, editing and table-cell controls; native PowerPoint was not tested. |
 | **Merged** | **[Conformant new-document AppVersion · #2802](https://github.com/genspark-ai/genoffice/pull/2802)**<br>I corrected the default DOCX producer-version format while preserving explicit options and imported metadata. Real package round trips preserve every other OPC payload; the [reporter confirmed](https://github.com/genspark-ai/genoffice/issues/2801#issuecomment-6945025374) that the corrected document opens in Word for Mac 16.115, with its heading, list and footer intact. |
 | **Merged** | **[Bounded NSS certificate reads · #2782](https://github.com/genspark-ai/genoffice/pull/2782)**<br>I overlap up to eight certificate reads per listing while preserving nickname order, skipped failures and password-file cleanup. Synthetic process-boundary tests verify scheduling; real NSS latency was not measured. |
