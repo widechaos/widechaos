@@ -4,4 +4,4 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Under review** | **[Permit handoff · #3770](https://github.com/tornadoweb/tornado/pull/3770)**<br>Return a lock or semaphore permit when async context entry is cancelled after handoff. |
+| **Merged** | **[Permit handoff · #3770](https://github.com/tornadoweb/tornado/pull/3770)**<br>I return a lock or semaphore permit when async context entry is cancelled after handoff. Bare `await acquire()` cancellation remains tracked upstream in #2826. |
