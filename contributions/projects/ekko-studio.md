@@ -4,6 +4,8 @@
 
 | Status | Contribution |
 | :--- | :--- |
+| **Merged** | **[Responses reasoning effort · #3884](https://github.com/EKKOLearnAI/ekko-studio/pull/3884)**<br>I preserve request reasoning effort during Responses-to-Chat conversion when the route has no valid override. Explicit route settings, including none, still win. Converter and proxy regressions cover both streaming modes; a separate contributor reported deployment verification on 0.8.29. |
+| **Merged** | **[Rolling-summary account context · #3885](https://github.com/EKKOLearnAI/ekko-studio/pull/3885)**<br>I bind background base summaries to the persisted, authorized room owner only when caller scope is absent. Tests cover permission rejection and concurrent account isolation. Legacy rooms without an owner and optional JEV summary revision remain outside this fix. |
 | **Merged** | **[Configured memory approval limits · #3872](https://github.com/EKKOLearnAI/ekko-studio/pull/3872)**<br>I made write approval load configured memory limits through the runtime loader. Offline tests cover actual approval and atomic rejection with synthetic data and the public runtime; native UI was not tested. |
 | **Merged** | **[Plugin host context optionals · #3827](https://github.com/EKKOLearnAI/ekko-studio/pull/3827)**<br>I kept optional host context fields from aborting plugin-enabled conversations while preserving strict plugin-return validation. Tests use the actual runtime with an in-memory plugin; the packaged Windows app and third-party plugin were not tested. |
 | **Under review** | **[Task-plan field contract · #3530](https://github.com/EKKOLearnAI/ekko-studio/pull/3530)**<br>I documented the canonical step shape and clarified missing-field diagnostics without changing accepted inputs. |
