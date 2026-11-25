@@ -201,6 +201,13 @@
     },
     {
       "status": "Under review",
+      "url": "https://github.com/pydantic/logfire/pull/2882",
+      "number": "2882",
+      "live_pr": true,
+      "sort_date": "2026-11-24T01:08:42Z"
+    },
+    {
+      "status": "Under review",
       "url": "https://github.com/pydantic/logfire/pull/2533",
       "number": "2533",
       "live_pr": true,
@@ -340,6 +347,13 @@
       "number": "2672",
       "live_pr": true,
       "sort_date": "2026-10-20T07:28:29Z"
+    },
+    {
+      "status": "Under review",
+      "url": "https://github.com/OpenWhispr/openwhispr/pull/3411",
+      "number": "3411",
+      "live_pr": true,
+      "sort_date": "2026-11-24T11:28:45Z"
     },
     {
       "status": "Under review",
