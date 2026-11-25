@@ -1,10 +1,10 @@
 {
-  "google/adk-python": 22344,
+  "google/adk-python": 22343,
   "dateutil/dateutil": 2647,
   "dograh-hq/dograh": 6260,
   "EKKOLearnAI/ekko-studio": 11814,
-  "SYSTRAN/faster-whisper": 26998,
-  "genspark-ai/genoffice": 12908,
+  "SYSTRAN/faster-whisper": 26999,
+  "genspark-ai/genoffice": 12909,
   "encode/httpx": 15852,
   "python-humanize/humanize": 769,
   "livekit/agents": 15333,

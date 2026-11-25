@@ -124,45 +124,45 @@
   "genspark-ai/genoffice": [
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2847",
-      "number": "2847",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2923",
+      "number": "2923",
       "live_pr": true,
-      "sort_date": "2026-11-19T10:16:39Z"
+      "sort_date": "2026-11-25T06:52:29Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2822",
-      "number": "2822",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2982",
+      "number": "2982",
       "live_pr": true,
-      "sort_date": "2026-11-18T06:48:47Z"
+      "sort_date": "2026-11-25T06:51:22Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2802",
-      "number": "2802",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2979",
+      "number": "2979",
       "live_pr": true,
-      "sort_date": "2026-11-17T03:23:23Z"
+      "sort_date": "2026-11-25T06:50:45Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2782",
-      "number": "2782",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2978",
+      "number": "2978",
       "live_pr": true,
-      "sort_date": "2026-11-17T03:23:04Z"
+      "sort_date": "2026-11-25T06:49:47Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2800",
-      "number": "2800",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2976",
+      "number": "2976",
       "live_pr": true,
-      "sort_date": "2026-11-17T03:22:44Z"
+      "sort_date": "2026-11-25T06:49:33Z"
     },
     {
       "status": "Merged",
-      "url": "https://github.com/genspark-ai/genoffice/pull/2791",
-      "number": "2791",
+      "url": "https://github.com/genspark-ai/genoffice/pull/2896",
+      "number": "2896",
       "live_pr": true,
-      "sort_date": "2026-11-17T03:21:13Z"
+      "sort_date": "2026-11-24T09:06:54Z"
     }
   ],
   "encode/httpx": [
