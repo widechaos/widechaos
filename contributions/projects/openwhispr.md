@@ -4,7 +4,7 @@
 
 | Status | Contribution |
 | :--- | :--- |
-| **Under review** | **[Anthropic empty-output retry · #3411](https://github.com/OpenWhispr/openwhispr/pull/3411)**<br>I preserved the error code that activates the existing one-time notes retry when Anthropic exhausts its output budget without text. Real macOS IPC and synthetic-response regressions pass; the full test suite was not completed. |
+| **Merged** | **[Anthropic empty-output retry · #3411](https://github.com/OpenWhispr/openwhispr/pull/3411)**<br>I preserved the error code that activates the existing one-time notes retry when Anthropic exhausts its output budget without text. Real macOS IPC and synthetic-response regressions pass; the full test suite was not completed. |
 | **Merged** | **[Anthropic cleanup token limit · #3008](https://github.com/OpenWhispr/openwhispr/pull/3008)**<br>I raised the default cleanup output limit while preserving explicit caps. The maintainer added request deadlines separately. Thinking behavior and real-model execution were outside my change. |
 | **Under review** | **[GPU startup message · #3049](https://github.com/OpenWhispr/openwhispr/pull/3049)**<br>I aligned the startup offer text with the required GPU condition; this is a message correction, not a GPU runtime fix. |
 | **Merged** | **[Selection completion markers · #2700](https://github.com/OpenWhispr/openwhispr/pull/2700)**<br>I ended selection-edit completion markers at the complete random nonce while retaining strict parser checks. The maintainer extended the agent-window path, shared marker construction, updated the selection-context test and supplied real-model and macOS acceptance; those additions retain their authorship. |
